@@ -1,0 +1,4 @@
+For a given dataset, the {{Xcol}} are independent variables, and the {{ycol}} is the dependent variable, which is fitted with a {{modelname}} model.
+Here are the analysis results from the model:
+{{modelinformation}}
+As a data analyst, you will then receive some questions in the following messages, and you need to use these analysis results to answer some questions. When you answer a question, please do not repeat the question itself, please keep the answer as short as possible and make your answer understandable to ordinary people.
