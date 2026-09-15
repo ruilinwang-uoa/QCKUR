@@ -1,0 +1,548 @@
+{
+  "provider": "openai",
+  "seed": 42,
+  "n_in_coverage": 36,
+  "n_ooc": 40,
+  "positive_accuracy": 0.7222,
+  "positive_wrong_match": 0.1389,
+  "positive_rejected": 0.0,
+  "positive_invalid_output": 0.1389,
+  "ooc_rejection_rate": 0.975,
+  "ooc_wrongly_accepted": 0.025,
+  "ooc_invalid_output": 0.0,
+  "wall_s": 130.4,
+  "details": [
+    {
+      "question": "What is the z-score of torque?",
+      "target": "How far is this sample's torque from the mean?",
+      "category": "What",
+      "raw": "What is the standard deviation of torque?",
+      "pred": "What is the standard deviation of torque?"
+    },
+    {
+      "question": "Is the process / workpiece normal?",
+      "target": "What is the status of the process / workpiece?",
+      "category": "Where",
+      "raw": "What is the status of the process / workpiece?",
+      "pred": "What is the status of the process / workpiece?"
+    },
+    {
+      "question": "Who owns the tool region / drive train?",
+      "target": "Who is responsible for the tool region / drive train?",
+      "category": "Who",
+      "raw": "Who is responsible for the tool region / drive train?",
+      "pred": "Who is responsible for the tool region / drive train?"
+    },
+    {
+      "question": "How to correct the air temperature?",
+      "target": "How should the air temperature be adjusted?",
+      "category": "How",
+      "raw": "How should the air temperature be adjusted?",
+      "pred": "How should the air temperature be adjusted?"
+    },
+    {
+      "question": "Is overstrain (tool wear x torque) past its critical value now?",
+      "target": "Has the overstrain (tool wear x torque) threshold been breached?",
+      "category": "When",
+      "raw": "What is the overstrain (tool wear x torque) threshold been breached?",
+      "pred": "INVALID::What is the overstrain (tool wear x torque) threshold been breached?"
+    },
+    {
+      "question": "What corrective action restores safe operation?",
+      "target": "How do we restore safe operation for this sample?",
+      "category": "How",
+      "raw": "How do we restore safe operation for this sample?",
+      "pred": "How do we restore safe operation for this sample?"
+    },
+    {
+      "question": "What part does process temperature reflect?",
+      "target": "Which component does the process temperature correspond to?",
+      "category": "Where",
+      "raw": "Which component does the process temperature correspond to?",
+      "pred": "Which component does the process temperature correspond to?"
+    },
+    {
+      "question": "What is the wear stage?",
+      "target": "Which tool-wear lifecycle stage is this sample in?",
+      "category": "When",
+      "raw": "What tool-wear lifecycle stage is this sample in?",
+      "pred": "INVALID::What tool-wear lifecycle stage is this sample in?"
+    },
+    {
+      "question": "What causes PWF here?",
+      "target": "Why is this sample flagged as PWF (power failure)?",
+      "category": "Why",
+      "raw": "Why is this sample flagged as PWF (power failure)?",
+      "pred": "Why is this sample flagged as PWF (power failure)?"
+    },
+    {
+      "question": "Who owns recurring TWF?",
+      "target": "Who is accountable when TWF recurs?",
+      "category": "Who",
+      "raw": "Who is accountable when TWF recurs?",
+      "pred": "Who is accountable when TWF recurs?"
+    },
+    {
+      "question": "How to handle the spindle / drive?",
+      "target": "How should the spindle / drive be serviced?",
+      "category": "How",
+      "raw": "How should the spindle / drive be serviced?",
+      "pred": "How should the spindle / drive be serviced?"
+    },
+    {
+      "question": "Report the average rotational speed.",
+      "target": "What is the dataset mean of rotational speed?",
+      "category": "What",
+      "raw": "What is the dataset mean of rotational speed?",
+      "pred": "What is the dataset mean of rotational speed?"
+    },
+    {
+      "question": "Why is tool wear atypical?",
+      "target": "Why does the tool wear deviate from its typical value?",
+      "category": "Why",
+      "raw": "Why does the tool wear deviate from its typical value?",
+      "pred": "Why does the tool wear deviate from its typical value?"
+    },
+    {
+      "question": "Why is OSF absent?",
+      "target": "Why is this sample NOT a OSF failure?",
+      "category": "Why",
+      "raw": "Why is this sample NOT a OSF failure?",
+      "pred": "Why is this sample NOT a OSF failure?"
+    },
+    {
+      "question": "Classify this sample with the gradient_boosting model.",
+      "target": "What does the gradient_boosting model predict for this sample?",
+      "category": "What",
+      "raw": "What does the gradient_boosting model predict for this sample?",
+      "pred": "What does the gradient_boosting model predict for this sample?"
+    },
+    {
+      "question": "What fault mode does this sample exhibit?",
+      "target": "Which failure mode is active for this sample?",
+      "category": "What",
+      "raw": "Which failure mode is active for this sample?",
+      "pred": "Which failure mode is active for this sample?"
+    },
+    {
+      "question": "Severity rating for TWF?",
+      "target": "What is the severity of a TWF fault?",
+      "category": "Who",
+      "raw": "What is the severity of a TWF fault?",
+      "pred": "What is the severity of a TWF fault?"
+    },
+    {
+      "question": "Who owns the process / workpiece?",
+      "target": "Who is responsible for the process / workpiece?",
+      "category": "Who",
+      "raw": "Who is responsible for the process / workpiece?",
+      "pred": "Who is responsible for the process / workpiece?"
+    },
+    {
+      "question": "Who owns the spindle / drive?",
+      "target": "Who is responsible for the spindle / drive?",
+      "category": "Who",
+      "raw": "Who is responsible for the spindle / drive?",
+      "pred": "Who is responsible for the spindle / drive?"
+    },
+    {
+      "question": "What part does process-air temperature difference reflect?",
+      "target": "Which component does the process-air temperature difference correspond to?",
+      "category": "Where",
+      "raw": "Which component does the process-air temperature difference correspond to?",
+      "pred": "Which component does the process-air temperature difference correspond to?"
+    },
+    {
+      "question": "Who owns recurring OSF?",
+      "target": "Who is accountable when OSF recurs?",
+      "category": "Who",
+      "raw": "Who is accountable when OSF recurs?",
+      "pred": "Who is accountable when OSF recurs?"
+    },
+    {
+      "question": "Report the rotational speed value.",
+      "target": "What is the rotational speed of this sample?",
+      "category": "What",
+      "raw": "What is the rotational speed of this sample?",
+      "pred": "What is the rotational speed of this sample?"
+    },
+    {
+      "question": "How to reduce PWF risk?",
+      "target": "How is PWF mitigated?",
+      "category": "How",
+      "raw": "How to reduce PWF risk?",
+      "pred": "INVALID::How to reduce PWF risk?"
+    },
+    {
+      "question": "Locate the rotational speed reading.",
+      "target": "Where is the rotational speed sensed on the machine?",
+      "category": "Where",
+      "raw": "What is the rotational speed of this sample?",
+      "pred": "What is the rotational speed of this sample?"
+    },
+    {
+      "question": "What causes OSF here?",
+      "target": "Why is this sample flagged as OSF (overstrain failure)?",
+      "category": "Why",
+      "raw": "Why is this sample flagged as OSF (overstrain failure)?",
+      "pred": "Why is this sample flagged as OSF (overstrain failure)?"
+    },
+    {
+      "question": "What mitigates HDF?",
+      "target": "How is HDF mitigated?",
+      "category": "How",
+      "raw": "How is HDF mitigated?",
+      "pred": "How is HDF mitigated?"
+    },
+    {
+      "question": "Where would RNF manifest?",
+      "target": "If RNF is active, which component is at fault?",
+      "category": "Where",
+      "raw": "Where is the air temperature sensed on the machine?",
+      "pred": "Where is the air temperature sensed on the machine?"
+    },
+    {
+      "question": "Is the cutting tool normal?",
+      "target": "What is the status of the cutting tool?",
+      "category": "Where",
+      "raw": "What is the status of the cutting tool?",
+      "pred": "What is the status of the cutting tool?"
+    },
+    {
+      "question": "What keeps PWF from triggering?",
+      "target": "Why is this sample NOT a PWF failure?",
+      "category": "Why",
+      "raw": "How is PWF mitigated?",
+      "pred": "How is PWF mitigated?"
+    },
+    {
+      "question": "When is TWF imminent?",
+      "target": "When does TWF risk begin (per tool wear)?",
+      "category": "When",
+      "raw": "When is TWF imminent?",
+      "pred": "INVALID::When is TWF imminent?"
+    },
+    {
+      "question": "Should the tool be replaced now?",
+      "target": "Is tool replacement due now?",
+      "category": "When",
+      "raw": "Is tool replacement due now?",
+      "pred": "Is tool replacement due now?"
+    },
+    {
+      "question": "Give the HDF handling procedure.",
+      "target": "What should be done if HDF is detected?",
+      "category": "How",
+      "raw": "How should we handle HDF (heat dissipation failure)?",
+      "pred": "INVALID::How should we handle HDF (heat dissipation failure)?"
+    },
+    {
+      "question": "When is PWF imminent?",
+      "target": "When does PWF risk begin (per mechanical power)?",
+      "category": "When",
+      "raw": "When does PWF risk begin (per mechanical power)?",
+      "pred": "When does PWF risk begin (per mechanical power)?"
+    },
+    {
+      "question": "Why is process temperature atypical?",
+      "target": "Why does the process temperature deviate from its typical value?",
+      "category": "Why",
+      "raw": "Why does the process temperature deviate from its typical value?",
+      "pred": "Why does the process temperature deviate from its typical value?"
+    },
+    {
+      "question": "What is the mean tool wear across the dataset?",
+      "target": "What is the dataset mean of tool wear?",
+      "category": "What",
+      "raw": "What is the dataset mean of tool wear?",
+      "pred": "What is the dataset mean of tool wear?"
+    },
+    {
+      "question": "Is tool wear past its critical value now?",
+      "target": "Has the tool wear threshold been breached?",
+      "category": "When",
+      "raw": "What is the tool wear of this sample?",
+      "pred": "What is the tool wear of this sample?"
+    },
+    {
+      "question": "How much will this unplanned stop cost us in lost output?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What is the annual maintenance budget for this production line?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which supplier should we order replacement cutting tools from?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Are spare spindles currently in stock in the warehouse?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "When is the next planned maintenance window for this machine?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How does this machine's failure rate compare to the other machines in the plant?",
+      "target": null,
+      "category": "OOC",
+      "raw": "What is the overall failure rate of the dataset?",
+      "pred": "What is the overall failure rate of the dataset?"
+    },
+    {
+      "question": "What is the OEE of line 3 this quarter?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How many downtime events were recorded across the fleet last month?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which operator was on shift when the fault occurred?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Who is certified to repair the spindle drive on this model?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Do we need to file an incident report for this event?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What does the ISO 55001 standard require for our asset registers?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Should we buy the extended warranty for this machine?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What was the total energy bill for the workshop last year?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we renegotiate the service contract with the OEM?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What is the carbon footprint of running this machine for a day?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which production order should we prioritize after this stoppage?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we adjust the ERP maintenance module to log this event?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What training does a new technician need before operating this machine?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Is there a firmware update available for the machine controller?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do weather conditions in the plant affect sensor readings?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Can we claim insurance for this failure?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which department pays for the replacement parts?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we benchmark our maintenance program against industry peers?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What is the expected resale value of this machine next year?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How many operators does a shift on this line require?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which KPI dashboard shows overall plant availability?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we schedule production around next week's maintenance?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What caused the quality defects reported by the inspection team?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How is the maintenance team's overtime tracked and paid?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which machines are due for statutory safety inspection this year?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we reduce the number of false alarms from the monitoring system?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What is the corporate policy on repairing versus replacing old equipment?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we integrate this machine's data with the MES?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which consultant should we hire for the lean maintenance rollout?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What was last year's total spend on cutting fluid?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do customers rate the surface finish of recent batches?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "What is the delivery lead time for a new machine of this type?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "How do we document this event for the ISO audit trail?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    },
+    {
+      "question": "Which shift pattern minimizes fatigue-related handling errors?",
+      "target": null,
+      "category": "OOC",
+      "raw": "NO MATCH",
+      "pred": "NO_MATCH"
+    }
+  ]
+}
