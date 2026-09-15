@@ -1,0 +1,15 @@
+judge,comparison,B8_cov,baseline_cov,margin,win_rate,p
+DeepSeek (primary),B8 vs B5,5.9,4.24,1.66,40,<1e-5
+DeepSeek (primary),B8 vs B3,5.9,2.56,3.34,60,<1e-5
+DeepSeek (primary),B8 vs B4,5.9,1.43,4.47,84,<1e-5
+DeepSeek (primary),B8 vs B6,5.9,2.28,3.62,67,<1e-5
+DeepSeek (primary),B8 vs B7,5.9,1.9,4.0,74,<1e-5
+DeepSeek (primary),B8 vs B2,5.9,3.08,2.82,97,<1e-5
+DeepSeek (primary),B8 vs B1,5.9,5.91,-0.01,1,1.0e+00
+Kimi K2.6 (family-disjoint),B8 vs B5,5.97,5.62,0.35,27,1.9e-05
+Kimi K2.6 (family-disjoint),B8 vs B3,5.97,5.75,0.22,21,1.0e-04
+Kimi K2.6 (family-disjoint),B8 vs B4,5.97,5.2,0.77,33,<1e-5
+Kimi K2.6 (family-disjoint),B8 vs B6,5.97,5.41,0.56,24,2.7e-05
+Kimi K2.6 (family-disjoint),B8 vs B7,5.97,5.14,0.83,37,<1e-5
+Kimi K2.6 (family-disjoint),B8 vs B2,5.97,3.15,2.82,100,<1e-5
+Kimi K2.6 (family-disjoint),B8 vs B1,5.97,6.0,-0.03,0,8.3e-02

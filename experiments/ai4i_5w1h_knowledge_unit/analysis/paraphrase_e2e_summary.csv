@@ -1,0 +1,11 @@
+condition,metric,canonical,paraphrase,drop
+bank paraphrases,Final,83.893,74.776,9.118
+bank paraphrases,L1,0.715,0.686,0.028
+bank paraphrases,L2,0.841,0.667,0.174
+bank paraphrases,L3,4.807,4.392,0.414
+bank paraphrases,cov6,5.9,5.3,0.6
+adversarial paraphrases,Final,83.893,78.219,5.674
+adversarial paraphrases,L1,0.715,0.701,0.013
+adversarial paraphrases,L2,0.841,0.747,0.094
+adversarial paraphrases,L3,4.807,4.467,0.339
+adversarial paraphrases,cov6,5.9,5.38,0.52
