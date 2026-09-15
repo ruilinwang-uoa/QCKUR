@@ -1,0 +1,104 @@
+[
+  {
+    "id": "d001",
+    "source": "ai4i_doc",
+    "title": "Dataset overview",
+    "text": "The AI4I 2020 Predictive Maintenance Dataset contains 10,000 synthetic but physically realistic milling machine records. The binary target indicates machine failure; the failure rate is about 3.4%, making it a highly imbalanced classification problem. Each record has product type (L/M/H), air temperature, process temperature, rotational speed, torque, and tool wear."
+  },
+  {
+    "id": "d002",
+    "source": "ai4i_doc",
+    "title": "Features and units",
+    "text": "Air temperature and process temperature are in Kelvin. Rotational speed is in rpm, torque in Nm, tool wear in minutes. Mechanical power in Watts equals torque times rotational speed times 2*pi/60. Temperature difference is process minus air."
+  },
+  {
+    "id": "d003",
+    "source": "ai4i_doc",
+    "title": "Failure mode TWF",
+    "text": "Tool Wear Failure (TWF): the tool fails or is replaced when tool wear reaches 200 to 240 minutes; at 240 minutes the tool is certain to fail."
+  },
+  {
+    "id": "d004",
+    "source": "ai4i_doc",
+    "title": "Failure mode HDF",
+    "text": "Heat Dissipation Failure (HDF): occurs when the process-air temperature difference drops below 8.6 K while rotational speed is below 1380 rpm, indicating insufficient cooling."
+  },
+  {
+    "id": "d005",
+    "source": "ai4i_doc",
+    "title": "Failure mode PWF",
+    "text": "Power Failure (PWF): occurs when mechanical power falls outside the safe operating envelope of 3500 to 9000 Watts."
+  },
+  {
+    "id": "d006",
+    "source": "ai4i_doc",
+    "title": "Failure mode OSF",
+    "text": "Overstrain Failure (OSF): occurs when the product of tool wear and torque exceeds the type-specific limit (L: 11000, M: 12000, H: 13000 min*Nm)."
+  },
+  {
+    "id": "d007",
+    "source": "ai4i_doc",
+    "title": "Failure mode RNF",
+    "text": "Random Failure (RNF): a stochastic failure independent of the process variables; it cannot be predicted deterministically from the features."
+  },
+  {
+    "id": "d008",
+    "source": "manual",
+    "title": "General inspection",
+    "text": "Routine condition monitoring and tool-life tracking reduce unplanned stoppages. Prioritize alarms by severity and route them to the correct responder."
+  },
+  {
+    "id": "d009",
+    "source": "manual",
+    "title": "TWF handling",
+    "text": "On a tool wear failure or when wear enters the 200-240 min band, schedule tool replacement. The cutting tool is the responsible component; the operator handles it."
+  },
+  {
+    "id": "d010",
+    "source": "manual",
+    "title": "HDF handling",
+    "text": "On heat dissipation risk, inspect the cooling system, hydraulic circuit, and ventilation; clean or replace filters. This is a high-severity condition handled by the maintenance team."
+  },
+  {
+    "id": "d011",
+    "source": "manual",
+    "title": "PWF handling",
+    "text": "On power failure, reduce feed rate and torque to bring power within the 3500-9000 W band; check motor and drive load. High severity; operator and maintenance respond."
+  },
+  {
+    "id": "d012",
+    "source": "manual",
+    "title": "OSF handling",
+    "text": "On overstrain, reduce the tool-wear-times-torque load below the type limit, e.g., lower feed rate or rebalance the tool load. Medium severity; operator handles it."
+  },
+  {
+    "id": "d013",
+    "source": "manual",
+    "title": "RNF handling",
+    "text": "Random faults are logged and the machine inspected; no deterministic corrective action applies. Low severity; operator monitors."
+  },
+  {
+    "id": "d014",
+    "source": "stats_ref",
+    "title": "Imbalanced classification",
+    "text": "Under severe class imbalance, accuracy is misleading because the majority class dominates. Use F1-macro and the area under the precision-recall curve (AUPRC) instead; AUPRC is sensitive to performance on the minority (failure) class."
+  },
+  {
+    "id": "d015",
+    "source": "stats_ref",
+    "title": "Feature importance",
+    "text": "Tree ensembles such as random forest and gradient boosting provide feature importances that quantify each variable's contribution to the failure prediction. Torque, rotational speed, and tool wear are typically the strongest drivers."
+  },
+  {
+    "id": "d016",
+    "source": "stats_ref",
+    "title": "Failure detection",
+    "text": "A reliable failure detector should balance precision (few false alarms) and recall (few missed failures). In predictive maintenance, missing a failure is usually far more costly than a false alarm, so recall is weighted heavily."
+  },
+  {
+    "id": "d017",
+    "source": "stats_ref",
+    "title": "Correlation and causation",
+    "text": "Correlation between a sensor and the failure label is not causation. Physical rules (power envelope, thermal difference, overstrain) give the causal explanation that supports maintenance decisions."
+  }
+]

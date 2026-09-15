@@ -1,0 +1,129 @@
+{
+  "n_tested": 29,
+  "n_failures_in_set": 24,
+  "all_passed": true,
+  "failures": [],
+  "sample_rows": [
+    {
+      "UDI": 51,
+      "active_modes": [
+        "PWF"
+      ],
+      "power_status": "under-power",
+      "hdf_risk": false,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 70,
+      "active_modes": [
+        "PWF",
+        "OSF"
+      ],
+      "power_status": "over-power",
+      "hdf_risk": false,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 169,
+      "active_modes": [
+        "PWF"
+      ],
+      "power_status": "over-power",
+      "hdf_risk": false,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 195,
+      "active_modes": [
+        "PWF"
+      ],
+      "power_status": "under-power",
+      "hdf_risk": false,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 208,
+      "active_modes": [
+        "PWF"
+      ],
+      "power_status": "over-power",
+      "hdf_risk": false,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 3237,
+      "active_modes": [
+        "HDF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": true,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 3761,
+      "active_modes": [
+        "HDF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": true,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 3788,
+      "active_modes": [
+        "HDF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": true,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 3794,
+      "active_modes": [
+        "HDF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": true,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 3807,
+      "active_modes": [
+        "HDF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": true,
+      "wear_stage": "normal",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 161,
+      "active_modes": [
+        "OSF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": false,
+      "wear_stage": "warning (replacement band)",
+      "n_anomalies": 1
+    },
+    {
+      "UDI": 162,
+      "active_modes": [
+        "OSF"
+      ],
+      "power_status": "nominal",
+      "hdf_risk": false,
+      "wear_stage": "warning (replacement band)",
+      "n_anomalies": 1
+    }
+  ]
+}

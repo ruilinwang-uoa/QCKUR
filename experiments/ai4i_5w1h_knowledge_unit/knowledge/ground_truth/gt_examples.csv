@@ -1,0 +1,13 @@
+question_id,sample_id,gt_text
+Q_How_173,s0000,Recommended action (none): no intervention; continue routine monitoring; adjust none to maintain current settings.
+Q_How_174,s0000,Preventive measure: maintain scheduled condition monitoring and tool-life tracking.
+Q_What_001,s0000,The sample is labelled as no failure (machine failure = no).
+Q_What_002,s0000,The active fault mode is none (no fault mode); active modes: 0.
+Q_When_091,s0000,"Current stage: normal (value 84.0 min, critical [200,240) / fail>=240); no intervention needed."
+Q_When_092,s0000,Heat-dissipation risk: no (temp diff 10.4K vs critical 8.6K).
+Q_Where_117,s0000,"Anomaly source: none, based on none (no anomaly located)."
+Q_Where_118,s0000,Fault mode none localizes to component none.
+Q_Who_142,s0000,"Required responder: operator (routine monitoring) (severity none, mode none)."
+Q_Who_143,s0000,Severity: none; responder: operator (routine monitoring); mode: none.
+Q_Why_062,s0000,"Why PWF: power 5336 W within [3500, 9000] W; evidence: power=5336.4W."
+Q_Why_063,s0000,"Why HDF: temperature difference 10.4K < 8.6K at low speed 1693rpm < 1380.0rpm; evidence: temp_diff=10.4K, rpm=1693."

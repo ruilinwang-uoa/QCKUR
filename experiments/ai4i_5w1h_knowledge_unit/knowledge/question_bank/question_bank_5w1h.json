@@ -1,0 +1,2762 @@
+{
+  "n_questions": 203,
+  "category_counts": {
+    "What": 61,
+    "Why": 29,
+    "When": 26,
+    "Where": 25,
+    "Who": 31,
+    "How": 31
+  },
+  "min_per_category": 25,
+  "n_invalid_dropped": 0,
+  "invalid": [],
+  "questions": [
+    {
+      "category": "What",
+      "text": "Is this machine sample a failure?",
+      "paraphrases": [
+        "Does this sample correspond to a machine failure?",
+        "Was a failure recorded for this sample?"
+      ],
+      "handler": "h_machine_failure",
+      "args": {},
+      "template_id": "h_machine_failure",
+      "id": "Q_What_001"
+    },
+    {
+      "category": "What",
+      "text": "Which failure mode is active for this sample?",
+      "paraphrases": [
+        "What fault mode does this sample exhibit?",
+        "Identify the active failure mode."
+      ],
+      "handler": "h_fault_mode",
+      "args": {},
+      "template_id": "h_fault_mode",
+      "id": "Q_What_002"
+    },
+    {
+      "category": "What",
+      "text": "What product quality variant does this sample belong to?",
+      "paraphrases": [
+        "Which product type (L/M/H) is this sample?",
+        "State the product variant."
+      ],
+      "handler": "h_product_type",
+      "args": {},
+      "template_id": "h_product_type",
+      "id": "Q_What_003"
+    },
+    {
+      "category": "What",
+      "text": "What is the overall failure rate of the dataset?",
+      "paraphrases": [
+        "What fraction of the dataset are failures?",
+        "Report the dataset failure rate."
+      ],
+      "handler": "h_failure_rate_dataset",
+      "args": {},
+      "template_id": "h_failure_rate_dataset",
+      "id": "Q_What_004"
+    },
+    {
+      "category": "What",
+      "text": "What is the machine failure base rate?",
+      "paraphrases": [
+        "How common is machine failure overall?",
+        "State the overall failure rate."
+      ],
+      "handler": "h_overall_failure_rate",
+      "args": {},
+      "template_id": "h_overall_failure_rate",
+      "id": "Q_What_005"
+    },
+    {
+      "category": "What",
+      "text": "What is the air temperature of this sample?",
+      "paraphrases": [
+        "Report the air temperature value.",
+        "State the current air temperature."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_006"
+    },
+    {
+      "category": "What",
+      "text": "What is the process temperature of this sample?",
+      "paraphrases": [
+        "Report the process temperature value.",
+        "State the current process temperature."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_007"
+    },
+    {
+      "category": "What",
+      "text": "What is the rotational speed of this sample?",
+      "paraphrases": [
+        "Report the rotational speed value.",
+        "State the current rotational speed."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_008"
+    },
+    {
+      "category": "What",
+      "text": "What is the torque of this sample?",
+      "paraphrases": [
+        "Report the torque value.",
+        "State the current torque."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_009"
+    },
+    {
+      "category": "What",
+      "text": "What is the tool wear of this sample?",
+      "paraphrases": [
+        "Report the tool wear value.",
+        "State the current tool wear."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_010"
+    },
+    {
+      "category": "What",
+      "text": "What is the mechanical power of this sample?",
+      "paraphrases": [
+        "Report the mechanical power value.",
+        "State the current mechanical power."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_011"
+    },
+    {
+      "category": "What",
+      "text": "What is the process-air temperature difference of this sample?",
+      "paraphrases": [
+        "Report the process-air temperature difference value.",
+        "State the current process-air temperature difference."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_012"
+    },
+    {
+      "category": "What",
+      "text": "What is the overstrain (tool wear x torque) of this sample?",
+      "paraphrases": [
+        "Report the overstrain (tool wear x torque) value.",
+        "State the current overstrain (tool wear x torque)."
+      ],
+      "handler": "h_param_value",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_param_value",
+      "id": "Q_What_013"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of air temperature?",
+      "paraphrases": [
+        "Report the average air temperature.",
+        "What is the mean air temperature across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_014"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of process temperature?",
+      "paraphrases": [
+        "Report the average process temperature.",
+        "What is the mean process temperature across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_015"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of rotational speed?",
+      "paraphrases": [
+        "Report the average rotational speed.",
+        "What is the mean rotational speed across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_016"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of torque?",
+      "paraphrases": [
+        "Report the average torque.",
+        "What is the mean torque across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_017"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of tool wear?",
+      "paraphrases": [
+        "Report the average tool wear.",
+        "What is the mean tool wear across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_018"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of mechanical power?",
+      "paraphrases": [
+        "Report the average mechanical power.",
+        "What is the mean mechanical power across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_019"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of process-air temperature difference?",
+      "paraphrases": [
+        "Report the average process-air temperature difference.",
+        "What is the mean process-air temperature difference across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_020"
+    },
+    {
+      "category": "What",
+      "text": "What is the dataset mean of overstrain (tool wear x torque)?",
+      "paraphrases": [
+        "Report the average overstrain (tool wear x torque).",
+        "What is the mean overstrain (tool wear x torque) across the dataset?"
+      ],
+      "handler": "h_param_mean",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_param_mean",
+      "id": "Q_What_021"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of air temperature?",
+      "paraphrases": [
+        "State the min/max of air temperature.",
+        "What range does air temperature span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_022"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of process temperature?",
+      "paraphrases": [
+        "State the min/max of process temperature.",
+        "What range does process temperature span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_023"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of rotational speed?",
+      "paraphrases": [
+        "State the min/max of rotational speed.",
+        "What range does rotational speed span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_024"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of torque?",
+      "paraphrases": [
+        "State the min/max of torque.",
+        "What range does torque span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_025"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of tool wear?",
+      "paraphrases": [
+        "State the min/max of tool wear.",
+        "What range does tool wear span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_026"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of mechanical power?",
+      "paraphrases": [
+        "State the min/max of mechanical power.",
+        "What range does mechanical power span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_027"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of process-air temperature difference?",
+      "paraphrases": [
+        "State the min/max of process-air temperature difference.",
+        "What range does process-air temperature difference span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_028"
+    },
+    {
+      "category": "What",
+      "text": "What is the operating range of overstrain (tool wear x torque)?",
+      "paraphrases": [
+        "State the min/max of overstrain (tool wear x torque).",
+        "What range does overstrain (tool wear x torque) span?"
+      ],
+      "handler": "h_param_range",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_param_range",
+      "id": "Q_What_029"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of air temperature?",
+      "paraphrases": [
+        "Report the spread of air temperature.",
+        "How variable is air temperature?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_030"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of process temperature?",
+      "paraphrases": [
+        "Report the spread of process temperature.",
+        "How variable is process temperature?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_031"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of rotational speed?",
+      "paraphrases": [
+        "Report the spread of rotational speed.",
+        "How variable is rotational speed?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_032"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of torque?",
+      "paraphrases": [
+        "Report the spread of torque.",
+        "How variable is torque?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_033"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of tool wear?",
+      "paraphrases": [
+        "Report the spread of tool wear.",
+        "How variable is tool wear?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_034"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of mechanical power?",
+      "paraphrases": [
+        "Report the spread of mechanical power.",
+        "How variable is mechanical power?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_035"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of process-air temperature difference?",
+      "paraphrases": [
+        "Report the spread of process-air temperature difference.",
+        "How variable is process-air temperature difference?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_036"
+    },
+    {
+      "category": "What",
+      "text": "What is the standard deviation of overstrain (tool wear x torque)?",
+      "paraphrases": [
+        "Report the spread of overstrain (tool wear x torque).",
+        "How variable is overstrain (tool wear x torque)?"
+      ],
+      "handler": "h_param_std",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_param_std",
+      "id": "Q_What_037"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's air temperature from the mean?",
+      "paraphrases": [
+        "What is the z-score of air temperature?",
+        "Is the air temperature above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_038"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's process temperature from the mean?",
+      "paraphrases": [
+        "What is the z-score of process temperature?",
+        "Is the process temperature above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_039"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's rotational speed from the mean?",
+      "paraphrases": [
+        "What is the z-score of rotational speed?",
+        "Is the rotational speed above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_040"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's torque from the mean?",
+      "paraphrases": [
+        "What is the z-score of torque?",
+        "Is the torque above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_041"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's tool wear from the mean?",
+      "paraphrases": [
+        "What is the z-score of tool wear?",
+        "Is the tool wear above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_042"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's mechanical power from the mean?",
+      "paraphrases": [
+        "What is the z-score of mechanical power?",
+        "Is the mechanical power above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_043"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's process-air temperature difference from the mean?",
+      "paraphrases": [
+        "What is the z-score of process-air temperature difference?",
+        "Is the process-air temperature difference above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_044"
+    },
+    {
+      "category": "What",
+      "text": "How far is this sample's overstrain (tool wear x torque) from the mean?",
+      "paraphrases": [
+        "What is the z-score of overstrain (tool wear x torque)?",
+        "Is the overstrain (tool wear x torque) above or below average?"
+      ],
+      "handler": "h_param_deviation",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_param_deviation",
+      "id": "Q_What_045"
+    },
+    {
+      "category": "What",
+      "text": "What does the logistic_regression model predict for this sample?",
+      "paraphrases": [
+        "Classify this sample with the logistic_regression model.",
+        "What is the logistic_regression prediction?"
+      ],
+      "handler": "h_model_prediction",
+      "args": {
+        "model": "logistic_regression"
+      },
+      "template_id": "h_model_prediction",
+      "id": "Q_What_046"
+    },
+    {
+      "category": "What",
+      "text": "What does the random_forest model predict for this sample?",
+      "paraphrases": [
+        "Classify this sample with the random_forest model.",
+        "What is the random_forest prediction?"
+      ],
+      "handler": "h_model_prediction",
+      "args": {
+        "model": "random_forest"
+      },
+      "template_id": "h_model_prediction",
+      "id": "Q_What_047"
+    },
+    {
+      "category": "What",
+      "text": "What does the gradient_boosting model predict for this sample?",
+      "paraphrases": [
+        "Classify this sample with the gradient_boosting model.",
+        "What is the gradient_boosting prediction?"
+      ],
+      "handler": "h_model_prediction",
+      "args": {
+        "model": "gradient_boosting"
+      },
+      "template_id": "h_model_prediction",
+      "id": "Q_What_048"
+    },
+    {
+      "category": "What",
+      "text": "What failure probability does the random_forest model assign?",
+      "paraphrases": [
+        "Report the random_forest confidence.",
+        "How confident is random_forest in a failure?"
+      ],
+      "handler": "h_model_confidence",
+      "args": {
+        "model": "random_forest"
+      },
+      "template_id": "h_model_confidence",
+      "id": "Q_What_049"
+    },
+    {
+      "category": "What",
+      "text": "What failure probability does the gradient_boosting model assign?",
+      "paraphrases": [
+        "Report the gradient_boosting confidence.",
+        "How confident is gradient_boosting in a failure?"
+      ],
+      "handler": "h_model_confidence",
+      "args": {
+        "model": "gradient_boosting"
+      },
+      "template_id": "h_model_confidence",
+      "id": "Q_What_050"
+    },
+    {
+      "category": "What",
+      "text": "What is the f1_macro of the random_forest model?",
+      "paraphrases": [
+        "Report f1_macro for random_forest.",
+        "How good is random_forest by f1_macro?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "random_forest",
+        "metric": "f1_macro"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_051"
+    },
+    {
+      "category": "What",
+      "text": "What is the auprc of the random_forest model?",
+      "paraphrases": [
+        "Report auprc for random_forest.",
+        "How good is random_forest by auprc?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "random_forest",
+        "metric": "auprc"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_052"
+    },
+    {
+      "category": "What",
+      "text": "What is the f1_macro of the gradient_boosting model?",
+      "paraphrases": [
+        "Report f1_macro for gradient_boosting.",
+        "How good is gradient_boosting by f1_macro?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "gradient_boosting",
+        "metric": "f1_macro"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_053"
+    },
+    {
+      "category": "What",
+      "text": "What is the auprc of the gradient_boosting model?",
+      "paraphrases": [
+        "Report auprc for gradient_boosting.",
+        "How good is gradient_boosting by auprc?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "gradient_boosting",
+        "metric": "auprc"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_054"
+    },
+    {
+      "category": "What",
+      "text": "What is the f1_macro of the logistic_regression model?",
+      "paraphrases": [
+        "Report f1_macro for logistic_regression.",
+        "How good is logistic_regression by f1_macro?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "logistic_regression",
+        "metric": "f1_macro"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_055"
+    },
+    {
+      "category": "What",
+      "text": "What is the auprc of the logistic_regression model?",
+      "paraphrases": [
+        "Report auprc for logistic_regression.",
+        "How good is logistic_regression by auprc?"
+      ],
+      "handler": "h_model_quality",
+      "args": {
+        "model": "logistic_regression",
+        "metric": "auprc"
+      },
+      "template_id": "h_model_quality",
+      "id": "Q_What_056"
+    },
+    {
+      "category": "What",
+      "text": "What is the base rate of TWF (tool wear failure)?",
+      "paraphrases": [
+        "How frequent is TWF?",
+        "What share of samples are TWF?"
+      ],
+      "handler": "h_mode_base_rate",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_mode_base_rate",
+      "id": "Q_What_057"
+    },
+    {
+      "category": "What",
+      "text": "What is the base rate of HDF (heat dissipation failure)?",
+      "paraphrases": [
+        "How frequent is HDF?",
+        "What share of samples are HDF?"
+      ],
+      "handler": "h_mode_base_rate",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_mode_base_rate",
+      "id": "Q_What_058"
+    },
+    {
+      "category": "What",
+      "text": "What is the base rate of PWF (power failure)?",
+      "paraphrases": [
+        "How frequent is PWF?",
+        "What share of samples are PWF?"
+      ],
+      "handler": "h_mode_base_rate",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_mode_base_rate",
+      "id": "Q_What_059"
+    },
+    {
+      "category": "What",
+      "text": "What is the base rate of OSF (overstrain failure)?",
+      "paraphrases": [
+        "How frequent is OSF?",
+        "What share of samples are OSF?"
+      ],
+      "handler": "h_mode_base_rate",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_mode_base_rate",
+      "id": "Q_What_060"
+    },
+    {
+      "category": "What",
+      "text": "What is the base rate of RNF (random failure)?",
+      "paraphrases": [
+        "How frequent is RNF?",
+        "What share of samples are RNF?"
+      ],
+      "handler": "h_mode_base_rate",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_mode_base_rate",
+      "id": "Q_What_061"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample flagged as PWF (power failure)?",
+      "paraphrases": [
+        "What causes PWF here?",
+        "Explain the PWF trigger."
+      ],
+      "handler": "h_why_pwf",
+      "args": {},
+      "template_id": "h_why_pwf",
+      "id": "Q_Why_062"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample flagged as HDF (heat dissipation failure)?",
+      "paraphrases": [
+        "What causes HDF here?",
+        "Explain the HDF trigger."
+      ],
+      "handler": "h_why_hdf",
+      "args": {},
+      "template_id": "h_why_hdf",
+      "id": "Q_Why_063"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample flagged as OSF (overstrain failure)?",
+      "paraphrases": [
+        "What causes OSF here?",
+        "Explain the OSF trigger."
+      ],
+      "handler": "h_why_osf",
+      "args": {},
+      "template_id": "h_why_osf",
+      "id": "Q_Why_064"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample flagged as TWF (tool wear failure)?",
+      "paraphrases": [
+        "What causes TWF here?",
+        "Explain the TWF trigger."
+      ],
+      "handler": "h_why_twf",
+      "args": {},
+      "template_id": "h_why_twf",
+      "id": "Q_Why_065"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample NOT a TWF failure?",
+      "paraphrases": [
+        "Why is TWF absent?",
+        "What keeps TWF from triggering?"
+      ],
+      "handler": "h_why_not_mode",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_why_not_mode",
+      "id": "Q_Why_066"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample NOT a HDF failure?",
+      "paraphrases": [
+        "Why is HDF absent?",
+        "What keeps HDF from triggering?"
+      ],
+      "handler": "h_why_not_mode",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_why_not_mode",
+      "id": "Q_Why_067"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample NOT a PWF failure?",
+      "paraphrases": [
+        "Why is PWF absent?",
+        "What keeps PWF from triggering?"
+      ],
+      "handler": "h_why_not_mode",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_why_not_mode",
+      "id": "Q_Why_068"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample NOT a OSF failure?",
+      "paraphrases": [
+        "Why is OSF absent?",
+        "What keeps OSF from triggering?"
+      ],
+      "handler": "h_why_not_mode",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_why_not_mode",
+      "id": "Q_Why_069"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample NOT a RNF failure?",
+      "paraphrases": [
+        "Why is RNF absent?",
+        "What keeps RNF from triggering?"
+      ],
+      "handler": "h_why_not_mode",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_why_not_mode",
+      "id": "Q_Why_070"
+    },
+    {
+      "category": "Why",
+      "text": "Why did this sample fail (or not)?",
+      "paraphrases": [
+        "What is the primary cause of failure?",
+        "Explain the failure reason."
+      ],
+      "handler": "h_why_failure",
+      "args": {},
+      "template_id": "h_why_failure",
+      "id": "Q_Why_071"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample considered healthy?",
+      "paraphrases": [
+        "Why is there no failure?",
+        "Explain the no-failure status."
+      ],
+      "handler": "h_why_no_failure",
+      "args": {},
+      "template_id": "h_why_no_failure",
+      "id": "Q_Why_072"
+    },
+    {
+      "category": "Why",
+      "text": "Why is this sample a random failure?",
+      "paraphrases": [
+        "Explain the RNF flag.",
+        "What underlies the random failure?"
+      ],
+      "handler": "h_why_rnf",
+      "args": {},
+      "template_id": "h_why_rnf",
+      "id": "Q_Why_073"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the random_forest model reach its decision for this sample?",
+      "paraphrases": [
+        "What drives the random_forest prediction?",
+        "Explain the random_forest rationale."
+      ],
+      "handler": "h_why_model_predicts",
+      "args": {
+        "model": "random_forest"
+      },
+      "template_id": "h_why_model_predicts",
+      "id": "Q_Why_074"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the gradient_boosting model reach its decision for this sample?",
+      "paraphrases": [
+        "What drives the gradient_boosting prediction?",
+        "Explain the gradient_boosting rationale."
+      ],
+      "handler": "h_why_model_predicts",
+      "args": {
+        "model": "gradient_boosting"
+      },
+      "template_id": "h_why_model_predicts",
+      "id": "Q_Why_075"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the logistic_regression model reach its decision for this sample?",
+      "paraphrases": [
+        "What drives the logistic_regression prediction?",
+        "Explain the logistic_regression rationale."
+      ],
+      "handler": "h_why_model_predicts",
+      "args": {
+        "model": "logistic_regression"
+      },
+      "template_id": "h_why_model_predicts",
+      "id": "Q_Why_076"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the air temperature deviate from its typical value?",
+      "paraphrases": [
+        "What makes air temperature unusual here?",
+        "Why is air temperature atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_077"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the process temperature deviate from its typical value?",
+      "paraphrases": [
+        "What makes process temperature unusual here?",
+        "Why is process temperature atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_078"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the rotational speed deviate from its typical value?",
+      "paraphrases": [
+        "What makes rotational speed unusual here?",
+        "Why is rotational speed atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_079"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the torque deviate from its typical value?",
+      "paraphrases": [
+        "What makes torque unusual here?",
+        "Why is torque atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_080"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the tool wear deviate from its typical value?",
+      "paraphrases": [
+        "What makes tool wear unusual here?",
+        "Why is tool wear atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_081"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the mechanical power deviate from its typical value?",
+      "paraphrases": [
+        "What makes mechanical power unusual here?",
+        "Why is mechanical power atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_082"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the process-air temperature difference deviate from its typical value?",
+      "paraphrases": [
+        "What makes process-air temperature difference unusual here?",
+        "Why is process-air temperature difference atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_083"
+    },
+    {
+      "category": "Why",
+      "text": "Why does the overstrain (tool wear x torque) deviate from its typical value?",
+      "paraphrases": [
+        "What makes overstrain (tool wear x torque) unusual here?",
+        "Why is overstrain (tool wear x torque) atypical?"
+      ],
+      "handler": "h_why_param_deviation",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_why_param_deviation",
+      "id": "Q_Why_084"
+    },
+    {
+      "category": "Why",
+      "text": "How important is air temperature for the failure prediction?",
+      "paraphrases": [
+        "What is the air temperature contribution?",
+        "Rank air temperature as a failure driver."
+      ],
+      "handler": "h_feature_importance",
+      "args": {
+        "feature": "Air temperature [K]"
+      },
+      "template_id": "h_feature_importance",
+      "id": "Q_Why_085"
+    },
+    {
+      "category": "Why",
+      "text": "How important is process temperature for the failure prediction?",
+      "paraphrases": [
+        "What is the process temperature contribution?",
+        "Rank process temperature as a failure driver."
+      ],
+      "handler": "h_feature_importance",
+      "args": {
+        "feature": "Process temperature [K]"
+      },
+      "template_id": "h_feature_importance",
+      "id": "Q_Why_086"
+    },
+    {
+      "category": "Why",
+      "text": "How important is rotational speed for the failure prediction?",
+      "paraphrases": [
+        "What is the rotational speed contribution?",
+        "Rank rotational speed as a failure driver."
+      ],
+      "handler": "h_feature_importance",
+      "args": {
+        "feature": "Rotational speed [rpm]"
+      },
+      "template_id": "h_feature_importance",
+      "id": "Q_Why_087"
+    },
+    {
+      "category": "Why",
+      "text": "How important is torque for the failure prediction?",
+      "paraphrases": [
+        "What is the torque contribution?",
+        "Rank torque as a failure driver."
+      ],
+      "handler": "h_feature_importance",
+      "args": {
+        "feature": "Torque [Nm]"
+      },
+      "template_id": "h_feature_importance",
+      "id": "Q_Why_088"
+    },
+    {
+      "category": "Why",
+      "text": "How important is tool wear for the failure prediction?",
+      "paraphrases": [
+        "What is the tool wear contribution?",
+        "Rank tool wear as a failure driver."
+      ],
+      "handler": "h_feature_importance",
+      "args": {
+        "feature": "Tool wear [min]"
+      },
+      "template_id": "h_feature_importance",
+      "id": "Q_Why_089"
+    },
+    {
+      "category": "Why",
+      "text": "Why is the dataset considered imbalanced?",
+      "paraphrases": [
+        "Explain the class imbalance.",
+        "Why is accuracy misleading here?"
+      ],
+      "handler": "h_dataset_imbalance",
+      "args": {},
+      "template_id": "h_dataset_imbalance",
+      "id": "Q_Why_090"
+    },
+    {
+      "category": "When",
+      "text": "Which tool-wear lifecycle stage is this sample in?",
+      "paraphrases": [
+        "What is the wear stage?",
+        "Is the tool near end of life?"
+      ],
+      "handler": "h_wear_stage",
+      "args": {},
+      "template_id": "h_wear_stage",
+      "id": "Q_When_091"
+    },
+    {
+      "category": "When",
+      "text": "Is there heat-dissipation risk right now?",
+      "paraphrases": [
+        "Is HDF risk present at this moment?",
+        "Should cooling be watched now?"
+      ],
+      "handler": "h_thermal_risk",
+      "args": {},
+      "template_id": "h_thermal_risk",
+      "id": "Q_When_092"
+    },
+    {
+      "category": "When",
+      "text": "Is the mechanical power within the safe band?",
+      "paraphrases": [
+        "Is power currently safe?",
+        "Does power cross the threshold now?"
+      ],
+      "handler": "h_power_threshold",
+      "args": {},
+      "template_id": "h_power_threshold",
+      "id": "Q_When_093"
+    },
+    {
+      "category": "When",
+      "text": "Has the overstrain limit been reached?",
+      "paraphrases": [
+        "Is overstrain currently exceeded?",
+        "Has OSF threshold been crossed?"
+      ],
+      "handler": "h_overstrain_threshold",
+      "args": {},
+      "template_id": "h_overstrain_threshold",
+      "id": "Q_When_094"
+    },
+    {
+      "category": "When",
+      "text": "Is intervention needed now?",
+      "paraphrases": [
+        "Does this sample need immediate attention?",
+        "When should we intervene?"
+      ],
+      "handler": "h_intervention_needed",
+      "args": {},
+      "template_id": "h_intervention_needed",
+      "id": "Q_When_095"
+    },
+    {
+      "category": "When",
+      "text": "Is tool replacement due now?",
+      "paraphrases": [
+        "Should the tool be replaced now?",
+        "Is the tool past its replacement point?"
+      ],
+      "handler": "h_tool_replacement_due",
+      "args": {},
+      "template_id": "h_tool_replacement_due",
+      "id": "Q_When_096"
+    },
+    {
+      "category": "When",
+      "text": "Has the air temperature threshold been breached?",
+      "paraphrases": [
+        "Is air temperature past its critical value now?",
+        "Did air temperature cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_097"
+    },
+    {
+      "category": "When",
+      "text": "Has the process temperature threshold been breached?",
+      "paraphrases": [
+        "Is process temperature past its critical value now?",
+        "Did process temperature cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_098"
+    },
+    {
+      "category": "When",
+      "text": "Has the rotational speed threshold been breached?",
+      "paraphrases": [
+        "Is rotational speed past its critical value now?",
+        "Did rotational speed cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_099"
+    },
+    {
+      "category": "When",
+      "text": "Has the torque threshold been breached?",
+      "paraphrases": [
+        "Is torque past its critical value now?",
+        "Did torque cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_100"
+    },
+    {
+      "category": "When",
+      "text": "Has the tool wear threshold been breached?",
+      "paraphrases": [
+        "Is tool wear past its critical value now?",
+        "Did tool wear cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_101"
+    },
+    {
+      "category": "When",
+      "text": "Has the mechanical power threshold been breached?",
+      "paraphrases": [
+        "Is mechanical power past its critical value now?",
+        "Did mechanical power cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_102"
+    },
+    {
+      "category": "When",
+      "text": "Has the process-air temperature difference threshold been breached?",
+      "paraphrases": [
+        "Is process-air temperature difference past its critical value now?",
+        "Did process-air temperature difference cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_103"
+    },
+    {
+      "category": "When",
+      "text": "Has the overstrain (tool wear x torque) threshold been breached?",
+      "paraphrases": [
+        "Is overstrain (tool wear x torque) past its critical value now?",
+        "Did overstrain (tool wear x torque) cross its limit?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_104"
+    },
+    {
+      "category": "When",
+      "text": "Is the current air temperature within acceptable limits?",
+      "paraphrases": [
+        "Is air temperature in range right now?",
+        "Should air temperature be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_105"
+    },
+    {
+      "category": "When",
+      "text": "Is the current process temperature within acceptable limits?",
+      "paraphrases": [
+        "Is process temperature in range right now?",
+        "Should process temperature be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_106"
+    },
+    {
+      "category": "When",
+      "text": "Is the current rotational speed within acceptable limits?",
+      "paraphrases": [
+        "Is rotational speed in range right now?",
+        "Should rotational speed be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_107"
+    },
+    {
+      "category": "When",
+      "text": "Is the current torque within acceptable limits?",
+      "paraphrases": [
+        "Is torque in range right now?",
+        "Should torque be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_108"
+    },
+    {
+      "category": "When",
+      "text": "Is the current tool wear within acceptable limits?",
+      "paraphrases": [
+        "Is tool wear in range right now?",
+        "Should tool wear be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_109"
+    },
+    {
+      "category": "When",
+      "text": "Is the current mechanical power within acceptable limits?",
+      "paraphrases": [
+        "Is mechanical power in range right now?",
+        "Should mechanical power be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_110"
+    },
+    {
+      "category": "When",
+      "text": "Is the current process-air temperature difference within acceptable limits?",
+      "paraphrases": [
+        "Is process-air temperature difference in range right now?",
+        "Should process-air temperature difference be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_111"
+    },
+    {
+      "category": "When",
+      "text": "Is the current overstrain (tool wear x torque) within acceptable limits?",
+      "paraphrases": [
+        "Is overstrain (tool wear x torque) in range right now?",
+        "Should overstrain (tool wear x torque) be watched?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_112"
+    },
+    {
+      "category": "When",
+      "text": "When does PWF risk begin (per mechanical power)?",
+      "paraphrases": [
+        "At what mechanical power does PWF start?",
+        "When is PWF imminent?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_113"
+    },
+    {
+      "category": "When",
+      "text": "When does HDF risk begin (per process-air temperature difference)?",
+      "paraphrases": [
+        "At what process-air temperature difference does HDF start?",
+        "When is HDF imminent?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_114"
+    },
+    {
+      "category": "When",
+      "text": "When does OSF risk begin (per overstrain (tool wear x torque))?",
+      "paraphrases": [
+        "At what overstrain (tool wear x torque) does OSF start?",
+        "When is OSF imminent?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_115"
+    },
+    {
+      "category": "When",
+      "text": "When does TWF risk begin (per tool wear)?",
+      "paraphrases": [
+        "At what tool wear does TWF start?",
+        "When is TWF imminent?"
+      ],
+      "handler": "h_threshold_breach",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_threshold_breach",
+      "id": "Q_When_116"
+    },
+    {
+      "category": "Where",
+      "text": "Where does the anomaly originate?",
+      "paraphrases": [
+        "Which component is anomalous?",
+        "Locate the source of abnormality."
+      ],
+      "handler": "h_locate_anomaly",
+      "args": {},
+      "template_id": "h_locate_anomaly",
+      "id": "Q_Where_117"
+    },
+    {
+      "category": "Where",
+      "text": "Which component is implicated by the active fault?",
+      "paraphrases": [
+        "Where is the fault located?",
+        "Which part is affected by the fault?"
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_118"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the air temperature correspond to?",
+      "paraphrases": [
+        "Map air temperature to a machine component.",
+        "What part does air temperature reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Air temperature [K]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_119"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the process temperature correspond to?",
+      "paraphrases": [
+        "Map process temperature to a machine component.",
+        "What part does process temperature reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Process temperature [K]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_120"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the rotational speed correspond to?",
+      "paraphrases": [
+        "Map rotational speed to a machine component.",
+        "What part does rotational speed reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Rotational speed [rpm]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_121"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the torque correspond to?",
+      "paraphrases": [
+        "Map torque to a machine component.",
+        "What part does torque reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Torque [Nm]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_122"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the tool wear correspond to?",
+      "paraphrases": [
+        "Map tool wear to a machine component.",
+        "What part does tool wear reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Tool wear [min]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_123"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the mechanical power correspond to?",
+      "paraphrases": [
+        "Map mechanical power to a machine component.",
+        "What part does mechanical power reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Power [W]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_124"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the process-air temperature difference correspond to?",
+      "paraphrases": [
+        "Map process-air temperature difference to a machine component.",
+        "What part does process-air temperature difference reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Temp diff [K]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_125"
+    },
+    {
+      "category": "Where",
+      "text": "Which component does the overstrain (tool wear x torque) correspond to?",
+      "paraphrases": [
+        "Map overstrain (tool wear x torque) to a machine component.",
+        "What part does overstrain (tool wear x torque) reflect?"
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_126"
+    },
+    {
+      "category": "Where",
+      "text": "What is the status of the cooling / ambient?",
+      "paraphrases": [
+        "Is the cooling / ambient normal?",
+        "Report cooling / ambient condition."
+      ],
+      "handler": "h_component_status",
+      "args": {
+        "component": "cooling / ambient"
+      },
+      "template_id": "h_component_status",
+      "id": "Q_Where_127"
+    },
+    {
+      "category": "Where",
+      "text": "What is the status of the cutting tool?",
+      "paraphrases": [
+        "Is the cutting tool normal?",
+        "Report cutting tool condition."
+      ],
+      "handler": "h_component_status",
+      "args": {
+        "component": "cutting tool"
+      },
+      "template_id": "h_component_status",
+      "id": "Q_Where_128"
+    },
+    {
+      "category": "Where",
+      "text": "What is the status of the process / workpiece?",
+      "paraphrases": [
+        "Is the process / workpiece normal?",
+        "Report process / workpiece condition."
+      ],
+      "handler": "h_component_status",
+      "args": {
+        "component": "process / workpiece"
+      },
+      "template_id": "h_component_status",
+      "id": "Q_Where_129"
+    },
+    {
+      "category": "Where",
+      "text": "What is the status of the spindle / drive?",
+      "paraphrases": [
+        "Is the spindle / drive normal?",
+        "Report spindle / drive condition."
+      ],
+      "handler": "h_component_status",
+      "args": {
+        "component": "spindle / drive"
+      },
+      "template_id": "h_component_status",
+      "id": "Q_Where_130"
+    },
+    {
+      "category": "Where",
+      "text": "What is the status of the tool region / drive train?",
+      "paraphrases": [
+        "Is the tool region / drive train normal?",
+        "Report tool region / drive train condition."
+      ],
+      "handler": "h_component_status",
+      "args": {
+        "component": "tool region / drive train"
+      },
+      "template_id": "h_component_status",
+      "id": "Q_Where_131"
+    },
+    {
+      "category": "Where",
+      "text": "If PWF is active, which component is at fault?",
+      "paraphrases": [
+        "Where would PWF manifest?",
+        "Localize a PWF fault."
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_132"
+    },
+    {
+      "category": "Where",
+      "text": "If HDF is active, which component is at fault?",
+      "paraphrases": [
+        "Where would HDF manifest?",
+        "Localize a HDF fault."
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_133"
+    },
+    {
+      "category": "Where",
+      "text": "If OSF is active, which component is at fault?",
+      "paraphrases": [
+        "Where would OSF manifest?",
+        "Localize a OSF fault."
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_134"
+    },
+    {
+      "category": "Where",
+      "text": "If TWF is active, which component is at fault?",
+      "paraphrases": [
+        "Where would TWF manifest?",
+        "Localize a TWF fault."
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_135"
+    },
+    {
+      "category": "Where",
+      "text": "If RNF is active, which component is at fault?",
+      "paraphrases": [
+        "Where would RNF manifest?",
+        "Localize a RNF fault."
+      ],
+      "handler": "h_fault_component",
+      "args": {},
+      "template_id": "h_fault_component",
+      "id": "Q_Where_136"
+    },
+    {
+      "category": "Where",
+      "text": "Where is the air temperature sensed on the machine?",
+      "paraphrases": [
+        "Which component reflects air temperature?",
+        "Locate the air temperature reading."
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Air temperature [K]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_137"
+    },
+    {
+      "category": "Where",
+      "text": "Where is the process temperature sensed on the machine?",
+      "paraphrases": [
+        "Which component reflects process temperature?",
+        "Locate the process temperature reading."
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Process temperature [K]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_138"
+    },
+    {
+      "category": "Where",
+      "text": "Where is the rotational speed sensed on the machine?",
+      "paraphrases": [
+        "Which component reflects rotational speed?",
+        "Locate the rotational speed reading."
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Rotational speed [rpm]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_139"
+    },
+    {
+      "category": "Where",
+      "text": "Where is the torque sensed on the machine?",
+      "paraphrases": [
+        "Which component reflects torque?",
+        "Locate the torque reading."
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Torque [Nm]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_140"
+    },
+    {
+      "category": "Where",
+      "text": "Where is the tool wear sensed on the machine?",
+      "paraphrases": [
+        "Which component reflects tool wear?",
+        "Locate the tool wear reading."
+      ],
+      "handler": "h_locate_component",
+      "args": {
+        "feature": "Tool wear [min]"
+      },
+      "template_id": "h_locate_component",
+      "id": "Q_Where_141"
+    },
+    {
+      "category": "Who",
+      "text": "Who should respond to this sample?",
+      "paraphrases": [
+        "Which responder is required?",
+        "Who needs to act on this sample?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_142"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity level?",
+      "paraphrases": [
+        "How severe is this sample?",
+        "Rate the severity."
+      ],
+      "handler": "h_severity_level",
+      "args": {},
+      "template_id": "h_severity_level",
+      "id": "Q_Who_143"
+    },
+    {
+      "category": "Who",
+      "text": "Which process stage is affected?",
+      "paraphrases": [
+        "What is impacted by this sample?",
+        "Which process does this concern?"
+      ],
+      "handler": "h_affected_process",
+      "args": {},
+      "template_id": "h_affected_process",
+      "id": "Q_Who_144"
+    },
+    {
+      "category": "Who",
+      "text": "If PWF occurs, who must intervene?",
+      "paraphrases": [
+        "Who handles a PWF?",
+        "What responder for PWF?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_145"
+    },
+    {
+      "category": "Who",
+      "text": "If HDF occurs, who must intervene?",
+      "paraphrases": [
+        "Who handles a HDF?",
+        "What responder for HDF?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_146"
+    },
+    {
+      "category": "Who",
+      "text": "If OSF occurs, who must intervene?",
+      "paraphrases": [
+        "Who handles a OSF?",
+        "What responder for OSF?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_147"
+    },
+    {
+      "category": "Who",
+      "text": "If TWF occurs, who must intervene?",
+      "paraphrases": [
+        "Who handles a TWF?",
+        "What responder for TWF?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_148"
+    },
+    {
+      "category": "Who",
+      "text": "If RNF occurs, who must intervene?",
+      "paraphrases": [
+        "Who handles a RNF?",
+        "What responder for RNF?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_149"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity of a PWF fault?",
+      "paraphrases": [
+        "How severe is PWF?",
+        "Severity rating for PWF?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_150"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity of a HDF fault?",
+      "paraphrases": [
+        "How severe is HDF?",
+        "Severity rating for HDF?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_151"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity of a OSF fault?",
+      "paraphrases": [
+        "How severe is OSF?",
+        "Severity rating for OSF?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_152"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity of a TWF fault?",
+      "paraphrases": [
+        "How severe is TWF?",
+        "Severity rating for TWF?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_153"
+    },
+    {
+      "category": "Who",
+      "text": "What is the severity of a RNF fault?",
+      "paraphrases": [
+        "How severe is RNF?",
+        "Severity rating for RNF?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_154"
+    },
+    {
+      "category": "Who",
+      "text": "Which faults require high severity response?",
+      "paraphrases": [
+        "What warrants a high-severity alert?",
+        "When is severity 'high'?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_155"
+    },
+    {
+      "category": "Who",
+      "text": "Which faults require medium severity response?",
+      "paraphrases": [
+        "What warrants a medium-severity alert?",
+        "When is severity 'medium'?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_156"
+    },
+    {
+      "category": "Who",
+      "text": "Which faults require low severity response?",
+      "paraphrases": [
+        "What warrants a low-severity alert?",
+        "When is severity 'low'?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_157"
+    },
+    {
+      "category": "Who",
+      "text": "Who is responsible for the cooling / ambient?",
+      "paraphrases": [
+        "Who owns the cooling / ambient?",
+        "What role maintains the cooling / ambient?"
+      ],
+      "handler": "h_role_for_component",
+      "args": {
+        "component": "cooling / ambient"
+      },
+      "template_id": "h_role_for_component",
+      "id": "Q_Who_158"
+    },
+    {
+      "category": "Who",
+      "text": "Who is responsible for the cutting tool?",
+      "paraphrases": [
+        "Who owns the cutting tool?",
+        "What role maintains the cutting tool?"
+      ],
+      "handler": "h_role_for_component",
+      "args": {
+        "component": "cutting tool"
+      },
+      "template_id": "h_role_for_component",
+      "id": "Q_Who_159"
+    },
+    {
+      "category": "Who",
+      "text": "Who is responsible for the process / workpiece?",
+      "paraphrases": [
+        "Who owns the process / workpiece?",
+        "What role maintains the process / workpiece?"
+      ],
+      "handler": "h_role_for_component",
+      "args": {
+        "component": "process / workpiece"
+      },
+      "template_id": "h_role_for_component",
+      "id": "Q_Who_160"
+    },
+    {
+      "category": "Who",
+      "text": "Who is responsible for the spindle / drive?",
+      "paraphrases": [
+        "Who owns the spindle / drive?",
+        "What role maintains the spindle / drive?"
+      ],
+      "handler": "h_role_for_component",
+      "args": {
+        "component": "spindle / drive"
+      },
+      "template_id": "h_role_for_component",
+      "id": "Q_Who_161"
+    },
+    {
+      "category": "Who",
+      "text": "Who is responsible for the tool region / drive train?",
+      "paraphrases": [
+        "Who owns the tool region / drive train?",
+        "What role maintains the tool region / drive train?"
+      ],
+      "handler": "h_role_for_component",
+      "args": {
+        "component": "tool region / drive train"
+      },
+      "template_id": "h_role_for_component",
+      "id": "Q_Who_162"
+    },
+    {
+      "category": "Who",
+      "text": "Does this sample need operator attention?",
+      "paraphrases": [
+        "Should an operator look at this?",
+        "Is operator response required?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_163"
+    },
+    {
+      "category": "Who",
+      "text": "Does this sample need the maintenance team?",
+      "paraphrases": [
+        "Is maintenance-team response required?",
+        "Should maintenance be alerted?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_164"
+    },
+    {
+      "category": "Who",
+      "text": "Who should be notified for this sample?",
+      "paraphrases": [
+        "Whom to alert about this sample?",
+        "Who gets this work order?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_165"
+    },
+    {
+      "category": "Who",
+      "text": "Who is accountable when PWF recurs?",
+      "paraphrases": [
+        "Who owns recurring PWF?",
+        "Who tracks PWF follow-up?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_166"
+    },
+    {
+      "category": "Who",
+      "text": "Who is accountable when HDF recurs?",
+      "paraphrases": [
+        "Who owns recurring HDF?",
+        "Who tracks HDF follow-up?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_167"
+    },
+    {
+      "category": "Who",
+      "text": "Who is accountable when OSF recurs?",
+      "paraphrases": [
+        "Who owns recurring OSF?",
+        "Who tracks OSF follow-up?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_168"
+    },
+    {
+      "category": "Who",
+      "text": "Who is accountable when TWF recurs?",
+      "paraphrases": [
+        "Who owns recurring TWF?",
+        "Who tracks TWF follow-up?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_169"
+    },
+    {
+      "category": "Who",
+      "text": "Who is accountable when RNF recurs?",
+      "paraphrases": [
+        "Who owns recurring RNF?",
+        "Who tracks RNF follow-up?"
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_Who_170"
+    },
+    {
+      "category": "Who",
+      "text": "Who approves an emergency stop for this sample?",
+      "paraphrases": [
+        "Who authorizes a stop?",
+        "Who can halt production here?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_171"
+    },
+    {
+      "category": "Who",
+      "text": "Who verifies the repair after intervention?",
+      "paraphrases": [
+        "Who confirms the fix?",
+        "Who signs off the repair?"
+      ],
+      "handler": "h_fault_responder",
+      "args": {},
+      "template_id": "h_fault_responder",
+      "id": "Q_Who_172"
+    },
+    {
+      "category": "How",
+      "text": "What action is recommended for this sample?",
+      "paraphrases": [
+        "What should be done about this sample?",
+        "Recommend a maintenance action."
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_173"
+    },
+    {
+      "category": "How",
+      "text": "How can we prevent this kind of failure?",
+      "paraphrases": [
+        "What preventive measure applies?",
+        "How to avoid recurrence?"
+      ],
+      "handler": "h_prevention",
+      "args": {},
+      "template_id": "h_prevention",
+      "id": "Q_How_174"
+    },
+    {
+      "category": "How",
+      "text": "What should be done if PWF is detected?",
+      "paraphrases": [
+        "How to respond to PWF?",
+        "Give the PWF handling procedure."
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_How_175"
+    },
+    {
+      "category": "How",
+      "text": "What should be done if HDF is detected?",
+      "paraphrases": [
+        "How to respond to HDF?",
+        "Give the HDF handling procedure."
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_How_176"
+    },
+    {
+      "category": "How",
+      "text": "What should be done if OSF is detected?",
+      "paraphrases": [
+        "How to respond to OSF?",
+        "Give the OSF handling procedure."
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_How_177"
+    },
+    {
+      "category": "How",
+      "text": "What should be done if TWF is detected?",
+      "paraphrases": [
+        "How to respond to TWF?",
+        "Give the TWF handling procedure."
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_How_178"
+    },
+    {
+      "category": "How",
+      "text": "What should be done if RNF is detected?",
+      "paraphrases": [
+        "How to respond to RNF?",
+        "Give the RNF handling procedure."
+      ],
+      "handler": "h_action_for_mode",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_action_for_mode",
+      "id": "Q_How_179"
+    },
+    {
+      "category": "How",
+      "text": "How is PWF mitigated?",
+      "paraphrases": [
+        "What mitigates PWF?",
+        "How to reduce PWF risk?"
+      ],
+      "handler": "h_mitigation_for_mode",
+      "args": {
+        "mode": "PWF"
+      },
+      "template_id": "h_mitigation_for_mode",
+      "id": "Q_How_180"
+    },
+    {
+      "category": "How",
+      "text": "How is HDF mitigated?",
+      "paraphrases": [
+        "What mitigates HDF?",
+        "How to reduce HDF risk?"
+      ],
+      "handler": "h_mitigation_for_mode",
+      "args": {
+        "mode": "HDF"
+      },
+      "template_id": "h_mitigation_for_mode",
+      "id": "Q_How_181"
+    },
+    {
+      "category": "How",
+      "text": "How is OSF mitigated?",
+      "paraphrases": [
+        "What mitigates OSF?",
+        "How to reduce OSF risk?"
+      ],
+      "handler": "h_mitigation_for_mode",
+      "args": {
+        "mode": "OSF"
+      },
+      "template_id": "h_mitigation_for_mode",
+      "id": "Q_How_182"
+    },
+    {
+      "category": "How",
+      "text": "How is TWF mitigated?",
+      "paraphrases": [
+        "What mitigates TWF?",
+        "How to reduce TWF risk?"
+      ],
+      "handler": "h_mitigation_for_mode",
+      "args": {
+        "mode": "TWF"
+      },
+      "template_id": "h_mitigation_for_mode",
+      "id": "Q_How_183"
+    },
+    {
+      "category": "How",
+      "text": "How is RNF mitigated?",
+      "paraphrases": [
+        "What mitigates RNF?",
+        "How to reduce RNF risk?"
+      ],
+      "handler": "h_mitigation_for_mode",
+      "args": {
+        "mode": "RNF"
+      },
+      "template_id": "h_mitigation_for_mode",
+      "id": "Q_How_184"
+    },
+    {
+      "category": "How",
+      "text": "How should the air temperature be adjusted?",
+      "paraphrases": [
+        "What is the recommended air temperature change?",
+        "How to correct the air temperature?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Air temperature [K]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_185"
+    },
+    {
+      "category": "How",
+      "text": "How should the process temperature be adjusted?",
+      "paraphrases": [
+        "What is the recommended process temperature change?",
+        "How to correct the process temperature?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Process temperature [K]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_186"
+    },
+    {
+      "category": "How",
+      "text": "How should the rotational speed be adjusted?",
+      "paraphrases": [
+        "What is the recommended rotational speed change?",
+        "How to correct the rotational speed?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Rotational speed [rpm]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_187"
+    },
+    {
+      "category": "How",
+      "text": "How should the torque be adjusted?",
+      "paraphrases": [
+        "What is the recommended torque change?",
+        "How to correct the torque?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Torque [Nm]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_188"
+    },
+    {
+      "category": "How",
+      "text": "How should the tool wear be adjusted?",
+      "paraphrases": [
+        "What is the recommended tool wear change?",
+        "How to correct the tool wear?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_189"
+    },
+    {
+      "category": "How",
+      "text": "How should the mechanical power be adjusted?",
+      "paraphrases": [
+        "What is the recommended mechanical power change?",
+        "How to correct the mechanical power?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_190"
+    },
+    {
+      "category": "How",
+      "text": "How should the process-air temperature difference be adjusted?",
+      "paraphrases": [
+        "What is the recommended process-air temperature difference change?",
+        "How to correct the process-air temperature difference?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_191"
+    },
+    {
+      "category": "How",
+      "text": "How should the overstrain (tool wear x torque) be adjusted?",
+      "paraphrases": [
+        "What is the recommended overstrain (tool wear x torque) change?",
+        "How to correct the overstrain (tool wear x torque)?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_192"
+    },
+    {
+      "category": "How",
+      "text": "How do we bring the mechanical power back within the safe envelope?",
+      "paraphrases": [
+        "How to restore mechanical power to safe range?",
+        "What corrects an out-of-band mechanical power?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Power [W]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_193"
+    },
+    {
+      "category": "How",
+      "text": "How do we bring the tool wear back within the safe envelope?",
+      "paraphrases": [
+        "How to restore tool wear to safe range?",
+        "What corrects an out-of-band tool wear?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Tool wear [min]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_194"
+    },
+    {
+      "category": "How",
+      "text": "How do we bring the overstrain (tool wear x torque) back within the safe envelope?",
+      "paraphrases": [
+        "How to restore overstrain (tool wear x torque) to safe range?",
+        "What corrects an out-of-band overstrain (tool wear x torque)?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Overstrain [min*Nm]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_195"
+    },
+    {
+      "category": "How",
+      "text": "How do we bring the process-air temperature difference back within the safe envelope?",
+      "paraphrases": [
+        "How to restore process-air temperature difference to safe range?",
+        "What corrects an out-of-band process-air temperature difference?"
+      ],
+      "handler": "h_parameter_adjustment",
+      "args": {
+        "param": "Temp diff [K]"
+      },
+      "template_id": "h_parameter_adjustment",
+      "id": "Q_How_196"
+    },
+    {
+      "category": "How",
+      "text": "How should the cooling / ambient be serviced?",
+      "paraphrases": [
+        "What maintenance for the cooling / ambient?",
+        "How to handle the cooling / ambient?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_197"
+    },
+    {
+      "category": "How",
+      "text": "How should the cutting tool be serviced?",
+      "paraphrases": [
+        "What maintenance for the cutting tool?",
+        "How to handle the cutting tool?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_198"
+    },
+    {
+      "category": "How",
+      "text": "How should the process / workpiece be serviced?",
+      "paraphrases": [
+        "What maintenance for the process / workpiece?",
+        "How to handle the process / workpiece?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_199"
+    },
+    {
+      "category": "How",
+      "text": "How should the spindle / drive be serviced?",
+      "paraphrases": [
+        "What maintenance for the spindle / drive?",
+        "How to handle the spindle / drive?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_200"
+    },
+    {
+      "category": "How",
+      "text": "How should the tool region / drive train be serviced?",
+      "paraphrases": [
+        "What maintenance for the tool region / drive train?",
+        "How to handle the tool region / drive train?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_201"
+    },
+    {
+      "category": "How",
+      "text": "How should the tool be managed given its wear?",
+      "paraphrases": [
+        "What is the tool-wear action?",
+        "How to handle the cutting tool?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_202"
+    },
+    {
+      "category": "How",
+      "text": "How do we restore safe operation for this sample?",
+      "paraphrases": [
+        "What corrective action restores safe operation?",
+        "How to return to nominal?"
+      ],
+      "handler": "h_recommended_action",
+      "args": {},
+      "template_id": "h_recommended_action",
+      "id": "Q_How_203"
+    }
+  ]
+}

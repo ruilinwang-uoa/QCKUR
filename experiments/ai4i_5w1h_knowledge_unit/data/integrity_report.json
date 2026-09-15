@@ -1,0 +1,22 @@
+{
+  "n_rows": 10000,
+  "n_cols": 14,
+  "missing_total": 0,
+  "duplicated_rows": 0,
+  "failure_rate": 0.0339,
+  "n_failures": 339,
+  "mode_counts": {
+    "TWF": 46,
+    "HDF": 115,
+    "PWF": 95,
+    "OSF": 98,
+    "RNF": 19
+  },
+  "type_counts": {
+    "L": 6000,
+    "M": 2997,
+    "H": 1003
+  },
+  "multi_mode_rows": 24,
+  "sum_of_modes": 373
+}
