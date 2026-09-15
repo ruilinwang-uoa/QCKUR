@@ -1,0 +1,8 @@
+The R-squared value is {{trainR2}} for the training set and {{testR2}} for the testing set, 
+{% if trainR2-testR2 <= 0.1 -%}
+indicating that the model explains nearly all the variance for both training and testing datasets, which is an excellent fit.
+{% elif (trainR2-testR2) < 0.2 and (trainR2-testR2) > 0.1 -%}
+these discrepancies between training and test performance suggest a mild level of overfitting, meaning the model performs better on the training data than on unseen test data.
+{% else -%}
+these discrepancies between the training set and the testing set indicates a potential overfitting issue. The model performs much better on the training data than it does on unseen (test) data, which is a classic sign of overfitting.
+{% endif -%}

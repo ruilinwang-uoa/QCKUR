@@ -1,0 +1,89 @@
+Section 1: Model explanatory power / model credibility
+
+Intent:
+The user asks whether the regression model explains the dependent variable well, whether the relationship between the independent variables and the dependent variable is strong, or whether the model is credible, reliable, or trustworthy.
+
+Typical questions:
+How well does the model explain the dependent variable?
+Is the relationship between the independent variables and the dependent variable strong?
+Is the model credible?
+Is the model reliable?
+Can we trust the regression model?
+Does the model have strong explanatory power?
+How good is the model fit?
+
+Expected evidence:
+Use model-level goodness-of-fit measures such as R-squared or adjusted R-squared.
+
+Do NOT choose this section if the user asks about the effect of individual variables, the most influential variable, or statistical significance of variables.
+
+
+Section 2: Directional or variable-by-variable effects of independent variables
+
+Intent:
+The user asks how one or more independent variables affect the dependent variable, especially whether an increase in a variable increases or decreases the dependent variable, or what the coefficient direction means.
+
+Typical questions:
+How does the dependent variable change when an independent variable increases?
+How do the independent variables affect the dependent variable?
+What is the impact of different independent variables on the dependent variable?
+What impact do changes in different factors have on the dependent variable?
+Does an increase in a specific variable increase or decrease the dependent variable?
+What are the effects of the independent variables?
+How should we interpret the regression coefficients?
+
+Expected evidence:
+Use coefficient signs and coefficient values to explain positive or negative effects.
+
+Important distinction:
+Choose Section 2 when the user asks about the direction, sign, or interpretation of variable effects.
+
+Do NOT choose Section 2 if the user asks which variable has the greatest, strongest, largest, most important, or most influential effect. Those questions belong to Section 3.
+Do NOT choose Section 2 if the user asks whether a variable has a statistically significant effect. Those questions belong to Section 4.
+
+
+Section 3: Ranking / greatest-impact independent variable
+
+Intent:
+The user asks which independent variable has the greatest impact, strongest effect, largest effect, highest influence, or is the most important predictor of the dependent variable.
+
+Typical questions:
+Which independent variable has the greatest impact on the dependent variable?
+Which factor has the strongest effect on the dependent variable?
+Which variable is the most influential?
+Which independent variable is the most important predictor?
+Which factor plays the most important role?
+Which variable has the largest absolute coefficient?
+What is the top factor affecting the dependent variable?
+
+Expected evidence:
+Use the absolute magnitude of coefficients, or another explicitly defined importance measure, to identify the strongest variable.
+
+Important distinction:
+Choose Section 3 whenever the user asks for ranking, the strongest factor, the greatest impact, the most influential variable, or the most important predictor.
+
+Even if the question contains words such as "effect", "impact", or "influence", choose Section 3 if the question asks which factor is greatest, strongest, largest, most important, or most influential.
+
+Do NOT choose Section 3 if the user asks how all variables affect the dependent variable. That belongs to Section 2.
+Do NOT choose Section 3 if the user asks whether a variable is statistically significant. That belongs to Section 4.
+
+
+Section 4: Statistical significance of independent variables
+
+Intent:
+The user asks whether one or more independent variables have statistically significant effects on the dependent variable, usually based on p-values or significance levels.
+
+Typical questions:
+Do the independent variables have a significant effect on the dependent variable?
+Which variables are statistically significant?
+Are the effects of the independent variables significant?
+Which factors have significant effects on the dependent variable?
+Is a specific independent variable significant?
+Which variables have p-values below 0.05?
+Can we reject the null hypothesis for any independent variable?
+
+Important distinction:
+Choose Section 4 when the user asks about statistical significance, p-values, hypothesis testing, or whether an effect is significant.
+
+Do NOT choose Section 4 merely because the user says a variable has a “large” or “important” effect. If the user asks about greatest impact or most influential factor, choose Section 3.
+Do NOT choose Section 4 if the user asks about the direction of effects without mentioning significance. That belongs to Section 2.

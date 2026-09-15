@@ -1,0 +1,24 @@
+When keeping other variables fixed,
+{%- if numeric_standardized %}
+{%- if (coeff) | round(3) > 0 %}
+ a one-standard-deviation increase in {{xcol}} after preprocessing is associated with an increase of {{coeff | round(3)}} in the mean value of {{ycol}}.
+{%- elif (coeff) | round(3) < 0 %}
+ a one-standard-deviation increase in {{xcol}} after preprocessing is associated with a decrease of {{(-coeff) | round(3)}} in the mean value of {{ycol}}.
+{%- elif (coeff) | round(3) == 0 %}
+ a one-standard-deviation increase in {{xcol}} after preprocessing will almost not affect {{ycol}}.
+{%- endif %}
+{%- else %}
+{%- if (coeff) | round(3) > 0 %}
+ a one-unit increase in {{xcol}} is associated with an increase of {{coeff | round(3)}} in the mean value of {{ycol}}.
+{%- elif (coeff) | round(3) < 0 %}
+ a one-unit increase in {{xcol}} is associated with a decrease of {{(-coeff) | round(3)}} in the mean value of {{ycol}}.
+{%- elif (coeff) | round(3) == 0 %}
+ a one-unit increase in {{xcol}} will almost not affect {{ycol}}.
+{%- endif %}
+{%- endif %}
+
+{%- if p < 0.05 %}
+ The P-value is {{ p | round(3) }}, which is below the normal significance level of 0.05, indicating that the observed result is statistically significant.
+{%- else %}
+ The P-value is {{ p | round(3) }}, which is above the normal significance level of 0.05, indicating that the observed result is not statistically significant.
+{%- endif %}

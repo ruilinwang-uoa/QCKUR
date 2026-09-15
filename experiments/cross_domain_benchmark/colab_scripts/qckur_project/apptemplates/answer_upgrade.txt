@@ -1,0 +1,5 @@
+The user's question is: {{userquestion}}
+The corresponding predefined template questions are: {{questions}}
+The answer generated using template-based is: {{answers}}
+So now, please answer the user's question based on the analysis results and the above content.
+Your answer should be consistent with the answer generated using template-based in terms of key information, but the readability should be better, for example, when you describe independent and dependent variables, you should use their full names rather than their abbreviations..

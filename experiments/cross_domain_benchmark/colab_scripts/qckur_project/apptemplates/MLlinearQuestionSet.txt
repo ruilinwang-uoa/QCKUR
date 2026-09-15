@@ -1,0 +1,13 @@
+{%- if section==1 -%}
+Questions about the model situation:
+Is the relationship between{% for i in range(0,indeNum) %} {% if i !=(indeNum-1)  -%}the {{xcol[i]}}, {%- else  -%} and the {{xcol[i]}} {%endif-%}{%endfor-%} with the {{ycol}} strong? Is the model credible?
+{%- endif -%}
+{%- if section==5 -%}
+Question about which independent variable has the greatest impact:
+Which independent variable has the greatest impact on the {{ycol}}?
+{%- endif -%}
+{%- if section==6 -%}
+Question about if model have risk of overfitting:
+Is there a risk of overfitting in the model?
+{%- endif -%}
+

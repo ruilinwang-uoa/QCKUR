@@ -1,0 +1,2 @@
+{% import 'listcolumnloop.txt' as listcolumnloop %}
+For {{classes}}, {%if pc!=[]%}{{ listcolumnloop.format_list(pc) }} will have a positive effect{%if nc!=[]and pc!=[]%}, but{%endif%}{%endif%}{%if nc !=[]%}{{ listcolumnloop.format_list(nc) }} will have a negative effect{%endif%}.
