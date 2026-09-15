@@ -1,0 +1,330 @@
+{
+ "framework": "5W1H question-centered knowledge unit (bearing)",
+ "n_kus": 24,
+ "category_counts": {
+  "What": 4,
+  "Why": 4,
+  "When": 4,
+  "Where": 4,
+  "Who": 4,
+  "How": 4
+ },
+ "kus": [
+  {
+   "ku_id": "Q_What_001",
+   "category": "What",
+   "question": "Does the vibration record indicate a bearing fault?",
+   "paraphrases": [
+    "Does the vibration record indicate a bearing fault? (variant 1)"
+   ],
+   "T_template_id": "h_bearing_status",
+   "T_template": "The bearing is assessed as {status} (verdict: {verdict}).",
+   "M_handler": "h_bearing_status",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_What_002",
+   "category": "What",
+   "question": "Which bearing component is faulted?",
+   "paraphrases": [
+    "Which bearing component is faulted? (variant 2)"
+   ],
+   "T_template_id": "h_fault_component",
+   "T_template": "The identified fault component is {component} ({tier} tier).",
+   "M_handler": "h_fault_component",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_What_003",
+   "category": "What",
+   "question": "What is the shaft speed of this record?",
+   "paraphrases": [
+    "What is the shaft speed of this record? (variant 3)"
+   ],
+   "T_template_id": "h_shaft_speed",
+   "T_template": "The shaft rotates at {rpm} rpm ({fr} Hz), from the tachometer channel.",
+   "M_handler": "h_shaft_speed",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_What_004",
+   "category": "What",
+   "question": "What outer-race characteristic frequency applies at this speed?",
+   "paraphrases": [
+    "What outer-race characteristic frequency applies at this speed? (variant 4)"
+   ],
+   "T_template_id": "h_char_freq_bpfo",
+   "T_template": "At {fr} Hz shaft frequency the outer-race ball-pass frequency is {mult} x fr = {fc} Hz.",
+   "M_handler": "h_char_freq",
+   "M_args": {
+    "which": "BPFO"
+   },
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Why_005",
+   "category": "Why",
+   "question": "Why was this verdict reached?",
+   "paraphrases": [
+    "Why was this verdict reached? (variant 1)"
+   ],
+   "T_template_id": "h_why_verdict",
+   "T_template": "{reason}",
+   "M_handler": "h_why_verdict",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Why_006",
+   "category": "Why",
+   "question": "Which resonance band carries the diagnostic information?",
+   "paraphrases": [
+    "Which resonance band carries the diagnostic information? (variant 2)"
+   ],
+   "T_template_id": "h_why_band",
+   "T_template": "The diagnostic band is {band} Hz (band kurtosis {kurt}).",
+   "M_handler": "h_why_band",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Why_007",
+   "category": "Why",
+   "question": "By what margin does the evidence exceed the competing components?",
+   "paraphrases": [
+    "By what margin does the evidence exceed the competing components? (variant 3)"
+   ],
+   "T_template_id": "h_margin",
+   "T_template": "The winning component's prominence is {ratio} times the strongest competing component ({winner} {win} vs {loser} {lose}).",
+   "M_handler": "h_margin",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Why_008",
+   "category": "Why",
+   "question": "Which detection threshold applies to this verdict?",
+   "paraphrases": [
+    "Which detection threshold applies to this verdict? (variant 4)"
+   ],
+   "T_template_id": "h_threshold_info",
+   "T_template": "The applicable threshold is {which} prominence >= {tau} on the band-scanned envelope spectrum.",
+   "M_handler": "h_threshold_info",
+   "M_args": {
+    "which": "BPFO"
+   },
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_When_009",
+   "category": "When",
+   "question": "Is intervention needed?",
+   "paraphrases": [
+    "Is intervention needed? (variant 1)"
+   ],
+   "T_template_id": "h_intervention",
+   "T_template": "Intervention: {verdict}.",
+   "M_handler": "h_intervention",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_When_010",
+   "category": "When",
+   "question": "How urgent is the intervention?",
+   "paraphrases": [
+    "How urgent is the intervention? (variant 2)"
+   ],
+   "T_template_id": "h_urgency",
+   "T_template": "Urgency: {urgency}.",
+   "M_handler": "h_urgency",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_When_011",
+   "category": "When",
+   "question": "When should the bearing be rechecked?",
+   "paraphrases": [
+    "When should the bearing be rechecked? (variant 3)"
+   ],
+   "T_template_id": "h_next_check",
+   "T_template": "Recheck: {recheck}.",
+   "M_handler": "h_next_check",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_When_012",
+   "category": "When",
+   "question": "Over how many harmonics does the evidence appear?",
+   "paraphrases": [
+    "Over how many harmonics does the evidence appear? (variant 4)"
+   ],
+   "T_template_id": "h_harmonic_depth",
+   "T_template": "Characteristic-frequency evidence is summed over the first {kmax} harmonics with a {tol} Hz peak tolerance.",
+   "M_handler": "h_harmonic_depth",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Where_013",
+   "category": "Where",
+   "question": "Where is the fault located?",
+   "paraphrases": [
+    "Where is the fault located? (variant 1)"
+   ],
+   "T_template_id": "h_fault_location",
+   "T_template": "The fault is located in {location}.",
+   "M_handler": "h_fault_location",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Where_014",
+   "category": "Where",
+   "question": "How does the fault position relate to the load zone?",
+   "paraphrases": [
+    "How does the fault position relate to the load zone? (variant 2)"
+   ],
+   "T_template_id": "h_load_zone",
+   "T_template": "{zone}",
+   "M_handler": "h_load_zone",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Where_015",
+   "category": "Where",
+   "question": "At which position was the vibration measured?",
+   "paraphrases": [
+    "At which position was the vibration measured? (variant 3)"
+   ],
+   "T_template_id": "h_sensor_position",
+   "T_template": "The accelerometer was mounted on the drive-end housing at the 12 o'clock position.",
+   "M_handler": "h_sensor_position",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Where_016",
+   "category": "Where",
+   "question": "In which part of the spectrum does the signature appear?",
+   "paraphrases": [
+    "In which part of the spectrum does the signature appear? (variant 4)"
+   ],
+   "T_template_id": "h_band_where",
+   "T_template": "The signature is demodulated from the {band} Hz resonance band.",
+   "M_handler": "h_band_where",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Who_017",
+   "category": "Who",
+   "question": "Who should respond to this report?",
+   "paraphrases": [
+    "Who should respond to this report? (variant 1)"
+   ],
+   "T_template_id": "h_responder",
+   "T_template": "Responder: {responder} (severity {severity}).",
+   "M_handler": "h_responder",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Who_018",
+   "category": "Who",
+   "question": "How severe is the detected condition?",
+   "paraphrases": [
+    "How severe is the detected condition? (variant 2)"
+   ],
+   "T_template_id": "h_severity",
+   "T_template": "Severity: {severity}.",
+   "M_handler": "h_severity",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Who_019",
+   "category": "Who",
+   "question": "Is escalation to the maintenance planner required?",
+   "paraphrases": [
+    "Is escalation to the maintenance planner required? (variant 3)"
+   ],
+   "T_template_id": "h_escalation",
+   "T_template": "Escalation: {escalation}.",
+   "M_handler": "h_escalation",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_Who_020",
+   "category": "Who",
+   "question": "Who needs to act on a normal report?",
+   "paraphrases": [
+    "Who needs to act on a normal report? (variant 4)"
+   ],
+   "T_template_id": "h_who_normal",
+   "T_template": "For a normal report the operator continues routine monitoring; no specialist response is required.",
+   "M_handler": "h_who_normal",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_How_021",
+   "category": "How",
+   "question": "What action is recommended?",
+   "paraphrases": [
+    "What action is recommended? (variant 1)"
+   ],
+   "T_template_id": "h_action",
+   "T_template": "Recommended action: {action}",
+   "M_handler": "h_action",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_How_022",
+   "category": "How",
+   "question": "How should the repair be verified?",
+   "paraphrases": [
+    "How should the repair be verified? (variant 2)"
+   ],
+   "T_template_id": "h_verify_step",
+   "T_template": "After replacement, repeat the envelope measurement and confirm the {freq} prominence falls below {tau}.",
+   "M_handler": "h_verify_step",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_How_023",
+   "category": "How",
+   "question": "How should monitoring continue afterwards?",
+   "paraphrases": [
+    "How should monitoring continue afterwards? (variant 3)"
+   ],
+   "T_template_id": "h_recheck",
+   "T_template": "Post-repair monitoring: {recheck}",
+   "M_handler": "h_recheck",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  },
+  {
+   "ku_id": "Q_How_024",
+   "category": "How",
+   "question": "How was the confidence of this verdict established?",
+   "paraphrases": [
+    "How was the confidence of this verdict established? (variant 4)"
+   ],
+   "T_template_id": "h_confidence_note",
+   "T_template": "{note}",
+   "M_handler": "h_confidence_note",
+   "M_args": {},
+   "M_component": "envelope-analysis handler / spec constants"
+  }
+ ]
+}

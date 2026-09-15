@@ -1,0 +1,2762 @@
+{
+ "97.mat": {
+  "truth": "normal",
+  "load_hp": 0,
+  "defect_in": 0.0,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "no fault detected",
+     "tier": "model (normal)"
+    },
+    "answer": "The identified fault component is no fault detected (model (normal) tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 31.8 vs thresholds 100/80)."
+    },
+    "answer": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 31.8 vs thresholds 100/80)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "no intervention; continue routine monitoring"
+    },
+    "answer": "Intervention: no intervention; continue routine monitoring."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "no component (no fault detected)"
+    },
+    "answer": "The fault is located in no component (no fault detected)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the operator (routine monitoring)",
+     "severity": "none"
+    },
+    "answer": "Responder: the operator (routine monitoring) (severity none)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "No action is required; continue routine vibration monitoring."
+    },
+    "answer": "Recommended action: No action is required; continue routine vibration monitoring."
+   }
+  ]
+ },
+ "98.mat": {
+  "truth": "normal",
+  "load_hp": 1,
+  "defect_in": 0.0,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "no fault detected",
+     "tier": "model (normal)"
+    },
+    "answer": "The identified fault component is no fault detected (model (normal) tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 41.2 vs thresholds 100/80)."
+    },
+    "answer": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 41.2 vs thresholds 100/80)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "no intervention; continue routine monitoring"
+    },
+    "answer": "Intervention: no intervention; continue routine monitoring."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "no component (no fault detected)"
+    },
+    "answer": "The fault is located in no component (no fault detected)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the operator (routine monitoring)",
+     "severity": "none"
+    },
+    "answer": "Responder: the operator (routine monitoring) (severity none)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "No action is required; continue routine vibration monitoring."
+    },
+    "answer": "Recommended action: No action is required; continue routine vibration monitoring."
+   }
+  ]
+ },
+ "99.mat": {
+  "truth": "normal",
+  "load_hp": 2,
+  "defect_in": 0.0,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "no fault detected",
+     "tier": "model (normal)"
+    },
+    "answer": "The identified fault component is no fault detected (model (normal) tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 44.5 vs thresholds 100/80)."
+    },
+    "answer": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 44.5 vs thresholds 100/80)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "no intervention; continue routine monitoring"
+    },
+    "answer": "Intervention: no intervention; continue routine monitoring."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "no component (no fault detected)"
+    },
+    "answer": "The fault is located in no component (no fault detected)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the operator (routine monitoring)",
+     "severity": "none"
+    },
+    "answer": "Responder: the operator (routine monitoring) (severity none)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "No action is required; continue routine vibration monitoring."
+    },
+    "answer": "Recommended action: No action is required; continue routine vibration monitoring."
+   }
+  ]
+ },
+ "100.mat": {
+  "truth": "normal",
+  "load_hp": 3,
+  "defect_in": 0.0,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "no fault detected",
+     "tier": "model (normal)"
+    },
+    "answer": "The identified fault component is no fault detected (model (normal) tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 52.6 vs thresholds 100/80)."
+    },
+    "answer": "No component's characteristic-frequency prominence exceeds its threshold (strongest observed 52.6 vs thresholds 100/80)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "no intervention; continue routine monitoring"
+    },
+    "answer": "Intervention: no intervention; continue routine monitoring."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "no component (no fault detected)"
+    },
+    "answer": "The fault is located in no component (no fault detected)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the operator (routine monitoring)",
+     "severity": "none"
+    },
+    "answer": "Responder: the operator (routine monitoring) (severity none)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "No action is required; continue routine vibration monitoring."
+    },
+    "answer": "Recommended action: No action is required; continue routine vibration monitoring."
+   }
+  ]
+ },
+ "105.mat": {
+  "truth": "IR",
+  "load_hp": 0,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 262 exceeds the threshold 80 (dominance ratio over competing components 5.0)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 262 exceeds the threshold 80 (dominance ratio over competing components 5.0)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "106.mat": {
+  "truth": "IR",
+  "load_hp": 1,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 436 exceeds the threshold 80 (dominance ratio over competing components 9.4)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 436 exceeds the threshold 80 (dominance ratio over competing components 9.4)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "107.mat": {
+  "truth": "IR",
+  "load_hp": 2,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 444 exceeds the threshold 80 (dominance ratio over competing components 6.6)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 444 exceeds the threshold 80 (dominance ratio over competing components 6.6)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "108.mat": {
+  "truth": "IR",
+  "load_hp": 3,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 280 exceeds the threshold 80 (dominance ratio over competing components 5.4)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 280 exceeds the threshold 80 (dominance ratio over competing components 5.4)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "169.mat": {
+  "truth": "IR",
+  "load_hp": 0,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 213 exceeds the threshold 80 (dominance ratio over competing components 5.0)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 213 exceeds the threshold 80 (dominance ratio over competing components 5.0)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "170.mat": {
+  "truth": "IR",
+  "load_hp": 1,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 155 exceeds the threshold 80 (dominance ratio over competing components 4.5)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 155 exceeds the threshold 80 (dominance ratio over competing components 4.5)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "171.mat": {
+  "truth": "IR",
+  "load_hp": 2,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 132 exceeds the threshold 80 (dominance ratio over competing components 3.3)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 132 exceeds the threshold 80 (dominance ratio over competing components 3.3)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "172.mat": {
+  "truth": "IR",
+  "load_hp": 3,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is inner race (IR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to IR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to IR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "209.mat": {
+  "truth": "IR",
+  "load_hp": 0,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 180 exceeds the threshold 80 (dominance ratio over competing components 3.8)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 180 exceeds the threshold 80 (dominance ratio over competing components 3.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "210.mat": {
+  "truth": "IR",
+  "load_hp": 1,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 146 exceeds the threshold 80 (dominance ratio over competing components 3.8)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 146 exceeds the threshold 80 (dominance ratio over competing components 3.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "211.mat": {
+  "truth": "IR",
+  "load_hp": 2,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is inner race (IR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to IR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to IR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "212.mat": {
+  "truth": "IR",
+  "load_hp": 3,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "inner race (IR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is inner race (IR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 137 exceeds the threshold 80 (dominance ratio over competing components 3.0)."
+    },
+    "answer": "Rule-tier evidence: inner-race (BPFI) harmonic prominence 137 exceeds the threshold 80 (dominance ratio over competing components 3.0)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the inner race of the drive-end bearing"
+    },
+    "answer": "The fault is located in the inner race of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+    },
+    "answer": "Recommended action: Stop the machine at the next safe opportunity, replace the drive-end bearing, and inspect the shaft seat for fretting or scoring."
+   }
+  ]
+ },
+ "118.mat": {
+  "truth": "B",
+  "load_hp": 0,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "119.mat": {
+  "truth": "B",
+  "load_hp": 1,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "120.mat": {
+  "truth": "B",
+  "load_hp": 2,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "121.mat": {
+  "truth": "B",
+  "load_hp": 3,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "185.mat": {
+  "truth": "B",
+  "load_hp": 0,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "186.mat": {
+  "truth": "B",
+  "load_hp": 1,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "187.mat": {
+  "truth": "B",
+  "load_hp": 2,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "188.mat": {
+  "truth": "B",
+  "load_hp": 3,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "222.mat": {
+  "truth": "B",
+  "load_hp": 0,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "223.mat": {
+  "truth": "B",
+  "load_hp": 1,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "224.mat": {
+  "truth": "B",
+  "load_hp": 2,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "225.mat": {
+  "truth": "B",
+  "load_hp": 3,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "rolling element (B)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is rolling element (B) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to B (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the rolling elements of the drive-end bearing"
+    },
+    "answer": "The fault is located in the rolling elements of the drive-end bearing."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing, check rolling-element and cage condition, and verify lubrication."
+   }
+  ]
+ },
+ "130.mat": {
+  "truth": "OR",
+  "load_hp": 0,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 696 exceeds the threshold 100 (dominance ratio over competing components 10.7)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 696 exceeds the threshold 100 (dominance ratio over competing components 10.7)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "131.mat": {
+  "truth": "OR",
+  "load_hp": 1,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 640 exceeds the threshold 100 (dominance ratio over competing components 7.8)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 640 exceeds the threshold 100 (dominance ratio over competing components 7.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "132.mat": {
+  "truth": "OR",
+  "load_hp": 2,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 608 exceeds the threshold 100 (dominance ratio over competing components 9.8)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 608 exceeds the threshold 100 (dominance ratio over competing components 9.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "133.mat": {
+  "truth": "OR",
+  "load_hp": 3,
+  "defect_in": 0.007,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 600 exceeds the threshold 100 (dominance ratio over competing components 10.7)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 600 exceeds the threshold 100 (dominance ratio over competing components 10.7)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "197.mat": {
+  "truth": "OR",
+  "load_hp": 0,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is outer race (OR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "198.mat": {
+  "truth": "OR",
+  "load_hp": 1,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is outer race (OR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "199.mat": {
+  "truth": "OR",
+  "load_hp": 2,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is outer race (OR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "200.mat": {
+  "truth": "OR",
+  "load_hp": 3,
+  "defect_in": 0.014,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "model"
+    },
+    "answer": "The identified fault component is outer race (OR) (model tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+    },
+    "answer": "Model-tier evidence: the spectral classifier assigns this record to OR (no characteristic-frequency rule exceeded its threshold)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "prompt inspection within the next maintenance window"
+    },
+    "answer": "Intervention: prompt inspection within the next maintenance window."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "a technician with the maintenance planner",
+     "severity": "elevated (model-tier detection)"
+    },
+    "answer": "Responder: a technician with the maintenance planner (severity elevated (model-tier detection))."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "234.mat": {
+  "truth": "OR",
+  "load_hp": 0,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 241 exceeds the threshold 100 (dominance ratio over competing components 5.6)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 241 exceeds the threshold 100 (dominance ratio over competing components 5.6)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "235.mat": {
+  "truth": "OR",
+  "load_hp": 1,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 281 exceeds the threshold 100 (dominance ratio over competing components 5.8)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 281 exceeds the threshold 100 (dominance ratio over competing components 5.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "236.mat": {
+  "truth": "OR",
+  "load_hp": 2,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 345 exceeds the threshold 100 (dominance ratio over competing components 6.6)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 345 exceeds the threshold 100 (dominance ratio over competing components 6.6)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ },
+ "237.mat": {
+  "truth": "OR",
+  "load_hp": 3,
+  "defect_in": 0.021,
+  "kus": [
+   {
+    "category": "What",
+    "ku_id": "Q_What_002",
+    "question": "Which bearing component is faulted?",
+    "handler": "h_fault_component",
+    "slots": {
+     "component": "outer race (OR)",
+     "tier": "rule"
+    },
+    "answer": "The identified fault component is outer race (OR) (rule tier)."
+   },
+   {
+    "category": "Why",
+    "ku_id": "Q_Why_005",
+    "question": "Why was this verdict reached?",
+    "handler": "h_why_verdict",
+    "slots": {
+     "reason": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 261 exceeds the threshold 100 (dominance ratio over competing components 3.8)."
+    },
+    "answer": "Rule-tier evidence: outer-race (BPFO) harmonic prominence 261 exceeds the threshold 100 (dominance ratio over competing components 3.8)."
+   },
+   {
+    "category": "When",
+    "ku_id": "Q_When_009",
+    "question": "Is intervention needed?",
+    "handler": "h_intervention",
+    "slots": {
+     "verdict": "immediate (rule-tier detection)"
+    },
+    "answer": "Intervention: immediate (rule-tier detection)."
+   },
+   {
+    "category": "Where",
+    "ku_id": "Q_Where_013",
+    "question": "Where is the fault located?",
+    "handler": "h_fault_location",
+    "slots": {
+     "location": "the outer race of the drive-end bearing (load-zone side)"
+    },
+    "answer": "The fault is located in the outer race of the drive-end bearing (load-zone side)."
+   },
+   {
+    "category": "Who",
+    "ku_id": "Q_Who_017",
+    "question": "Who should respond to this report?",
+    "handler": "h_responder",
+    "slots": {
+     "responder": "the maintenance team",
+     "severity": "high"
+    },
+    "answer": "Responder: the maintenance team (severity high)."
+   },
+   {
+    "category": "How",
+    "ku_id": "Q_How_021",
+    "question": "What action is recommended?",
+    "handler": "h_action",
+    "slots": {
+     "action": "Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+    },
+    "answer": "Recommended action: Replace the drive-end bearing and inspect the housing bore and outer-ring fit for wear or spalling debris."
+   }
+  ]
+ }
+}
