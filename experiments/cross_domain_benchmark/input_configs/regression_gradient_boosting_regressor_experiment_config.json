@@ -1,0 +1,438 @@
+[
+  {
+    "dataset_name": "insurance",
+    "file_name": "insurance.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This is a dataset about how age, BMI, and the number of children affect the insurance charge. Please use age, bmi, children as independent variables and charges as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "age",
+      "bmi",
+      "children"
+    ],
+    "y_column": "charges",
+    "questions": [
+      "What impact will different factors have on insurance charges?",
+      "How important is the number of children in predicting insurance charges?",
+      "Which factor has the greatest impact on insurance charges?"
+    ]
+  },
+  {
+    "dataset_name": "life_expectancy",
+    "file_name": "Life Expectancy Data.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset explores how factors such as the Year, Alcohol consumption, Percentage Expenditure, BMI, HIV/AIDS prevalence, Population, and GDP influence Life Expectancy. Please use Year, Alcohol, percentage expenditure, BMI, HIVAIDS, Population, GDP as independent variables and Life expectancy as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "Year",
+      "Alcohol",
+      "percentage expenditure",
+      "BMI",
+      "HIVAIDS",
+      "Population",
+      "GDP"
+    ],
+    "y_column": "Life expectancy",
+    "questions": [
+      "Which factors are most important in predicting life expectancy according to the model?",
+      "How does each important factor tend to affect life expectancy based on model interpretation?",
+      "What is the most crucial factor affecting life expectancy?"
+    ]
+  },
+  {
+    "dataset_name": "car_selling_price",
+    "file_name": "car data.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset examines how the current price, the kilometers driven, and the car's production year impact its selling price. Please use Present_Price, Kms_Driven, Year as independent variables and Selling_Price as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "Present_Price",
+      "Kms_Driven",
+      "Year"
+    ],
+    "y_column": "Selling_Price",
+    "questions": [
+      "Is the model accurate?",
+      "What influence do different factors have on the selling price?",
+      "Which factor exerts the greatest impact on the selling price?"
+    ]
+  },
+  {
+    "dataset_name": "cancer_mortality_rates",
+    "file_name": "cancer_reg.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset focuses on how variables such as the average per capita cancer diagnoses, median income per county, county population, percentage of the population living in poverty, and median age of county residents influence the average per capita cancer mortality rates. Please use incidenceRate, medIncome, popEst2015, povertyPercent, MedianAge as independent variables and TARGET_deathRate as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "incidenceRate",
+      "medIncome",
+      "popEst2015",
+      "povertyPercent",
+      "MedianAge"
+    ],
+    "y_column": "TARGET_deathRate",
+    "questions": [
+      "How do various factors affect the cancer mortality rate?",
+      "How important is median income in predicting the cancer mortality rate?",
+      "Which factor is the most influential in determining the cancer mortality rate?"
+    ]
+  },
+  {
+    "dataset_name": "flight_inflight_service",
+    "file_name": "train.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset explores how factors such as Flight Distance, Inflight Wifi Service, Passenger Age, Departure Delay in Minutes, and Arrival Delay in Minutes influence Inflight Service satisfaction. Please use Flight Distance, Inflight wifi service, Age, Departure Delay in Minutes, Arrival Delay in Minutes as independent variables and Inflight service as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "Flight Distance",
+      "Inflight wifi service",
+      "Age",
+      "Departure Delay in Minutes",
+      "Arrival Delay in Minutes"
+    ],
+    "y_column": "Inflight service",
+    "questions": [
+      "What impact do different factors have on the satisfaction level of inflight services?",
+      "How does the Departure Delay influence passenger satisfaction with inflight services?",
+      "Which factor is most influential in determining satisfaction with inflight services?"
+    ]
+  },
+  {
+    "dataset_name": "auto_mpg",
+    "file_name": "auto-mpg.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset examines the influence of variables such as cylinders, engine displacement, horsepower, vehicle weight, acceleration, and model year on fuel efficiency measured in miles per gallon. Please use cylinders, displacement, horsepower, weight, acceleration, model year as independent variables and mpg as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "cylinders",
+      "displacement",
+      "horsepower",
+      "weight",
+      "acceleration",
+      "model year"
+    ],
+    "y_column": "mpg",
+    "questions": [
+      "How do different factors impact the vehicle's fuel efficiency in miles per gallon?",
+      "How important is the model year in predicting the vehicle's miles per gallon?",
+      "Among these factors, which has the most substantial influence on miles per gallon?"
+    ]
+  },
+  {
+    "dataset_name": "bicycles_rent",
+    "file_name": "day.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset focuses on exploring how various factors such as holidays, weekdays, temperature, humidity, wind speed, and the season influence the total number of bicycles rented. Please use holiday, weekday, temp, hum, windspeed, season as independent variables and cnt as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "holiday",
+      "weekday",
+      "temp",
+      "hum",
+      "windspeed",
+      "season"
+    ],
+    "y_column": "cnt",
+    "questions": [
+      "What effect do different factors have on the number of bicycles rented out?",
+      "How does the weekday influence the bicycle rental numbers?",
+      "Which factor is the most important in determining the number of bicycles rented?"
+    ]
+  },
+  {
+    "dataset_name": "concrete",
+    "file_name": "Concrete_Data.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset is designed to analyze how Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, and Age impact the Compressive Strength of Concrete. Please use Cement (component 1)(kg in a m^3 mixture), Blast Furnace Slag (component 2)(kg in a m^3 mixture), Fly Ash (component 3)(kg in a m^3 mixture), Water  (component 4)(kg in a m^3 mixture), Superplasticizer (component 5)(kg in a m^3 mixture), Coarse Aggregate  (component 6)(kg in a m^3 mixture), Fine Aggregate (component 7)(kg in a m^3 mixture), Age (day) as independent variables and Concrete compressive strength(MPa, megapascals)  as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "Cement (component 1)(kg in a m^3 mixture)",
+      "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+      "Fly Ash (component 3)(kg in a m^3 mixture)",
+      "Water  (component 4)(kg in a m^3 mixture)",
+      "Superplasticizer (component 5)(kg in a m^3 mixture)",
+      "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+      "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+      "Age (day)"
+    ],
+    "y_column": "Concrete compressive strength(MPa, megapascals) ",
+    "questions": [
+      "How do different components affect the compressive strength of concrete?",
+      "How important is the age of the concrete in predicting its compressive strength?",
+      "Among these factors, which one has the greatest effect on the concrete's compressive strength?"
+    ]
+  },
+  {
+    "dataset_name": "loan_amount",
+    "file_name": "credit_risk_dataset.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset investigates the influence of an individual's income, employment length, percentage of income, and length of credit history on the loan amount granted. Please use person_income, person_emp_length, loan_percent_income, cb_person_cred_hist_length as independent variables and loan_amnt as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "person_income",
+      "person_emp_length",
+      "loan_percent_income",
+      "cb_person_cred_hist_length"
+    ],
+    "y_column": "loan_amnt",
+    "questions": [
+      "How do different factors affect the loan amount?",
+      "How important is the length of employment in predicting the loan amount?",
+      "Among these variables, which one has the most substantial impact on the loan amount?"
+    ]
+  },
+  {
+    "dataset_name": "energy_heating_load",
+    "file_name": "ENB2012_data.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset is structured to analyze how variables X1 to X8 affect Y1, the Energy Heating Load. Please use X1, X2, X3, X4, X5, X6, X7, X8 as independent variables and Y1 as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "X8"
+    ],
+    "y_column": "Y1",
+    "questions": [
+      "Is the model accurate?",
+      "What influence do the various factors X1 to X8 have on Y1, the Energy Heating Load?",
+      "Among these factors, which one has the greatest impact on Y1?"
+    ]
+  },
+  {
+    "dataset_name": "energy_cooling_load",
+    "file_name": "ENB2012_data.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset investigates how variables X1 to X8 influence Y2, the Energy Cooling Load. Please use X1, X2, X3, X4, X5, X6, X7, X8 as independent variables and Y2 as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "X8"
+    ],
+    "y_column": "Y2",
+    "questions": [
+      "Is the model accurate?",
+      "What effects do the different factors X1 to X8 have on Y2, the Energy Cooling Load?",
+      "Which factor has the greatest effect on Y2?"
+    ]
+  },
+  {
+    "dataset_name": "forest_fire",
+    "file_name": "forestfires.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset is focused on analyzing the effects of X, Y, FFMC, DMC, DC, ISI, temperature, RH, wind speed, and rainfall on forest fire damage area. Please use X, Y, FFMC, DMC, DC, ISI, temp, RH, wind, rain as independent variables and area as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "X",
+      "Y",
+      "FFMC",
+      "DMC",
+      "DC",
+      "ISI",
+      "temp",
+      "RH",
+      "wind",
+      "rain"
+    ],
+    "y_column": "area",
+    "questions": [
+      "Is the model accurate?",
+      "How do each of these independent variables influence the extent of fire damage?",
+      "Which of these variables has the greatest impact on the area affected by forest fires?"
+    ]
+  },
+  {
+    "dataset_name": "online_news_popularity",
+    "file_name": "OnlineNewsPopularity.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset investigates how various elements of online content influence its shareability. Please use  n_tokens_title,  n_tokens_content,  n_unique_tokens,  n_non_stop_unique_tokens,  num_hrefs,  num_self_hrefs,  num_imgs,  num_videos,  average_token_length,  num_keywords as independent variables and  shares as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      " n_tokens_title",
+      " n_tokens_content",
+      " n_unique_tokens",
+      " n_non_stop_unique_tokens",
+      " num_hrefs",
+      " num_self_hrefs",
+      " num_imgs",
+      " num_videos",
+      " average_token_length",
+      " num_keywords"
+    ],
+    "y_column": " shares",
+    "questions": [
+      "Is the model accurate?",
+      "In what ways do these various factors influence the share count?",
+      "Among these factors, which one exerts the greatest influence on the number of shares?"
+    ]
+  },
+  {
+    "dataset_name": "car_price",
+    "file_name": "CarPrice_Assignment.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset is designed to explore how various car characteristics influence the price of a car. Please use symboling, wheelbase, carlength, carwidth, carheight, curbweight, enginesize, boreratio, stroke, compressionratio, horsepower, peakrpm, citympg, highwaympg as independent variables and price as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "symboling",
+      "wheelbase",
+      "carlength",
+      "carwidth",
+      "carheight",
+      "curbweight",
+      "enginesize",
+      "boreratio",
+      "stroke",
+      "compressionratio",
+      "horsepower",
+      "peakrpm",
+      "citympg",
+      "highwaympg"
+    ],
+    "y_column": "price",
+    "questions": [
+      "What impact do the different factors have on car prices?",
+      "Which of these factors are most important in predicting car prices?",
+      "Among these variables, which one has the most substantial impact on the price of a car?"
+    ]
+  },
+  {
+    "dataset_name": "house_values",
+    "file_name": "housing.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset explores how geographical location, house age, rooms, bedrooms, population, households, and median income influence California housing values. Please use longitude, latitude, housing_median_age, total_rooms, total_bedrooms, population, households, median_income as independent variables and median_house_value as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "longitude",
+      "latitude",
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "population",
+      "households",
+      "median_income"
+    ],
+    "y_column": "median_house_value",
+    "questions": [
+      "How do different factors affect housing values in California?",
+      "How important is the number of bedrooms in predicting housing prices?",
+      "Among these factors, which one has the most pronounced impact on housing values?"
+    ]
+  },
+  {
+    "dataset_name": "cereal_rating",
+    "file_name": "cereal.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset is centered around understanding how nutritional and packaging factors influence cereal ratings. Please use calories, protein, fat, sodium, fiber, carbo, sugars, potass, vitamins, shelf, weight, cups as independent variables and rating as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "calories",
+      "protein",
+      "fat",
+      "sodium",
+      "fiber",
+      "carbo",
+      "sugars",
+      "potass",
+      "vitamins",
+      "shelf",
+      "weight",
+      "cups"
+    ],
+    "y_column": "rating",
+    "questions": [
+      "What is the influence of different nutritional and packaging attributes on cereal ratings?",
+      "Which of these components are most important in predicting the cereal ratings?",
+      "Among all these factors, which one has the most pronounced impact on the cereal ratings?"
+    ]
+  },
+  {
+    "dataset_name": "abalone",
+    "file_name": "abalone.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset aims to analyze how physical and weight attributes of an abalone affect its age as indicated by the number of rings. Please use Length, Diameter, Height, Whole weight, Shucked weight, Viscera weight, Shell weight as independent variables and Rings as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "Length",
+      "Diameter",
+      "Height",
+      "Whole weight",
+      "Shucked weight",
+      "Viscera weight",
+      "Shell weight"
+    ],
+    "y_column": "Rings",
+    "questions": [
+      "How do different physical and weight-related factors affect the age of an abalone as denoted by the number of rings?",
+      "Which of these factors are most important in predicting the age of abalone?",
+      "Among these variables, which one exerts the most substantial influence on the age of the abalone?"
+    ]
+  },
+  {
+    "dataset_name": "electrical_energy",
+    "file_name": "Folds5x2_pp.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This dataset focuses on analyzing how Temperature, Exhaust Vacuum, Ambient Pressure, and Relative Humidity influence the net hourly electrical energy output. Please use AT, V, AP, RH as independent variables and PE as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "AT",
+      "V",
+      "AP",
+      "RH"
+    ],
+    "y_column": "PE",
+    "questions": [
+      "How do different environmental factors affect the net hourly electrical energy output?",
+      "Which of these factors are most important in predicting the hourly electrical energy output?",
+      "Among these environmental variables, which one has the most substantial effect on the hourly electrical energy output?"
+    ]
+  },
+  {
+    "dataset_name": "real_estate",
+    "file_name": "Realestate.csv",
+    "csv_sep": ",",
+    "task_type": "regression",
+    "model_name": "gradient_boosting_regressor",
+    "background_knowledge": "This is a dataset about how the transaction date, the house age, the distance to the nearest MRT station, and the number of convenience stores affect the house price per unit area. Please use X1 transaction date, X2 house age, X3 distance to the nearest MRT station, X4 number of convenience stores as independent variables and Y house price of unit area as the dependent variable and use a gradient boosting regressor model to answer the following questions.",
+    "x_columns": [
+      "X1 transaction date",
+      "X2 house age",
+      "X3 distance to the nearest MRT station",
+      "X4 number of convenience stores"
+    ],
+    "y_column": "Y house price of unit area",
+    "questions": [
+      "Is the model accurate?",
+      "Is there a risk of overfitting in the model?",
+      "Which factor has the greatest impact on real estate prices?"
+    ]
+  }
+]

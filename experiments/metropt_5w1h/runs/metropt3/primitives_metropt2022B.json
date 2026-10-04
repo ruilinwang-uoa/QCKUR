@@ -1,0 +1,5946 @@
+{
+ "ev1_o48": {
+  "window": [
+   "2022-06-01 14:22:39",
+   "2022-06-02 14:22:39"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-06-01 15:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.4,
+    "h1_mean": 8.27,
+    "motor_current_mean": 1.91,
+    "oil_mean": 59.69,
+    "oil_max": 65.88,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 16:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.45,
+    "h1_mean": 7.96,
+    "motor_current_mean": 1.86,
+    "oil_mean": 59.69,
+    "oil_max": 67.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 17:00:00",
+    "tp2_mean": 1.14,
+    "tp2_max": 10.51,
+    "h1_mean": 7.73,
+    "motor_current_mean": 2.05,
+    "oil_mean": 60.73,
+    "oil_max": 67.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 18:00:00",
+    "tp2_mean": 0.97,
+    "tp2_max": 10.4,
+    "h1_mean": 8.12,
+    "motor_current_mean": 2.33,
+    "oil_mean": 61.87,
+    "oil_max": 68.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 19:00:00",
+    "tp2_mean": 0.89,
+    "tp2_max": 10.39,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.8,
+    "oil_mean": 60.29,
+    "oil_max": 67.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 20:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.4,
+    "h1_mean": 8.07,
+    "motor_current_mean": 2.01,
+    "oil_mean": 61.19,
+    "oil_max": 68.03,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 21:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.4,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.23,
+    "oil_mean": 56.73,
+    "oil_max": 64.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 22:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.42,
+    "h1_mean": 8.61,
+    "motor_current_mean": 0.64,
+    "oil_mean": 54.57,
+    "oil_max": 62.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 23:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 10.45,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.22,
+    "oil_mean": 54.75,
+    "oil_max": 61.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 00:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.52,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.24,
+    "oil_mean": 54.26,
+    "oil_max": 62.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 01:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.38,
+    "h1_mean": 8.64,
+    "motor_current_mean": 0.64,
+    "oil_mean": 54.0,
+    "oil_max": 61.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 02:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.41,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.23,
+    "oil_mean": 54.54,
+    "oil_max": 61.95,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 03:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.45,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.23,
+    "oil_mean": 54.15,
+    "oil_max": 61.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 04:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.47,
+    "h1_mean": 8.61,
+    "motor_current_mean": 0.63,
+    "oil_mean": 53.74,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 05:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.52,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.24,
+    "oil_mean": 54.84,
+    "oil_max": 62.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 06:00:00",
+    "tp2_mean": 1.02,
+    "tp2_max": 10.49,
+    "h1_mean": 7.93,
+    "motor_current_mean": 2.02,
+    "oil_mean": 57.4,
+    "oil_max": 65.85,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 07:00:00",
+    "tp2_mean": 0.37,
+    "tp2_max": 10.42,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.16,
+    "oil_mean": 56.78,
+    "oil_max": 66.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 08:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.42,
+    "h1_mean": 7.98,
+    "motor_current_mean": 1.9,
+    "oil_mean": 57.72,
+    "oil_max": 66.07,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 09:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.42,
+    "h1_mean": 8.08,
+    "motor_current_mean": 1.67,
+    "oil_mean": 57.44,
+    "oil_max": 65.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 10:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.42,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.46,
+    "oil_mean": 57.7,
+    "oil_max": 66.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 11:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.39,
+    "h1_mean": 8.25,
+    "motor_current_mean": 1.86,
+    "oil_mean": 60.17,
+    "oil_max": 67.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 12:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.46,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.25,
+    "oil_mean": 58.81,
+    "oil_max": 66.85,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 13:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.52,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.84,
+    "oil_mean": 60.64,
+    "oil_max": 68.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 14:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.51,
+    "h1_mean": 8.24,
+    "motor_current_mean": 1.86,
+    "oil_mean": 61.13,
+    "oil_max": 68.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-02 15:00:00",
+    "tp2_mean": 0.72,
+    "tp2_max": 10.51,
+    "h1_mean": 7.85,
+    "motor_current_mean": 0.58,
+    "oil_mean": 58.38,
+    "oil_max": 61.85,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-01 19:27:33.096000",
+    "end": "2022-06-01 19:29:51.834000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-01 16:23:25.349000",
+    "end": "2022-06-01 16:25:38.149000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-01 18:14:13.079000",
+    "end": "2022-06-01 18:16:23.016000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-01 17:14:50.126000",
+    "end": "2022-06-01 17:16:53.998000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-01 17:34:17.085000",
+    "end": "2022-06-01 17:36:23.055000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-02 05:29:46.952000",
+    "end": "2022-06-02 05:31:54.802000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-02 07:39:46.456000",
+    "end": "2022-06-02 07:41:50.322000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-02 08:54:28.515000",
+    "end": "2022-06-02 08:56:33.397000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-01 16:58:14.784000",
+    "end": "2022-06-01 17:00:16.786000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-06-01 17:51:30.018000",
+    "end": "2022-06-01 17:53:27.937000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 9.01,
+    "0.99": 10.19
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.92,
+    "0.99": 6.17
+   },
+   "oil_temperature": {
+    "0.05": 51.6,
+    "0.5": 57.6,
+    "0.95": 64.4,
+    "0.99": 66.8
+   }
+  }
+ },
+ "ev1_o72": {
+  "window": [
+   "2022-05-31 14:22:39",
+   "2022-06-01 14:22:39"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-05-31 15:00:00",
+    "tp2_mean": 0.95,
+    "tp2_max": 10.51,
+    "h1_mean": 8.01,
+    "motor_current_mean": 2.02,
+    "oil_mean": 59.64,
+    "oil_max": 67.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 16:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.52,
+    "h1_mean": 8.15,
+    "motor_current_mean": 1.9,
+    "oil_mean": 59.84,
+    "oil_max": 66.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 17:00:00",
+    "tp2_mean": 0.93,
+    "tp2_max": 10.51,
+    "h1_mean": 8.14,
+    "motor_current_mean": 1.91,
+    "oil_mean": 60.2,
+    "oil_max": 67.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 18:00:00",
+    "tp2_mean": 0.91,
+    "tp2_max": 10.5,
+    "h1_mean": 8.08,
+    "motor_current_mean": 1.9,
+    "oil_mean": 60.38,
+    "oil_max": 67.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 19:00:00",
+    "tp2_mean": 0.95,
+    "tp2_max": 10.4,
+    "h1_mean": 8.12,
+    "motor_current_mean": 1.91,
+    "oil_mean": 60.45,
+    "oil_max": 67.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 20:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.39,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.1,
+    "oil_mean": 57.39,
+    "oil_max": 66.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 21:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.43,
+    "h1_mean": 8.62,
+    "motor_current_mean": 0.77,
+    "oil_mean": 55.77,
+    "oil_max": 63.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 22:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.52,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.24,
+    "oil_mean": 55.77,
+    "oil_max": 62.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-05-31 23:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.51,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.78,
+    "oil_max": 64.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 00:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.3,
+    "oil_max": 63.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 01:00:00",
+    "tp2_mean": 0.78,
+    "tp2_max": 10.4,
+    "h1_mean": 8.15,
+    "motor_current_mean": 1.41,
+    "oil_mean": 56.08,
+    "oil_max": 63.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 02:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.41,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.37,
+    "oil_mean": 56.42,
+    "oil_max": 63.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 03:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.4,
+    "h1_mean": 8.66,
+    "motor_current_mean": 0.97,
+    "oil_mean": 55.94,
+    "oil_max": 64.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 04:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.46,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.24,
+    "oil_mean": 55.06,
+    "oil_max": 62.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 05:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.52,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.25,
+    "oil_mean": 54.46,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 06:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.53,
+    "h1_mean": 8.34,
+    "motor_current_mean": 1.11,
+    "oil_mean": 53.54,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 07:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.54,
+    "h1_mean": 8.05,
+    "motor_current_mean": 1.99,
+    "oil_mean": 57.09,
+    "oil_max": 65.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 08:00:00",
+    "tp2_mean": 1.02,
+    "tp2_max": 10.43,
+    "h1_mean": 7.91,
+    "motor_current_mean": 1.72,
+    "oil_mean": 58.14,
+    "oil_max": 66.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 09:00:00",
+    "tp2_mean": 0.99,
+    "tp2_max": 10.53,
+    "h1_mean": 8.04,
+    "motor_current_mean": 1.94,
+    "oil_mean": 59.3,
+    "oil_max": 67.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 10:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.53,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.68,
+    "oil_mean": 59.53,
+    "oil_max": 66.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 11:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.51,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.87,
+    "oil_mean": 59.17,
+    "oil_max": 65.88,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 12:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.5,
+    "h1_mean": 8.14,
+    "motor_current_mean": 1.82,
+    "oil_mean": 59.76,
+    "oil_max": 66.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 13:00:00",
+    "tp2_mean": 1.0,
+    "tp2_max": 10.52,
+    "h1_mean": 8.01,
+    "motor_current_mean": 1.98,
+    "oil_mean": 60.61,
+    "oil_max": 67.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 14:00:00",
+    "tp2_mean": 0.6,
+    "tp2_max": 10.4,
+    "h1_mean": 8.44,
+    "motor_current_mean": 1.69,
+    "oil_mean": 60.06,
+    "oil_max": 66.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-01 15:00:00",
+    "tp2_mean": 0.93,
+    "tp2_max": 10.4,
+    "h1_mean": 8.08,
+    "motor_current_mean": 1.79,
+    "oil_mean": 58.85,
+    "oil_max": 66.27,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-01 07:13:33.381000",
+    "end": "2022-06-01 07:16:30.767000",
+    "minutes": 3.0
+   },
+   {
+    "start": "2022-06-01 08:15:19.498000",
+    "end": "2022-06-01 08:18:00.137000",
+    "minutes": 2.7
+   },
+   {
+    "start": "2022-06-01 06:13:13.667000",
+    "end": "2022-06-01 06:15:42.316000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-06-01 12:37:42.391000",
+    "end": "2022-06-01 12:40:07.079000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-05-31 15:48:24.047000",
+    "end": "2022-05-31 15:50:39.813000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-05-31 16:48:25.351000",
+    "end": "2022-05-31 16:50:40.130000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-05-31 17:27:55.805000",
+    "end": "2022-05-31 17:30:05.639000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-05-31 18:48:33.864000",
+    "end": "2022-05-31 18:50:47.641000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-05-31 18:07:37.524000",
+    "end": "2022-05-31 18:09:46.344000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-01 08:35:48.423000",
+    "end": "2022-06-01 08:37:53.281000",
+    "minutes": 2.1
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 9.09,
+    "0.99": 10.24
+   },
+   "motor_current": {
+    "0.05": 0.04,
+    "0.5": 0.04,
+    "0.95": 5.93,
+    "0.99": 6.18
+   },
+   "oil_temperature": {
+    "0.05": 52.6,
+    "0.5": 57.7,
+    "0.95": 63.9,
+    "0.99": 66.3
+   }
+  }
+ },
+ "ev2_o12": {
+  "window": [
+   "2022-07-12 22:22:08",
+   "2022-07-13 22:22:08"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-12 23:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.61,
+    "h1_mean": 8.15,
+    "motor_current_mean": 2.34,
+    "oil_mean": 64.81,
+    "oil_max": 72.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 00:00:00",
+    "tp2_mean": 1.13,
+    "tp2_max": 10.61,
+    "h1_mean": 7.49,
+    "motor_current_mean": 1.41,
+    "oil_mean": 61.05,
+    "oil_max": 74.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 01:00:00",
+    "tp2_mean": 1.24,
+    "tp2_max": 10.64,
+    "h1_mean": 7.41,
+    "motor_current_mean": 2.13,
+    "oil_mean": 61.21,
+    "oil_max": 70.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 02:00:00",
+    "tp2_mean": 0.94,
+    "tp2_max": 10.63,
+    "h1_mean": 7.73,
+    "motor_current_mean": 2.06,
+    "oil_mean": 62.22,
+    "oil_max": 73.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 03:00:00",
+    "tp2_mean": 1.15,
+    "tp2_max": 10.61,
+    "h1_mean": 7.73,
+    "motor_current_mean": 2.91,
+    "oil_mean": 67.85,
+    "oil_max": 75.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 04:00:00",
+    "tp2_mean": 1.04,
+    "tp2_max": 10.63,
+    "h1_mean": 7.45,
+    "motor_current_mean": 2.79,
+    "oil_mean": 68.12,
+    "oil_max": 76.83,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 05:00:00",
+    "tp2_mean": 1.04,
+    "tp2_max": 10.61,
+    "h1_mean": 7.76,
+    "motor_current_mean": 2.69,
+    "oil_mean": 66.92,
+    "oil_max": 74.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 06:00:00",
+    "tp2_mean": 1.5,
+    "tp2_max": 10.62,
+    "h1_mean": 7.14,
+    "motor_current_mean": 2.8,
+    "oil_mean": 66.55,
+    "oil_max": 75.77,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 07:00:00",
+    "tp2_mean": 1.28,
+    "tp2_max": 10.59,
+    "h1_mean": 7.29,
+    "motor_current_mean": 1.76,
+    "oil_mean": 65.94,
+    "oil_max": 76.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 08:00:00",
+    "tp2_mean": 0.67,
+    "tp2_max": 10.57,
+    "h1_mean": 8.03,
+    "motor_current_mean": 2.12,
+    "oil_mean": 67.07,
+    "oil_max": 75.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 09:00:00",
+    "tp2_mean": 1.24,
+    "tp2_max": 10.79,
+    "h1_mean": 7.39,
+    "motor_current_mean": 2.22,
+    "oil_mean": 64.02,
+    "oil_max": 75.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 10:00:00",
+    "tp2_mean": 0.29,
+    "tp2_max": 10.62,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.76,
+    "oil_mean": 66.26,
+    "oil_max": 78.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 11:00:00",
+    "tp2_mean": 0.79,
+    "tp2_max": 10.61,
+    "h1_mean": 7.71,
+    "motor_current_mean": 2.12,
+    "oil_mean": 67.17,
+    "oil_max": 78.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 12:00:00",
+    "tp2_mean": 0.81,
+    "tp2_max": 10.59,
+    "h1_mean": 8.05,
+    "motor_current_mean": 2.75,
+    "oil_mean": 67.31,
+    "oil_max": 77.83,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 13:00:00",
+    "tp2_mean": 1.27,
+    "tp2_max": 10.59,
+    "h1_mean": 7.5,
+    "motor_current_mean": 1.69,
+    "oil_mean": 66.5,
+    "oil_max": 78.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 14:00:00",
+    "tp2_mean": 1.67,
+    "tp2_max": 10.59,
+    "h1_mean": 7.24,
+    "motor_current_mean": 2.97,
+    "oil_mean": 68.8,
+    "oil_max": 78.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 15:00:00",
+    "tp2_mean": 0.73,
+    "tp2_max": 10.53,
+    "h1_mean": 8.21,
+    "motor_current_mean": 2.41,
+    "oil_mean": 68.94,
+    "oil_max": 79.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 16:00:00",
+    "tp2_mean": 1.98,
+    "tp2_max": 10.58,
+    "h1_mean": 6.94,
+    "motor_current_mean": 3.34,
+    "oil_mean": 69.39,
+    "oil_max": 79.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 17:00:00",
+    "tp2_mean": 0.23,
+    "tp2_max": 10.25,
+    "h1_mean": 8.56,
+    "motor_current_mean": 1.4,
+    "oil_mean": 67.54,
+    "oil_max": 80.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 18:00:00",
+    "tp2_mean": 1.74,
+    "tp2_max": 10.58,
+    "h1_mean": 6.86,
+    "motor_current_mean": 2.7,
+    "oil_mean": 67.99,
+    "oil_max": 79.57,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 19:00:00",
+    "tp2_mean": 1.53,
+    "tp2_max": 10.6,
+    "h1_mean": 7.08,
+    "motor_current_mean": 2.32,
+    "oil_mean": 67.48,
+    "oil_max": 80.25,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 20:00:00",
+    "tp2_mean": 1.63,
+    "tp2_max": 10.56,
+    "h1_mean": 6.84,
+    "motor_current_mean": 2.38,
+    "oil_mean": 66.22,
+    "oil_max": 79.25,
+    "lps_fraction": 0.05
+   },
+   {
+    "hour_ending": "2022-07-13 21:00:00",
+    "tp2_mean": 0.64,
+    "tp2_max": 10.49,
+    "h1_mean": 7.92,
+    "motor_current_mean": 1.32,
+    "oil_mean": 65.47,
+    "oil_max": 79.57,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [
+   {
+    "start": "2022-07-13 19:43:52.593000",
+    "end": "2022-07-13 19:46:36.103000",
+    "minutes": 2.7
+   }
+  ],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-13 19:43:52.593000",
+    "end": "2022-07-13 19:48:37.016000",
+    "minutes": 4.7
+   },
+   {
+    "start": "2022-07-13 18:34:43.216000",
+    "end": "2022-07-13 18:37:04.930000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-13 17:30:52.558000",
+    "end": "2022-07-13 17:33:11.307000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-13 03:52:44.151000",
+    "end": "2022-07-13 03:54:52.969000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-13 08:19:54.427000",
+    "end": "2022-07-13 08:21:59.290000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-13 14:36:38.120000",
+    "end": "2022-07-13 14:38:43.087000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-13 15:11:50.289000",
+    "end": "2022-07-13 15:13:55.255000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-12 23:41:46.362000",
+    "end": "2022-07-12 23:43:49.237000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-13 06:32:04.217000",
+    "end": "2022-07-13 06:34:04.140000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-13 07:01:29.200000",
+    "end": "2022-07-13 07:03:27.132000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 9.64,
+    "0.99": 10.39
+   },
+   "motor_current": {
+    "0.05": 0.0,
+    "0.5": 3.71,
+    "0.95": 5.99,
+    "0.99": 6.24
+   },
+   "oil_temperature": {
+    "0.05": 57.2,
+    "0.5": 67.6,
+    "0.95": 74.5,
+    "0.99": 77.8
+   }
+  }
+ },
+ "ev2_o24": {
+  "window": [
+   "2022-07-12 10:22:08",
+   "2022-07-13 10:22:08"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-12 11:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.68,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.81,
+    "oil_mean": 65.86,
+    "oil_max": 74.92,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 12:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.64,
+    "h1_mean": 8.35,
+    "motor_current_mean": 2.31,
+    "oil_mean": 65.99,
+    "oil_max": 73.92,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 13:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.79,
+    "h1_mean": 7.8,
+    "motor_current_mean": 2.68,
+    "oil_mean": 66.34,
+    "oil_max": 76.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 14:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.7,
+    "h1_mean": 7.94,
+    "motor_current_mean": 2.12,
+    "oil_mean": 65.4,
+    "oil_max": 73.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 15:00:00",
+    "tp2_mean": 1.29,
+    "tp2_max": 10.68,
+    "h1_mean": 7.39,
+    "motor_current_mean": 2.45,
+    "oil_mean": 65.8,
+    "oil_max": 74.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 16:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.62,
+    "h1_mean": 8.01,
+    "motor_current_mean": 1.92,
+    "oil_mean": 65.94,
+    "oil_max": 75.85,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 17:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.76,
+    "h1_mean": 7.74,
+    "motor_current_mean": 1.6,
+    "oil_mean": 64.71,
+    "oil_max": 74.77,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 18:00:00",
+    "tp2_mean": 0.47,
+    "tp2_max": 10.58,
+    "h1_mean": 8.29,
+    "motor_current_mean": 1.88,
+    "oil_mean": 65.98,
+    "oil_max": 75.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 19:00:00",
+    "tp2_mean": 1.38,
+    "tp2_max": 10.74,
+    "h1_mean": 7.6,
+    "motor_current_mean": 2.9,
+    "oil_mean": 66.69,
+    "oil_max": 75.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 20:00:00",
+    "tp2_mean": 0.29,
+    "tp2_max": 10.63,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.4,
+    "oil_mean": 64.92,
+    "oil_max": 76.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 21:00:00",
+    "tp2_mean": 0.95,
+    "tp2_max": 10.65,
+    "h1_mean": 7.9,
+    "motor_current_mean": 1.94,
+    "oil_mean": 64.94,
+    "oil_max": 75.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 22:00:00",
+    "tp2_mean": 1.37,
+    "tp2_max": 10.63,
+    "h1_mean": 7.17,
+    "motor_current_mean": 1.81,
+    "oil_mean": 61.77,
+    "oil_max": 74.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 23:00:00",
+    "tp2_mean": 0.67,
+    "tp2_max": 10.61,
+    "h1_mean": 8.09,
+    "motor_current_mean": 2.1,
+    "oil_mean": 64.61,
+    "oil_max": 73.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 00:00:00",
+    "tp2_mean": 1.13,
+    "tp2_max": 10.61,
+    "h1_mean": 7.49,
+    "motor_current_mean": 1.41,
+    "oil_mean": 61.05,
+    "oil_max": 74.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 01:00:00",
+    "tp2_mean": 1.24,
+    "tp2_max": 10.64,
+    "h1_mean": 7.41,
+    "motor_current_mean": 2.13,
+    "oil_mean": 61.21,
+    "oil_max": 70.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 02:00:00",
+    "tp2_mean": 0.94,
+    "tp2_max": 10.63,
+    "h1_mean": 7.73,
+    "motor_current_mean": 2.06,
+    "oil_mean": 62.22,
+    "oil_max": 73.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 03:00:00",
+    "tp2_mean": 1.15,
+    "tp2_max": 10.61,
+    "h1_mean": 7.73,
+    "motor_current_mean": 2.91,
+    "oil_mean": 67.85,
+    "oil_max": 75.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 04:00:00",
+    "tp2_mean": 1.04,
+    "tp2_max": 10.63,
+    "h1_mean": 7.45,
+    "motor_current_mean": 2.79,
+    "oil_mean": 68.12,
+    "oil_max": 76.83,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 05:00:00",
+    "tp2_mean": 1.04,
+    "tp2_max": 10.61,
+    "h1_mean": 7.76,
+    "motor_current_mean": 2.69,
+    "oil_mean": 66.92,
+    "oil_max": 74.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 06:00:00",
+    "tp2_mean": 1.5,
+    "tp2_max": 10.62,
+    "h1_mean": 7.14,
+    "motor_current_mean": 2.8,
+    "oil_mean": 66.55,
+    "oil_max": 75.77,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 07:00:00",
+    "tp2_mean": 1.28,
+    "tp2_max": 10.59,
+    "h1_mean": 7.29,
+    "motor_current_mean": 1.76,
+    "oil_mean": 65.94,
+    "oil_max": 76.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 08:00:00",
+    "tp2_mean": 0.67,
+    "tp2_max": 10.57,
+    "h1_mean": 8.03,
+    "motor_current_mean": 2.12,
+    "oil_mean": 67.07,
+    "oil_max": 75.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 09:00:00",
+    "tp2_mean": 1.24,
+    "tp2_max": 10.79,
+    "h1_mean": 7.39,
+    "motor_current_mean": 2.22,
+    "oil_mean": 64.02,
+    "oil_max": 75.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 10:00:00",
+    "tp2_mean": 0.29,
+    "tp2_max": 10.62,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.76,
+    "oil_mean": 66.26,
+    "oil_max": 78.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-13 11:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.02,
+    "h1_mean": 7.78,
+    "motor_current_mean": 1.91,
+    "oil_mean": 67.92,
+    "oil_max": 78.25,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-12 21:09:52.939000",
+    "end": "2022-07-12 21:12:30.565000",
+    "minutes": 2.6
+   },
+   {
+    "start": "2022-07-13 03:52:44.151000",
+    "end": "2022-07-13 03:54:52.969000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-13 08:19:54.427000",
+    "end": "2022-07-13 08:21:59.290000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-12 12:28:11.727000",
+    "end": "2022-07-12 12:30:12.638000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 13:52:24.666000",
+    "end": "2022-07-12 13:54:25.570000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 15:30:34.830000",
+    "end": "2022-07-12 15:32:32.751000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 16:33:41.867000",
+    "end": "2022-07-12 16:35:38.890000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 16:54:02.179000",
+    "end": "2022-07-12 16:56:00.224000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 18:23:20.467000",
+    "end": "2022-07-12 18:25:18.390000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-12 19:28:51.442000",
+    "end": "2022-07-12 19:30:51.361000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 9.52,
+    "0.99": 10.42
+   },
+   "motor_current": {
+    "0.05": 0.0,
+    "0.5": 3.68,
+    "0.95": 5.89,
+    "0.99": 6.09
+   },
+   "oil_temperature": {
+    "0.05": 57.0,
+    "0.5": 66.0,
+    "0.95": 73.1,
+    "0.99": 74.7
+   }
+  }
+ },
+ "ev2_o48": {
+  "window": [
+   "2022-07-11 10:22:08",
+   "2022-07-12 10:22:08"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-11 11:00:00",
+    "tp2_mean": 0.97,
+    "tp2_max": 10.64,
+    "h1_mean": 7.98,
+    "motor_current_mean": 2.76,
+    "oil_mean": 66.37,
+    "oil_max": 73.77,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 12:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.61,
+    "h1_mean": 8.1,
+    "motor_current_mean": 0.69,
+    "oil_mean": 56.43,
+    "oil_max": 72.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 13:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.61,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.25,
+    "oil_mean": 61.43,
+    "oil_max": 70.23,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 14:00:00",
+    "tp2_mean": 1.17,
+    "tp2_max": 10.66,
+    "h1_mean": 7.51,
+    "motor_current_mean": 2.22,
+    "oil_mean": 64.38,
+    "oil_max": 75.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 15:00:00",
+    "tp2_mean": 1.71,
+    "tp2_max": 10.68,
+    "h1_mean": 7.21,
+    "motor_current_mean": 3.29,
+    "oil_mean": 68.56,
+    "oil_max": 76.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 16:00:00",
+    "tp2_mean": 1.03,
+    "tp2_max": 10.65,
+    "h1_mean": 7.67,
+    "motor_current_mean": 2.67,
+    "oil_mean": 67.47,
+    "oil_max": 75.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 17:00:00",
+    "tp2_mean": 0.29,
+    "tp2_max": 10.61,
+    "h1_mean": 8.3,
+    "motor_current_mean": 2.15,
+    "oil_mean": 67.6,
+    "oil_max": 74.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 18:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.66,
+    "h1_mean": 8.04,
+    "motor_current_mean": 2.35,
+    "oil_mean": 67.19,
+    "oil_max": 75.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 19:00:00",
+    "tp2_mean": 0.9,
+    "tp2_max": 10.64,
+    "h1_mean": 7.68,
+    "motor_current_mean": 1.55,
+    "oil_mean": 66.74,
+    "oil_max": 75.85,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 20:00:00",
+    "tp2_mean": 0.83,
+    "tp2_max": 10.7,
+    "h1_mean": 8.06,
+    "motor_current_mean": 3.15,
+    "oil_mean": 67.59,
+    "oil_max": 75.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 21:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.64,
+    "h1_mean": 8.07,
+    "motor_current_mean": 2.42,
+    "oil_mean": 67.46,
+    "oil_max": 75.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 22:00:00",
+    "tp2_mean": 2.12,
+    "tp2_max": 10.64,
+    "h1_mean": 6.5,
+    "motor_current_mean": 2.47,
+    "oil_mean": 66.54,
+    "oil_max": 75.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 23:00:00",
+    "tp2_mean": 0.09,
+    "tp2_max": 10.61,
+    "h1_mean": 8.67,
+    "motor_current_mean": 2.82,
+    "oil_mean": 68.94,
+    "oil_max": 76.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 00:00:00",
+    "tp2_mean": 1.76,
+    "tp2_max": 10.64,
+    "h1_mean": 6.92,
+    "motor_current_mean": 2.25,
+    "oil_mean": 65.8,
+    "oil_max": 76.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 01:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.65,
+    "h1_mean": 7.91,
+    "motor_current_mean": 1.2,
+    "oil_mean": 63.0,
+    "oil_max": 72.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 02:00:00",
+    "tp2_mean": 1.82,
+    "tp2_max": 10.61,
+    "h1_mean": 7.18,
+    "motor_current_mean": 3.68,
+    "oil_mean": 64.57,
+    "oil_max": 69.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-12 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-12 05:00:00",
+    "tp2_mean": 0.34,
+    "tp2_max": 9.35,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.38,
+    "oil_mean": 64.17,
+    "oil_max": 68.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 06:00:00",
+    "tp2_mean": 1.33,
+    "tp2_max": 10.65,
+    "h1_mean": 7.52,
+    "motor_current_mean": 1.86,
+    "oil_mean": 63.75,
+    "oil_max": 71.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 07:00:00",
+    "tp2_mean": 0.46,
+    "tp2_max": 10.6,
+    "h1_mean": 8.1,
+    "motor_current_mean": 1.08,
+    "oil_mean": 59.45,
+    "oil_max": 67.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 08:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.64,
+    "h1_mean": 7.82,
+    "motor_current_mean": 1.72,
+    "oil_mean": 62.26,
+    "oil_max": 74.77,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 09:00:00",
+    "tp2_mean": 0.74,
+    "tp2_max": 10.66,
+    "h1_mean": 8.15,
+    "motor_current_mean": 1.93,
+    "oil_mean": 62.77,
+    "oil_max": 70.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 10:00:00",
+    "tp2_mean": 1.32,
+    "tp2_max": 10.64,
+    "h1_mean": 7.34,
+    "motor_current_mean": 2.18,
+    "oil_mean": 63.12,
+    "oil_max": 76.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-12 11:00:00",
+    "tp2_mean": 1.21,
+    "tp2_max": 10.59,
+    "h1_mean": 7.39,
+    "motor_current_mean": 1.26,
+    "oil_mean": 64.05,
+    "oil_max": 74.45,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-11 15:27:49.414000",
+    "end": "2022-07-11 15:30:37.893000",
+    "minutes": 2.8
+   },
+   {
+    "start": "2022-07-11 14:50:30.488000",
+    "end": "2022-07-11 14:52:34.464000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-11 23:16:36.866000",
+    "end": "2022-07-11 23:18:43.704000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-12 07:04:49.258000",
+    "end": "2022-07-12 07:06:58.156000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-11 13:05:45.993000",
+    "end": "2022-07-11 13:07:45.894000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-11 13:26:43.907000",
+    "end": "2022-07-11 13:28:44.807000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-11 14:30:28.313000",
+    "end": "2022-07-11 14:32:29.212000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-11 14:40:35.768000",
+    "end": "2022-07-11 14:42:34.686000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-11 18:15:39.214000",
+    "end": "2022-07-11 18:17:37.140000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-11 21:56:06.662000",
+    "end": "2022-07-11 21:58:04.604000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 9.49,
+    "0.99": 10.41
+   },
+   "motor_current": {
+    "0.05": 0.0,
+    "0.5": 0.01,
+    "0.95": 5.87,
+    "0.99": 6.06
+   },
+   "oil_temperature": {
+    "0.05": 55.2,
+    "0.5": 65.4,
+    "0.95": 73.1,
+    "0.99": 74.7
+   }
+  }
+ },
+ "ev2_o72": {
+  "window": [
+   "2022-07-10 10:22:08",
+   "2022-07-11 10:22:08"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-10 11:00:00",
+    "tp2_mean": 0.45,
+    "tp2_max": 10.39,
+    "h1_mean": 8.7,
+    "motor_current_mean": 1.01,
+    "oil_mean": 56.64,
+    "oil_max": 60.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 12:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.45,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.17,
+    "oil_mean": 55.82,
+    "oil_max": 62.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 13:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.52,
+    "h1_mean": 8.51,
+    "motor_current_mean": 0.91,
+    "oil_mean": 56.82,
+    "oil_max": 61.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 14:00:00",
+    "tp2_mean": 0.27,
+    "tp2_max": 10.49,
+    "h1_mean": 8.85,
+    "motor_current_mean": 1.03,
+    "oil_mean": 57.64,
+    "oil_max": 62.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 15:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.44,
+    "h1_mean": 8.44,
+    "motor_current_mean": 1.29,
+    "oil_mean": 57.24,
+    "oil_max": 62.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 16:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.46,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.27,
+    "oil_mean": 56.51,
+    "oil_max": 62.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 17:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.51,
+    "h1_mean": 8.16,
+    "motor_current_mean": 0.88,
+    "oil_mean": 56.13,
+    "oil_max": 60.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 18:00:00",
+    "tp2_mean": 0.27,
+    "tp2_max": 10.51,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.03,
+    "oil_mean": 56.34,
+    "oil_max": 61.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 19:00:00",
+    "tp2_mean": 0.67,
+    "tp2_max": 10.52,
+    "h1_mean": 8.05,
+    "motor_current_mean": 1.33,
+    "oil_mean": 56.43,
+    "oil_max": 62.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 20:00:00",
+    "tp2_mean": 0.4,
+    "tp2_max": 10.52,
+    "h1_mean": 8.73,
+    "motor_current_mean": 1.14,
+    "oil_mean": 57.0,
+    "oil_max": 64.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 21:00:00",
+    "tp2_mean": 1.13,
+    "tp2_max": 10.5,
+    "h1_mean": 7.87,
+    "motor_current_mean": 2.05,
+    "oil_mean": 56.89,
+    "oil_max": 64.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 22:00:00",
+    "tp2_mean": 0.35,
+    "tp2_max": 10.52,
+    "h1_mean": 8.48,
+    "motor_current_mean": 0.85,
+    "oil_mean": 56.78,
+    "oil_max": 61.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-10 23:00:00",
+    "tp2_mean": 0.95,
+    "tp2_max": 10.52,
+    "h1_mean": 8.12,
+    "motor_current_mean": 1.84,
+    "oil_mean": 57.08,
+    "oil_max": 63.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 00:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.52,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.27,
+    "oil_mean": 55.94,
+    "oil_max": 61.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 01:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.53,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.49,
+    "oil_mean": 56.23,
+    "oil_max": 63.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.99,
+    "motor_current_mean": 0.04,
+    "oil_mean": 54.64,
+    "oil_max": 56.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-11 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-11 05:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.23,
+    "motor_current_mean": 1.02,
+    "oil_mean": 45.49,
+    "oil_max": 46.43,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 06:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.45,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.25,
+    "oil_mean": 49.63,
+    "oil_max": 55.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 07:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.44,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.26,
+    "oil_mean": 52.54,
+    "oil_max": 59.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 08:00:00",
+    "tp2_mean": 0.68,
+    "tp2_max": 10.44,
+    "h1_mean": 8.29,
+    "motor_current_mean": 1.33,
+    "oil_mean": 55.03,
+    "oil_max": 62.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 09:00:00",
+    "tp2_mean": 0.81,
+    "tp2_max": 10.63,
+    "h1_mean": 8.11,
+    "motor_current_mean": 1.46,
+    "oil_mean": 60.89,
+    "oil_max": 71.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 10:00:00",
+    "tp2_mean": 0.8,
+    "tp2_max": 10.62,
+    "h1_mean": 8.05,
+    "motor_current_mean": 2.08,
+    "oil_mean": 64.34,
+    "oil_max": 72.25,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-11 11:00:00",
+    "tp2_mean": 0.73,
+    "tp2_max": 10.57,
+    "h1_mean": 8.04,
+    "motor_current_mean": 2.05,
+    "oil_mean": 65.88,
+    "oil_max": 74.48,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-11 07:44:13.675000",
+    "end": "2022-07-11 07:46:46.298000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-07-10 14:07:00.019000",
+    "end": "2022-07-10 14:09:26.686000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-10 21:30:41.038000",
+    "end": "2022-07-10 21:33:03.762000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-10 22:44:43.275000",
+    "end": "2022-07-10 22:47:05.967000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-10 15:17:31.293000",
+    "end": "2022-07-10 15:19:40.132000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-11 07:09:51.310000",
+    "end": "2022-07-11 07:11:55.185000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-10 12:57:22.538000",
+    "end": "2022-07-10 12:59:25.426000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-10 16:25:48.153000",
+    "end": "2022-07-10 16:27:48.069000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-10 20:00:39.070000",
+    "end": "2022-07-10 20:02:39.963000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-10 20:49:17.343000",
+    "end": "2022-07-10 20:51:15.308000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 8.76,
+    "0.99": 10.18
+   },
+   "motor_current": {
+    "0.05": 0.0,
+    "0.5": 0.04,
+    "0.95": 5.83,
+    "0.99": 6.15
+   },
+   "oil_temperature": {
+    "0.05": 50.2,
+    "0.5": 56.4,
+    "0.95": 64.5,
+    "0.99": 69.9
+   }
+  }
+ },
+ "ctl_ev1_o48_0": {
+  "window": [
+   "2022-06-07 15:05:46.767000",
+   "2022-06-08 15:05:46.767000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-06-07 16:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.4,
+    "h1_mean": 8.31,
+    "motor_current_mean": 1.39,
+    "oil_mean": 59.75,
+    "oil_max": 65.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 17:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.4,
+    "h1_mean": 7.96,
+    "motor_current_mean": 1.88,
+    "oil_mean": 60.57,
+    "oil_max": 67.07,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 18:00:00",
+    "tp2_mean": 1.0,
+    "tp2_max": 10.4,
+    "h1_mean": 7.94,
+    "motor_current_mean": 1.98,
+    "oil_mean": 60.93,
+    "oil_max": 67.95,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 19:00:00",
+    "tp2_mean": 0.75,
+    "tp2_max": 10.4,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.81,
+    "oil_mean": 60.67,
+    "oil_max": 68.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 20:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.41,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.28,
+    "oil_mean": 58.54,
+    "oil_max": 65.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 21:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.41,
+    "h1_mean": 8.24,
+    "motor_current_mean": 0.83,
+    "oil_mean": 55.01,
+    "oil_max": 62.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 22:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.48,
+    "h1_mean": 8.81,
+    "motor_current_mean": 1.05,
+    "oil_mean": 53.97,
+    "oil_max": 60.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-07 23:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.49,
+    "h1_mean": 8.57,
+    "motor_current_mean": 0.64,
+    "oil_mean": 52.06,
+    "oil_max": 59.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 00:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.54,
+    "h1_mean": 8.53,
+    "motor_current_mean": 1.23,
+    "oil_mean": 53.03,
+    "oil_max": 59.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 01:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.41,
+    "h1_mean": 8.62,
+    "motor_current_mean": 0.63,
+    "oil_mean": 52.26,
+    "oil_max": 58.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 02:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.42,
+    "h1_mean": 8.46,
+    "motor_current_mean": 1.24,
+    "oil_mean": 52.64,
+    "oil_max": 59.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 03:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.51,
+    "h1_mean": 8.66,
+    "motor_current_mean": 0.64,
+    "oil_mean": 51.96,
+    "oil_max": 58.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 04:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.54,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.26,
+    "oil_mean": 51.62,
+    "oil_max": 58.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 05:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.5,
+    "h1_mean": 8.63,
+    "motor_current_mean": 0.66,
+    "oil_mean": 52.16,
+    "oil_max": 59.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 06:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.41,
+    "h1_mean": 7.92,
+    "motor_current_mean": 1.65,
+    "oil_mean": 54.85,
+    "oil_max": 65.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 07:00:00",
+    "tp2_mean": 0.98,
+    "tp2_max": 10.53,
+    "h1_mean": 7.96,
+    "motor_current_mean": 1.86,
+    "oil_mean": 58.39,
+    "oil_max": 65.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 08:00:00",
+    "tp2_mean": 0.9,
+    "tp2_max": 10.53,
+    "h1_mean": 8.16,
+    "motor_current_mean": 1.96,
+    "oil_mean": 59.52,
+    "oil_max": 66.47,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 09:00:00",
+    "tp2_mean": 0.67,
+    "tp2_max": 10.52,
+    "h1_mean": 8.28,
+    "motor_current_mean": 1.46,
+    "oil_mean": 57.91,
+    "oil_max": 66.03,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 10:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.42,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.49,
+    "oil_mean": 57.63,
+    "oil_max": 63.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 11:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.49,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.61,
+    "oil_mean": 58.04,
+    "oil_max": 64.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 12:00:00",
+    "tp2_mean": 0.78,
+    "tp2_max": 10.51,
+    "h1_mean": 8.03,
+    "motor_current_mean": 1.68,
+    "oil_mean": 58.43,
+    "oil_max": 63.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 13:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.53,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.74,
+    "oil_mean": 59.3,
+    "oil_max": 66.85,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 14:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.52,
+    "h1_mean": 8.23,
+    "motor_current_mean": 1.9,
+    "oil_mean": 59.59,
+    "oil_max": 66.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 15:00:00",
+    "tp2_mean": 0.98,
+    "tp2_max": 10.52,
+    "h1_mean": 8.03,
+    "motor_current_mean": 1.55,
+    "oil_mean": 58.97,
+    "oil_max": 65.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-08 16:00:00",
+    "tp2_mean": 0.39,
+    "tp2_max": 10.38,
+    "h1_mean": 9.35,
+    "motor_current_mean": 3.9,
+    "oil_mean": 62.83,
+    "oil_max": 66.4,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-08 06:56:16.708000",
+    "end": "2022-06-08 06:59:10.123000",
+    "minutes": 2.9
+   },
+   {
+    "start": "2022-06-08 14:33:09.193000",
+    "end": "2022-06-08 14:35:52.701000",
+    "minutes": 2.7
+   },
+   {
+    "start": "2022-06-08 08:54:05.248000",
+    "end": "2022-06-08 08:56:35.868000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-06-08 05:55:11.445000",
+    "end": "2022-06-08 05:57:23.358000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-08 07:56:15.339000",
+    "end": "2022-06-08 07:58:28.240000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-08 14:05:13.159000",
+    "end": "2022-06-08 14:07:24.955000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-07 16:46:47.040000",
+    "end": "2022-06-07 16:48:53.889000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-07 17:23:08.307000",
+    "end": "2022-06-07 17:25:14.165000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-08 13:05:02.674000",
+    "end": "2022-06-08 13:07:09.514000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-07 15:21:49.608000",
+    "end": "2022-06-07 15:23:47.552000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 8.87,
+    "0.99": 10.17
+   },
+   "motor_current": {
+    "0.05": 0.04,
+    "0.5": 0.04,
+    "0.95": 5.91,
+    "0.99": 6.2
+   },
+   "oil_temperature": {
+    "0.05": 49.5,
+    "0.5": 56.8,
+    "0.95": 63.5,
+    "0.99": 65.9
+   }
+  }
+ },
+ "ctl_ev1_o48_1": {
+  "window": [
+   "2022-06-24 12:19:50.931000",
+   "2022-06-25 12:19:50.931000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-06-24 13:00:00",
+    "tp2_mean": 0.8,
+    "tp2_max": 10.52,
+    "h1_mean": 8.19,
+    "motor_current_mean": 1.47,
+    "oil_mean": 55.95,
+    "oil_max": 58.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 14:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.52,
+    "h1_mean": 8.21,
+    "motor_current_mean": 1.54,
+    "oil_mean": 57.37,
+    "oil_max": 59.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 15:00:00",
+    "tp2_mean": 0.93,
+    "tp2_max": 10.52,
+    "h1_mean": 7.99,
+    "motor_current_mean": 1.91,
+    "oil_mean": 57.4,
+    "oil_max": 59.45,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 16:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.52,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.5,
+    "oil_mean": 56.81,
+    "oil_max": 58.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 17:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.52,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.65,
+    "oil_mean": 56.85,
+    "oil_max": 59.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 18:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.52,
+    "h1_mean": 8.12,
+    "motor_current_mean": 1.83,
+    "oil_mean": 56.02,
+    "oil_max": 59.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 19:00:00",
+    "tp2_mean": 0.6,
+    "tp2_max": 10.51,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.34,
+    "oil_mean": 56.15,
+    "oil_max": 58.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 20:00:00",
+    "tp2_mean": 1.23,
+    "tp2_max": 10.52,
+    "h1_mean": 7.76,
+    "motor_current_mean": 2.31,
+    "oil_mean": 56.68,
+    "oil_max": 59.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 21:00:00",
+    "tp2_mean": 0.83,
+    "tp2_max": 10.51,
+    "h1_mean": 8.09,
+    "motor_current_mean": 2.01,
+    "oil_mean": 58.27,
+    "oil_max": 60.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 22:00:00",
+    "tp2_mean": 1.18,
+    "tp2_max": 10.52,
+    "h1_mean": 7.75,
+    "motor_current_mean": 2.51,
+    "oil_mean": 57.58,
+    "oil_max": 59.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-24 23:00:00",
+    "tp2_mean": 1.31,
+    "tp2_max": 10.49,
+    "h1_mean": 7.66,
+    "motor_current_mean": 2.48,
+    "oil_mean": 57.32,
+    "oil_max": 60.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 00:00:00",
+    "tp2_mean": 0.96,
+    "tp2_max": 10.41,
+    "h1_mean": 8.05,
+    "motor_current_mean": 2.11,
+    "oil_mean": 57.24,
+    "oil_max": 60.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 01:00:00",
+    "tp2_mean": 1.05,
+    "tp2_max": 10.41,
+    "h1_mean": 7.97,
+    "motor_current_mean": 1.91,
+    "oil_mean": 56.64,
+    "oil_max": 58.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.6,
+    "motor_current_mean": 0.04,
+    "oil_mean": 54.71,
+    "oil_max": 55.02,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-06-25 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-06-25 05:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.95,
+    "motor_current_mean": 0.75,
+    "oil_mean": 42.16,
+    "oil_max": 43.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 06:00:00",
+    "tp2_mean": 0.78,
+    "tp2_max": 10.46,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.89,
+    "oil_mean": 49.57,
+    "oil_max": 52.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 07:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.47,
+    "h1_mean": 8.19,
+    "motor_current_mean": 1.29,
+    "oil_mean": 51.9,
+    "oil_max": 54.02,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 08:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.48,
+    "h1_mean": 8.11,
+    "motor_current_mean": 1.57,
+    "oil_mean": 54.21,
+    "oil_max": 57.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 09:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.46,
+    "h1_mean": 8.55,
+    "motor_current_mean": 1.63,
+    "oil_mean": 54.86,
+    "oil_max": 57.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 10:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.47,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.67,
+    "oil_mean": 56.47,
+    "oil_max": 59.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 11:00:00",
+    "tp2_mean": 0.6,
+    "tp2_max": 10.51,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.48,
+    "oil_mean": 56.94,
+    "oil_max": 58.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 12:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.52,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.87,
+    "oil_mean": 57.06,
+    "oil_max": 58.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-25 13:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.51,
+    "h1_mean": 8.28,
+    "motor_current_mean": 1.3,
+    "oil_mean": 57.21,
+    "oil_max": 59.6,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-24 22:23:07.623000",
+    "end": "2022-06-24 22:25:59.217000",
+    "minutes": 2.9
+   },
+   {
+    "start": "2022-06-24 19:45:25.388000",
+    "end": "2022-06-24 19:47:59.124000",
+    "minutes": 2.6
+   },
+   {
+    "start": "2022-06-24 13:07:36.479000",
+    "end": "2022-06-24 13:09:54.233000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-24 14:16:32.075000",
+    "end": "2022-06-24 14:18:50.810000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-25 00:16:29.506000",
+    "end": "2022-06-25 00:18:46.275000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-25 07:32:07.918000",
+    "end": "2022-06-25 07:34:26.775000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-24 22:12:21.148000",
+    "end": "2022-06-24 22:14:35.929000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-25 10:17:00.185000",
+    "end": "2022-06-25 10:19:13.973000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-24 15:26:14.733000",
+    "end": "2022-06-24 15:28:19.606000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-24 16:37:24.356000",
+    "end": "2022-06-24 16:39:33.296000",
+    "minutes": 2.1
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 9.28,
+    "0.99": 10.27
+   },
+   "motor_current": {
+    "0.05": 0.04,
+    "0.5": 0.04,
+    "0.95": 5.98,
+    "0.99": 6.22
+   },
+   "oil_temperature": {
+    "0.05": 50.0,
+    "0.5": 56.5,
+    "0.95": 58.8,
+    "0.99": 59.4
+   }
+  }
+ },
+ "ctl_ev1_o72_0": {
+  "window": [
+   "2022-06-21 12:59:31.968000",
+   "2022-06-22 12:59:31.968000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-06-21 13:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.7,
+    "motor_current_mean": 0.04,
+    "oil_mean": 57.05,
+    "oil_max": 57.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 14:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.41,
+    "h1_mean": 8.24,
+    "motor_current_mean": 1.85,
+    "oil_mean": 57.03,
+    "oil_max": 58.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 15:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.4,
+    "h1_mean": 8.1,
+    "motor_current_mean": 1.45,
+    "oil_mean": 56.79,
+    "oil_max": 57.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 16:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.5,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.84,
+    "oil_mean": 57.48,
+    "oil_max": 58.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 17:00:00",
+    "tp2_mean": 0.91,
+    "tp2_max": 10.52,
+    "h1_mean": 7.96,
+    "motor_current_mean": 1.9,
+    "oil_mean": 57.05,
+    "oil_max": 58.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 18:00:00",
+    "tp2_mean": 0.94,
+    "tp2_max": 10.49,
+    "h1_mean": 7.94,
+    "motor_current_mean": 1.92,
+    "oil_mean": 57.31,
+    "oil_max": 58.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 19:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.4,
+    "h1_mean": 8.14,
+    "motor_current_mean": 1.88,
+    "oil_mean": 57.02,
+    "oil_max": 58.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 20:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.51,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.11,
+    "oil_mean": 54.97,
+    "oil_max": 57.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 21:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.52,
+    "h1_mean": 8.24,
+    "motor_current_mean": 1.38,
+    "oil_mean": 54.53,
+    "oil_max": 55.45,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 22:00:00",
+    "tp2_mean": 1.26,
+    "tp2_max": 10.53,
+    "h1_mean": 7.81,
+    "motor_current_mean": 2.54,
+    "oil_mean": 56.41,
+    "oil_max": 58.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-21 23:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.52,
+    "h1_mean": 8.08,
+    "motor_current_mean": 1.92,
+    "oil_mean": 56.9,
+    "oil_max": 58.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 00:00:00",
+    "tp2_mean": 1.17,
+    "tp2_max": 10.52,
+    "h1_mean": 7.69,
+    "motor_current_mean": 2.11,
+    "oil_mean": 56.81,
+    "oil_max": 58.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 01:00:00",
+    "tp2_mean": 0.46,
+    "tp2_max": 10.49,
+    "h1_mean": 8.7,
+    "motor_current_mean": 1.91,
+    "oil_mean": 55.99,
+    "oil_max": 56.88,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.59,
+    "motor_current_mean": 3.93,
+    "oil_mean": 54.51,
+    "oil_max": 54.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-06-22 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-06-22 05:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.14,
+    "motor_current_mean": 0.72,
+    "oil_mean": 43.33,
+    "oil_max": 44.88,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 06:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.44,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.93,
+    "oil_mean": 50.97,
+    "oil_max": 54.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 07:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.42,
+    "h1_mean": 8.14,
+    "motor_current_mean": 1.32,
+    "oil_mean": 52.82,
+    "oil_max": 54.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 08:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.43,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.9,
+    "oil_mean": 55.38,
+    "oil_max": 56.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 09:00:00",
+    "tp2_mean": 0.82,
+    "tp2_max": 10.41,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.85,
+    "oil_mean": 56.34,
+    "oil_max": 57.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 10:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.41,
+    "h1_mean": 7.99,
+    "motor_current_mean": 1.74,
+    "oil_mean": 55.62,
+    "oil_max": 57.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 11:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.4,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.39,
+    "oil_mean": 56.74,
+    "oil_max": 58.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 12:00:00",
+    "tp2_mean": 0.81,
+    "tp2_max": 10.51,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.84,
+    "oil_mean": 56.12,
+    "oil_max": 57.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-22 13:00:00",
+    "tp2_mean": 0.6,
+    "tp2_max": 10.52,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.29,
+    "oil_mean": 56.39,
+    "oil_max": 57.4,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-21 15:18:15.724000",
+    "end": "2022-06-21 15:21:29.032000",
+    "minutes": 3.2
+   },
+   {
+    "start": "2022-06-21 14:35:16.919000",
+    "end": "2022-06-21 14:37:34.683000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-21 21:51:44.700000",
+    "end": "2022-06-21 21:54:01.475000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-21 23:15:58.797000",
+    "end": "2022-06-21 23:18:18.638000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-22 05:38:00.687000",
+    "end": "2022-06-22 05:40:21.529000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-06-21 16:26:15.918000",
+    "end": "2022-06-21 16:28:28.830000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-21 17:25:53.710000",
+    "end": "2022-06-21 17:28:07.601000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-21 21:34:02.317000",
+    "end": "2022-06-21 21:36:12.150000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-21 16:02:32.532000",
+    "end": "2022-06-21 16:04:38.395000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-22 06:14:26.201000",
+    "end": "2022-06-22 06:16:35.035000",
+    "minutes": 2.1
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 9.25,
+    "0.99": 10.25
+   },
+   "motor_current": {
+    "0.05": 0.04,
+    "0.5": 0.04,
+    "0.95": 5.98,
+    "0.99": 6.21
+   },
+   "oil_temperature": {
+    "0.05": 51.3,
+    "0.5": 56.4,
+    "0.95": 57.9,
+    "0.99": 58.4
+   }
+  }
+ },
+ "ctl_ev1_o72_1": {
+  "window": [
+   "2022-06-15 16:22:56.122000",
+   "2022-06-16 16:22:56.122000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-06-15 17:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.49,
+    "h1_mean": 8.49,
+    "motor_current_mean": 1.65,
+    "oil_mean": 58.77,
+    "oil_max": 61.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 18:00:00",
+    "tp2_mean": 1.01,
+    "tp2_max": 10.51,
+    "h1_mean": 8.01,
+    "motor_current_mean": 1.97,
+    "oil_mean": 57.89,
+    "oil_max": 60.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 19:00:00",
+    "tp2_mean": 0.9,
+    "tp2_max": 10.41,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.91,
+    "oil_mean": 57.3,
+    "oil_max": 61.12,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 20:00:00",
+    "tp2_mean": 0.86,
+    "tp2_max": 10.41,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.5,
+    "oil_mean": 56.54,
+    "oil_max": 59.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 21:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.41,
+    "h1_mean": 8.79,
+    "motor_current_mean": 1.02,
+    "oil_mean": 53.63,
+    "oil_max": 57.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 22:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.42,
+    "h1_mean": 8.56,
+    "motor_current_mean": 0.64,
+    "oil_mean": 51.79,
+    "oil_max": 53.35,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-15 23:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 10.48,
+    "h1_mean": 8.46,
+    "motor_current_mean": 1.23,
+    "oil_mean": 51.12,
+    "oil_max": 52.83,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 00:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.53,
+    "h1_mean": 8.65,
+    "motor_current_mean": 0.64,
+    "oil_mean": 51.55,
+    "oil_max": 53.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 01:00:00",
+    "tp2_mean": 0.48,
+    "tp2_max": 10.41,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.22,
+    "oil_mean": 51.41,
+    "oil_max": 53.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 02:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.4,
+    "h1_mean": 8.65,
+    "motor_current_mean": 0.64,
+    "oil_mean": 51.78,
+    "oil_max": 53.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 03:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.46,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.2,
+    "oil_mean": 50.87,
+    "oil_max": 52.83,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 04:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.48,
+    "h1_mean": 8.7,
+    "motor_current_mean": 0.67,
+    "oil_mean": 50.76,
+    "oil_max": 52.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 05:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.48,
+    "h1_mean": 8.31,
+    "motor_current_mean": 1.55,
+    "oil_mean": 51.06,
+    "oil_max": 54.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 06:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.52,
+    "h1_mean": 8.29,
+    "motor_current_mean": 1.26,
+    "oil_mean": 53.03,
+    "oil_max": 56.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 07:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.53,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.28,
+    "oil_mean": 54.53,
+    "oil_max": 56.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 08:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.52,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.29,
+    "oil_mean": 54.14,
+    "oil_max": 56.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 09:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.49,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.01,
+    "oil_mean": 54.57,
+    "oil_max": 56.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 10:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.4,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.51,
+    "oil_mean": 56.59,
+    "oil_max": 58.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 11:00:00",
+    "tp2_mean": 0.65,
+    "tp2_max": 10.4,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.33,
+    "oil_mean": 56.05,
+    "oil_max": 57.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 12:00:00",
+    "tp2_mean": 0.74,
+    "tp2_max": 10.4,
+    "h1_mean": 8.25,
+    "motor_current_mean": 1.78,
+    "oil_mean": 56.48,
+    "oil_max": 58.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 13:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.41,
+    "h1_mean": 8.28,
+    "motor_current_mean": 1.3,
+    "oil_mean": 56.68,
+    "oil_max": 58.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 14:00:00",
+    "tp2_mean": 0.87,
+    "tp2_max": 10.45,
+    "h1_mean": 8.04,
+    "motor_current_mean": 1.79,
+    "oil_mean": 54.9,
+    "oil_max": 57.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 15:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.52,
+    "h1_mean": 8.62,
+    "motor_current_mean": 1.36,
+    "oil_mean": 56.06,
+    "oil_max": 57.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 16:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.51,
+    "h1_mean": 8.13,
+    "motor_current_mean": 1.25,
+    "oil_mean": 55.89,
+    "oil_max": 56.95,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-06-16 17:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.5,
+    "h1_mean": 8.2,
+    "motor_current_mean": 1.71,
+    "oil_mean": 57.49,
+    "oil_max": 58.58,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-06-15 17:18:29.661000",
+    "end": "2022-06-15 17:21:14.290000",
+    "minutes": 2.7
+   },
+   {
+    "start": "2022-06-15 16:43:40.441000",
+    "end": "2022-06-15 16:45:51.243000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-15 18:20:07.582000",
+    "end": "2022-06-15 18:22:17.394000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-16 16:07:31.510000",
+    "end": "2022-06-16 16:09:43.317000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-06-15 17:08:41.521000",
+    "end": "2022-06-15 17:10:50.461000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-15 19:10:26.101000",
+    "end": "2022-06-15 19:12:31.949000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-16 13:37:32.841000",
+    "end": "2022-06-16 13:39:38.783000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-06-15 18:08:39.385000",
+    "end": "2022-06-15 18:10:38.414000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-06-16 07:47:51.620000",
+    "end": "2022-06-16 07:49:49.555000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-06-16 09:38:21.706000",
+    "end": "2022-06-16 09:40:19.650000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 8.66,
+    "0.99": 10.14
+   },
+   "motor_current": {
+    "0.05": 0.04,
+    "0.5": 0.04,
+    "0.95": 5.89,
+    "0.99": 6.22
+   },
+   "oil_temperature": {
+    "0.05": 49.6,
+    "0.5": 54.8,
+    "0.95": 58.3,
+    "0.99": 59.9
+   }
+  }
+ },
+ "ctl_ev2_o12_0": {
+  "window": [
+   "2022-07-24 22:18:35.579000",
+   "2022-07-25 22:18:35.579000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-24 23:00:00",
+    "tp2_mean": 0.36,
+    "tp2_max": 10.48,
+    "h1_mean": 8.53,
+    "motor_current_mean": 0.91,
+    "oil_mean": 50.75,
+    "oil_max": 52.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 00:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.45,
+    "h1_mean": 8.61,
+    "motor_current_mean": 0.65,
+    "oil_mean": 50.24,
+    "oil_max": 52.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 01:00:00",
+    "tp2_mean": 0.48,
+    "tp2_max": 10.43,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.12,
+    "oil_mean": 49.05,
+    "oil_max": 51.23,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 02:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.42,
+    "h1_mean": 8.77,
+    "motor_current_mean": 0.81,
+    "oil_mean": 49.25,
+    "oil_max": 50.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 03:00:00",
+    "tp2_mean": 0.22,
+    "tp2_max": 10.45,
+    "h1_mean": 8.6,
+    "motor_current_mean": 0.64,
+    "oil_mean": 48.51,
+    "oil_max": 50.12,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 04:00:00",
+    "tp2_mean": 0.46,
+    "tp2_max": 10.48,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.25,
+    "oil_mean": 48.03,
+    "oil_max": 49.92,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 05:00:00",
+    "tp2_mean": 0.23,
+    "tp2_max": 10.41,
+    "h1_mean": 8.63,
+    "motor_current_mean": 0.65,
+    "oil_mean": 48.92,
+    "oil_max": 50.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 06:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.42,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.27,
+    "oil_mean": 50.99,
+    "oil_max": 54.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 07:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.47,
+    "h1_mean": 8.33,
+    "motor_current_mean": 1.26,
+    "oil_mean": 52.48,
+    "oil_max": 55.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 08:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.47,
+    "h1_mean": 7.91,
+    "motor_current_mean": 1.71,
+    "oil_mean": 53.15,
+    "oil_max": 56.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 09:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.46,
+    "h1_mean": 8.55,
+    "motor_current_mean": 1.07,
+    "oil_mean": 55.16,
+    "oil_max": 56.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 10:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.5,
+    "h1_mean": 8.81,
+    "motor_current_mean": 1.03,
+    "oil_mean": 55.24,
+    "oil_max": 56.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 11:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.4,
+    "h1_mean": 8.52,
+    "motor_current_mean": 1.25,
+    "oil_mean": 55.63,
+    "oil_max": 57.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 12:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.39,
+    "h1_mean": 8.52,
+    "motor_current_mean": 1.27,
+    "oil_mean": 56.27,
+    "oil_max": 57.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 13:00:00",
+    "tp2_mean": 0.48,
+    "tp2_max": 10.36,
+    "h1_mean": 8.47,
+    "motor_current_mean": 0.79,
+    "oil_mean": 56.4,
+    "oil_max": 57.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 14:00:00",
+    "tp2_mean": 0.33,
+    "tp2_max": 10.38,
+    "h1_mean": 8.83,
+    "motor_current_mean": 1.12,
+    "oil_mean": 57.2,
+    "oil_max": 58.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 15:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.39,
+    "h1_mean": 8.52,
+    "motor_current_mean": 1.28,
+    "oil_mean": 57.57,
+    "oil_max": 58.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 16:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.49,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.25,
+    "oil_mean": 57.4,
+    "oil_max": 59.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 17:00:00",
+    "tp2_mean": 0.83,
+    "tp2_max": 10.5,
+    "h1_mean": 8.19,
+    "motor_current_mean": 1.86,
+    "oil_mean": 57.92,
+    "oil_max": 59.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 18:00:00",
+    "tp2_mean": 0.91,
+    "tp2_max": 10.51,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.53,
+    "oil_mean": 58.28,
+    "oil_max": 59.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 19:00:00",
+    "tp2_mean": 0.27,
+    "tp2_max": 10.5,
+    "h1_mean": 8.63,
+    "motor_current_mean": 0.97,
+    "oil_mean": 57.04,
+    "oil_max": 59.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 20:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.51,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.26,
+    "oil_mean": 56.02,
+    "oil_max": 57.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 21:00:00",
+    "tp2_mean": 0.96,
+    "tp2_max": 10.51,
+    "h1_mean": 7.98,
+    "motor_current_mean": 1.54,
+    "oil_mean": 56.3,
+    "oil_max": 57.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 22:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.51,
+    "h1_mean": 8.49,
+    "motor_current_mean": 1.69,
+    "oil_mean": 57.43,
+    "oil_max": 58.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-25 23:00:00",
+    "tp2_mean": 0.93,
+    "tp2_max": 10.47,
+    "h1_mean": 7.81,
+    "motor_current_mean": 1.93,
+    "oil_mean": 55.66,
+    "oil_max": 56.75,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-25 20:28:45.224000",
+    "end": "2022-07-25 20:31:01.994000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-25 20:57:37.573000",
+    "end": "2022-07-25 20:59:55.442000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-25 07:36:24.641000",
+    "end": "2022-07-25 07:38:35.442000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-25 14:34:27.998000",
+    "end": "2022-07-25 14:36:28.010000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-25 16:11:09.715000",
+    "end": "2022-07-25 16:13:07.636000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-25 17:21:51.933000",
+    "end": "2022-07-25 17:23:51.851000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-25 17:29:29.787000",
+    "end": "2022-07-25 17:31:31.684000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-25 17:56:12.925000",
+    "end": "2022-07-25 17:58:14.821000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-25 06:31:55.213000",
+    "end": "2022-07-25 06:33:48.178000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-25 11:11:30.962000",
+    "end": "2022-07-25 11:13:26.016000",
+    "minutes": 1.9
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 8.45,
+    "0.99": 10.11
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.79,
+    "0.99": 6.2
+   },
+   "oil_temperature": {
+    "0.05": 47.7,
+    "0.5": 55.3,
+    "0.95": 58.7,
+    "0.99": 59.3
+   }
+  }
+ },
+ "ctl_ev2_o12_1": {
+  "window": [
+   "2022-07-02 21:23:05.449000",
+   "2022-07-03 21:23:05.449000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-02 22:00:00",
+    "tp2_mean": 0.84,
+    "tp2_max": 10.52,
+    "h1_mean": 8.06,
+    "motor_current_mean": 1.52,
+    "oil_mean": 55.62,
+    "oil_max": 59.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-02 23:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.41,
+    "h1_mean": 8.45,
+    "motor_current_mean": 1.49,
+    "oil_mean": 56.32,
+    "oil_max": 59.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 00:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.41,
+    "h1_mean": 8.44,
+    "motor_current_mean": 1.45,
+    "oil_mean": 56.61,
+    "oil_max": 59.95,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 01:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.46,
+    "h1_mean": 8.45,
+    "motor_current_mean": 1.28,
+    "oil_mean": 56.65,
+    "oil_max": 60.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 02:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.51,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.3,
+    "oil_mean": 56.73,
+    "oil_max": 60.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 03:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.51,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.29,
+    "oil_mean": 56.65,
+    "oil_max": 60.25,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 04:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.4,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.29,
+    "oil_mean": 56.6,
+    "oil_max": 60.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 05:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.41,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.3,
+    "oil_mean": 56.6,
+    "oil_max": 60.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 06:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.51,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.29,
+    "oil_mean": 56.55,
+    "oil_max": 60.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 07:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.51,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.3,
+    "oil_mean": 56.53,
+    "oil_max": 60.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 08:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.52,
+    "h1_mean": 8.45,
+    "motor_current_mean": 1.29,
+    "oil_mean": 56.38,
+    "oil_max": 60.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 09:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.4,
+    "h1_mean": 8.48,
+    "motor_current_mean": 1.29,
+    "oil_mean": 55.77,
+    "oil_max": 59.45,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 10:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.46,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.3,
+    "oil_mean": 55.49,
+    "oil_max": 59.35,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 11:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.46,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.26,
+    "oil_mean": 55.97,
+    "oil_max": 60.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 12:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.51,
+    "h1_mean": 8.34,
+    "motor_current_mean": 1.0,
+    "oil_mean": 55.9,
+    "oil_max": 59.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 13:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.4,
+    "h1_mean": 8.68,
+    "motor_current_mean": 0.88,
+    "oil_mean": 56.24,
+    "oil_max": 59.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 14:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.39,
+    "h1_mean": 8.49,
+    "motor_current_mean": 1.24,
+    "oil_mean": 56.64,
+    "oil_max": 60.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 15:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.49,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.62,
+    "oil_max": 60.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 16:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.51,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.19,
+    "oil_mean": 56.65,
+    "oil_max": 61.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 17:00:00",
+    "tp2_mean": 0.33,
+    "tp2_max": 10.52,
+    "h1_mean": 8.44,
+    "motor_current_mean": 0.74,
+    "oil_mean": 57.01,
+    "oil_max": 60.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 18:00:00",
+    "tp2_mean": 0.44,
+    "tp2_max": 10.5,
+    "h1_mean": 8.6,
+    "motor_current_mean": 1.18,
+    "oil_mean": 57.62,
+    "oil_max": 61.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 19:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.38,
+    "h1_mean": 8.58,
+    "motor_current_mean": 0.63,
+    "oil_mean": 56.94,
+    "oil_max": 60.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 20:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.39,
+    "h1_mean": 8.43,
+    "motor_current_mean": 1.24,
+    "oil_mean": 56.48,
+    "oil_max": 60.67,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 21:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.44,
+    "h1_mean": 8.56,
+    "motor_current_mean": 0.64,
+    "oil_mean": 55.58,
+    "oil_max": 59.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-03 22:00:00",
+    "tp2_mean": 0.66,
+    "tp2_max": 10.52,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.59,
+    "oil_mean": 55.06,
+    "oil_max": 58.68,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-02 21:26:38.412000",
+    "end": "2022-07-02 21:28:27.430000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-02 22:53:33.236000",
+    "end": "2022-07-02 22:55:21.254000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-02 23:22:00.879000",
+    "end": "2022-07-02 23:23:48.985000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-02 23:50:31.587000",
+    "end": "2022-07-02 23:52:20.591000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 01:15:58.647000",
+    "end": "2022-07-03 01:17:46.733000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 01:44:43.605000",
+    "end": "2022-07-03 01:46:31.711000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 02:13:28.120000",
+    "end": "2022-07-03 02:15:19.107000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 03:39:19.677000",
+    "end": "2022-07-03 03:41:07.705000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 04:07:52.544000",
+    "end": "2022-07-03 04:09:40.653000",
+    "minutes": 1.8
+   },
+   {
+    "start": "2022-07-03 04:36:37.096000",
+    "end": "2022-07-03 04:38:26.118000",
+    "minutes": 1.8
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 7.71,
+    "0.99": 10.09
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.68,
+    "0.99": 6.18
+   },
+   "oil_temperature": {
+    "0.05": 54.0,
+    "0.5": 56.5,
+    "0.95": 59.0,
+    "0.99": 60.1
+   }
+  }
+ },
+ "ctl_ev2_o24_0": {
+  "window": [
+   "2022-07-21 12:27:03.627000",
+   "2022-07-22 12:27:03.627000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-21 13:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 10.38,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.15,
+    "oil_mean": 56.9,
+    "oil_max": 59.08,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 14:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.93,
+    "oil_max": 59.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 15:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.5,
+    "h1_mean": 8.27,
+    "motor_current_mean": 1.08,
+    "oil_mean": 57.32,
+    "oil_max": 60.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 16:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.51,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.45,
+    "oil_mean": 58.48,
+    "oil_max": 61.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 17:00:00",
+    "tp2_mean": 0.7,
+    "tp2_max": 10.46,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.35,
+    "oil_mean": 58.6,
+    "oil_max": 63.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 18:00:00",
+    "tp2_mean": 0.72,
+    "tp2_max": 10.38,
+    "h1_mean": 7.98,
+    "motor_current_mean": 1.37,
+    "oil_mean": 57.92,
+    "oil_max": 60.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 19:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.39,
+    "h1_mean": 8.62,
+    "motor_current_mean": 1.22,
+    "oil_mean": 58.46,
+    "oil_max": 62.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 20:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.4,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.25,
+    "oil_max": 60.38,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 21:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.41,
+    "h1_mean": 8.53,
+    "motor_current_mean": 1.25,
+    "oil_mean": 55.84,
+    "oil_max": 59.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 22:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.51,
+    "h1_mean": 8.58,
+    "motor_current_mean": 1.24,
+    "oil_mean": 55.64,
+    "oil_max": 59.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-21 23:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.5,
+    "h1_mean": 8.59,
+    "motor_current_mean": 0.65,
+    "oil_mean": 53.53,
+    "oil_max": 55.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 00:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.49,
+    "h1_mean": 8.49,
+    "motor_current_mean": 1.23,
+    "oil_mean": 53.43,
+    "oil_max": 55.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 01:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.42,
+    "h1_mean": 8.52,
+    "motor_current_mean": 0.65,
+    "oil_mean": 52.8,
+    "oil_max": 55.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 02:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.43,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.24,
+    "oil_mean": 51.77,
+    "oil_max": 54.12,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 03:00:00",
+    "tp2_mean": 0.23,
+    "tp2_max": 10.47,
+    "h1_mean": 8.63,
+    "motor_current_mean": 0.63,
+    "oil_mean": 51.48,
+    "oil_max": 53.28,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 04:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 10.53,
+    "h1_mean": 8.33,
+    "motor_current_mean": 1.0,
+    "oil_mean": 50.68,
+    "oil_max": 53.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 05:00:00",
+    "tp2_mean": 0.23,
+    "tp2_max": 10.41,
+    "h1_mean": 8.75,
+    "motor_current_mean": 0.87,
+    "oil_mean": 51.51,
+    "oil_max": 53.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 06:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.41,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.21,
+    "oil_mean": 51.63,
+    "oil_max": 56.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 07:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.42,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.32,
+    "oil_mean": 55.41,
+    "oil_max": 58.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 08:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.41,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.28,
+    "oil_mean": 55.89,
+    "oil_max": 59.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 09:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.44,
+    "h1_mean": 8.2,
+    "motor_current_mean": 1.27,
+    "oil_mean": 55.54,
+    "oil_max": 58.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 10:00:00",
+    "tp2_mean": 0.78,
+    "tp2_max": 10.46,
+    "h1_mean": 8.33,
+    "motor_current_mean": 1.84,
+    "oil_mean": 56.63,
+    "oil_max": 60.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 11:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.45,
+    "motor_current_mean": 0.92,
+    "oil_mean": 55.81,
+    "oil_max": 59.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 12:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.39,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.17,
+    "oil_mean": 56.17,
+    "oil_max": 59.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 13:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.99,
+    "motor_current_mean": 0.95,
+    "oil_mean": 57.41,
+    "oil_max": 59.05,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-21 16:11:28.561000",
+    "end": "2022-07-21 16:13:53.365000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-21 17:59:03.139000",
+    "end": "2022-07-21 18:01:27.875000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-21 16:44:56.613000",
+    "end": "2022-07-21 16:47:10.470000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-21 17:12:09.923000",
+    "end": "2022-07-21 17:14:18.743000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-22 07:25:51.820000",
+    "end": "2022-07-22 07:27:57.679000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-21 14:26:28.378000",
+    "end": "2022-07-21 14:28:24.437000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-21 14:54:19.560000",
+    "end": "2022-07-21 14:56:16.490000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-21 15:44:09.070000",
+    "end": "2022-07-21 15:46:05.119000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-21 18:27:06.664000",
+    "end": "2022-07-21 18:29:01.715000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-22 05:52:13.392000",
+    "end": "2022-07-22 05:54:04.474000",
+    "minutes": 1.9
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 8.35,
+    "0.99": 10.09
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.77,
+    "0.99": 6.19
+   },
+   "oil_temperature": {
+    "0.05": 50.0,
+    "0.5": 55.6,
+    "0.95": 59.2,
+    "0.99": 60.7
+   }
+  }
+ },
+ "ctl_ev2_o24_1": {
+  "window": [
+   "2022-07-04 08:01:33.469000",
+   "2022-07-05 08:01:33.469000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-04 09:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.46,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.29,
+    "oil_mean": 55.61,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 10:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.46,
+    "h1_mean": 8.46,
+    "motor_current_mean": 1.27,
+    "oil_mean": 54.81,
+    "oil_max": 58.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 11:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.52,
+    "h1_mean": 8.35,
+    "motor_current_mean": 1.06,
+    "oil_mean": 55.36,
+    "oil_max": 60.2,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 12:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.51,
+    "h1_mean": 8.7,
+    "motor_current_mean": 0.85,
+    "oil_mean": 56.24,
+    "oil_max": 61.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 13:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.49,
+    "h1_mean": 8.24,
+    "motor_current_mean": 1.24,
+    "oil_mean": 56.58,
+    "oil_max": 61.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 14:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.4,
+    "h1_mean": 8.16,
+    "motor_current_mean": 1.24,
+    "oil_mean": 57.03,
+    "oil_max": 62.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 15:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.4,
+    "h1_mean": 8.2,
+    "motor_current_mean": 1.27,
+    "oil_mean": 56.48,
+    "oil_max": 61.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 16:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.46,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.24,
+    "oil_mean": 56.63,
+    "oil_max": 61.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 17:00:00",
+    "tp2_mean": 0.83,
+    "tp2_max": 10.51,
+    "h1_mean": 8.07,
+    "motor_current_mean": 1.87,
+    "oil_mean": 58.08,
+    "oil_max": 64.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 18:00:00",
+    "tp2_mean": 0.69,
+    "tp2_max": 10.39,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.34,
+    "oil_mean": 58.4,
+    "oil_max": 63.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 19:00:00",
+    "tp2_mean": 0.61,
+    "tp2_max": 10.4,
+    "h1_mean": 8.44,
+    "motor_current_mean": 1.3,
+    "oil_mean": 56.87,
+    "oil_max": 60.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 20:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.41,
+    "h1_mean": 8.36,
+    "motor_current_mean": 0.99,
+    "oil_mean": 55.65,
+    "oil_max": 61.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 21:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.4,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.42,
+    "oil_mean": 56.1,
+    "oil_max": 60.9,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 22:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.42,
+    "h1_mean": 8.05,
+    "motor_current_mean": 2.05,
+    "oil_mean": 58.49,
+    "oil_max": 64.13,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-04 23:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.4,
+    "h1_mean": 7.98,
+    "motor_current_mean": 1.47,
+    "oil_mean": 57.5,
+    "oil_max": 62.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 00:00:00",
+    "tp2_mean": 0.55,
+    "tp2_max": 10.41,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.67,
+    "oil_mean": 57.61,
+    "oil_max": 62.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 01:00:00",
+    "tp2_mean": 0.38,
+    "tp2_max": 10.52,
+    "h1_mean": 8.67,
+    "motor_current_mean": 1.35,
+    "oil_mean": 56.71,
+    "oil_max": 60.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.63,
+    "motor_current_mean": 0.04,
+    "oil_mean": 55.4,
+    "oil_max": 56.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-05 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-05 05:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.02,
+    "motor_current_mean": 0.87,
+    "oil_mean": 48.19,
+    "oil_max": 49.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 06:00:00",
+    "tp2_mean": 0.78,
+    "tp2_max": 10.53,
+    "h1_mean": 8.24,
+    "motor_current_mean": 1.84,
+    "oil_mean": 53.21,
+    "oil_max": 60.67,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 07:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.52,
+    "h1_mean": 8.52,
+    "motor_current_mean": 1.28,
+    "oil_mean": 55.57,
+    "oil_max": 59.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 08:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.52,
+    "h1_mean": 8.19,
+    "motor_current_mean": 1.27,
+    "oil_mean": 56.74,
+    "oil_max": 62.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-05 09:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 8.5,
+    "h1_mean": 7.22,
+    "motor_current_mean": 0.65,
+    "oil_mean": 55.11,
+    "oil_max": 55.32,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-04 17:12:28.117000",
+    "end": "2022-07-04 17:15:12.625000",
+    "minutes": 2.7
+   },
+   {
+    "start": "2022-07-04 21:06:44.110000",
+    "end": "2022-07-04 21:09:05.815000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-04 18:11:25.354000",
+    "end": "2022-07-04 18:13:46.195000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-04 09:12:04.453000",
+    "end": "2022-07-04 09:14:12.305000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-04 10:12:40.487000",
+    "end": "2022-07-04 10:14:45.344000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-04 19:12:39.579000",
+    "end": "2022-07-04 19:14:43.560000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-04 08:34:02.873000",
+    "end": "2022-07-04 08:36:00.798000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-04 20:21:35.645000",
+    "end": "2022-07-04 20:23:36.540000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-04 21:47:22.006000",
+    "end": "2022-07-04 21:49:19.934000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-04 22:18:56.809000",
+    "end": "2022-07-04 22:20:55.722000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 8.72,
+    "0.99": 10.16
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.87,
+    "0.99": 6.17
+   },
+   "oil_temperature": {
+    "0.05": 52.0,
+    "0.5": 56.5,
+    "0.95": 60.0,
+    "0.99": 61.8
+   }
+  }
+ },
+ "ctl_ev2_o48_0": {
+  "window": [
+   "2022-07-18 10:31:59.637000",
+   "2022-07-19 10:31:59.637000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-18 11:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.67,
+    "motor_current_mean": 0.23,
+    "oil_mean": 56.38,
+    "oil_max": 58.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 12:00:00",
+    "tp2_mean": 0.77,
+    "tp2_max": 10.5,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.71,
+    "oil_mean": 58.39,
+    "oil_max": 64.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 13:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.5,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.06,
+    "oil_mean": 58.24,
+    "oil_max": 64.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 14:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.49,
+    "h1_mean": 8.78,
+    "motor_current_mean": 0.95,
+    "oil_mean": 58.16,
+    "oil_max": 64.13,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 15:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.49,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.29,
+    "oil_mean": 58.29,
+    "oil_max": 64.35,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 16:00:00",
+    "tp2_mean": 0.83,
+    "tp2_max": 10.5,
+    "h1_mean": 7.99,
+    "motor_current_mean": 1.53,
+    "oil_mean": 58.48,
+    "oil_max": 64.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 17:00:00",
+    "tp2_mean": 0.64,
+    "tp2_max": 10.5,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.56,
+    "oil_mean": 59.93,
+    "oil_max": 66.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 18:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.31,
+    "oil_mean": 59.02,
+    "oil_max": 64.65,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 19:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.5,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.3,
+    "oil_mean": 59.04,
+    "oil_max": 65.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 20:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.18,
+    "motor_current_mean": 1.25,
+    "oil_mean": 57.24,
+    "oil_max": 63.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 21:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.51,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.24,
+    "oil_mean": 56.47,
+    "oil_max": 62.62,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 22:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.38,
+    "h1_mean": 8.6,
+    "motor_current_mean": 0.63,
+    "oil_mean": 54.89,
+    "oil_max": 59.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-18 23:00:00",
+    "tp2_mean": 0.49,
+    "tp2_max": 10.41,
+    "h1_mean": 8.33,
+    "motor_current_mean": 1.02,
+    "oil_mean": 52.76,
+    "oil_max": 58.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 00:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.41,
+    "h1_mean": 8.77,
+    "motor_current_mean": 0.85,
+    "oil_mean": 52.95,
+    "oil_max": 57.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 01:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.35,
+    "h1_mean": 8.36,
+    "motor_current_mean": 0.26,
+    "oil_mean": 51.24,
+    "oil_max": 55.25,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 02:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.48,
+    "h1_mean": 8.56,
+    "motor_current_mean": 1.28,
+    "oil_mean": 52.18,
+    "oil_max": 57.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 03:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.46,
+    "h1_mean": 8.26,
+    "motor_current_mean": 0.83,
+    "oil_mean": 51.86,
+    "oil_max": 58.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 04:00:00",
+    "tp2_mean": 0.24,
+    "tp2_max": 10.41,
+    "h1_mean": 8.8,
+    "motor_current_mean": 1.06,
+    "oil_mean": 53.14,
+    "oil_max": 57.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 05:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.41,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.18,
+    "oil_mean": 53.35,
+    "oil_max": 59.12,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 06:00:00",
+    "tp2_mean": 0.23,
+    "tp2_max": 10.44,
+    "h1_mean": 8.69,
+    "motor_current_mean": 0.71,
+    "oil_mean": 54.52,
+    "oil_max": 59.45,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 07:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.47,
+    "h1_mean": 8.47,
+    "motor_current_mean": 1.28,
+    "oil_mean": 55.24,
+    "oil_max": 60.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 08:00:00",
+    "tp2_mean": 0.48,
+    "tp2_max": 10.39,
+    "h1_mean": 8.29,
+    "motor_current_mean": 0.83,
+    "oil_mean": 55.07,
+    "oil_max": 60.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 09:00:00",
+    "tp2_mean": 0.28,
+    "tp2_max": 10.38,
+    "h1_mean": 8.79,
+    "motor_current_mean": 1.22,
+    "oil_mean": 56.51,
+    "oil_max": 61.18,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 10:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.46,
+    "h1_mean": 8.36,
+    "motor_current_mean": 1.33,
+    "oil_mean": 57.03,
+    "oil_max": 63.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-19 11:00:00",
+    "tp2_mean": 0.47,
+    "tp2_max": 10.46,
+    "h1_mean": 8.32,
+    "motor_current_mean": 0.62,
+    "oil_mean": 56.13,
+    "oil_max": 61.68,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-18 14:02:41.066000",
+    "end": "2022-07-18 14:04:56.834000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-18 16:18:26.799000",
+    "end": "2022-07-18 16:20:40.698000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-18 16:52:08.702000",
+    "end": "2022-07-18 16:54:13.567000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-18 18:04:14.616000",
+    "end": "2022-07-18 18:06:22.453000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-18 18:33:59.670000",
+    "end": "2022-07-18 18:36:06.521000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-18 12:26:22.967000",
+    "end": "2022-07-18 12:28:20.898000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-18 12:56:17.555000",
+    "end": "2022-07-18 12:58:14.591000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-18 14:38:28.272000",
+    "end": "2022-07-18 14:40:23.323000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-18 15:41:42.659000",
+    "end": "2022-07-18 15:43:36.635000",
+    "minutes": 1.9
+   },
+   {
+    "start": "2022-07-18 19:38:51.655000",
+    "end": "2022-07-18 19:40:42.732000",
+    "minutes": 1.9
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 6.65,
+    "0.99": 10.08
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.46,
+    "0.99": 6.2
+   },
+   "oil_temperature": {
+    "0.05": 50.3,
+    "0.5": 56.0,
+    "0.95": 60.9,
+    "0.99": 63.6
+   }
+  }
+ },
+ "ctl_ev2_o48_1": {
+  "window": [
+   "2022-07-27 09:59:47.098000",
+   "2022-07-28 09:59:47.098000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-27 10:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.38,
+    "motor_current_mean": 0.04,
+    "oil_mean": 54.73,
+    "oil_max": 54.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 11:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.39,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.27,
+    "oil_mean": 55.6,
+    "oil_max": 57.3,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 12:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.4,
+    "h1_mean": 8.19,
+    "motor_current_mean": 1.25,
+    "oil_mean": 56.34,
+    "oil_max": 58.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 13:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.4,
+    "h1_mean": 8.38,
+    "motor_current_mean": 1.9,
+    "oil_mean": 57.58,
+    "oil_max": 58.93,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 14:00:00",
+    "tp2_mean": 0.53,
+    "tp2_max": 10.43,
+    "h1_mean": 8.39,
+    "motor_current_mean": 1.24,
+    "oil_mean": 57.87,
+    "oil_max": 59.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 15:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.5,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.27,
+    "oil_mean": 57.83,
+    "oil_max": 59.5,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 16:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.5,
+    "h1_mean": 8.06,
+    "motor_current_mean": 1.87,
+    "oil_mean": 57.64,
+    "oil_max": 59.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 17:00:00",
+    "tp2_mean": 0.94,
+    "tp2_max": 10.49,
+    "h1_mean": 7.95,
+    "motor_current_mean": 1.58,
+    "oil_mean": 58.42,
+    "oil_max": 59.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 18:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.48,
+    "oil_mean": 58.32,
+    "oil_max": 60.35,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 19:00:00",
+    "tp2_mean": 0.66,
+    "tp2_max": 10.38,
+    "h1_mean": 8.34,
+    "motor_current_mean": 1.47,
+    "oil_mean": 58.15,
+    "oil_max": 59.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 20:00:00",
+    "tp2_mean": 0.68,
+    "tp2_max": 10.41,
+    "h1_mean": 8.04,
+    "motor_current_mean": 1.35,
+    "oil_mean": 56.12,
+    "oil_max": 57.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 21:00:00",
+    "tp2_mean": 0.68,
+    "tp2_max": 10.51,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.43,
+    "oil_mean": 55.65,
+    "oil_max": 56.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 22:00:00",
+    "tp2_mean": 0.3,
+    "tp2_max": 10.48,
+    "h1_mean": 8.73,
+    "motor_current_mean": 1.14,
+    "oil_mean": 54.96,
+    "oil_max": 56.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-27 23:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 8.88,
+    "motor_current_mean": 0.51,
+    "oil_mean": 51.52,
+    "oil_max": 52.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 00:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.43,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.25,
+    "oil_mean": 51.84,
+    "oil_max": 53.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 01:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.46,
+    "h1_mean": 8.49,
+    "motor_current_mean": 1.25,
+    "oil_mean": 52.45,
+    "oil_max": 54.32,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 02:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.47,
+    "h1_mean": 8.37,
+    "motor_current_mean": 1.16,
+    "oil_mean": 51.01,
+    "oil_max": 52.8,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 03:00:00",
+    "tp2_mean": 0.25,
+    "tp2_max": 10.47,
+    "h1_mean": 8.61,
+    "motor_current_mean": 0.74,
+    "oil_mean": 50.95,
+    "oil_max": 52.12,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 04:00:00",
+    "tp2_mean": 0.5,
+    "tp2_max": 10.42,
+    "h1_mean": 8.51,
+    "motor_current_mean": 1.25,
+    "oil_mean": 50.8,
+    "oil_max": 52.1,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 05:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.43,
+    "h1_mean": 8.44,
+    "motor_current_mean": 1.26,
+    "oil_mean": 50.71,
+    "oil_max": 52.15,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 06:00:00",
+    "tp2_mean": 0.51,
+    "tp2_max": 10.48,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.27,
+    "oil_mean": 51.29,
+    "oil_max": 52.72,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 07:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.47,
+    "h1_mean": 8.06,
+    "motor_current_mean": 1.74,
+    "oil_mean": 53.2,
+    "oil_max": 56.82,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 08:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.46,
+    "h1_mean": 8.33,
+    "motor_current_mean": 1.41,
+    "oil_mean": 55.06,
+    "oil_max": 56.75,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 09:00:00",
+    "tp2_mean": 0.61,
+    "tp2_max": 10.51,
+    "h1_mean": 8.25,
+    "motor_current_mean": 1.29,
+    "oil_mean": 55.94,
+    "oil_max": 58.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-28 10:00:00",
+    "tp2_mean": 0.81,
+    "tp2_max": 10.4,
+    "h1_mean": 8.16,
+    "motor_current_mean": 1.86,
+    "oil_mean": 56.01,
+    "oil_max": 58.05,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-27 18:04:22.611000",
+    "end": "2022-07-27 18:06:50.265000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-07-27 16:56:49.221000",
+    "end": "2022-07-27 16:59:10.926000",
+    "minutes": 2.4
+   },
+   {
+    "start": "2022-07-27 12:27:16.240000",
+    "end": "2022-07-27 12:29:21.100000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-27 15:51:25.517000",
+    "end": "2022-07-27 15:53:30.391000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-28 06:53:41.719000",
+    "end": "2022-07-28 06:55:46.685000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-28 07:59:55.760000",
+    "end": "2022-07-28 08:02:03.609000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-27 12:49:25.438000",
+    "end": "2022-07-27 12:51:25.347000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-27 15:04:11.924000",
+    "end": "2022-07-27 15:06:10.933000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-27 16:15:27.694000",
+    "end": "2022-07-27 16:17:26.715000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-27 18:31:17.289000",
+    "end": "2022-07-27 18:33:15.210000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.02,
+    "0.5": -0.01,
+    "0.95": 8.77,
+    "0.99": 10.17
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.88,
+    "0.99": 6.19
+   },
+   "oil_temperature": {
+    "0.05": 50.1,
+    "0.5": 55.5,
+    "0.95": 59.1,
+    "0.99": 59.7
+   }
+  }
+ },
+ "ctl_ev2_o72_0": {
+  "window": [
+   "2022-07-22 11:15:03.132000",
+   "2022-07-23 11:15:03.132000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-22 12:00:00",
+    "tp2_mean": 0.7,
+    "tp2_max": 10.39,
+    "h1_mean": 8.08,
+    "motor_current_mean": 1.11,
+    "oil_mean": 55.86,
+    "oil_max": 59.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 13:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.4,
+    "h1_mean": 8.63,
+    "motor_current_mean": 1.05,
+    "oil_mean": 56.89,
+    "oil_max": 59.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 14:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.39,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.26,
+    "oil_mean": 57.07,
+    "oil_max": 60.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 15:00:00",
+    "tp2_mean": 0.8,
+    "tp2_max": 10.49,
+    "h1_mean": 8.05,
+    "motor_current_mean": 1.59,
+    "oil_mean": 58.34,
+    "oil_max": 62.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 16:00:00",
+    "tp2_mean": 0.3,
+    "tp2_max": 10.5,
+    "h1_mean": 8.7,
+    "motor_current_mean": 0.92,
+    "oil_mean": 58.72,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 17:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.5,
+    "h1_mean": 7.89,
+    "motor_current_mean": 1.71,
+    "oil_mean": 58.66,
+    "oil_max": 61.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 18:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.5,
+    "h1_mean": 8.29,
+    "motor_current_mean": 1.49,
+    "oil_mean": 60.13,
+    "oil_max": 63.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 19:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.5,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.89,
+    "oil_mean": 59.45,
+    "oil_max": 62.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 20:00:00",
+    "tp2_mean": 0.64,
+    "tp2_max": 10.38,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.05,
+    "oil_mean": 57.54,
+    "oil_max": 60.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 21:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.39,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.55,
+    "oil_mean": 58.25,
+    "oil_max": 60.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 22:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.41,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.82,
+    "oil_mean": 57.73,
+    "oil_max": 60.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 23:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.39,
+    "h1_mean": 8.33,
+    "motor_current_mean": 0.96,
+    "oil_mean": 57.09,
+    "oil_max": 60.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 00:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.4,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.72,
+    "oil_mean": 56.59,
+    "oil_max": 60.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 01:00:00",
+    "tp2_mean": 0.47,
+    "tp2_max": 10.38,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.11,
+    "oil_mean": 56.76,
+    "oil_max": 58.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.3,
+    "motor_current_mean": 1.01,
+    "oil_mean": 54.3,
+    "oil_max": 55.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 05:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 06:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.43,
+    "h1_mean": 8.56,
+    "motor_current_mean": 1.69,
+    "oil_mean": 52.02,
+    "oil_max": 57.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 07:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.43,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.28,
+    "oil_mean": 54.93,
+    "oil_max": 57.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 08:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.41,
+    "h1_mean": 8.28,
+    "motor_current_mean": 1.26,
+    "oil_mean": 54.68,
+    "oil_max": 58.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 09:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.42,
+    "h1_mean": 8.54,
+    "motor_current_mean": 1.28,
+    "oil_mean": 56.39,
+    "oil_max": 59.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 10:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.41,
+    "h1_mean": 8.4,
+    "motor_current_mean": 1.27,
+    "oil_mean": 55.84,
+    "oil_max": 58.73,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 11:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.46,
+    "h1_mean": 8.17,
+    "motor_current_mean": 1.26,
+    "oil_mean": 56.17,
+    "oil_max": 57.95,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 12:00:00",
+    "tp2_mean": 1.04,
+    "tp2_max": 10.44,
+    "h1_mean": 7.8,
+    "motor_current_mean": 2.17,
+    "oil_mean": 56.56,
+    "oil_max": 59.42,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-22 22:21:44.392000",
+    "end": "2022-07-22 22:24:12.041000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-07-22 16:00:00.156000",
+    "end": "2022-07-22 16:02:15.914000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-22 18:21:59.845000",
+    "end": "2022-07-22 18:24:17.599000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-22 17:11:46.181000",
+    "end": "2022-07-22 17:13:56.999000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 19:55:35.853000",
+    "end": "2022-07-22 19:57:48.761000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 22:58:08.508000",
+    "end": "2022-07-22 23:00:20.302000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 19:27:32.382000",
+    "end": "2022-07-22 19:29:36.368000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-22 15:25:31.419000",
+    "end": "2022-07-22 15:27:31.421000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-22 18:51:35.792000",
+    "end": "2022-07-22 18:53:37.739000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-23 06:33:59.400000",
+    "end": "2022-07-23 06:36:02.392000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 8.82,
+    "0.99": 10.16
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.89,
+    "0.99": 6.18
+   },
+   "oil_temperature": {
+    "0.05": 53.5,
+    "0.5": 57.1,
+    "0.95": 60.3,
+    "0.99": 61.5
+   }
+  }
+ },
+ "ctl_ev2_o72_1": {
+  "window": [
+   "2022-07-22 09:26:30.622000",
+   "2022-07-23 09:26:30.622000"
+  ],
+  "hourly": [
+   {
+    "hour_ending": "2022-07-22 10:00:00",
+    "tp2_mean": 0.95,
+    "tp2_max": 10.46,
+    "h1_mean": 8.25,
+    "motor_current_mean": 2.2,
+    "oil_mean": 56.93,
+    "oil_max": 60.27,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 11:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.5,
+    "h1_mean": 8.45,
+    "motor_current_mean": 0.92,
+    "oil_mean": 55.81,
+    "oil_max": 59.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 12:00:00",
+    "tp2_mean": 0.52,
+    "tp2_max": 10.39,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.17,
+    "oil_mean": 56.17,
+    "oil_max": 59.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 13:00:00",
+    "tp2_mean": 0.26,
+    "tp2_max": 10.4,
+    "h1_mean": 8.63,
+    "motor_current_mean": 1.05,
+    "oil_mean": 56.89,
+    "oil_max": 59.05,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 14:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.39,
+    "h1_mean": 8.32,
+    "motor_current_mean": 1.26,
+    "oil_mean": 57.07,
+    "oil_max": 60.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 15:00:00",
+    "tp2_mean": 0.8,
+    "tp2_max": 10.49,
+    "h1_mean": 8.05,
+    "motor_current_mean": 1.59,
+    "oil_mean": 58.34,
+    "oil_max": 62.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 16:00:00",
+    "tp2_mean": 0.3,
+    "tp2_max": 10.5,
+    "h1_mean": 8.7,
+    "motor_current_mean": 0.92,
+    "oil_mean": 58.72,
+    "oil_max": 61.7,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 17:00:00",
+    "tp2_mean": 0.88,
+    "tp2_max": 10.5,
+    "h1_mean": 7.89,
+    "motor_current_mean": 1.71,
+    "oil_mean": 58.66,
+    "oil_max": 61.87,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 18:00:00",
+    "tp2_mean": 0.62,
+    "tp2_max": 10.5,
+    "h1_mean": 8.29,
+    "motor_current_mean": 1.49,
+    "oil_mean": 60.13,
+    "oil_max": 63.78,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 19:00:00",
+    "tp2_mean": 0.92,
+    "tp2_max": 10.5,
+    "h1_mean": 8.22,
+    "motor_current_mean": 1.89,
+    "oil_mean": 59.45,
+    "oil_max": 62.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 20:00:00",
+    "tp2_mean": 0.64,
+    "tp2_max": 10.38,
+    "h1_mean": 8.3,
+    "motor_current_mean": 1.05,
+    "oil_mean": 57.54,
+    "oil_max": 60.55,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 21:00:00",
+    "tp2_mean": 0.56,
+    "tp2_max": 10.39,
+    "h1_mean": 8.41,
+    "motor_current_mean": 1.55,
+    "oil_mean": 58.25,
+    "oil_max": 60.58,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 22:00:00",
+    "tp2_mean": 0.85,
+    "tp2_max": 10.41,
+    "h1_mean": 8.0,
+    "motor_current_mean": 1.82,
+    "oil_mean": 57.73,
+    "oil_max": 60.6,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-22 23:00:00",
+    "tp2_mean": 0.63,
+    "tp2_max": 10.39,
+    "h1_mean": 8.33,
+    "motor_current_mean": 0.96,
+    "oil_mean": 57.09,
+    "oil_max": 60.53,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 00:00:00",
+    "tp2_mean": 0.59,
+    "tp2_max": 10.4,
+    "h1_mean": 8.26,
+    "motor_current_mean": 1.72,
+    "oil_mean": 56.59,
+    "oil_max": 60.22,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 01:00:00",
+    "tp2_mean": 0.47,
+    "tp2_max": 10.38,
+    "h1_mean": 8.5,
+    "motor_current_mean": 1.11,
+    "oil_mean": 56.76,
+    "oil_max": 58.68,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 02:00:00",
+    "tp2_mean": -0.01,
+    "tp2_max": -0.01,
+    "h1_mean": 9.3,
+    "motor_current_mean": 1.01,
+    "oil_mean": 54.3,
+    "oil_max": 55.0,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 03:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 04:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 05:00:00",
+    "tp2_mean": NaN,
+    "tp2_max": NaN,
+    "h1_mean": NaN,
+    "motor_current_mean": NaN,
+    "oil_mean": NaN,
+    "oil_max": NaN,
+    "lps_fraction": NaN
+   },
+   {
+    "hour_ending": "2022-07-23 06:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.43,
+    "h1_mean": 8.56,
+    "motor_current_mean": 1.69,
+    "oil_mean": 52.02,
+    "oil_max": 57.98,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 07:00:00",
+    "tp2_mean": 0.57,
+    "tp2_max": 10.43,
+    "h1_mean": 8.42,
+    "motor_current_mean": 1.28,
+    "oil_mean": 54.93,
+    "oil_max": 57.4,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 08:00:00",
+    "tp2_mean": 0.54,
+    "tp2_max": 10.41,
+    "h1_mean": 8.28,
+    "motor_current_mean": 1.26,
+    "oil_mean": 54.68,
+    "oil_max": 58.48,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 09:00:00",
+    "tp2_mean": 0.58,
+    "tp2_max": 10.42,
+    "h1_mean": 8.54,
+    "motor_current_mean": 1.28,
+    "oil_mean": 56.39,
+    "oil_max": 59.42,
+    "lps_fraction": 0.0
+   },
+   {
+    "hour_ending": "2022-07-23 10:00:00",
+    "tp2_mean": 0.6,
+    "tp2_max": 10.41,
+    "h1_mean": 8.65,
+    "motor_current_mean": 1.42,
+    "oil_mean": 56.06,
+    "oil_max": 57.6,
+    "lps_fraction": 0.0
+   }
+  ],
+  "lps_episodes_min": [],
+  "duty_runs_over_4p5A_min": [
+   {
+    "start": "2022-07-22 22:21:44.392000",
+    "end": "2022-07-22 22:24:12.041000",
+    "minutes": 2.5
+   },
+   {
+    "start": "2022-07-22 16:00:00.156000",
+    "end": "2022-07-22 16:02:15.914000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-22 18:21:59.845000",
+    "end": "2022-07-22 18:24:17.599000",
+    "minutes": 2.3
+   },
+   {
+    "start": "2022-07-22 17:11:46.181000",
+    "end": "2022-07-22 17:13:56.999000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 19:55:35.853000",
+    "end": "2022-07-22 19:57:48.761000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 22:58:08.508000",
+    "end": "2022-07-22 23:00:20.302000",
+    "minutes": 2.2
+   },
+   {
+    "start": "2022-07-22 19:27:32.382000",
+    "end": "2022-07-22 19:29:36.368000",
+    "minutes": 2.1
+   },
+   {
+    "start": "2022-07-22 15:25:31.419000",
+    "end": "2022-07-22 15:27:31.421000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-22 18:51:35.792000",
+    "end": "2022-07-22 18:53:37.739000",
+    "minutes": 2.0
+   },
+   {
+    "start": "2022-07-23 06:33:59.400000",
+    "end": "2022-07-23 06:36:02.392000",
+    "minutes": 2.0
+   }
+  ],
+  "percentiles": {
+   "tp2": {
+    "0.05": -0.01,
+    "0.5": -0.01,
+    "0.95": 8.82,
+    "0.99": 10.16
+   },
+   "motor_current": {
+    "0.05": 0.03,
+    "0.5": 0.04,
+    "0.95": 5.89,
+    "0.99": 6.18
+   },
+   "oil_temperature": {
+    "0.05": 53.5,
+    "0.5": 57.1,
+    "0.95": 60.3,
+    "0.99": 61.5
+   }
+  }
+ }
+}

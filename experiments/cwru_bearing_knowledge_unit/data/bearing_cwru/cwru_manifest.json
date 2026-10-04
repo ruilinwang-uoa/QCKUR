@@ -1,0 +1,322 @@
+{
+ "97.mat": {
+  "condition": "normal",
+  "component": "none",
+  "defect_size_in": 0.0,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "98.mat": {
+  "condition": "normal",
+  "component": "none",
+  "defect_size_in": 0.0,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "99.mat": {
+  "condition": "normal",
+  "component": "none",
+  "defect_size_in": 0.0,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "100.mat": {
+  "condition": "normal",
+  "component": "none",
+  "defect_size_in": 0.0,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "105.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.007,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "106.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.007,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "107.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.007,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "108.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.007,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "169.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.014,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "170.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.014,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "171.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.014,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "172.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.014,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "209.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.021,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "210.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.021,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "211.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.021,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "212.mat": {
+  "condition": "fault",
+  "component": "IR",
+  "defect_size_in": 0.021,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "118.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.007,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "119.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.007,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "120.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.007,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "121.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.007,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "185.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.014,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "186.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.014,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "187.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.014,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "188.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.014,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "222.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.021,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "223.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.021,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "224.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.021,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "225.mat": {
+  "condition": "fault",
+  "component": "B",
+  "defect_size_in": 0.021,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "130.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.007,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "131.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.007,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "132.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.007,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "133.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.007,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "197.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.014,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "198.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.014,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "199.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.014,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "200.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.014,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "234.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.021,
+  "load_hp": 0,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "235.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.021,
+  "load_hp": 1,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "236.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.021,
+  "load_hp": 2,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ },
+ "237.mat": {
+  "condition": "fault",
+  "component": "OR@6",
+  "defect_size_in": 0.021,
+  "load_hp": 3,
+  "sampling_hz": 12000,
+  "channel": "DE"
+ }
+}

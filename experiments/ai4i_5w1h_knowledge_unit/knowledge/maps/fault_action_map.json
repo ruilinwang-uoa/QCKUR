@@ -1,0 +1,32 @@
+{
+  "TWF": {
+    "component": "cutting tool",
+    "action": "replace cutting tool; verify tool-life monitoring threshold",
+    "responder": "operator",
+    "severity": "medium"
+  },
+  "HDF": {
+    "component": "cooling system",
+    "action": "inspect hydraulic/cooling circuit and ventilation; clean filters",
+    "responder": "maintenance team",
+    "severity": "high"
+  },
+  "PWF": {
+    "component": "drive / power train",
+    "action": "reduce feed rate / torque; check motor and drive load",
+    "responder": "operator + maintenance",
+    "severity": "high"
+  },
+  "OSF": {
+    "component": "tool holder / spindle",
+    "action": "reduce feed (tool wear x torque); rebalance tool load",
+    "responder": "operator",
+    "severity": "medium"
+  },
+  "RNF": {
+    "component": "unspecified",
+    "action": "inspect machine; log as random fault; no deterministic rule",
+    "responder": "operator",
+    "severity": "low"
+  }
+}

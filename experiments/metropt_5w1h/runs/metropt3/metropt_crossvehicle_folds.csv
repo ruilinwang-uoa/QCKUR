@@ -1,0 +1,7 @@
+src,tgt,sig_detected,det_rate,nominal_FA,ooc_identified
+metropt3,metropt2022,0/0,,0/22,0/2
+metropt3,metropt2022B,0/2,0.0,0/12,0/0
+metropt2022,metropt3,0/7,0.0,30/30,1/1
+metropt2022,metropt2022B,0/2,0.0,12/12,0/0
+metropt2022B,metropt3,1/7,0.14,4/30,0/1
+metropt2022B,metropt2022,0/0,,17/22,2/2

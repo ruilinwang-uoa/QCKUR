@@ -1,0 +1,120 @@
+{
+  "adv": {
+    "Q_What_002": "What type of failure is currently occurring in this sample?",
+    "Q_Why_071": "What was the cause of the sample's failure or success?",
+    "Q_When_095": "Is it currently necessary to intervene?",
+    "Q_Where_117": "What is the source of this irregularity?",
+    "Q_Who_142": "To whom should this example be addressed?",
+    "Q_How_173": "What should be done with this particular sample?"
+  },
+  "routing": {
+    "Q_What_002|bank0": {
+      "question": "What fault mode does this sample exhibit?",
+      "matcher_output": "Which failure mode is active for this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_What_002"
+    },
+    "Q_What_002|bank1": {
+      "question": "Identify the active failure mode.",
+      "matcher_output": "Which failure mode is active for this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_What_002"
+    },
+    "Q_What_002|adv": {
+      "question": "What type of failure is currently occurring in this sample?",
+      "matcher_output": "Which failure mode is active for this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_What_002"
+    },
+    "Q_Why_071|bank0": {
+      "question": "What is the primary cause of failure?",
+      "matcher_output": "What is the primary cause of failure?",
+      "verdict": "unparseable (abstains)",
+      "routed_id": null
+    },
+    "Q_Why_071|bank1": {
+      "question": "Explain the failure reason.",
+      "matcher_output": "Why is this sample flagged as PWF (power failure)?\nWhy is this sample flagged as HDF (heat dissipation failure)?\nWhy is this sample flagged as OSF (overstrain failure)?\nWhy is this sample flagged as TWF (tool wear failure)?\nWhy is this sample NOT a TWF failure?\nWhy is this sample NOT a HDF failure?\nWhy is this sample NOT a PWF failure?\nWhy is this sample NOT a OSF failure?\nWhy is this sample NOT a RNF failure?\nWhy did this sample fail (or not)?\nWhy is this sample considered healthy?\nWhy is this sample a random failure?\nWhy does the random_forest model reach its decision for this sample?\nWhy does the gradient_boosting model reach its decision for this sample?\nWhy does the logistic_regression model reach its decision for this sample?\nWhy does the air temperature deviate from its typical value?\nWhy does the process temperature deviate from its typical value?\nWhy does the rotational speed deviate from its typical value?\nWhy does the torque deviate from its typical value?\nWhy does the tool wear deviate from its typical value?\nWhy does the mechanical power deviate from its typical value?\nWhy does the process-air temperature difference deviate from its typical value?\nWhy does the overstrain (tool wear x torque) deviate from its typical value?",
+      "verdict": "unparseable (abstains)",
+      "routed_id": null
+    },
+    "Q_Why_071|adv": {
+      "question": "What was the cause of the sample's failure or success?",
+      "matcher_output": "Why did this sample fail (or not)?",
+      "verdict": "exact",
+      "routed_id": "Q_Why_071"
+    },
+    "Q_When_095|bank0": {
+      "question": "Does this sample need immediate attention?",
+      "matcher_output": "Is intervention needed now?",
+      "verdict": "exact",
+      "routed_id": "Q_When_095"
+    },
+    "Q_When_095|bank1": {
+      "question": "When should we intervene?",
+      "matcher_output": "Is intervention needed now?",
+      "verdict": "exact",
+      "routed_id": "Q_When_095"
+    },
+    "Q_When_095|adv": {
+      "question": "Is it currently necessary to intervene?",
+      "matcher_output": "Is intervention needed now?",
+      "verdict": "exact",
+      "routed_id": "Q_When_095"
+    },
+    "Q_Where_117|bank0": {
+      "question": "Which component is anomalous?",
+      "matcher_output": "Which component is implicated by the active fault?",
+      "verdict": "rerouted",
+      "routed_id": "Q_Where_118"
+    },
+    "Q_Where_117|bank1": {
+      "question": "Locate the source of abnormality.",
+      "matcher_output": "Where does the anomaly originate?",
+      "verdict": "exact",
+      "routed_id": "Q_Where_117"
+    },
+    "Q_Where_117|adv": {
+      "question": "What is the source of this irregularity?",
+      "matcher_output": "NO MATCH",
+      "verdict": "abstain",
+      "routed_id": null
+    },
+    "Q_Who_142|bank0": {
+      "question": "Which responder is required?",
+      "matcher_output": "Who should respond to this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_Who_142"
+    },
+    "Q_Who_142|bank1": {
+      "question": "Who needs to act on this sample?",
+      "matcher_output": "Who should respond to this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_Who_142"
+    },
+    "Q_Who_142|adv": {
+      "question": "To whom should this example be addressed?",
+      "matcher_output": "Who should respond to this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_Who_142"
+    },
+    "Q_How_173|bank0": {
+      "question": "What should be done about this sample?",
+      "matcher_output": "What should be done about this sample?",
+      "verdict": "unparseable (abstains)",
+      "routed_id": null
+    },
+    "Q_How_173|bank1": {
+      "question": "Recommend a maintenance action.",
+      "matcher_output": "What action is recommended for this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_How_173"
+    },
+    "Q_How_173|adv": {
+      "question": "What should be done with this particular sample?",
+      "matcher_output": "What action is recommended for this sample?",
+      "verdict": "exact",
+      "routed_id": "Q_How_173"
+    }
+  }
+}

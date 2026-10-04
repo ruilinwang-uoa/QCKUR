@@ -1,0 +1,489 @@
+{
+ "params": {
+  "window_h": 24.0,
+  "offsets": [
+   6.0,
+   12.0,
+   24.0,
+   48.0,
+   72.0
+  ],
+  "controls_per_positive": 2,
+  "min_coverage": 0.8,
+  "seed": 42,
+  "anchor_policy": "end",
+  "post_exclude_h": 24.0,
+  "median_cadence_s": 1.0,
+  "median_daily_rows": 72001.0,
+  "expected_rows_per_window": 72001
+ },
+ "counts": {
+  "positives": 15,
+  "controls": 24,
+  "dropped": 6
+ },
+ "windows": [
+  {
+   "window_id": "ev1_o6",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 6.0,
+   "anchor": "2022-03-01 02:00:00",
+   "t_start": "2022-02-27 20:00:00",
+   "t_end": "2022-02-28 20:00:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev1_o12",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 12.0,
+   "anchor": "2022-03-01 02:00:00",
+   "t_start": "2022-02-27 14:00:00",
+   "t_end": "2022-02-28 14:00:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev1_o24",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 24.0,
+   "anchor": "2022-03-01 02:00:00",
+   "t_start": "2022-02-27 02:00:00",
+   "t_end": "2022-02-28 02:00:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev1_o48",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 48.0,
+   "anchor": "2022-03-01 02:00:00",
+   "t_start": "2022-02-26 02:00:00",
+   "t_end": "2022-02-27 02:00:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev1_o72",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 72.0,
+   "anchor": "2022-03-01 02:00:00",
+   "t_start": "2022-02-25 02:00:00",
+   "t_end": "2022-02-26 02:00:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev2_o6",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 6.0,
+   "anchor": "2022-03-23 15:24:00",
+   "t_start": "2022-03-22 09:24:00",
+   "t_end": "2022-03-23 09:24:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev2_o12",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 12.0,
+   "anchor": "2022-03-23 15:24:00",
+   "t_start": "2022-03-22 03:24:00",
+   "t_end": "2022-03-23 03:24:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev2_o24",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 24.0,
+   "anchor": "2022-03-23 15:24:00",
+   "t_start": "2022-03-21 15:24:00",
+   "t_end": "2022-03-22 15:24:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev2_o48",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 48.0,
+   "anchor": "2022-03-23 15:24:00",
+   "t_start": "2022-03-20 15:24:00",
+   "t_end": "2022-03-21 15:24:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev2_o72",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 72.0,
+   "anchor": "2022-03-23 15:24:00",
+   "t_start": "2022-03-19 15:24:00",
+   "t_end": "2022-03-20 15:24:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev3_o6",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 6.0,
+   "anchor": "2022-06-02 06:18:00",
+   "t_start": "2022-06-01 00:18:00",
+   "t_end": "2022-06-02 00:18:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev3_o12",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 12.0,
+   "anchor": "2022-06-02 06:18:00",
+   "t_start": "2022-05-31 18:18:00",
+   "t_end": "2022-06-01 18:18:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev3_o24",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 24.0,
+   "anchor": "2022-06-02 06:18:00",
+   "t_start": "2022-05-31 06:18:00",
+   "t_end": "2022-06-01 06:18:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev3_o48",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 48.0,
+   "anchor": "2022-06-02 06:18:00",
+   "t_start": "2022-05-30 06:18:00",
+   "t_end": "2022-05-31 06:18:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ev3_o72",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 72.0,
+   "anchor": "2022-06-02 06:18:00",
+   "t_start": "2022-05-29 06:18:00",
+   "t_end": "2022-05-30 06:18:00",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-02 19:03:24",
+   "t_end": "2022-02-03 19:03:24",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-19 18:52:48",
+   "t_end": "2022-02-20 18:52:48",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-16 13:49:17",
+   "t_end": "2022-02-17 13:49:17",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-10 16:51:35",
+   "t_end": "2022-02-11 16:51:35",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-10 01:39:03",
+   "t_end": "2022-02-11 01:39:03",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-21 00:55:48",
+   "t_end": "2022-02-22 00:55:48",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-02 00:17:50",
+   "t_end": "2022-02-03 00:17:50",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-17 00:52:06",
+   "t_end": "2022-02-18 00:52:06",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-05 00:04:24",
+   "t_end": "2022-02-06 00:04:24",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev1_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-02-02 00:42:32",
+   "t_end": "2022-02-03 00:42:32",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-16 07:32:42",
+   "t_end": "2022-03-17 07:32:42",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-30 09:11:47",
+   "t_end": "2022-03-31 09:11:47",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-19 01:54:59",
+   "t_end": "2022-03-20 01:54:59",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-26 01:23:35",
+   "t_end": "2022-03-27 01:23:35",
+   "n_rows": 68967,
+   "coverage": 0.958
+  },
+  {
+   "window_id": "ctl_ev2_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-15 14:17:02",
+   "t_end": "2022-03-16 14:17:02",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-05 15:54:39",
+   "t_end": "2022-03-06 15:54:39",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-27 13:50:04",
+   "t_end": "2022-03-28 13:50:04",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-14 17:44:39",
+   "t_end": "2022-03-15 17:44:39",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-11 14:56:05",
+   "t_end": "2022-03-12 14:56:05",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev2_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-03-06 17:25:16",
+   "t_end": "2022-03-07 17:25:16",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev3_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-25 06:04:04",
+   "t_end": "2022-05-26 06:04:04",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev3_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-21 06:18:25",
+   "t_end": "2022-05-22 06:18:25",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev3_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-17 07:09:11",
+   "t_end": "2022-05-18 07:09:11",
+   "n_rows": 72001,
+   "coverage": 1.0
+  },
+  {
+   "window_id": "ctl_ev3_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-10 08:35:44",
+   "t_end": "2022-05-11 08:35:44",
+   "n_rows": 72001,
+   "coverage": 1.0
+  }
+ ],
+ "dropped": [
+  {
+   "kind": "control",
+   "for": "ev3_o6",
+   "reason": "no candidate passed guards"
+  },
+  {
+   "kind": "control",
+   "for": "ev3_o6",
+   "reason": "no candidate passed guards"
+  },
+  {
+   "kind": "control",
+   "for": "ev3_o12",
+   "reason": "no candidate passed guards"
+  },
+  {
+   "kind": "control",
+   "for": "ev3_o12",
+   "reason": "no candidate passed guards"
+  },
+  {
+   "kind": "control",
+   "for": "ev3_o24",
+   "reason": "no candidate passed guards"
+  },
+  {
+   "kind": "control",
+   "for": "ev3_o24",
+   "reason": "no candidate passed guards"
+  }
+ ],
+ "source_tag": "metropt2022"
+}

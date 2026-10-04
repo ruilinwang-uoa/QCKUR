@@ -1,0 +1,225 @@
+[
+  {
+    "dataset_name": "hotel_bookings",
+    "file_name": "hotel_bookings.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This is a dataset about how the lead time, the arrival date week, the arrival date day of the month, the adults number, the children number, the babies number, if it is repeated guest, the agent, the average daily rate(adr), if required car parking spaces, and the total of special requests affect if the hotel booking is cancelled. Please use the lead time, the arrival date week, the arrival date day of the month, the adults number, the children number, the babies number, if it is repeated guest, the agent, the average daily rate(adr), if required car parking spaces, and the total of special requests as independent variables and the cancelled booking as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "lead_time",
+      "arrival_date_week_number",
+      "arrival_date_day_of_month",
+      "adults",
+      "children",
+      "babies",
+      "is_repeated_guest",
+      "agent",
+      "adr",
+      "required_car_parking_spaces",
+      "total_of_special_requests"
+    ],
+    "y_column": "is_canceled",
+    "questions": [
+      "Is the model accurate?",
+      "What impact will different factors have on whether a reservation is cancelled?",
+      "Which factor has the greatest impact?"
+    ]
+  },
+  {
+    "dataset_name": "adult_income",
+    "file_name": "adult.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This is a dataset about how the age, the educational-num (educational level), the fnlwgt (weight assigned by the Census Bureau), the capital-gain, the capital-loss, and the hours-per-week affect the income. Please use the age, the educational-num, the fnlwgt, the capital-gain, the capital-loss, and the hours-per-week as independent variables and the income as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "age",
+      "educational-num",
+      "fnlwgt",
+      "capital-gain",
+      "capital-loss",
+      "hours-per-week"
+    ],
+    "y_column": "income",
+    "questions": [
+      "Is the model accurate?",
+      "What are the effects of different factors on whether the income is greater than 50000?",
+      "What is the most important factor for whether the income is greater than 50000?"
+    ]
+  },
+  {
+    "dataset_name": "diabetes",
+    "file_name": "diabetesWithhead.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This is a dataset about how pregnancy, glucose level, blood pressure, the triceps skin fold thickness, insulin level, pedigree, BMI, and age affect the diagnosis of diabetes. Please use pregnancy, glucose level, blood pressure, the triceps skin fold thickness, insulin level, pedigree, BMI, and age as independent variables and diabetes classification as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "DiabetesPedigreeFunction",
+      "BMI",
+      "Age"
+    ],
+    "y_column": "Classification",
+    "questions": [
+      "Is the model accurate?",
+      "What impact will different factors have on the classification of diabetes?",
+      "What is the most influential factor for diabetes?"
+    ]
+  },
+  {
+    "dataset_name": "titanic",
+    "file_name": "titanic.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset provides insights into the Titanic tragedy by analyzing factors such as ticket class, age, the number of spouses aboard, the number of children aboard, and the fare, and how they influenced passengers' survival. Please use ticket class, age, number of spouses aboard, number of children aboard, and fare as independent variables and Survived as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "Pclass",
+      "Age",
+      "SibSp",
+      "Parch",
+      "Fare"
+    ],
+    "y_column": "Survived",
+    "questions": [
+      "How did different factors like ticket class, age, family aboard, and fare affect the likelihood of survival for passengers on the Titanic?",
+      "Among these factors, which one had the greatest influence on whether a passenger survived?",
+      "Is the model accurate?"
+    ]
+  },
+  {
+    "dataset_name": "candy",
+    "file_name": "candy-data.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset is centered on analyzing what makes a Halloween candy popular, particularly looking at whether it contains chocolate. Key variables include the candy's sugar percentile, unit price percentile, and overall win percentage in popularity. Please use sugar percentile, unit price percentile, and win percentage as independent variables and the presence of chocolate as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "sugarpercent",
+      "pricepercent",
+      "winpercent"
+    ],
+    "y_column": "chocolate",
+    "questions": [
+      "Is the model accurate?",
+      "How do factors like sugar content, price, and popularity impact the likelihood of a candy containing chocolate?",
+      "Among these factors, which one most strongly influences whether a candy contains chocolate?"
+    ]
+  },
+  {
+    "dataset_name": "churn",
+    "file_name": "Churn.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset aims to explore factors that may influence customer churn, specifically focusing on whether the customer is a senior citizen, their tenure with the company, and their monthly charges. Please use senior citizen status, tenure, and monthly charges as independent variables and Churn as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "SeniorCitizen",
+      "tenure",
+      "MonthlyCharges"
+    ],
+    "y_column": "Churn",
+    "questions": [
+      "How do factors like being a senior citizen, tenure, and monthly charges impact the likelihood of a customer leaving?",
+      "Among these factors, which one is the most influential in determining customer churn?",
+      "Is the model accurate?"
+    ]
+  },
+  {
+    "dataset_name": "credit_card",
+    "file_name": "creditcard.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset provides a comprehensive look into various transaction-related variables, V1 to V28, alongside the transaction amount to determine their influence on the likelihood of credit card fraud. Please use V1 to V28 and Amount as independent variables and Class as the dependent variable and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8",
+      "V9",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16",
+      "V17",
+      "V18",
+      "V19",
+      "V20",
+      "V21",
+      "V22",
+      "V23",
+      "V24",
+      "V25",
+      "V26",
+      "V27",
+      "V28",
+      "Amount"
+    ],
+    "y_column": "Class",
+    "questions": [
+      "Is the model accurate?",
+      "What is the influence of each factor (V1 to V28 and Amount) on the likelihood of a transaction being fraudulent?",
+      "Among these variables, which one plays the most crucial role in the occurrence of fraud?"
+    ]
+  },
+  {
+    "dataset_name": "credit_delinquency",
+    "file_name": "credit.csv",
+    "csv_sep": ",",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset examines how borrower characteristics influence serious delinquency within two years: revolving utilization of unsecured lines, age, number of times 30–59 days past due, debt ratio, number of open credit lines and loans, number of times 90 days late, number of real estate loans or lines, and number of times 60–89 days past due. Please treat these as the independent variables and SeriousDlqin2yrs as the dependent variable, and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "RevolvingUtilizationOfUnsecuredLines",
+      "age",
+      "NumberOfTime30-59DaysPastDueNotWorse",
+      "DebtRatio",
+      "NumberOfOpenCreditLinesAndLoans",
+      "NumberOfTimes90DaysLate",
+      "NumberRealEstateLoansOrLines",
+      "NumberOfTime60-89DaysPastDueNotWorse"
+    ],
+    "y_column": "SeriousDlqin2yrs",
+    "questions": [
+      "Is the model accurate?",
+      "Which single variable has the largest impact on SeriousDlqin2yrs?",
+      "When RevolvingUtilizationOfUnsecuredLines increases, does the model's score for SeriousDlqin2yrs increase or decrease?"
+    ]
+  },
+  {
+    "dataset_name": "bank",
+    "file_name": "bank.csv",
+    "csv_sep": ";",
+    "task_type": "binary_classification",
+    "model_name": "ridge_classifier",
+    "background_knowledge": "This dataset examines how customer characteristics influence whether the client subscribes to a term deposit: client age, account balance, duration of the last contact in seconds, number of contacts during the current campaign, days since the previous contact from an earlier campaign, and number of contacts made in previous campaigns. Please treat these as the independent variables and y as the dependent variable, and use a Ridge Classifier model to answer the following questions.",
+    "x_columns": [
+      "age",
+      "balance",
+      "duration",
+      "campaign",
+      "pdays",
+      "previous"
+    ],
+    "y_column": "y",
+    "questions": [
+      "Is the model accurate?",
+      "Which single variable has the greatest impact on the prediction?",
+      "When duration of the last contact increases, does the model's score for term-deposit subscription increase or decrease?"
+    ]
+  }
+]

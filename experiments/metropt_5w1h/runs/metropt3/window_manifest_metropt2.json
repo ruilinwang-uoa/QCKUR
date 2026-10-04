@@ -1,0 +1,252 @@
+{
+ "params": {
+  "window_h": 24.0,
+  "offsets": [
+   6.0,
+   12.0,
+   24.0,
+   48.0,
+   72.0
+  ],
+  "controls_per_positive": 2,
+  "min_coverage": 0.8,
+  "seed": 42,
+  "median_cadence_s": 0.991,
+  "expected_rows_per_window": 86400
+ },
+ "counts": {
+  "positives": 5,
+  "controls": 10,
+  "dropped": 10
+ },
+ "windows": [
+  {
+   "window_id": "ev1_o6",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 6.0,
+   "anchor": "2022-06-02 00:00:00",
+   "t_start": "2022-05-31 18:00:00",
+   "t_end": "2022-06-01 18:00:00",
+   "n_rows": 87007,
+   "coverage": 1.007
+  },
+  {
+   "window_id": "ev1_o12",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 12.0,
+   "anchor": "2022-06-02 00:00:00",
+   "t_start": "2022-05-31 12:00:00",
+   "t_end": "2022-06-01 12:00:00",
+   "n_rows": 87165,
+   "coverage": 1.009
+  },
+  {
+   "window_id": "ev1_o24",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 24.0,
+   "anchor": "2022-06-02 00:00:00",
+   "t_start": "2022-05-31 00:00:00",
+   "t_end": "2022-06-01 00:00:00",
+   "n_rows": 87168,
+   "coverage": 1.009
+  },
+  {
+   "window_id": "ev1_o48",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 48.0,
+   "anchor": "2022-06-02 00:00:00",
+   "t_start": "2022-05-30 00:00:00",
+   "t_end": "2022-05-31 00:00:00",
+   "n_rows": 75097,
+   "coverage": 0.869
+  },
+  {
+   "window_id": "ev1_o72",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 72.0,
+   "anchor": "2022-06-02 00:00:00",
+   "t_start": "2022-05-29 00:00:00",
+   "t_end": "2022-05-30 00:00:00",
+   "n_rows": 73190,
+   "coverage": 0.847
+  },
+  {
+   "window_id": "ctl_ev1_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-23 20:23:14.583000",
+   "t_end": "2022-06-24 20:23:14.583000",
+   "n_rows": 87166,
+   "coverage": 1.009
+  },
+  {
+   "window_id": "ctl_ev1_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-20 19:13:12.585000",
+   "t_end": "2022-06-21 19:13:12.585000",
+   "n_rows": 81703,
+   "coverage": 0.946
+  },
+  {
+   "window_id": "ctl_ev1_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-15 10:15:12.823000",
+   "t_end": "2022-06-16 10:15:12.823000",
+   "n_rows": 86487,
+   "coverage": 1.001
+  },
+  {
+   "window_id": "ctl_ev1_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-14 14:30:27.608000",
+   "t_end": "2022-06-15 14:30:27.608000",
+   "n_rows": 87055,
+   "coverage": 1.008
+  },
+  {
+   "window_id": "ctl_ev1_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-26 00:45:25.392000",
+   "t_end": "2022-06-27 00:45:25.392000",
+   "n_rows": 73726,
+   "coverage": 0.853
+  },
+  {
+   "window_id": "ctl_ev1_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-06-20 02:38:08.182000",
+   "t_end": "2022-06-21 02:38:08.182000",
+   "n_rows": 74483,
+   "coverage": 0.862
+  },
+  {
+   "window_id": "ctl_ev1_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-05 02:32:22.093000",
+   "t_end": "2022-05-06 02:32:22.093000",
+   "n_rows": 80659,
+   "coverage": 0.934
+  },
+  {
+   "window_id": "ctl_ev1_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-01 02:34:02.268000",
+   "t_end": "2022-05-02 02:34:02.268000",
+   "n_rows": 86588,
+   "coverage": 1.002
+  },
+  {
+   "window_id": "ctl_ev1_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-14 02:28:55.774000",
+   "t_end": "2022-05-15 02:28:55.774000",
+   "n_rows": 87164,
+   "coverage": 1.009
+  },
+  {
+   "window_id": "ctl_ev1_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2022-05-26 01:35:58.928000",
+   "t_end": "2022-05-27 01:35:58.928000",
+   "n_rows": 87169,
+   "coverage": 1.009
+  }
+ ],
+ "dropped": [
+  {
+   "kind": "positive",
+   "event": 2,
+   "offset_h": 6.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 2,
+   "offset_h": 12.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 2,
+   "offset_h": 24.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 2,
+   "offset_h": 48.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 2,
+   "offset_h": 72.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 3,
+   "offset_h": 6.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 3,
+   "offset_h": 12.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 3,
+   "offset_h": 24.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 3,
+   "offset_h": 48.0,
+   "reason": "outside data span"
+  },
+  {
+   "kind": "positive",
+   "event": 3,
+   "offset_h": 72.0,
+   "reason": "outside data span"
+  }
+ ],
+ "source_tag": "metropt2"
+}

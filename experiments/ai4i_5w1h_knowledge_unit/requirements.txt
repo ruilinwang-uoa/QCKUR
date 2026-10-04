@@ -1,0 +1,13 @@
+# AI4I 5W1H KU experiment
+# Python 3.12.12 | Windows-11-10.0.26200-SP0
+scikit-learn==1.4.2
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.11.4
+matplotlib==3.7.5
+openai==2.24.0
+pyarrow>=14,<20
+# Optional
+# xgboost, seaborn, shap, statsmodels, langchain, faiss-cpu
+# sentence-transformers  (only for the dense-retrieval control: DENSE_RETRIEVAL=1
+#                         with EMBEDDING_MODEL=local:<model>)

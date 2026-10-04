@@ -1,0 +1,319 @@
+{
+ "inventory": "metropt_v1",
+ "n_kus": 24,
+ "bank_by_handler": "verdict.label selects the template; handler evidence fields fill the slots",
+ "kus": [
+  {
+   "ku_id": "KU_W1",
+   "question_id": "W1",
+   "category": "What",
+   "T_template": "{W1}",
+   "answer_source": "verdict.label + tier + confidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_W2",
+   "question_id": "W2",
+   "category": "What",
+   "T_template": "{W2}",
+   "answer_source": "verdict.label",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_W3",
+   "question_id": "W3",
+   "category": "What",
+   "T_template": "{W3}",
+   "answer_source": "verdict.tier + verdict.confidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_W4",
+   "question_id": "W4",
+   "category": "What",
+   "T_template": "{W4}",
+   "answer_source": "features: tp2_p95, tp2_frac_ge9_5, mc_on_frac, lps_maxrun_min, lps_frac, oil_max, oil_elev_c, oil_trend_c (flow_mean/max where available)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": true
+  },
+  {
+   "ku_id": "KU_Y1",
+   "question_id": "Y1",
+   "category": "Why",
+   "T_template": "{Y1}",
+   "answer_source": "verdict.evidence.rule_branches_fired + numeric evidence fields",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": true
+  },
+  {
+   "ku_id": "KU_Y2",
+   "question_id": "Y2",
+   "category": "Why",
+   "T_template": "{Y2}",
+   "answer_source": "bank physics",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_Y3",
+   "question_id": "Y3",
+   "category": "Why",
+   "T_template": "{Y3}",
+   "answer_source": "spec per_vehicle baseline stats + features (oil_elev_c, tp2 vs baseline, mc_on vs typical cycling)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": true
+  },
+  {
+   "ku_id": "KU_Y4",
+   "question_id": "Y4",
+   "category": "Why",
+   "T_template": "{Y4}",
+   "answer_source": "bank physics",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_N1",
+   "question_id": "N1",
+   "category": "When",
+   "T_template": "{N1}",
+   "answer_source": "verdict stratified action",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_N2",
+   "question_id": "N2",
+   "category": "When",
+   "T_template": "{N2}",
+   "answer_source": "lps_first_before_end_h, oil climb phase",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": true
+  },
+  {
+   "ku_id": "KU_N3",
+   "question_id": "N3",
+   "category": "When",
+   "T_template": "{N3}",
+   "answer_source": "evidence onset + documented mean 6.8 h anomaly lead for air leaks (Veloso 2022)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_N4",
+   "question_id": "N4",
+   "category": "When",
+   "T_template": "{N4}",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_L1",
+   "question_id": "L1",
+   "category": "Where",
+   "T_template": "{L1}",
+   "answer_source": "verdict.label",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_L2",
+   "question_id": "L2",
+   "category": "Where",
+   "T_template": "{L2}",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_L3",
+   "question_id": "L3",
+   "category": "Where",
+   "T_template": "{L3}",
+   "answer_source": "features used by fired branches",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_L4",
+   "question_id": "L4",
+   "category": "Where",
+   "T_template": "{L4}",
+   "answer_source": "epoch tag + duty_frac (2022 only)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_R1",
+   "question_id": "R1",
+   "category": "Who",
+   "T_template": "{R1}",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_R2",
+   "question_id": "R2",
+   "category": "Who",
+   "T_template": "{R2}",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_R3",
+   "question_id": "R3",
+   "category": "Who",
+   "T_template": "{R3}",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_R4",
+   "question_id": "R4",
+   "category": "Who",
+   "T_template": "{R4}",
+   "answer_source": "lps evidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_A1",
+   "question_id": "A1",
+   "category": "How",
+   "T_template": "{A1}",
+   "answer_source": "verdict stratified (decision-usefulness anchor)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_A2",
+   "question_id": "A2",
+   "category": "How",
+   "T_template": "{A2}",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_A3",
+   "question_id": "A3",
+   "category": "How",
+   "T_template": "{A3}",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  },
+  {
+   "ku_id": "KU_A4",
+   "question_id": "A4",
+   "category": "How",
+   "T_template": "{A4}",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "numeric": false
+  }
+ ]
+}

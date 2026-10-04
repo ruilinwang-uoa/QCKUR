@@ -1,0 +1,13 @@
+{%- if section==1 -%}
+Question about the model accuracy:
+How accurate is the {{modelname}}? Is the model credible?
+{%- endif -%}
+{%- if section==2 -%}
+Question about how the independent variable affects the dependent variable:
+Which independent variables positively influence the {{classes}} class of {{ycol}},
+and which independent variables exert a negative impact on the {{classes}} class of  {{ycol}}?
+{%- endif -%}
+{%- if section==3 -%}
+Question about the impact of independent variables:
+For each classification result, which independent variable has the greatest impact? On average, which independent variable has the greatest impact on classification results?
+{%- endif -%}

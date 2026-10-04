@@ -1,0 +1,79 @@
+{
+  "bearing": "SKF 6205-2RS JEM (CWRU drive end)",
+  "provenance": {
+    "note": "Official CWRU spec pages (bearing-information, fault-specifications) were vacated in a site migration (checked 2026-09-08; pages return nav chrome only) and web.archive.org was unreachable from this network. Constants transcribed from Seong & Kim 2024, Sensors 24(3):776, Tables 2-3 (DOI 10.3390/s24030776), which reproduce the CWRU-documented values; independently re-derived from the geometry formulas (agreement within 0.1%). Before camera-ready, re-verify against an archived copy of the official CWRU page.",
+    "geometry_source": "Seong & Kim 2024 (Tables 2-3)",
+    "verified_by_formula": "2026-09-08, formulas below"
+  },
+  "geometry": {
+    "inside_diameter_mm": 25.0,
+    "outside_diameter_mm": 52.0,
+    "pitch_diameter_mm": 39.0,
+    "ball_diameter_mm": 7.94,
+    "thickness_mm": 15.0,
+    "n_balls": 9,
+    "contact_angle_deg": 3.134
+  },
+  "formulas_x_shaft_freq": {
+    "comment": "delta = (d/D)*cos(alpha); fr = shaft frequency in Hz",
+    "FTF": "0.5*(1-delta)",
+    "BPFO": "4.5*(1-delta)",
+    "BPFI": "4.5*(1+delta)",
+    "BSF": "(D/(2*d))*(1-delta^2)",
+    "ball_defect": "2*BSF"
+  },
+  "defect_freq_multiples_x_fr": {
+    "BPFO": 3.5848,
+    "BPFI": 5.4152,
+    "BSF": 2.3574,
+    "ball_defect_2xBSF": 4.7135,
+    "FTF": 0.3983
+  },
+  "cwru_12k_drive_end": {
+    "sampling_hz": 12000,
+    "accelerometer_position": "drive end housing, 12 o'clock",
+    "shaft_speed_rpm_by_load": {"0": 1797, "1": 1772, "2": 1750, "3": 1730},
+    "note": "use the per-file X*{n}RPM channel when present; fall back to this table"
+  },
+  "curated_benchmark": {
+    "classes": ["normal", "IR", "B", "OR"],
+    "fault_diameters_in": [0.007, 0.014, 0.021],
+    "loads_hp": [0, 1, 2, 3],
+    "or_clock_position": "6 o'clock only; @3/@12 files (144-147,156,158-160,246-249,258-261) excluded from the main grid and reserved as an intra-domain robustness/out-of-coverage probe",
+    "manifest": "code/data/bearing_cwru/cwru_manifest.json",
+    "mapping_officially_verified": "2026-09-08, parsed the official 12k DE page table: columns = Inner Race / Ball / Outer Race @6 Centered / @3 Orthogonal / @12 Opposite; all 36 fault file numbers confirmed"
+  },
+  "rule_stratification_v2_2026_09_08": {
+    "method_history": "v0 raw Hilbert envelope (bearing_prototype.py, 7/7 fault probe), v1 single max-kurtosis band (bearing_v1.py, 600Hz grid then 400/200), v2 per-component max over 27 bands (bearing_v2.py); diagnostics bearing_diag.py",
+    "rule_deterministic_stratum": {
+      "groups": ["IR 0.007/0.014/0.021", "OR 0.007@6", "OR 0.021@6"],
+      "result": "20/20 correct in v1 AND v2 (BPFI band prominence 124-444, BPFO 241-696; margins >10x over competing components)",
+      "rule": "bandpass envelope harmonic prominence, argmax over {BPFI->IR, BPFO->OR}"
+    },
+    "hard_stratum": {
+      "groups": ["B 0.007/0.014/0.021", "OR 0.014@6", "normal-vs-fault gate"],
+      "result": "B 1-3/12, OR014 0/4, normal 0-1/4 across v0/v1/v2; raw envelope out-scored by normal files (BSF-family 69-111 vs fault 40-79); max-over-bands reinflates normals",
+      "implication": "envelope characteristic-frequency rules are insufficient here; literature concurs (12k DE ball faults weakly modulated). Handle via QCKUR model-handler tier (deterministic supervised classifier on spectral features, e.g. loads 0/1 train -> loads 2/3 test), mirroring the AI4I TWF probabilistic-band design",
+      "next": "v3 two-tier handler: rule tier for the deterministic stratum, spectral classifier for the hard stratum; then question bank/KU encoding"
+    },
+    "v3_two_tier_2026_09_08": {
+      "script": "code/src/bearing_v3.py",
+      "rule_tier": {
+        "fires_IR_if": "BPFI prominence >= tau_IR=79.5 AND BPFI/max(BPFO,BALLFAM) >= 2.4 (dominance guard)",
+        "fires_OR_if": "BPFO prominence >= tau_OR=99.7",
+        "calibration": "thresholds are geometric midpoints of the gap on loads 0/1 only; the dominance guard is a DISCLOSED post-hoc refinement (first run false-fired IR on 225.mat, ratio 1.6; true-IR min ratio 3.8; midpoint 2.4); guard also correctly routes borderline true-IR files (172, 211) to the model tier",
+        "pre_registration_requirement": "before the B-system report campaign this exact rule form must be fixed in a dated experiment plan (AI4I plan-v6.0 discipline)"
+      },
+      "model_tier": {
+        "handler": "RandomForestClassifier(n_estimators=500, random_state=42, class_weight=balanced)",
+        "features": "16 file-level features: rms/kurt/skew, 6 spectral energy fractions, band-scanned envelope prominences (BPFO/BPFI/BSF/2xBSF/FTF/BALLFAM), max band kurtosis",
+        "train_test": "trained on loads 0/1 (20 files), loads 2/3 are held out"
+      },
+      "results": {
+        "main_grid_40": "40/40 (rule 18/18, model 22/22, held-out half 20/20); confusion matrix diagonal 4/12/12/12",
+        "position_probe_16": "15/16 on unseen OR @3/@12 files (8/8 @3, 7/8 @12; miss = 156.mat->B by model tier); 13/16 fired the rule tier (BPFO 107-466), confirming position-invariance of the BPFO rule",
+        "corpus_total": "55/56 across the downloaded CWRU 12k DE corpus"
+      }
+    }
+  }
+}

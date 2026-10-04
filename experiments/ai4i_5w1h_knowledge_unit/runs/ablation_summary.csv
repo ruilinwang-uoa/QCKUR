@@ -1,0 +1,6 @@
+config,Final,drop,p,n
+B8 (full),83.9,0.0,,100
+AblT (drop answer templates),81.4,2.5,4.3e-02,100
+AblM (drop model handler),35.6,48.3,5.3e-18,100
+AblQ (drop question matching),64.0,19.9,1.8e-11,100
+AblP (drop physical rules),62.6,21.3,4.7e-14,100

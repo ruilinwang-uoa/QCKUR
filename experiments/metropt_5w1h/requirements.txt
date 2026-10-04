@@ -1,0 +1,11 @@
+# Minimal runtime dependencies for experiments/metropt_5w1h/.
+# This is intentionally not an exact historical environment lockfile.
+# Freeze exact versions separately if the original run environment is available.
+
+numpy
+pandas
+matplotlib
+scipy
+pyarrow
+python-dotenv
+openai>=1.0

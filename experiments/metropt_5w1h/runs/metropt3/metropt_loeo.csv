@@ -1,0 +1,10 @@
+vehicle,event,branches_removed,heldout_windows,sig_windows,detected_after_removal,control_FA_delta
+metropt2022,1.0,(none fire on this event),5,0,-,-
+metropt2022,2.0,(none fire on this event),5,0,-,-
+metropt2022,3.0,(none fire on this event),5,0,-,-
+metropt2022B,1.0,(none fire on this event),2,0,-,-
+metropt2022B,2.0,D1,4,2,0,1->1
+metropt3,1.0,A1b+D2,5,2,0,1->0
+metropt3,2.0,D2,5,1,0,1->0
+metropt3,3.0,A1a+A1b,5,3,0,1->1
+metropt3,4.0,(none fire on this event),1,0,-,-

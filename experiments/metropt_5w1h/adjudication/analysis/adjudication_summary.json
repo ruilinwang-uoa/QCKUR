@@ -1,0 +1,503 @@
+{
+ "ENG1": {
+  "rater": "ENG1",
+  "blockA": {
+   "E1:mode": {
+    "engineer": "air leak",
+    "ours": "air leak",
+    "agree": true
+   },
+   "E2:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "air leak",
+    "agree": false
+   },
+   "E3:mode": {
+    "engineer": "air leak",
+    "ours": "air leak",
+    "agree": true
+   },
+   "E4:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "air leak",
+    "agree": false
+   },
+   "A1:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "air leak",
+    "agree": false
+   },
+   "A2:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "air leak",
+    "agree": false
+   },
+   "A3:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "oil leak",
+    "agree": false
+   },
+   "B1:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "air leak",
+    "agree": false
+   },
+   "B2:mode": {
+    "engineer": "other / cannot determine",
+    "ours": "oil leak",
+    "agree": false
+   },
+   "E1:disp": {
+    "engineer": "repaired at scheduled maintenance",
+    "ours": "repaired (30 Apr, contested row)",
+    "agree": true
+   },
+   "E2:disp": {
+    "engineer": "continued in service",
+    "ours": "self-resolved",
+    "agree": false
+   },
+   "E3:disp": {
+    "engineer": "repaired at scheduled maintenance",
+    "ours": "repaired",
+    "agree": true
+   },
+   "E4:disp": {
+    "engineer": "repaired at scheduled maintenance",
+    "ours": "repaired",
+    "agree": true
+   },
+   "A1:disp": {
+    "engineer": "removed from service",
+    "ours": "removed from service",
+    "agree": true
+   },
+   "A2:disp": {
+    "engineer": "continued in service",
+    "ours": "continued in service",
+    "agree": true
+   },
+   "A3:disp": {
+    "engineer": "removed from service",
+    "ours": "removed from service",
+    "agree": true
+   },
+   "B1:disp": {
+    "engineer": "removed from service",
+    "ours": "removed from service",
+    "agree": true
+   },
+   "B2:disp": {
+    "engineer": "removed from service",
+    "ours": "removed from service",
+    "agree": true
+   },
+   "X1:A1": {
+    "engineer": "compressor",
+    "ours": "client pipes and lines",
+    "agree": false
+   },
+   "X1:A2": {
+    "engineer": "compressor",
+    "ours": "dryer",
+    "agree": false
+   },
+   "X2": {
+    "engineer": "april event (e1)",
+    "ours": "April event (E1)",
+    "agree": true
+   }
+  },
+  "disagreements": [
+   {
+    "item": "E2 mode",
+    "engineer": "other / cannot determine",
+    "ours": "air leak"
+   },
+   {
+    "item": "E4 mode",
+    "engineer": "other / cannot determine",
+    "ours": "air leak"
+   },
+   {
+    "item": "A1 mode",
+    "engineer": "other / cannot determine",
+    "ours": "air leak"
+   },
+   {
+    "item": "A2 mode",
+    "engineer": "other / cannot determine",
+    "ours": "air leak"
+   },
+   {
+    "item": "A3 mode",
+    "engineer": "other / cannot determine",
+    "ours": "oil leak"
+   },
+   {
+    "item": "B1 mode",
+    "engineer": "other / cannot determine",
+    "ours": "air leak"
+   },
+   {
+    "item": "B2 mode",
+    "engineer": "other / cannot determine",
+    "ours": "oil leak"
+   },
+   {
+    "item": "E2 disposition",
+    "engineer": "continued in service",
+    "ours": "self-resolved"
+   },
+   {
+    "item": "X1 attribution A1",
+    "engineer": "compressor",
+    "ours": "client pipes and lines",
+    "why": "For A1, the air side is pristine: reservoir charged to 8 bar, compressor builds to cut-out, no leaks, no low-pressure warnings, normal oil, therefore client lines, reservoir, valves, and oil circuit can be ruled out. The only failure mode consistent with \"failure detected \u2192 unit removed\" while pressures stay perfect is a mechanical-integrity fault of the compressor package, therefore attribute A1 to compressor. And as the logged \"brief event\" with the unit continued points to the same class of hidden mechanical fault at lower severity, attribute A2 to compressor on similar logic."
+   },
+   {
+    "item": "X1 attribution A2",
+    "engineer": "compressor",
+    "ours": "dryer",
+    "why": "For A1, the air side is pristine: reservoir charged to 8 bar, compressor builds to cut-out, no leaks, no low-pressure warnings, normal oil, therefore client lines, reservoir, valves, and oil circuit can be ruled out. The only failure mode consistent with \"failure detected \u2192 unit removed\" while pressures stay perfect is a mechanical-integrity fault of the compressor package, therefore attribute A1 to compressor. And as the logged \"brief event\" with the unit continued points to the same class of hidden mechanical fault at lower severity, attribute A2 to compressor on similar logic."
+   },
+   {
+    "item": "C C-opt3-ev2_o6",
+    "engineer": "subthreshold",
+    "ours": "presymptomatic"
+   },
+   {
+    "item": "C C-opt3-ev2_o48",
+    "engineer": "presymptomatic",
+    "ours": "signature"
+   },
+   {
+    "item": "C C-opt3-ev3_o48",
+    "engineer": "subthreshold",
+    "ours": "presymptomatic"
+   },
+   {
+    "item": "C C-2022-ev1_o24",
+    "engineer": "presymptomatic",
+    "ours": "subthreshold"
+   },
+   {
+    "item": "C C-2022-ev1_o72",
+    "engineer": "presymptomatic",
+    "ours": "subthreshold"
+   },
+   {
+    "item": "C C-2022-ev3_o6",
+    "engineer": "presymptomatic",
+    "ours": "subthreshold"
+   },
+   {
+    "item": "C C-022B-ev2_o24",
+    "engineer": "subthreshold",
+    "ours": "signature"
+   },
+   {
+    "item": "C C-022B-ev2_o72",
+    "engineer": "presymptomatic",
+    "ours": "subthreshold"
+   }
+  ],
+  "blockB": {
+   "X-metropt2022-2022-02-12": {
+    "engineer": "genuine undocumented operational episode",
+    "ours": "genuine undocumented operational episode",
+    "agree": true,
+    "confidence": "4"
+   },
+   "X-metropt3-2020-03-29": {
+    "engineer": "genuine undocumented operational episode",
+    "ours": "genuine undocumented operational episode",
+    "agree": true,
+    "confidence": "5"
+   },
+   "X-metropt3-2020-06-25": {
+    "engineer": "genuine undocumented operational episode",
+    "ours": "genuine undocumented operational episode",
+    "agree": true,
+    "confidence": "5"
+   }
+  },
+  "blockC": {
+   "n": 37,
+   "agree": 29,
+   "detail": {
+    "C-opt3-ev1_o6": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-opt3-ev1_o12": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-opt3-ev1_o24": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev1_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev1_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev2_o6": {
+     "engineer": "subthreshold",
+     "ours": "presymptomatic",
+     "agree": false
+    },
+    "C-opt3-ev2_o12": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev2_o24": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev2_o48": {
+     "engineer": "presymptomatic",
+     "ours": "signature",
+     "agree": false
+    },
+    "C-opt3-ev2_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev3_o6": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-opt3-ev3_o12": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-opt3-ev3_o24": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-opt3-ev3_o48": {
+     "engineer": "subthreshold",
+     "ours": "presymptomatic",
+     "agree": false
+    },
+    "C-opt3-ev3_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-opt3-ev4_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev1_o6": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev1_o12": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev1_o24": {
+     "engineer": "presymptomatic",
+     "ours": "subthreshold",
+     "agree": false
+    },
+    "C-2022-ev1_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev1_o72": {
+     "engineer": "presymptomatic",
+     "ours": "subthreshold",
+     "agree": false
+    },
+    "C-2022-ev2_o6": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev2_o12": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev2_o24": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev2_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev2_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev3_o6": {
+     "engineer": "presymptomatic",
+     "ours": "subthreshold",
+     "agree": false
+    },
+    "C-2022-ev3_o12": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev3_o24": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev3_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-2022-ev3_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-022B-ev1_o48": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-022B-ev1_o72": {
+     "engineer": "presymptomatic",
+     "ours": "presymptomatic",
+     "agree": true
+    },
+    "C-022B-ev2_o12": {
+     "engineer": "signature",
+     "ours": "signature",
+     "agree": true
+    },
+    "C-022B-ev2_o24": {
+     "engineer": "subthreshold",
+     "ours": "signature",
+     "agree": false
+    },
+    "C-022B-ev2_o48": {
+     "engineer": "subthreshold",
+     "ours": "subthreshold",
+     "agree": true
+    },
+    "C-022B-ev2_o72": {
+     "engineer": "presymptomatic",
+     "ours": "subthreshold",
+     "agree": false
+    }
+   }
+  },
+  "blockC_stats": {
+   "n": 37,
+   "raw_agreement": 0.784,
+   "kappa_unweighted": 0.547,
+   "kappa_linear_weighted": 0.671,
+   "step_distribution": {
+    "0": 29,
+    "1": 7,
+    "2": 1
+   },
+   "cross_tab": {
+    "eng=presymptomatic|ours=presymptomatic": 22,
+    "eng=presymptomatic|ours=subthreshold": 4,
+    "eng=presymptomatic|ours=signature": 1,
+    "eng=subthreshold|ours=presymptomatic": 2,
+    "eng=subthreshold|ours=subthreshold": 1,
+    "eng=subthreshold|ours=signature": 1,
+    "eng=signature|ours=presymptomatic": 0,
+    "eng=signature|ours=subthreshold": 0,
+    "eng=signature|ours=signature": 6
+   },
+   "engineer_actionable": [
+    "022B-ev2_o12",
+    "opt3-ev1_o12",
+    "opt3-ev1_o6",
+    "opt3-ev3_o12",
+    "opt3-ev3_o24",
+    "opt3-ev3_o6"
+   ],
+   "downgraded_signature": [
+    "022B-ev2_o24",
+    "opt3-ev2_o48"
+   ]
+  },
+  "detection_under_engineer_strata": {
+   "consensus_actionable": [
+    "opt3-ev1_o6",
+    "opt3-ev1_o12",
+    "opt3-ev3_o6",
+    "opt3-ev3_o12",
+    "opt3-ev3_o24",
+    "022B-ev2_o12"
+   ],
+   "downgraded": [
+    "opt3-ev2_o48",
+    "022B-ev2_o24"
+   ],
+   "per_system": {
+    "B1": {
+     "consensus_hits": 6,
+     "consensus_n": 6,
+     "premature_claims": 2,
+     "premature_n": 2
+    },
+    "B2": {
+     "consensus_hits": 6,
+     "consensus_n": 6,
+     "premature_claims": 2,
+     "premature_n": 2
+    },
+    "B3": {
+     "consensus_hits": 0,
+     "consensus_n": 6,
+     "premature_claims": 0,
+     "premature_n": 2
+    },
+    "B3R": {
+     "consensus_hits": 2,
+     "consensus_n": 6,
+     "premature_claims": 0,
+     "premature_n": 2
+    },
+    "B5": {
+     "consensus_hits": 0,
+     "consensus_n": 6,
+     "premature_claims": 0,
+     "premature_n": 2
+    },
+    "B8": {
+     "consensus_hits": 6,
+     "consensus_n": 6,
+     "premature_claims": 1,
+     "premature_n": 2
+    }
+   }
+  }
+ }
+}

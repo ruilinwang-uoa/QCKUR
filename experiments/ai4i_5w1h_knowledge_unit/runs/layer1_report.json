@@ -1,0 +1,66 @@
+{
+  "self_validation_on_GT": {
+    "L1": 1.0,
+    "tolerance_pass": 1.0,
+    "rule_pass": 1.0,
+    "classification_acc": 1.0,
+    "by_dim": {
+      "classification": {
+        "pass": 1575,
+        "n": 1575,
+        "rate": 1.0
+      },
+      "numeric": {
+        "pass": 29295,
+        "n": 29295,
+        "rate": 1.0
+      },
+      "rule": {
+        "pass": 33075,
+        "n": 33075,
+        "rate": 1.0
+      }
+    },
+    "by_category": {
+      "What": {
+        "pass": 19215,
+        "n": 19215,
+        "rate": 1.0
+      },
+      "Why": {
+        "pass": 9135,
+        "n": 9135,
+        "rate": 1.0
+      },
+      "When": {
+        "pass": 8190,
+        "n": 8190,
+        "rate": 1.0
+      },
+      "Where": {
+        "pass": 7875,
+        "n": 7875,
+        "rate": 1.0
+      },
+      "Who": {
+        "pass": 9765,
+        "n": 9765,
+        "rate": 1.0
+      },
+      "How": {
+        "pass": 9765,
+        "n": 9765,
+        "rate": 1.0
+      }
+    },
+    "n_scored": 63945,
+    "n_unscored": 0
+  },
+  "perturbation_test": {
+    "n_attempted": 25200,
+    "n_errors_caught": 18581,
+    "catch_rate": 0.7373,
+    "L1_on_perturbed": 0.1189,
+    "interpretation": "self-consistent GT scores L1=1.0; injected errors are caught with the rate above, confirming the scorer discriminates"
+  }
+}

@@ -1,0 +1,55 @@
+Section 1: Model performance / classification accuracy
+
+Intent:
+The user asks whether the classification model is accurate, reliable, credible, trustworthy, or performs well.
+
+Typical questions:
+How accurate is the model?
+Is the classifier accurate?
+Is the model credible?
+Can we trust the model's predictions?
+How well does the model classify the dependent variable?
+
+Do NOT choose this section if the user asks about variable effects, feature influence, or the most important factor.
+
+
+Section 2: Directional or variable-by-variable effects of independent variables
+
+Intent:
+The user asks how independent variables affect the classification result, especially whether variables have positive or negative effects on a class, or how each factor changes the model output.
+
+Typical questions:
+How do the independent variables affect the classification result?
+Which independent variables positively influence one class of the dependent variable?
+Which independent variables negatively influence one class of the dependent variable?
+When a specific variable increases, does the model's score for a class increase or decrease?
+What are the effects of different factors on the dependent variable?
+How does each factor affect the classification result?
+
+Important distinction:
+Choose Section 2 when the user wants an explanation of variable effects, signs, directions, or class-specific relationships.
+
+Do NOT choose Section 2 if the user asks for the strongest, most important, most influential, greatest-impact, largest-impact, dominant, top, or key factor. Those questions belong to Section 3.
+
+
+Section 3: Ranking / most influential independent variable
+
+Intent:
+The user asks which independent variable has the strongest overall influence, greatest impact, largest effect, highest importance, or is the most important predictor.
+
+Typical questions:
+What is the most influential factor?
+Which factor has the greatest impact?
+Which independent variable has the largest effect on the dependent variable?
+Which variable is the most important predictor?
+Which factor plays the most crucial role?
+What is the top feature affecting the classification result?
+On average, which independent variable has the greatest impact on classification results?
+For each classification result, which independent variable has the greatest impact?
+
+Important distinction:
+Choose Section 3 whenever the user asks for ranking, top feature, most influential factor, strongest effect, greatest impact, or feature importance.
+
+Even if the question contains words such as "effect", "impact", or "influence", choose Section 3 if the question asks which factor is the greatest, strongest, most important, or most influential.
+
+Do NOT choose Section 3 if the user asks how all variables affect the outcome or whether variables have positive/negative effects. Those questions belong to Section 2.

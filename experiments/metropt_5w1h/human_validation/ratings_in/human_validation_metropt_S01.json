@@ -1,0 +1,1265 @@
+{
+ "rater": "S01",
+ "ratings": [
+  {
+   "window_id": "ev3_o6",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B5": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 4,
+     "act": 3,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 4,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 3,
+     "act": 3,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ev3_o6",
+   "vehicle": "metropt3",
+   "systems": {
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 2,
+     "act": 2,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 3,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 5,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 5,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B8": {
+     "faith": 3,
+     "compl": 5,
+     "coh": 5,
+     "act": 5,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o6",
+   "vehicle": "metropt3",
+   "systems": {
+    "B1": {
+     "faith": 3,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 3,
+     "act": 2,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 3
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ev2_o12",
+   "vehicle": "metropt2022B",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 5,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B2": {
+     "faith": 2,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 2,
+     "actionok": 2,
+     "readability_rank": 2
+    },
+    "B5": {
+     "faith": 2,
+     "compl": 3,
+     "coh": 2,
+     "act": 3,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ev3_o12",
+   "vehicle": "metropt3",
+   "systems": {
+    "B1": {
+     "faith": 3,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 5,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 5,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 3,
+     "act": 5,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 2,
+     "act": 3,
+     "state": 1,
+     "actionok": 4,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o12",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 4,
+     "actionok": 3,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 2,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 2,
+     "actionok": 2,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 2,
+     "act": 5,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o24",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 3,
+     "act": 2,
+     "state": 1,
+     "actionok": 2,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 3,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 1,
+     "act": 3,
+     "state": 2,
+     "actionok": 2,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ev2_o24",
+   "vehicle": "metropt2022B",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 5,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 4,
+     "act": 5,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 2,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 2,
+     "actionok": 2,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o6",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ev2_o6",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 2,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 3
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 1,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ev4_o48",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 2,
+     "compl": 2,
+     "coh": 4,
+     "act": 1,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 2,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ev3_o48",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 2,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ev2_o12",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 3
+    },
+    "B8": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 2,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o72",
+   "vehicle": "metropt2022B",
+   "systems": {
+    "B2": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 1,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ev1_o12",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B5": {
+     "faith": 2,
+     "compl": 3,
+     "coh": 2,
+     "act": 3,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o48_1",
+   "vehicle": "metropt2022B",
+   "systems": {
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o12_0",
+   "vehicle": "metropt3",
+   "systems": {
+    "B8": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 1,
+     "act": 4,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 3
+    },
+    "B5": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 2,
+     "state": 1,
+     "actionok": 2,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 2,
+     "act": 4,
+     "state": 2,
+     "actionok": 2,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 3,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o6_1",
+   "vehicle": "metropt3",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o24_0",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 2
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 3,
+     "coh": 4,
+     "act": 3,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o6_1",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 3,
+     "coh": 3,
+     "act": 4,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev3_o6_0",
+   "vehicle": "metropt3",
+   "systems": {
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 3,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o12_0",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B5": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o48_0",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o6_0",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 1,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 3
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o24_1",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 1,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o12_1",
+   "vehicle": "metropt3",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 3,
+     "coh": 3,
+     "act": 3,
+     "state": 2,
+     "actionok": 3,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 4,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o72_1",
+   "vehicle": "metropt3",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 5,
+     "act": 1,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 1
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 2,
+     "readability_rank": 2
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o48_0",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev1_o72_1",
+   "vehicle": "metropt2022",
+   "systems": {
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 1
+    },
+    "B5": {
+     "faith": 4,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 4,
+     "actionok": 5,
+     "readability_rank": 2
+    },
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 4,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 3
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 3,
+     "act": 4,
+     "state": 3,
+     "actionok": 5,
+     "readability_rank": 4
+    }
+   }
+  },
+  {
+   "window_id": "ctl_ev2_o6_0",
+   "vehicle": "metropt3",
+   "systems": {
+    "B8": {
+     "faith": 2,
+     "compl": 5,
+     "coh": 5,
+     "act": 4,
+     "state": 2,
+     "actionok": 1,
+     "readability_rank": 2
+    },
+    "B2": {
+     "faith": 3,
+     "compl": 2,
+     "coh": 5,
+     "act": 2,
+     "state": 2,
+     "actionok": 1,
+     "readability_rank": 1
+    },
+    "B1": {
+     "faith": 1,
+     "compl": 5,
+     "coh": 1,
+     "act": 3,
+     "state": 2,
+     "actionok": 1,
+     "readability_rank": 4
+    },
+    "B5": {
+     "faith": 1,
+     "compl": 2,
+     "coh": 4,
+     "act": 2,
+     "state": 1,
+     "actionok": 1,
+     "readability_rank": 3
+    }
+   }
+  }
+ ]
+}

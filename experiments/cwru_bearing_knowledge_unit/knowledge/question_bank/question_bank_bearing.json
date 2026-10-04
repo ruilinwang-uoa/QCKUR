@@ -1,0 +1,281 @@
+{
+ "n_questions": 24,
+ "category_counts": {
+  "What": 4,
+  "Why": 4,
+  "When": 4,
+  "Where": 4,
+  "Who": 4,
+  "How": 4
+ },
+ "questions": [
+  {
+   "category": "What",
+   "text": "Does the vibration record indicate a bearing fault?",
+   "paraphrases": [
+    "Does the vibration record indicate a bearing fault? (variant 1)"
+   ],
+   "handler": "h_bearing_status",
+   "args": {},
+   "template_id": "h_bearing_status",
+   "id": "Q_What_001"
+  },
+  {
+   "category": "What",
+   "text": "Which bearing component is faulted?",
+   "paraphrases": [
+    "Which bearing component is faulted? (variant 2)"
+   ],
+   "handler": "h_fault_component",
+   "args": {},
+   "template_id": "h_fault_component",
+   "id": "Q_What_002"
+  },
+  {
+   "category": "What",
+   "text": "What is the shaft speed of this record?",
+   "paraphrases": [
+    "What is the shaft speed of this record? (variant 3)"
+   ],
+   "handler": "h_shaft_speed",
+   "args": {},
+   "template_id": "h_shaft_speed",
+   "id": "Q_What_003"
+  },
+  {
+   "category": "What",
+   "text": "What outer-race characteristic frequency applies at this speed?",
+   "paraphrases": [
+    "What outer-race characteristic frequency applies at this speed? (variant 4)"
+   ],
+   "handler": "h_char_freq",
+   "args": {
+    "which": "BPFO"
+   },
+   "template_id": "h_char_freq_bpfo",
+   "id": "Q_What_004"
+  },
+  {
+   "category": "Why",
+   "text": "Why was this verdict reached?",
+   "paraphrases": [
+    "Why was this verdict reached? (variant 1)"
+   ],
+   "handler": "h_why_verdict",
+   "args": {},
+   "template_id": "h_why_verdict",
+   "id": "Q_Why_005"
+  },
+  {
+   "category": "Why",
+   "text": "Which resonance band carries the diagnostic information?",
+   "paraphrases": [
+    "Which resonance band carries the diagnostic information? (variant 2)"
+   ],
+   "handler": "h_why_band",
+   "args": {},
+   "template_id": "h_why_band",
+   "id": "Q_Why_006"
+  },
+  {
+   "category": "Why",
+   "text": "By what margin does the evidence exceed the competing components?",
+   "paraphrases": [
+    "By what margin does the evidence exceed the competing components? (variant 3)"
+   ],
+   "handler": "h_margin",
+   "args": {},
+   "template_id": "h_margin",
+   "id": "Q_Why_007"
+  },
+  {
+   "category": "Why",
+   "text": "Which detection threshold applies to this verdict?",
+   "paraphrases": [
+    "Which detection threshold applies to this verdict? (variant 4)"
+   ],
+   "handler": "h_threshold_info",
+   "args": {
+    "which": "BPFO"
+   },
+   "template_id": "h_threshold_info",
+   "id": "Q_Why_008"
+  },
+  {
+   "category": "When",
+   "text": "Is intervention needed?",
+   "paraphrases": [
+    "Is intervention needed? (variant 1)"
+   ],
+   "handler": "h_intervention",
+   "args": {},
+   "template_id": "h_intervention",
+   "id": "Q_When_009"
+  },
+  {
+   "category": "When",
+   "text": "How urgent is the intervention?",
+   "paraphrases": [
+    "How urgent is the intervention? (variant 2)"
+   ],
+   "handler": "h_urgency",
+   "args": {},
+   "template_id": "h_urgency",
+   "id": "Q_When_010"
+  },
+  {
+   "category": "When",
+   "text": "When should the bearing be rechecked?",
+   "paraphrases": [
+    "When should the bearing be rechecked? (variant 3)"
+   ],
+   "handler": "h_next_check",
+   "args": {},
+   "template_id": "h_next_check",
+   "id": "Q_When_011"
+  },
+  {
+   "category": "When",
+   "text": "Over how many harmonics does the evidence appear?",
+   "paraphrases": [
+    "Over how many harmonics does the evidence appear? (variant 4)"
+   ],
+   "handler": "h_harmonic_depth",
+   "args": {},
+   "template_id": "h_harmonic_depth",
+   "id": "Q_When_012"
+  },
+  {
+   "category": "Where",
+   "text": "Where is the fault located?",
+   "paraphrases": [
+    "Where is the fault located? (variant 1)"
+   ],
+   "handler": "h_fault_location",
+   "args": {},
+   "template_id": "h_fault_location",
+   "id": "Q_Where_013"
+  },
+  {
+   "category": "Where",
+   "text": "How does the fault position relate to the load zone?",
+   "paraphrases": [
+    "How does the fault position relate to the load zone? (variant 2)"
+   ],
+   "handler": "h_load_zone",
+   "args": {},
+   "template_id": "h_load_zone",
+   "id": "Q_Where_014"
+  },
+  {
+   "category": "Where",
+   "text": "At which position was the vibration measured?",
+   "paraphrases": [
+    "At which position was the vibration measured? (variant 3)"
+   ],
+   "handler": "h_sensor_position",
+   "args": {},
+   "template_id": "h_sensor_position",
+   "id": "Q_Where_015"
+  },
+  {
+   "category": "Where",
+   "text": "In which part of the spectrum does the signature appear?",
+   "paraphrases": [
+    "In which part of the spectrum does the signature appear? (variant 4)"
+   ],
+   "handler": "h_band_where",
+   "args": {},
+   "template_id": "h_band_where",
+   "id": "Q_Where_016"
+  },
+  {
+   "category": "Who",
+   "text": "Who should respond to this report?",
+   "paraphrases": [
+    "Who should respond to this report? (variant 1)"
+   ],
+   "handler": "h_responder",
+   "args": {},
+   "template_id": "h_responder",
+   "id": "Q_Who_017"
+  },
+  {
+   "category": "Who",
+   "text": "How severe is the detected condition?",
+   "paraphrases": [
+    "How severe is the detected condition? (variant 2)"
+   ],
+   "handler": "h_severity",
+   "args": {},
+   "template_id": "h_severity",
+   "id": "Q_Who_018"
+  },
+  {
+   "category": "Who",
+   "text": "Is escalation to the maintenance planner required?",
+   "paraphrases": [
+    "Is escalation to the maintenance planner required? (variant 3)"
+   ],
+   "handler": "h_escalation",
+   "args": {},
+   "template_id": "h_escalation",
+   "id": "Q_Who_019"
+  },
+  {
+   "category": "Who",
+   "text": "Who needs to act on a normal report?",
+   "paraphrases": [
+    "Who needs to act on a normal report? (variant 4)"
+   ],
+   "handler": "h_who_normal",
+   "args": {},
+   "template_id": "h_who_normal",
+   "id": "Q_Who_020"
+  },
+  {
+   "category": "How",
+   "text": "What action is recommended?",
+   "paraphrases": [
+    "What action is recommended? (variant 1)"
+   ],
+   "handler": "h_action",
+   "args": {},
+   "template_id": "h_action",
+   "id": "Q_How_021"
+  },
+  {
+   "category": "How",
+   "text": "How should the repair be verified?",
+   "paraphrases": [
+    "How should the repair be verified? (variant 2)"
+   ],
+   "handler": "h_verify_step",
+   "args": {},
+   "template_id": "h_verify_step",
+   "id": "Q_How_022"
+  },
+  {
+   "category": "How",
+   "text": "How should monitoring continue afterwards?",
+   "paraphrases": [
+    "How should monitoring continue afterwards? (variant 3)"
+   ],
+   "handler": "h_recheck",
+   "args": {},
+   "template_id": "h_recheck",
+   "id": "Q_How_023"
+  },
+  {
+   "category": "How",
+   "text": "How was the confidence of this verdict established?",
+   "paraphrases": [
+    "How was the confidence of this verdict established? (variant 4)"
+   ],
+   "handler": "h_confidence_note",
+   "args": {},
+   "template_id": "h_confidence_note",
+   "id": "Q_How_024"
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "bank": "metropt_v1",
+ "n_questions": 24,
+ "categories": [
+  "What",
+  "Why",
+  "When",
+  "Where",
+  "Who",
+  "How"
+ ],
+ "spec": "code/knowledge/metropt/metropt_spec.json",
+ "questions": [
+  {
+   "id": "W1",
+   "category": "What",
+   "short_name": "current_state",
+   "question": "What is the current operating state of the Air Production Unit?",
+   "answer_source": "verdict.label + tier + confidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Acute air-leak indication (rule tier, high confidence)",
+    "oil": "Oil-system degradation indication (rule tier, high confidence)",
+    "both": "Combined air-leak and oil-degradation indications (rule tier)",
+    "monitor": "Nominal operation with deviations worth monitoring (score tier)",
+    "healthy": "Nominal operation (score tier)",
+    "abstain": "Not assessable from this window (telemetry gap or out-of-bank mode)"
+   },
+   "numeric": false
+  },
+  {
+   "id": "W2",
+   "category": "What",
+   "short_name": "subsystem",
+   "question": "Which subsystem does the indication involve?",
+   "answer_source": "verdict.label",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Compressed-air production and distribution (compressor unable to build pressure against continuous demand)",
+    "oil": "Compressor oil system (temperature/degradation trend)",
+    "both": "Air system with concurrent oil-system indication",
+    "monitor": "Inconclusive -- deviation without a single responsible subsystem",
+    "healthy": "None",
+    "abstain": "Unknown"
+   },
+   "numeric": false
+  },
+  {
+   "id": "W3",
+   "category": "What",
+   "short_name": "tier_confidence",
+   "question": "On which tier, and with what confidence, is the assessment made?",
+   "answer_source": "verdict.tier + verdict.confidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "rule": "Rule tier (deterministic signature), confidence >= 0.9",
+    "score": "Score tier (baseline deviation band), confidence per band",
+    "abstain": "No tier -- abstained"
+   },
+   "numeric": false
+  },
+  {
+   "id": "W4",
+   "category": "What",
+   "short_name": "key_numbers",
+   "question": "What are the key measured values in this window?",
+   "answer_source": "features: tp2_p95, tp2_frac_ge9_5, mc_on_frac, lps_maxrun_min, lps_frac, oil_max, oil_elev_c, oil_trend_c (flow_mean/max where available)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {},
+   "numeric": true
+  },
+  {
+   "id": "Y1",
+   "category": "Why",
+   "short_name": "evidence",
+   "question": "What telemetry evidence supports the assessment?",
+   "answer_source": "verdict.evidence.rule_branches_fired + numeric evidence fields",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {},
+   "numeric": true
+  },
+  {
+   "id": "Y2",
+   "category": "Why",
+   "short_name": "mechanism",
+   "question": "What physical mechanism explains the evidence?",
+   "answer_source": "bank physics",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Air escapes as fast as the compressor pumps it: the compressor runs in working duty nearly continuously (Motor_current > 4.5 A) yet TP2 never reaches the 10.2-10.5 bar load cutoff; sustained low pressure can activate the LPS warning (< 7 bar)",
+    "oil": "Oil loss degrades lubrication/cooling so the oil temperature climbs above this vehicle's own healthy band (absolute thresholds do not transfer between vehicles)",
+    "monitor": "Mild deviation from the vehicle baseline without a definite mechanism",
+    "healthy": "Measurements sit inside the vehicle baseline band",
+    "abstain": "No mechanism claim -- window not assessable"
+   },
+   "numeric": false
+  },
+  {
+   "id": "Y3",
+   "category": "Why",
+   "short_name": "baseline_deviation",
+   "question": "By how much do the measurements deviate from this vehicle's baseline?",
+   "answer_source": "spec per_vehicle baseline stats + features (oil_elev_c, tp2 vs baseline, mc_on vs typical cycling)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {},
+   "numeric": true
+  },
+  {
+   "id": "Y4",
+   "category": "Why",
+   "short_name": "differential",
+   "question": "Why are alternative explanations less consistent?",
+   "answer_source": "bank physics",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Healthy off-load running also holds TP2 low, but at Motor_current ~4 A with full tanks; heavy service shows fill-rest cycles that reach the cutoff; the observed continuous working duty without cutoff is the leak signature",
+    "oil": "Hot ambient/duty days raise oil temperature but stay within the vehicle band and lack the sustained upward trend; Oil-level polarity is epoch-specific and is not used where its healthy state is ambiguous",
+    "healthy": "No indication to explain",
+    "abstain": "n/a"
+   },
+   "numeric": false
+  },
+  {
+   "id": "N1",
+   "category": "When",
+   "short_name": "action_window",
+   "question": "Within what timeframe should action be taken?",
+   "answer_source": "verdict stratified action",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air_rule": "Immediately: the operator requires detection at least two hours before the unit becomes non-operational",
+    "oil_rule": "Within the next maintenance window (24-48 h); earlier if the trend accelerates",
+    "monitor": "At the next planned inspection",
+    "healthy": "Routine schedule",
+    "abstain": "n/a"
+   },
+   "numeric": false
+  },
+  {
+   "id": "N2",
+   "category": "When",
+   "short_name": "evidence_timeline",
+   "question": "When within the window did the critical evidence occur?",
+   "answer_source": "lps_first_before_end_h, oil climb phase",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {},
+   "numeric": true
+  },
+  {
+   "id": "N3",
+   "category": "When",
+   "short_name": "lead_assessment",
+   "question": "If a failure is developing, how much lead time may remain?",
+   "answer_source": "evidence onset + documented mean 6.8 h anomaly lead for air leaks (Veloso 2022)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Air leaks in this fleet showed a mean 6.8 h anomaly lead before the maintenance event; sustained signatures leave hours, not days",
+    "oil": "Oil degradation in this fleet developed over ~2-3 days before removal; the current elevation suggests days of margin at most",
+    "healthy": "n/a",
+    "abstain": "n/a"
+   },
+   "numeric": false
+  },
+  {
+   "id": "N4",
+   "category": "When",
+   "short_name": "recheck",
+   "question": "When should telemetry be re-checked?",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air_rule": "Continuous monitoring until intervention",
+    "oil_rule": "Every 12 h",
+    "monitor": "Daily",
+    "healthy": "Routine"
+   },
+   "numeric": false
+  },
+  {
+   "id": "L1",
+   "category": "Where",
+   "short_name": "system_location",
+   "question": "Where in the APU is the implicated subsystem?",
+   "answer_source": "verdict.label",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Compressed-air circuit: compressor outlet, air-dryer towers, distribution to clients",
+    "oil": "Compressor oil circuit",
+    "healthy": "n/a"
+   },
+   "numeric": false
+  },
+  {
+   "id": "L2",
+   "category": "Where",
+   "short_name": "component_suspicion",
+   "question": "Which specific components are most suspect?",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Distribution pipes/valves feeding clients, or the air-dryer pneumatic pilot valve and drain lines",
+    "oil": "Compressor oil seals / oil circuit connections",
+    "healthy": "n/a"
+   },
+   "numeric": false
+  },
+  {
+   "id": "L3",
+   "category": "Where",
+   "short_name": "sensor_sources",
+   "question": "Which sensors carry the evidence?",
+   "answer_source": "features used by fired branches",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "TP2 (compressor pressure), Motor_current, LPS, DV_pressure/Towers (dryer duty)",
+    "oil": "Oil_temperature (+ Oil_level where its polarity is unambiguous), Motor_current load share"
+   },
+   "numeric": false
+  },
+  {
+   "id": "L4",
+   "category": "Where",
+   "short_name": "vehicle_context",
+   "question": "Which vehicle/unit and duty context produced this window?",
+   "answer_source": "epoch tag + duty_frac (2022 only)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {},
+   "numeric": false
+  },
+  {
+   "id": "R1",
+   "category": "Who",
+   "short_name": "responder",
+   "question": "Who should respond to this report?",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air_rule": "Maintenance team, immediately",
+    "oil_rule": "Maintenance technician with planner (schedule the window)",
+    "monitor": "Depot technician at next inspection",
+    "healthy": "None beyond routine"
+   },
+   "numeric": false
+  },
+  {
+   "id": "R2",
+   "category": "Who",
+   "short_name": "notification",
+   "question": "Who else must be informed?",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "rule": "Fleet supervisor if removal from service is a candidate (service impact)",
+    "else": "No extra notification"
+   },
+   "numeric": false
+  },
+  {
+   "id": "R3",
+   "category": "Who",
+   "short_name": "decision_authority",
+   "question": "Who decides removal from service?",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "any": "Maintenance lead, per operator protocol; the report supports but does not make the decision"
+   },
+   "numeric": false
+  },
+  {
+   "id": "R4",
+   "category": "Who",
+   "short_name": "operator_now",
+   "question": "What should the train operator do right now?",
+   "answer_source": "lps evidence",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "lps_active": "Heed the low-pressure warning; the unit may become non-operational -- prepare to hand over the vehicle",
+    "no_lps": "Continue operation; no driver-facing warning is active"
+   },
+   "numeric": false
+  },
+  {
+   "id": "A1",
+   "category": "How",
+   "short_name": "recommended_action",
+   "question": "What action does the report recommend?",
+   "answer_source": "verdict stratified (decision-usefulness anchor)",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air_rule": "Remove from service at the next safe opportunity and locate the leak",
+    "oil_rule": "Schedule compressor oil-system inspection within 24-48 h; remove from service if the trend accelerates",
+    "monitor": "Inspect at the next window; keep monitoring",
+    "healthy": "No action; routine monitoring",
+    "abstain": "No recommendation assessable -- request re-transmission / re-check telemetry"
+   },
+   "numeric": false
+  },
+  {
+   "id": "A2",
+   "category": "How",
+   "short_name": "verification",
+   "question": "How can the indication be verified on site?",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Leak search on the distribution circuit (soap/gas detection), dryer drain-valve and pilot-valve check",
+    "oil": "Oil level and leak inspection of the compressor oil circuit"
+   },
+   "numeric": false
+  },
+  {
+   "id": "A3",
+   "category": "How",
+   "short_name": "conservative_option",
+   "question": "What is the conservative fallback if verification is inconclusive?",
+   "answer_source": "bank",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "air": "Treat as severe: remove from service (a blown client pipe in this fleet forced removal)",
+    "oil": "Remove from service if oil temperature still exceeds the vehicle band at re-check"
+   },
+   "numeric": false
+  },
+  {
+   "id": "A4",
+   "category": "How",
+   "short_name": "followup",
+   "question": "What follow-up monitoring is required?",
+   "answer_source": "verdict stratified",
+   "epochs": [
+    "metropt3",
+    "metropt2022",
+    "metropt2022B"
+   ],
+   "stratified": {
+    "rule": "Post-repair verification window: confirm return to the vehicle baseline band",
+    "monitor": "Daily trend of the deviating quantity",
+    "healthy": "Routine"
+   },
+   "numeric": false
+  }
+ ]
+}

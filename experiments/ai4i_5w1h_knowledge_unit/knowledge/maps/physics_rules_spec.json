@@ -1,0 +1,19 @@
+{
+  "mechanical_power": "P[W] = torque[Nm] * rpm * 2*pi/60",
+  "power_safe_range_W": [
+    3500.0,
+    9000.0
+  ],
+  "hdf_rule": "(process_temp - air_temp) < 8.6 K AND rpm < 1380.0",
+  "osf_limits_minNm_by_type": {
+    "L": 11000.0,
+    "M": 12000.0,
+    "H": 13000.0
+  },
+  "twf_replace_band_min": [
+    200,
+    240
+  ],
+  "twf_fail_min": 240,
+  "note": "RNF is random by construction and not rule-derivable"
+}

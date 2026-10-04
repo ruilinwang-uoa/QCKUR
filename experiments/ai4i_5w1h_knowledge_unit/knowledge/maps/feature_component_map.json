@@ -1,0 +1,7 @@
+{
+  "Rotational speed [rpm]": "spindle / drive",
+  "Torque [Nm]": "tool region / drive train",
+  "Tool wear [min]": "cutting tool",
+  "Air temperature [K]": "cooling / ambient",
+  "Process temperature [K]": "process / workpiece"
+}

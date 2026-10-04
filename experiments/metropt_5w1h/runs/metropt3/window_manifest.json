@@ -1,0 +1,582 @@
+{
+ "params": {
+  "window_h": 24.0,
+  "offsets": [
+   6.0,
+   12.0,
+   24.0,
+   48.0,
+   72.0
+  ],
+  "controls_per_positive": 2,
+  "min_coverage": 0.8,
+  "seed": 42,
+  "anchor_policy": "end",
+  "post_exclude_h": 24.0,
+  "median_cadence_s": 10.0,
+  "median_daily_rows": 7435.5,
+  "expected_rows_per_window": 7435
+ },
+ "counts": {
+  "positives": 16,
+  "controls": 32,
+  "dropped": 4
+ },
+ "windows": [
+  {
+   "window_id": "ev1_o6",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 6.0,
+   "anchor": "2020-04-18 23:59:00",
+   "t_start": "2020-04-17 17:59:00",
+   "t_end": "2020-04-18 17:59:00",
+   "n_rows": 8273,
+   "coverage": 1.113
+  },
+  {
+   "window_id": "ev1_o12",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 12.0,
+   "anchor": "2020-04-18 23:59:00",
+   "t_start": "2020-04-17 11:59:00",
+   "t_end": "2020-04-18 11:59:00",
+   "n_rows": 7885,
+   "coverage": 1.061
+  },
+  {
+   "window_id": "ev1_o24",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 24.0,
+   "anchor": "2020-04-18 23:59:00",
+   "t_start": "2020-04-16 23:59:00",
+   "t_end": "2020-04-17 23:59:00",
+   "n_rows": 6302,
+   "coverage": 0.848
+  },
+  {
+   "window_id": "ev1_o48",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 48.0,
+   "anchor": "2020-04-18 23:59:00",
+   "t_start": "2020-04-15 23:59:00",
+   "t_end": "2020-04-16 23:59:00",
+   "n_rows": 8028,
+   "coverage": 1.08
+  },
+  {
+   "window_id": "ev1_o72",
+   "kind": "positive",
+   "event_id": 1,
+   "offset_h": 72.0,
+   "anchor": "2020-04-18 23:59:00",
+   "t_start": "2020-04-14 23:59:00",
+   "t_end": "2020-04-15 23:59:00",
+   "n_rows": 8426,
+   "coverage": 1.133
+  },
+  {
+   "window_id": "ev2_o6",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 6.0,
+   "anchor": "2020-05-30 06:00:00",
+   "t_start": "2020-05-29 00:00:00",
+   "t_end": "2020-05-30 00:00:00",
+   "n_rows": 7466,
+   "coverage": 1.004
+  },
+  {
+   "window_id": "ev2_o12",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 12.0,
+   "anchor": "2020-05-30 06:00:00",
+   "t_start": "2020-05-28 18:00:00",
+   "t_end": "2020-05-29 18:00:00",
+   "n_rows": 7466,
+   "coverage": 1.004
+  },
+  {
+   "window_id": "ev2_o24",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 24.0,
+   "anchor": "2020-05-30 06:00:00",
+   "t_start": "2020-05-28 06:00:00",
+   "t_end": "2020-05-29 06:00:00",
+   "n_rows": 7466,
+   "coverage": 1.004
+  },
+  {
+   "window_id": "ev2_o48",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 48.0,
+   "anchor": "2020-05-30 06:00:00",
+   "t_start": "2020-05-27 06:00:00",
+   "t_end": "2020-05-28 06:00:00",
+   "n_rows": 7208,
+   "coverage": 0.969
+  },
+  {
+   "window_id": "ev2_o72",
+   "kind": "positive",
+   "event_id": 2,
+   "offset_h": 72.0,
+   "anchor": "2020-05-30 06:00:00",
+   "t_start": "2020-05-26 06:00:00",
+   "t_end": "2020-05-27 06:00:00",
+   "n_rows": 7366,
+   "coverage": 0.991
+  },
+  {
+   "window_id": "ev3_o6",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 6.0,
+   "anchor": "2020-06-07 14:30:00",
+   "t_start": "2020-06-06 08:30:00",
+   "t_end": "2020-06-07 08:30:00",
+   "n_rows": 7027,
+   "coverage": 0.945
+  },
+  {
+   "window_id": "ev3_o12",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 12.0,
+   "anchor": "2020-06-07 14:30:00",
+   "t_start": "2020-06-06 02:30:00",
+   "t_end": "2020-06-07 02:30:00",
+   "n_rows": 7244,
+   "coverage": 0.974
+  },
+  {
+   "window_id": "ev3_o24",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 24.0,
+   "anchor": "2020-06-07 14:30:00",
+   "t_start": "2020-06-05 14:30:00",
+   "t_end": "2020-06-06 14:30:00",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ev3_o48",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 48.0,
+   "anchor": "2020-06-07 14:30:00",
+   "t_start": "2020-06-04 14:30:00",
+   "t_end": "2020-06-05 14:30:00",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ev3_o72",
+   "kind": "positive",
+   "event_id": 3,
+   "offset_h": 72.0,
+   "anchor": "2020-06-07 14:30:00",
+   "t_start": "2020-06-03 14:30:00",
+   "t_end": "2020-06-04 14:30:00",
+   "n_rows": 7976,
+   "coverage": 1.073
+  },
+  {
+   "window_id": "ev4_o48",
+   "kind": "positive",
+   "event_id": 4,
+   "offset_h": 48.0,
+   "anchor": "2020-07-15 19:00:00",
+   "t_start": "2020-07-12 19:00:00",
+   "t_end": "2020-07-13 19:00:00",
+   "n_rows": 6017,
+   "coverage": 0.809
+  },
+  {
+   "window_id": "ctl_ev1_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-02 15:32:44",
+   "t_end": "2020-04-03 15:32:44",
+   "n_rows": 8683,
+   "coverage": 1.168
+  },
+  {
+   "window_id": "ctl_ev1_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-10 18:36:04",
+   "t_end": "2020-04-11 18:36:04",
+   "n_rows": 7228,
+   "coverage": 0.972
+  },
+  {
+   "window_id": "ctl_ev1_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-09 10:17:57",
+   "t_end": "2020-04-10 10:17:57",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev1_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-06 12:40:51",
+   "t_end": "2020-04-07 12:40:51",
+   "n_rows": 7799,
+   "coverage": 1.049
+  },
+  {
+   "window_id": "ctl_ev1_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-05 23:41:29",
+   "t_end": "2020-04-06 23:41:29",
+   "n_rows": 7044,
+   "coverage": 0.947
+  },
+  {
+   "window_id": "ctl_ev1_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-10 23:10:57",
+   "t_end": "2020-04-11 23:10:57",
+   "n_rows": 7229,
+   "coverage": 0.972
+  },
+  {
+   "window_id": "ctl_ev1_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-09 21:49:40",
+   "t_end": "2020-04-10 21:49:40",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev1_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-03 23:26:32",
+   "t_end": "2020-04-04 23:26:32",
+   "n_rows": 7591,
+   "coverage": 1.021
+  },
+  {
+   "window_id": "ctl_ev1_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-06 23:12:57",
+   "t_end": "2020-04-07 23:12:57",
+   "n_rows": 7989,
+   "coverage": 1.075
+  },
+  {
+   "window_id": "ctl_ev1_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-04-11 23:20:28",
+   "t_end": "2020-04-12 23:20:28",
+   "n_rows": 7124,
+   "coverage": 0.958
+  },
+  {
+   "window_id": "ctl_ev2_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-18 02:29:59",
+   "t_end": "2020-05-19 02:29:59",
+   "n_rows": 8572,
+   "coverage": 1.153
+  },
+  {
+   "window_id": "ctl_ev2_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-19 00:52:47",
+   "t_end": "2020-05-20 00:52:47",
+   "n_rows": 7442,
+   "coverage": 1.001
+  },
+  {
+   "window_id": "ctl_ev2_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-19 16:07:06",
+   "t_end": "2020-05-20 16:07:06",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev2_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-13 17:47:50",
+   "t_end": "2020-05-14 17:47:50",
+   "n_rows": 7453,
+   "coverage": 1.002
+  },
+  {
+   "window_id": "ctl_ev2_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-03 08:59:56",
+   "t_end": "2020-05-04 08:59:56",
+   "n_rows": 7426,
+   "coverage": 0.999
+  },
+  {
+   "window_id": "ctl_ev2_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-21 07:19:07",
+   "t_end": "2020-05-22 07:19:07",
+   "n_rows": 8669,
+   "coverage": 1.166
+  },
+  {
+   "window_id": "ctl_ev2_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-12 04:53:34",
+   "t_end": "2020-05-13 04:53:34",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev2_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-13 05:59:37",
+   "t_end": "2020-05-14 05:59:37",
+   "n_rows": 7453,
+   "coverage": 1.002
+  },
+  {
+   "window_id": "ctl_ev2_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-05 05:21:45",
+   "t_end": "2020-05-06 05:21:45",
+   "n_rows": 7942,
+   "coverage": 1.068
+  },
+  {
+   "window_id": "ctl_ev2_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-05-19 08:58:30",
+   "t_end": "2020-05-20 08:58:30",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev3_o6_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-20 10:21:57",
+   "t_end": "2020-06-21 10:21:57",
+   "n_rows": 7491,
+   "coverage": 1.008
+  },
+  {
+   "window_id": "ctl_ev3_o6_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-15 09:13:07",
+   "t_end": "2020-06-16 09:13:07",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev3_o12_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-25 03:31:57",
+   "t_end": "2020-06-26 03:31:57",
+   "n_rows": 8500,
+   "coverage": 1.143
+  },
+  {
+   "window_id": "ctl_ev3_o12_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-18 04:23:22",
+   "t_end": "2020-06-19 04:23:22",
+   "n_rows": 8506,
+   "coverage": 1.144
+  },
+  {
+   "window_id": "ctl_ev3_o24_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-16 14:40:20",
+   "t_end": "2020-06-17 14:40:20",
+   "n_rows": 7636,
+   "coverage": 1.027
+  },
+  {
+   "window_id": "ctl_ev3_o24_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-16 15:20:58",
+   "t_end": "2020-06-17 15:20:58",
+   "n_rows": 7636,
+   "coverage": 1.027
+  },
+  {
+   "window_id": "ctl_ev3_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-12 13:52:11",
+   "t_end": "2020-06-13 13:52:11",
+   "n_rows": 8340,
+   "coverage": 1.122
+  },
+  {
+   "window_id": "ctl_ev3_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-18 16:47:36",
+   "t_end": "2020-06-19 16:47:36",
+   "n_rows": 8716,
+   "coverage": 1.172
+  },
+  {
+   "window_id": "ctl_ev3_o72_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-25 16:12:41",
+   "t_end": "2020-06-26 16:12:41",
+   "n_rows": 8678,
+   "coverage": 1.167
+  },
+  {
+   "window_id": "ctl_ev3_o72_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-06-25 13:21:42",
+   "t_end": "2020-06-26 13:21:42",
+   "n_rows": 8678,
+   "coverage": 1.167
+  },
+  {
+   "window_id": "ctl_ev4_o48_0",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-07-26 19:39:07",
+   "t_end": "2020-07-27 19:39:07",
+   "n_rows": 6771,
+   "coverage": 0.911
+  },
+  {
+   "window_id": "ctl_ev4_o48_1",
+   "kind": "control",
+   "event_id": null,
+   "offset_h": null,
+   "anchor": null,
+   "t_start": "2020-07-21 17:05:41",
+   "t_end": "2020-07-22 17:05:41",
+   "n_rows": 7967,
+   "coverage": 1.072
+  }
+ ],
+ "dropped": [
+  {
+   "kind": "positive",
+   "event": 4,
+   "offset_h": 6.0,
+   "reason": "coverage 0.76 < 0.8"
+  },
+  {
+   "kind": "positive",
+   "event": 4,
+   "offset_h": 12.0,
+   "reason": "coverage 0.48 < 0.8"
+  },
+  {
+   "kind": "positive",
+   "event": 4,
+   "offset_h": 24.0,
+   "reason": "coverage 0.59 < 0.8"
+  },
+  {
+   "kind": "positive",
+   "event": 4,
+   "offset_h": 72.0,
+   "reason": "coverage 0.73 < 0.8"
+  }
+ ],
+ "source_tag": "metropt3"
+}

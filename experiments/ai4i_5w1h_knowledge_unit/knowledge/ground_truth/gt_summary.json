@@ -1,0 +1,14 @@
+{
+  "n_questions": 203,
+  "n_instances": 315,
+  "n_gt_records": 63945,
+  "gt_records_per_category": {
+    "What": 19215,
+    "Why": 9135,
+    "When": 8190,
+    "Where": 7875,
+    "Who": 9765,
+    "How": 9765
+  },
+  "n_empty_or_error_gt": 0
+}

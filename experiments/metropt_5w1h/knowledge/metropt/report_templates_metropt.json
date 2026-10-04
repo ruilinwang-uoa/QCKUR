@@ -1,0 +1,9 @@
+{
+ "templates": {
+  "healthy": "CURRENT STATE: {W1}. KEY VALUES: {W4}. EVIDENCE: {Y1}; mechanism: {Y2}; baseline deviation: {Y3}. TIMELINE: {N2}; action window: {N1}; re-check: {N4}. SUBSYSTEM: {W2}; location: {L1}; sensors: {L3}; context: {L4}. RESPONDER: {R1}; operator: {R4}. RECOMMENDED ACTION: {A1}; verification: {A2}; fallback: {A3}; follow-up: {A4}.",
+  "air": "CURRENT STATE: {W1} -- {W3}. SUBSYSTEM: {W2} ({L1}); suspect components: {L2}. KEY VALUES: {W4}. EVIDENCE: {Y1}; mechanism: {Y2}; deviation from this vehicle's baseline: {Y3}; differential: {Y4}. LEAD TIME: {N3}; evidence timeline: {N2}; action window: {N1}; re-check: {N4}. SENSORS: {L3}; context: {L4}. RESPONDER: {R1}; inform: {R2}; decision authority: {R3}; operator now: {R4}. RECOMMENDED ACTION: {A1}; on-site verification: {A2}; conservative fallback: {A3}; follow-up: {A4}.",
+  "oil": "CURRENT STATE: {W1} -- {W3}. SUBSYSTEM: {W2} ({L1}); suspect components: {L2}. KEY VALUES: {W4}. EVIDENCE: {Y1}; mechanism: {Y2}; deviation from this vehicle's baseline: {Y3}; differential: {Y4}. LEAD TIME: {N3}; evidence timeline: {N2}; action window: {N1}; re-check: {N4}. SENSORS: {L3}; context: {L4}. RESPONDER: {R1}; inform: {R2}; decision authority: {R3}; operator now: {R4}. RECOMMENDED ACTION: {A1}; on-site verification: {A2}; conservative fallback: {A3}; follow-up: {A4}.",
+  "monitor": "CURRENT STATE: {W1} -- {W3}. KEY VALUES: {W4}. EVIDENCE: {Y1}; baseline deviation: {Y3}. TIMELINE: {N2}; action window: {N1}; re-check: {N4}. LOCATION: {L1}; context: {L4}. RESPONDER: {R1}. RECOMMENDED ACTION: {A1}; verification: {A2}; follow-up: {A4}.",
+  "abstain": "CURRENT STATE: {W1}. REASON: telemetry gap or out-of-bank operating mode not covered by the knowledge bank ({Y1} if partial data). RECOMMENDED ACTION: {A1}; re-check: {N4}."
+ }
+}

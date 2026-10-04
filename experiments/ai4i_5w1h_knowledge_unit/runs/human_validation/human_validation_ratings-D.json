@@ -1,0 +1,1741 @@
+{
+ "0": {
+  "rank": {
+   "C": 1,
+   "D": 2,
+   "B": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 2,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {
+     "where": true
+    }
+   },
+   "B": {
+    "faith": 2,
+    "compl": 2,
+    "coh": 4,
+    "act": 2,
+    "cov": {}
+   },
+   "C": {
+    "faith": 2,
+    "compl": 3,
+    "coh": 5,
+    "act": 1,
+    "cov": {
+     "where": true
+    }
+   },
+   "D": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "where": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "1": {
+  "rank": {
+   "D": 1,
+   "A": 2,
+   "C": 3,
+   "B": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 3,
+    "coh": 3,
+    "act": 3,
+    "cov": {
+     "when": true,
+     "where": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 2,
+    "compl": 3,
+    "coh": 2,
+    "act": 2,
+    "cov": {
+     "where": true
+    }
+   },
+   "C": {
+    "faith": 2,
+    "compl": 2,
+    "coh": 4,
+    "act": 2,
+    "cov": {}
+   },
+   "D": {
+    "faith": 2,
+    "compl": 3,
+    "coh": 5,
+    "act": 1,
+    "cov": {
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "2": {
+  "rank": {
+   "B": 1,
+   "A": 2,
+   "C": 3,
+   "D": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 2,
+    "compl": 3,
+    "coh": 4,
+    "act": 2,
+    "cov": {
+     "when": true,
+     "where": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "3": {
+  "rank": {
+   "B": 1,
+   "D": 2,
+   "C": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 4,
+    "act": 1,
+    "cov": {
+     "when": true,
+     "who": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "4": {
+  "rank": {
+   "B": 1,
+   "A": 2,
+   "C": 3,
+   "D": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 4,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 3,
+    "act": 1,
+    "cov": {
+     "who": true
+    }
+   }
+  }
+ },
+ "5": {
+  "rank": {
+   "B": 1,
+   "A": 2,
+   "D": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 4,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 3,
+    "act": 1,
+    "cov": {
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "6": {
+  "rank": {
+   "C": 1,
+   "D": 2,
+   "B": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 3,
+    "act": 1,
+    "cov": {
+     "when": true,
+     "who": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "7": {
+  "rank": {
+   "B": 1,
+   "C": 2,
+   "D": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "8": {
+  "rank": {
+   "A": 1,
+   "D": 2,
+   "C": 3,
+   "B": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 3,
+    "act": 1,
+    "cov": {
+     "when": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "why": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 5,
+    "coh": 4,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "9": {
+  "rank": {
+   "C": 1,
+   "B": 2,
+   "D": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 2,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "10": {
+  "rank": {
+   "C": 1,
+   "A": 2,
+   "B": 3,
+   "D": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 2,
+    "compl": 2,
+    "coh": 3,
+    "act": 2,
+    "cov": {
+     "what": true,
+     "when": true
+    }
+   }
+  }
+ },
+ "11": {
+  "rank": {
+   "D": 1,
+   "A": 2,
+   "C": 3,
+   "B": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "12": {
+  "rank": {
+   "D": 1,
+   "C": 2,
+   "B": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "13": {
+  "rank": {
+   "C": 1,
+   "A": 2,
+   "B": 3,
+   "D": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "14": {
+  "rank": {
+   "A": 1,
+   "C": 2,
+   "B": 3,
+   "D": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 1,
+    "cov": {}
+   }
+  }
+ },
+ "15": {
+  "rank": {
+   "D": 1,
+   "B": 2,
+   "A": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "16": {
+  "rank": {
+   "B": 1,
+   "A": 2,
+   "D": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "17": {
+  "rank": {
+   "B": 1,
+   "C": 2,
+   "D": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 1,
+    "cov": {}
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "18": {
+  "rank": {
+   "D": 1,
+   "A": 2,
+   "B": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "19": {
+  "rank": {
+   "A": 1,
+   "D": 2,
+   "B": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "20": {
+  "rank": {
+   "A": 1,
+   "B": 2,
+   "D": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "how": true,
+     "who": true,
+     "where": true,
+     "when": true,
+     "why": true,
+     "what": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "how": true,
+     "who": true,
+     "where": true,
+     "when": true,
+     "what": true,
+     "why": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "21": {
+  "rank": {
+   "A": 1,
+   "B": 2,
+   "D": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "how": true,
+     "who": true,
+     "where": true,
+     "when": true,
+     "why": true,
+     "what": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "how": true,
+     "who": true,
+     "where": true,
+     "when": true,
+     "why": true,
+     "what": true
+    }
+   },
+   "C": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "22": {
+  "rank": {
+   "B": 1,
+   "A": 2,
+   "D": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "23": {
+  "rank": {
+   "C": 1,
+   "B": 2,
+   "D": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 4,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "24": {
+  "rank": {
+   "C": 1,
+   "D": 2,
+   "B": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 3,
+    "compl": 3,
+    "coh": 3,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "why": false,
+     "when": true,
+     "who": true
+    }
+   },
+   "B": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "25": {
+  "rank": {
+   "C": 1,
+   "D": 2,
+   "A": 3,
+   "B": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "B": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "26": {
+  "rank": {
+   "D": 1,
+   "A": 2,
+   "B": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true
+    }
+   },
+   "C": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "27": {
+  "rank": {
+   "B": 1,
+   "C": 2,
+   "D": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 3,
+    "compl": 4,
+    "coh": 4,
+    "act": 3,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   }
+  }
+ },
+ "28": {
+  "rank": {
+   "D": 1,
+   "C": 2,
+   "B": 3,
+   "A": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 3,
+    "act": 1,
+    "cov": {}
+   },
+   "B": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ },
+ "29": {
+  "rank": {
+   "A": 1,
+   "D": 2,
+   "B": 3,
+   "C": 4
+  },
+  "reports": {
+   "A": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   },
+   "B": {
+    "faith": 4,
+    "compl": 3,
+    "coh": 4,
+    "act": 4,
+    "cov": {
+     "what": true,
+     "when": true,
+     "where": true,
+     "who": true
+    }
+   },
+   "C": {
+    "faith": 1,
+    "compl": 2,
+    "coh": 2,
+    "act": 2,
+    "cov": {}
+   },
+   "D": {
+    "faith": 5,
+    "compl": 5,
+    "coh": 5,
+    "act": 5,
+    "cov": {
+     "what": true,
+     "why": true,
+     "when": true,
+     "where": true,
+     "who": true,
+     "how": true
+    }
+   }
+  }
+ }
+}

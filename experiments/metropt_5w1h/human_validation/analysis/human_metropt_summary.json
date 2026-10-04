@@ -1,0 +1,54 @@
+{
+ "n_raters": 3,
+ "n_windows": 26,
+ "system_means": {
+  "B1": {
+   "faith": 3.2,
+   "compl": 4.733,
+   "coh": 3.422,
+   "act": 4.389,
+   "state": 4.144,
+   "actionok": 4.311,
+   "readability_rank": 3.678,
+   "overall": 4.033,
+   "n": 90
+  },
+  "B2": {
+   "faith": 3.8,
+   "compl": 2.311,
+   "coh": 4.778,
+   "act": 2.911,
+   "state": 4.178,
+   "actionok": 3.911,
+   "readability_rank": 1.544,
+   "overall": 3.648,
+   "n": 90
+  },
+  "B5": {
+   "faith": 2.311,
+   "compl": 2.078,
+   "coh": 3.567,
+   "act": 2.133,
+   "state": 2.267,
+   "actionok": 2.956,
+   "readability_rank": 3.089,
+   "overall": 2.552,
+   "n": 90
+  },
+  "B8": {
+   "faith": 2.956,
+   "compl": 4.0,
+   "coh": 4.167,
+   "act": 4.033,
+   "state": 3.311,
+   "actionok": 4.089,
+   "readability_rank": 1.656,
+   "overall": 3.759,
+   "n": 90
+  }
+ },
+ "most_readable": {
+  "B2": 49,
+  "B8": 41
+ }
+}

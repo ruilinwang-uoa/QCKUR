@@ -1,0 +1,295 @@
+{
+ "cadence": {
+  "n_rows": 1516948,
+  "span": [
+   "2020-02-01 00:00:00",
+   "2020-09-01 03:59:50"
+  ],
+  "n_duplicate_ts": 0,
+  "cadence_s": {
+   "median": 10.0,
+   "mean": 12.14,
+   "p01": 9.0,
+   "p99": 12.0
+  },
+  "gaps_gt_10min": 230,
+  "gap_top10_s": [
+   172918.0,
+   130476.0,
+   100981.0,
+   88833.0,
+   88491.0,
+   86160.0,
+   85157.0,
+   80261.0,
+   77305.0,
+   74617.0
+  ],
+  "missing_hours_total": 862.9
+ },
+ "signals": {
+  "TP2": {
+   "min": -0.032,
+   "max": 10.676,
+   "mean": 1.368,
+   "std": 3.251,
+   "n_na": 0
+  },
+  "TP3": {
+   "min": 0.73,
+   "max": 10.302,
+   "mean": 8.985,
+   "std": 0.639,
+   "n_na": 0
+  },
+  "H1": {
+   "min": -0.036,
+   "max": 10.288,
+   "mean": 7.568,
+   "std": 3.333,
+   "n_na": 0
+  },
+  "DV_pressure": {
+   "min": -0.032,
+   "max": 9.844,
+   "mean": 0.056,
+   "std": 0.382,
+   "n_na": 0
+  },
+  "Reservoirs": {
+   "min": 0.712,
+   "max": 10.3,
+   "mean": 8.985,
+   "std": 0.638,
+   "n_na": 0
+  },
+  "Motor_current": {
+   "min": 0.02,
+   "max": 9.295,
+   "mean": 2.05,
+   "std": 2.302,
+   "n_na": 0
+  },
+  "Oil_temperature": {
+   "min": 15.4,
+   "max": 89.05,
+   "mean": 62.644,
+   "std": 6.516,
+   "n_na": 0
+  },
+  "COMP": {
+   "values": {
+    "1.0": 0.837,
+    "0.0": 0.163
+   }
+  },
+  "Towers": {
+   "values": {
+    "1.0": 0.9198,
+    "0.0": 0.0802
+   }
+  },
+  "MPG": {
+   "values": {
+    "1.0": 0.8327,
+    "0.0": 0.1673
+   }
+  },
+  "LPS": {
+   "values": {
+    "0.0": 0.9966,
+    "1.0": 0.0034
+   }
+  },
+  "Pressure_switch": {
+   "values": {
+    "1.0": 0.9914,
+    "0.0": 0.0086
+   }
+  },
+  "Oil_level": {
+   "values": {
+    "1.0": 0.9042,
+    "0.0": 0.0958
+   }
+  },
+  "Caudal_impulses": {
+   "values": {
+    "1.0": 0.9371,
+    "0.0": 0.0629
+   }
+  }
+ },
+ "events": [
+  {
+   "id": 1,
+   "start": "2020-04-18 00:00",
+   "maintenance": null,
+   "rows_in_pm72h_to_m24h": 39973,
+   "coverage_frac": 0.925,
+   "gaps_inside": 5
+  },
+  {
+   "id": 2,
+   "start": "2020-05-29 23:30",
+   "maintenance": "2020-05-30 12:00",
+   "rows_in_pm72h_to_m24h": 34760,
+   "coverage_frac": 0.89,
+   "gaps_inside": 6
+  },
+  {
+   "id": 3,
+   "start": "2020-06-05 10:00",
+   "maintenance": "2020-06-08 16:00",
+   "rows_in_pm72h_to_m24h": 49217,
+   "coverage_frac": 0.786,
+   "gaps_inside": 7
+  },
+  {
+   "id": 4,
+   "start": "2020-07-15 14:30",
+   "maintenance": "2020-07-16 00:00",
+   "rows_in_pm72h_to_m24h": 30296,
+   "coverage_frac": 0.798,
+   "gaps_inside": 3
+  }
+ ],
+ "controls": {
+  "healthy_rows": 1362702,
+  "healthy_hours_total": 3785.3,
+  "healthy_hours_by_month": {
+   "2020-02": 596.8,
+   "2020-03": 640.1,
+   "2020-04": 441.0,
+   "2020-05": 494.6,
+   "2020-06": 464.7,
+   "2020-07": 534.3,
+   "2020-08": 612.3,
+   "2020-09": 1.5
+  },
+  "healthy_hours_by_hourofday": {
+   "0": 126.8,
+   "1": 120.2,
+   "2": 124.3,
+   "3": 133.4,
+   "4": 147.7,
+   "5": 167.8,
+   "6": 174.5,
+   "7": 173.7,
+   "8": 172.8,
+   "9": 174.3,
+   "10": 173.8,
+   "11": 170.2,
+   "12": 169.5,
+   "13": 170.7,
+   "14": 170.5,
+   "15": 172.1,
+   "16": 172.6,
+   "17": 172.7,
+   "18": 175.0,
+   "19": 168.7,
+   "20": 139.5,
+   "21": 137.0,
+   "22": 135.5,
+   "23": 142.1
+  }
+ },
+ "signature_check": {
+  "TP2": {
+   "healthy_mean": 1.244,
+   "healthy_std": 3.148,
+   "event_means": {
+    "ev1": 8.518,
+    "ev2": 4.796,
+    "ev3": 7.584,
+    "ev4": 4.894
+   }
+  },
+  "TP3": {
+   "healthy_mean": 9.001,
+   "healthy_std": 0.63,
+   "event_means": {
+    "ev1": 8.812,
+    "ev2": 8.687,
+    "ev3": 8.023,
+    "ev4": 8.652
+   }
+  },
+  "H1": {
+   "healthy_mean": 7.712,
+   "healthy_std": 3.199,
+   "event_means": {
+    "ev1": 0.079,
+    "ev2": 3.793,
+    "ev3": 0.316,
+    "ev4": 3.897
+   }
+  },
+  "DV_pressure": {
+   "healthy_mean": 0.02,
+   "healthy_std": 0.279,
+   "event_means": {
+    "ev1": 1.879,
+    "ev2": 1.015,
+    "ev3": 1.927,
+    "ev4": -0.002
+   }
+  },
+  "Reservoirs": {
+   "healthy_mean": 9.002,
+   "healthy_std": 0.63,
+   "event_means": {
+    "ev1": 8.813,
+    "ev2": 8.689,
+    "ev3": 8.025,
+    "ev4": 8.651
+   }
+  },
+  "Motor_current": {
+   "healthy_mean": 1.985,
+   "healthy_std": 2.274,
+   "event_means": {
+    "ev1": 5.604,
+    "ev2": 3.828,
+    "ev3": 5.364,
+    "ev4": 4.238
+   }
+  },
+  "Oil_temperature": {
+   "healthy_mean": 62.228,
+   "healthy_std": 6.277,
+   "event_means": {
+    "ev1": 74.131,
+    "ev2": 70.725,
+    "ev3": 74.986,
+    "ev4": 77.12
+   }
+  }
+ },
+ "column_map": {
+  "analog": {
+   "TP2": "TP2",
+   "TP3": "TP3",
+   "H1": "H1",
+   "DV_pressure": "DV_pressure",
+   "Reservoirs": "Reservoirs",
+   "Motor_current": "Motor_current",
+   "Oil_temperature": "Oil_temperature"
+  },
+  "digital": {
+   "COMP": "COMP",
+   "Towers": "Towers",
+   "MPG": "MPG",
+   "LPS": "LPS",
+   "Pressure_switch": "Pressure_switch",
+   "Oil_level": "Oil_level",
+   "Caudal_impulses": "Caudal_impulses"
+  }
+ },
+ "missing": {
+  "analog": [],
+  "digital": [
+   "DV_electric"
+  ]
+ }
+}

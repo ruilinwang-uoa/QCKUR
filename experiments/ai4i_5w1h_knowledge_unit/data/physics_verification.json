@@ -1,0 +1,39 @@
+{
+  "TWF": {
+    "tp": 2,
+    "fp": 12,
+    "fn": 44,
+    "precision": 0.1429,
+    "recall": 0.0435,
+    "n_true": 46
+  },
+  "HDF": {
+    "tp": 115,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_true": 115
+  },
+  "PWF": {
+    "tp": 95,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_true": 95
+  },
+  "OSF": {
+    "tp": 98,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_true": 98
+  },
+  "TWF_band": {
+    "n_in_band": 790,
+    "n_twf_in_band": 43,
+    "note": "wear in [200,240) is probabilistic; encoded as candidate, not certain"
+  }
+}

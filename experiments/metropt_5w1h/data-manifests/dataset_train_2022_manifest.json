@@ -1,0 +1,99 @@
+{
+ "dataset": "MetroPT 2022 full record (dataset_train.csv)",
+ "file": "dataset_train_2022.csv",
+ "source": {
+  "zenodo_record": 7766691,
+  "source_filename": "dataset_train.csv",
+  "note": "companion file on the MetroPT-2 record; renamed locally to make its role explicit; 'train' is the depositors' naming, NOT an ML split -- failure windows verified present 2026-09-20",
+  "downloaded": "2026-09-20",
+  "size_bytes": 1646201046,
+  "size_verified_vs_server": true
+ },
+ "paper": "Veloso, Ribeiro, Gama, Pereira (2022), Scientific Data 9:764, DOI 10.1038/s41597-022-01877-3",
+ "span": [
+  "2022-01-01 06:00:00",
+  "2022-06-02 15:49:53"
+ ],
+ "rows": 10773588,
+ "cadence_s": 1.0,
+ "gaps_gt_10min": 152,
+ "largest_gaps_h": [
+  38.1,
+  17.6,
+  15.7
+ ],
+ "columns": "same 21-col schema as MetroPT2.csv (gpsLong/gpsLat order swapped); see metropt2_manifest.json sensor semantics",
+ "failure_events": [
+  {
+   "id": 1,
+   "type": "air_leak_clients",
+   "start": "2022-02-28 21:53",
+   "end": "2022-03-01 02:00",
+   "maintenance": null,
+   "in_span": true,
+   "window_coverage_pm72h_24h": 0.84,
+   "lps_first_trigger": "2022-02-28 22:50:43",
+   "disposition": "severe malfunction, removed from service (paper F1 section; blown pipe photo in maintenance report; data: 03:00-05:00 gap = stopped, LPS off 06:25)",
+   "provenance": "Veloso 2022 Table 2 (published version); W2-2026-09-21 empirical adjudication of attribution conflict: LPS 4h continuous + oil temp ceiling 97.9C + outage gap = severe blown client pipe. NOTE arXiv:2207.05466v3 and arXiv:2508.05388 swap F1/F2 components ( dryer<->clients ) -- published version is physically correct; see runs/label_check/W2_label_crossvalidation.md section 4"
+  },
+  {
+   "id": 2,
+   "type": "air_leak_air_dryer",
+   "start": "2022-03-23 14:54",
+   "end": "2022-03-23 15:24",
+   "maintenance": null,
+   "in_span": true,
+   "window_coverage_pm72h_24h": 0.712,
+   "lps_first_trigger": null,
+   "disposition": "recovered autonomously, train continued in operation (pilot valve returned to normal pattern after 15:00)",
+   "provenance": "Veloso 2022 Table 2 (published version); no LPS trigger all day (empirical); attribution conflict note as event 1"
+  },
+  {
+   "id": 3,
+   "type": "oil_leak_compressor",
+   "start": "2022-05-30 12:00",
+   "end": "2022-06-02 06:18",
+   "maintenance": null,
+   "in_span": true,
+   "window_coverage_pm72h_24h": 0.721,
+   "lps_first_trigger": "2022-06-02 06:18:33",
+   "disposition": "severe compressor damage, removed from service",
+   "provenance": "Veloso 2022 Table 2 (published) AND arXiv:2207.05466v3 Table 1 -- both print end 2022-06-02 06:18; empirically CONFIRMED: first LPS trigger 06:18:33 (paper 'end' = operator-observable failure moment to the minute). W1's earlier 'end = file end 15:49' hypothesis REFUTED: file end is the export boundary, recording continued 9.5h past the failure end",
+   "end_note": "anchor = 06:18 per both published sources + LPS trigger; data gap after 15:49 is export cutoff, not removal time"
+  }
+ ],
+ "cross_validation_2026_09_21": {
+  "labels_verified": "all three events: type/component/start/end cross-checked against data signatures (see label_check/W2_label_crossvalidation.md)",
+  "physical_ceilings": {
+   "oil_temp_overload_max": 97.9,
+   "oil_temp_degradation_max": 80.2,
+   "note": "both ceilings recur on train B for the same failure classes -- sensor/physical limit, not coincidences; question-bank rules must avoid absolute oil-temp thresholds"
+  },
+  "healthy_band_oil_temp": "mean 61-64C, daily max 71-76C (train A); train B (MetroPT2.csv) differs: mean 54-57C, max 62-65C -- per-vehicle calibration required",
+  "gvbeta_lead": "github.com/gvbeta/MetroPT does NOT exist (GitHub API 404); paper's code-availability section names no repository -- lead closed"
+ },
+ "verification_2026_09_20": {
+  "failure_windows_present": true,
+  "sub_gaps_per_event_window": [
+   4,
+   4,
+   6
+  ],
+  "overlap_vs_metropt2_rows_per_day": {
+   "2022-05-01": [
+    72001,
+    87162
+   ],
+   "2022-05-15": [
+    72001,
+    86799
+   ],
+   "2022-06-01": [
+    72001,
+    87005
+   ]
+  },
+  "open_item": "dataset_train carries exactly 5/6 of MetroPT2's samples on shared days (72001 vs ~86400x1Hz) -- characterize the thinning pattern in W2 (second-of-minute distribution; possibly deliberate 5-in-6 thinning or parked-period exclusion); does not affect window construction"
+ },
+ "design_role": "TRAIN A stream for the industrial case: 3 documented failures x 2 failure modes in one continuous 5-month in-service record. CORRECTION 2026-09-21: MetroPT2.csv is a DIFFERENT physical vehicle (train B), not this train's companion -- oil-temp series uncorrelated (r~0), this train's May 30-Jun 2 oil leak invisible in MetroPT2.csv, different healthy bands; hence no post-repair data exists for train A (file ends at export boundary). See metropt2_trainB_manifest.json"
+}

@@ -1,0 +1,88 @@
+{
+ "dataset": "MetroPT-2 (2022 operational period, Zenodo file)",
+ "file": "MetroPT2.csv",
+ "source": {
+  "zenodo_record": 7766691,
+  "note": "paper cites concept DOI 10.5281/zenodo.6854240; record 7766691 hosts the Apr-Jul 2022 1 Hz file + a processed dataset_train.csv (unused)",
+  "downloaded": "2026-09-20",
+  "size_mb": 1209.7
+ },
+ "paper": "Veloso, Ribeiro, Gama, Pereira (2022), Scientific Data 9:764, DOI 10.1038/s41597-022-01877-3",
+ "span": ["2022-04-28 12:33:29", "2022-07-28 12:24:34"],
+ "rows": 7116940,
+ "cadence_s": 0.991,
+ "gaps_gt_10min": 69,
+ "largest_gap_h": 19.5,
+ "columns": ["timestamp", "TP2", "TP3", "H1", "DV_pressure", "Reservoirs", "Oil_temperature", "Flowmeter", "Motor_current", "COMP", "DV_eletric", "Towers", "MPG", "LPS", "Pressure_switch", "Oil_level", "Caudal_impulses", "gpsLat", "gpsLong", "gpsSpeed", "gpsQuality"],
+ "sensor_semantics_from_paper": {
+  "TP2": "pressure on the compressor (bar)",
+  "TP3": "pressure at the pneumatic panel (bar)",
+  "H1": "valve activated when command Pressure_switch reads above 10.2 bar operating pressure (bar)",
+  "DV_pressure": "pressure from the discharge when air-dryer towers drain water; equals 0 when the compressor works under load (bar)",
+  "Reservoirs": "pressure in the train's air tanks (bar)",
+  "Oil_temperature": "compressor oil temperature (C)",
+  "Flowmeter": "airflow at the pneumatic control panel (m3/h)",
+  "Motor_current": "motor current: ~0 A compressor off, ~4 A compressor offloaded, ~7 A compressor under load (A)",
+  "COMP": "active (=1) when NO air admission to the compressor (off or offloaded)",
+  "DV_eletric": "active (=1) when compressor is under load; inactive = off or offloaded (sic, misspelling is in the data)",
+  "Towers": "tower 2 drains water while tower 1 dries the air; binary indicator of active tower",
+  "MPG": "activates the intake valve to put the compressor under load when stored air pressure < 8.2 bar",
+  "LPS": "active (=1) when air pressure < 7 bar (low-pressure condition)",
+  "Pressure_switch": "active (=1) when pressure is detected on the pilot control valve",
+  "Oil_level": "active (=1) when oil level is BELOW expected values",
+  "Caudal_impulses": "flowmeter pulse count, air flow per second",
+  "gpsLat/gpsLong/gpsSpeed/gpsQuality": "train position/speed/GPS quality; 0 in tunnels; paper Table 1 gives parking polygons (workshop + parks) for in-service vs parked segmentation"
+ },
+ "deterministic_thresholds": {
+  "LPS_low_pressure_bar": 7.0,
+  "MPG_load_threshold_bar": 8.2,
+  "H1_valve_threshold_bar": 10.2,
+  "Motor_current_modes_A": {"off": 0, "offloaded": 4, "loaded": 7},
+  "DV_pressure_under_load_bar": 0.0,
+  "note": "operator FMEA-derived sensor semantics per Veloso 2022 -- these are the physical rules for the QCKU question bank"
+ },
+ "failure_events": [
+  {
+   "id": 1,
+   "type": "oil_leak_compressor",
+   "start": "2022-05-30 12:00",
+   "end": "2022-06-02 00:00",
+   "end_provenance": "PROVISIONAL: secondary-source table was truncated at '02-06-2022 ...'; verify exact end vs github.com/gvbeta/MetroPT label files in W2 BEFORE GT freeze",
+   "maintenance": null,
+   "in_span": true,
+   "consequence": "severe damage; train removed from service (per paper)",
+   "provenance": "Veloso 2022 Table 2, as cited by Dinten 2025 (ScienceDirect) and a U. Cantabria thesis"
+  },
+  {
+   "id": 2,
+   "type": "air_leak_clients",
+   "start": "2022-02-28 21:53",
+   "end": "2022-03-01 02:00",
+   "maintenance": null,
+   "in_span": false,
+   "note": "before this file's span (file starts 2022-04-28)"
+  },
+  {
+   "id": 3,
+   "type": "air_leak_air_dryer",
+   "start": "2022-03-23 14:54",
+   "end": "2022-03-23 15:24",
+   "maintenance": null,
+   "in_span": false,
+   "note": "before this file's span"
+  }
+ ],
+ "event_window_probe_2026_09_20": {
+  "oil_leak_pm7d_rows": 1349112,
+  "expected_rows_1hz": 1468800,
+  "coverage": 0.92,
+  "sub_gaps_gt_10min": 4
+ },
+ "healthy_supply_hours_ge7d_from_event": 1602.2,
+ "healthy_hours_by_month": {"2022-04": 59.9, "2022-05": 468.1, "2022-06": 489.0, "2022-07": 585.2},
+ "other_facts_from_paper": {
+  "anomaly_lead_time_air_leaks_mean_h": 6.8,
+  "collection_start_paper": "2022-01 (paper describes Jan-Jun 2022; the Zenodo 1 Hz file covers Apr 28 - Jul 28 2022 -- versioning difference, noted)",
+  "no_missing_values": true
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "dataset": "MetroPT-3",
+ "source_zip": "https://archive.ics.uci.edu/static/public/791/metropt+3+dataset.zip",
+ "ucy_page": "https://archive.ics.uci.edu/dataset/791",
+ "access_date": "2026-09-20",
+ "license": "CC BY 4.0",
+ "citation": [
+  "Davari, N., Veloso, B., Ribeiro, R., Gama, J. (2021). MetroPT-3 dataset paper.",
+  "Veloso, B. et al. (2022). The MetroPT dataset for predictive maintenance. Scientific Data 9, 764."
+ ],
+ "system": "Air Production Unit (APU) compressor, one train, Metro do Porto; APU feeds braking and door circuits",
+ "signals": {
+  "analog": [
+   "TP2",
+   "TP3",
+   "H1",
+   "DV_pressure",
+   "Reservoirs",
+   "Motor_current",
+   "Oil_temperature"
+  ],
+  "digital": [
+   "COMP",
+   "DV_electric",
+   "Towers",
+   "MPG",
+   "LPS",
+   "Pressure_switch",
+   "Oil_level",
+   "Caudal_impulses"
+  ],
+  "note": "column names recorded AS FOUND in the CSV (the file is known to contain misspellings, e.g. 'eletric'); verify() writes the authoritative list"
+ },
+ "failure_events": [
+  {
+   "id": 1,
+   "start": "2020-04-18 00:00",
+   "end": "2020-04-18 23:59",
+   "failure_type": "Air leak",
+   "consequence": "High stress",
+   "maintenance_as_printed": null,
+   "maintenance": "2020-04-30 12:00",
+   "note": "W2-2026-09-21 ADJUDICATION: the 'Maintenance on 30 Apr at 12:00' printed in event-2's row belongs HERE (row misalignment: official PDF numbers the second row '#1' again -- the doc itself is misformatted; empirically 30 Apr 12:00 shows a real maintenance signature: 2h gap at exactly 12:00 + compressor-off outage 15:00-23:00 + LPS=1 on 23:00 return, while 30 May 12:00 is an ordinary fully-recorded service day). 12-day deferred repair after the 18 Apr leak"
+  },
+  {
+   "id": 2,
+   "start": "2020-05-29 23:30",
+   "end": "2020-05-30 06:00",
+   "failure_type": "Air leak",
+   "consequence": "High stress",
+   "maintenance_as_printed": "2020-04-30 12:00",
+   "maintenance": null,
+   "note": "W2-2026-09-21: as-printed maintenance is event-1's timestamp misplaced (see event 1 note); W1's earlier correction to 30 May 12:00 is RETRACTED (no maintenance signature on 30 May). Event verified in data: 30 May 00:00-05:00 Motor_current pinned ~5.5A with TP2 stuck ~8.6 bar (air-leak signature), self-resolved at 06:00; full data, no gaps, no maintenance visit. Self-resolving event -- no repair required"
+  },
+  {
+   "id": 3,
+   "start": "2020-06-05 10:00",
+   "end": "2020-06-07 14:30",
+   "failure_type": "Air leak",
+   "consequence": "High stress",
+   "maintenance_as_printed": "2020-06-08 16:00",
+   "maintenance": "2020-06-08 16:00",
+   "note": "W2-2026-09-21: weak empirical support (8 Jun has 57% of median rows, no clean in-shop gap at 16:00, LPS blip at hour 11); maintenance timestamps in this table are UNRELIABLE for anchoring -- windows use event-end anchors"
+  },
+  {
+   "id": 4,
+   "start": "2020-07-15 14:30",
+   "end": "2020-07-15 19:00",
+   "failure_type": "Air leak",
+   "consequence": "High stress",
+   "maintenance_as_printed": "2020-07-16 00:00",
+   "maintenance": "2020-07-16 00:00",
+   "note": "W2-2026-09-21: ZERO empirical signature on 16 Jul (8690 rows, above-median, no gaps, no LPS) -- printed maintenance time not credible as an anchor; windows use event-end anchor 15 Jul 19:00"
+  }
+ ],
+ "cross_validation_2026_09_21": {
+  "official_pdf": "Data Description_Metro.pdf (inside the UCI zip) transcribed verbatim to runs/label_check/pdf_text.txt; failure table rows: #1 4/18, second row MIS-NUMBERED '#1' again (5/29), #3 6/5, #4 7/15 -- the doc's own formatting error underpins the maintenance row-misalignment adjudication",
+  "anchor_policy": "unified failure-end anchor for all 2020 events (23:59 / 06:00 / 14:30 / 19:00); maintenance timestamps retained as GT-confidence context only",
+  "gt_confidence_stratum": "2020 events = community-table layer (UCI PDF table, maintenance-report-derived but with documented formatting errors); 2022 train-A/B events = maintenance-report layer (peer-reviewed tables + second-exact LPS verification)",
+  "sensor_semantics_official": "PDF attribute info confirms operator rules: Motor current ~0A off / 4A off-loaded / 7A under load / 9A starting; MPG activates below 8.2 bar; LPS below 7 bar; DV_pressure zero = under load; Oil_level active = oil below expected; Caudal = airflow pulse count"
+ },
+ "family_failure_locations": {
+  "failure_1": "air leak on clients",
+  "failure_2": "air leak on air dryer (pneumatic pilot valve malfunction)"
+ },
+ "known_quirks": [
+  "timestamps European dd/mm/yyyy -- always parse dayfirst",
+  "nominal 1 Hz logging, effective cadence ~0.1 Hz (10 s)",
+  "UCI failure table contains internal typos (see failure_events)"
+ ],
+ "files": {
+  "zip": {
+   "name": "metopt+3.zip",
+   "bytes": 218381995,
+   "md5": "c6fb0621aaa9230f90b2924f6f4ef774"
+  },
+  "csv": {
+   "name": "MetroPT3(AirCompressor).csv",
+   "bytes": 218300507,
+   "md5": "996bbf98152cdc3be8d3115833b0191c"
+  },
+  "pdf": {
+   "name": "Data Description_Metro.pdf",
+   "bytes": 81208,
+   "md5": "65846919265e853a9bfb10bb744de1ae"
+  }
+ },
+ "verified": {
+  "rows": 1516948,
+  "columns": [
+   "Unnamed: 0",
+   "timestamp",
+   "TP2",
+   "TP3",
+   "H1",
+   "DV_pressure",
+   "Reservoirs",
+   "Oil_temperature",
+   "Motor_current",
+   "COMP",
+   "DV_eletric",
+   "Towers",
+   "MPG",
+   "LPS",
+   "Pressure_switch",
+   "Oil_level",
+   "Caudal_impulses"
+  ],
+  "time_span": [
+   "2020-02-01 00:00:00",
+   "2020-09-01 03:59:50"
+  ],
+  "mean_cadence_s": 12.14,
+  "n_timestamp_duplicates": 0,
+  "n_na_timestamps": 0
+ }
+}

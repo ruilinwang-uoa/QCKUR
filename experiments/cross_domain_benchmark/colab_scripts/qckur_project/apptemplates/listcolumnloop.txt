@@ -1,0 +1,1 @@
+{% macro format_list(collist) %}{% set lencollist = collist|length %}{% if collist != [] %}{% if lencollist != 1 %}{% for i in range(0, lencollist) %}{% if i != (lencollist - 1) %} the {{ collist[i] }},{% else %} and the {{ collist[i] }}{% endif %}{% endfor %}{% else %} the {{ collist[0] }}{% endif %}{% endif %}{% endmacro %}

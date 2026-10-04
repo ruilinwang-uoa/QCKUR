@@ -1,0 +1,64 @@
+{
+ "dataset": "MetroPT2.csv -- TRAIN B, 2022 (different physical vehicle from dataset_train_2022.csv)",
+ "file": "MetroPT2.csv",
+ "source": {
+  "zenodo_record": 7766691,
+  "version": "V2 of concept-doi 10.5281/zenodo.6854239 (V1 rec 6854240 = dataset_train.csv only, same md5 for the shared file)",
+  "downloaded": "2026-09-20",
+  "size_bytes": 1209663443
+ },
+ "identity_evidence_2026_09_21": {
+  "claim": "TRAIN B != TRAIN A (dataset_train_2022.csv)",
+  "evidence": [
+   "Oil_temperature series uncorrelated between files on the overlap (10s-aligned 4h window, all lags -400s..+400s: r in [-0.04, +0.07])",
+   "Train A's catastrophic 30 May - 2 Jun oil leak (A oil-temp max -> 80.2C, terminal LPS) is INVISIBLE in this file: normal diurnal band (mean 54-61C, max<=69C), LPS fraction 0.000 across the whole window",
+   "Different healthy oil-temp bands: A mean 61-64 / max 71-76 vs B mean 54-57 / max 62-65 -- per-vehicle calibration mandatory for absolute thresholds",
+   "consistent with arXiv:2207.05466 'The data collection of the two units began on 12 March 2020'"
+  ],
+  "consequence": "this file is NOT train A's post-repair continuation; W1's 'repair-era vignette for train A in MetroPT2.csv' idea is CLOSED (train A has no post-repair data; its file ends at an export boundary)"
+ },
+ "span": ["2022-04-28 12:33:29.120", "2022-07-28 12:24:34.839"],
+ "rows": 7116940,
+ "median_daily_rows": 84817.5,
+ "cadence": "1 Hz nominal, millisecond timestamps, ~98% of nominal on full days",
+ "gaps_gt_10min": 69,
+ "largest_gaps_h": [19.5, 9.0, 8.0, 7.2, 6.4, 5.8],
+ "columns": "21 (15 APU signals + Flowmeter + 4 GPS cols); sensor semantics = metropt2_manifest.json operator rules + official PDF attribute info in metropt3_manifest.json",
+ "failure_events": [
+  {
+   "id": 1,
+   "type": "air_leak",
+   "component": null,
+   "component_note": "2502.07394's table prints no component column; signature (sustained LPS 3.5h, compressor overload, oil-temp ceiling 97.9C, 18h out-of-service) matches train A's severe clients-pipe leak class, but this is an INFERENCE not a documented label -- GT must encode component=undocumented for this event (spec-inferred stratum)",
+   "start": "2022-06-04 10:19:24",
+   "end": "2022-06-04 14:22:39",
+   "lps_first_trigger": "2022-06-04 11:26:01",
+   "lps_first_trigger_measured": "2022-06-04 11:26:01.422",
+   "disposition": "removed from service; repair gap 5 Jun ~00:00-18:00 (largest gap 19.5h); back in normal service 6 Jun",
+   "empirical_signature": "TP2 climbing/unable to hold (mean 0.5->7.4 bar), Motor_current 4.65->5.15A continuous overload, compressor cutout 11:30 (TP2 -0.00, LPS=1.0), restart 12:30 under 5.1A continuous load until ~14:30, normal by 15:00; Oil_temperature ceiling 97.9C (same as train A's 28 Feb air leak)",
+   "provenance": "arXiv:2502.07394 Table 1 'Failures present in MetroPT2 dataset' (INESC-TEC group, maintenance reports); LPS timestamp verified to the second against local data"
+  },
+  {
+   "id": 2,
+   "type": "oil_leak",
+   "component": "compressor",
+   "start": "2022-07-11 10:10:18",
+   "end": "2022-07-14 10:22:08",
+   "lps_first_trigger": "2022-07-13 19:43:52",
+   "lps_first_trigger_measured": "2022-07-13 19:43:52.593",
+   "disposition": "removed from service at end (14 Jul); normal service resumes by 15 Jul (clean data, normal band from 14 Jul 12:00)",
+   "empirical_signature": "slow degradation mirroring train A's 30 May oil leak: Oil-temp daily max 62->80.2C climb over 3 days, LPS blips only at the end (19:43:52 for 166s; 14 Jul ~06:00 for ~6min), TP2 max unchanged (normal cycling continues)",
+   "provenance": "arXiv:2502.07394 Table 1; LPS timestamp verified to the second; sustained-LPS days in this file are only 4-5 Jun"
+  }
+ ],
+ "healthy_control_pool": {
+  "segments": ["2022-04-28 12:33 - 2022-05-29 00:00", "2022-06-06 18:00 - 2022-07-10 06:00", "2022-07-15 00:00 - 2022-07-28 12:24"],
+  "exclusions": ">=48h after the 5 Jun repair; >=72h before each failure start; A-train events irrelevant here (different vehicle)"
+ },
+ "physical_ceilings": {
+  "oil_temp_overload_max": 97.9,
+  "oil_temp_degradation_max": 80.2,
+  "note": "both ceilings identical to train A's for the same failure classes -- treat as sensor/physical limits, not transferable absolute values"
+ },
+ "design_role": "SECOND in-service vehicle: +2 documented failures (1 air + 1 oil) with second-exact LPS verification; enables a two-vehicle fleet-level instantiation of the question bank (same APU type, same operator rules, per-vehicle calibration) -- 2022 documented events total 5 across trains A+B"
+}

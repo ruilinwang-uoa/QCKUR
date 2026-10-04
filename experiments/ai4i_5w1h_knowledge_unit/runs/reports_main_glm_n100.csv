@@ -1,0 +1,801 @@
+run_id,exp_id,method,llm_version,provider,seed,instance_id,udi,machine_failure,active_modes,latency_s,prompt_tokens,completion_tokens,api_cost,ifr_flag,llm_error,timestamp,wall_time_s
+B1_s0000_s42,ai4i_openai,B1,local,openai,42,s0000,30,0,none,0.0,0,0,0.0,False,,2026-07-24T14:29:40,6293.4
+B2_s0000_s42,ai4i_openai,B2,local,openai,42,s0000,30,0,none,0.0,0,0,0.0,False,,2026-07-24T14:29:40,6293.4
+B3_s0000_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0000,30,0,none,10.917,519,158,0.0,False,,2026-07-24T14:29:51,6293.4
+B4_s0000_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0000,30,0,none,9.419,1208,139,0.0,False,,2026-07-24T14:30:01,6293.4
+B5_s0000_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0000,30,0,none,18.826,1575,187,0.0,False,,2026-07-24T14:30:21,6293.4
+B6_s0000_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0000,30,0,none,12.741,798,236,0.0,False,,2026-07-24T14:30:34,6293.4
+B7_s0000_s42,ai4i_openai,B7,local,openai,42,s0000,30,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:30:51,6293.4
+B8_s0000_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0000,30,0,none,6.397,675,133,0.0,False,,2026-07-24T14:30:58,6293.4
+B1_s0001_s42,ai4i_openai,B1,local,openai,42,s0001,32,0,none,0.0,0,0,0.0,False,,2026-07-24T14:30:58,6293.4
+B2_s0001_s42,ai4i_openai,B2,local,openai,42,s0001,32,0,none,0.0,0,0,0.0,False,,2026-07-24T14:30:58,6293.4
+B3_s0001_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0001,32,0,none,11.301,518,186,0.0,False,,2026-07-24T14:31:09,6293.4
+B4_s0001_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0001,32,0,none,6.275,1207,96,0.0,False,,2026-07-24T14:31:16,6293.4
+B5_s0001_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0001,32,0,none,9.345,1573,156,0.0,False,,2026-07-24T14:31:26,6293.4
+B6_s0001_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0001,32,0,none,6.992,797,107,0.0,False,,2026-07-24T14:31:34,6293.4
+B7_s0001_s42,ai4i_openai,B7,local,openai,42,s0001,32,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:31:45,6293.4
+B8_s0001_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0001,32,0,none,10.423,674,116,0.0,False,,2026-07-24T14:31:56,6293.4
+B1_s0002_s42,ai4i_openai,B1,local,openai,42,s0002,34,0,none,0.0,0,0,0.0,False,,2026-07-24T14:31:57,6293.4
+B2_s0002_s42,ai4i_openai,B2,local,openai,42,s0002,34,0,none,0.0,0,0,0.0,False,,2026-07-24T14:31:57,6293.4
+B3_s0002_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0002,34,0,none,10.614,519,172,0.0,False,,2026-07-24T14:32:07,6293.4
+B4_s0002_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0002,34,0,none,3.397,1208,74,0.0,False,,2026-07-24T14:32:11,6293.4
+B5_s0002_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0002,34,0,none,12.183,1575,169,0.0,False,,2026-07-24T14:32:24,6293.4
+B6_s0002_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0002,34,0,none,9.959,798,148,0.0,False,,2026-07-24T14:32:35,6293.4
+B7_s0002_s42,ai4i_openai,B7,local,openai,42,s0002,34,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:32:48,6293.4
+B8_s0002_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0002,34,0,none,10.0,675,115,0.0,False,,2026-07-24T14:32:58,6293.4
+B1_s0003_s42,ai4i_openai,B1,local,openai,42,s0003,36,0,none,0.0,0,0,0.0,False,,2026-07-24T14:32:59,6293.4
+B2_s0003_s42,ai4i_openai,B2,local,openai,42,s0003,36,0,none,0.0,0,0,0.0,False,,2026-07-24T14:32:59,6293.4
+B3_s0003_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0003,36,0,none,13.252,519,187,0.0,False,,2026-07-24T14:33:12,6293.4
+B4_s0003_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0003,36,0,none,6.644,1208,70,0.0,False,,2026-07-24T14:33:19,6293.4
+B5_s0003_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0003,36,0,none,17.395,1585,214,0.0,False,,2026-07-24T14:33:37,6293.4
+B6_s0003_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0003,36,0,none,6.847,798,123,0.0,False,,2026-07-24T14:33:44,6293.4
+B7_s0003_s42,ai4i_openai,B7,local,openai,42,s0003,36,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:34:04,6293.4
+B8_s0003_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0003,36,0,none,8.063,675,137,0.0,False,,2026-07-24T14:34:13,6293.4
+B1_s0004_s42,ai4i_openai,B1,local,openai,42,s0004,40,0,none,0.0,0,0,0.0,False,,2026-07-24T14:34:13,6293.4
+B2_s0004_s42,ai4i_openai,B2,local,openai,42,s0004,40,0,none,0.0,0,0,0.0,False,,2026-07-24T14:34:13,6293.4
+B3_s0004_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0004,40,0,none,11.535,519,144,0.0,False,,2026-07-24T14:34:25,6293.4
+B4_s0004_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0004,40,0,none,6.018,1208,81,0.0,False,,2026-07-24T14:34:31,6293.4
+B5_s0004_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0004,40,0,none,13.692,1575,174,0.0,False,,2026-07-24T14:34:45,6293.4
+B6_s0004_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0004,40,0,none,8.513,798,129,0.0,False,,2026-07-24T14:34:54,6293.4
+B7_s0004_s42,ai4i_openai,B7,local,openai,42,s0004,40,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:35:12,6293.4
+B8_s0004_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0004,40,0,none,10.861,675,133,0.0,False,,2026-07-24T14:35:23,6293.4
+B1_s0005_s42,ai4i_openai,B1,local,openai,42,s0005,84,0,none,0.0,0,0,0.0,False,,2026-07-24T14:35:24,6293.4
+B2_s0005_s42,ai4i_openai,B2,local,openai,42,s0005,84,0,none,0.0,0,0,0.0,False,,2026-07-24T14:35:24,6293.4
+B3_s0005_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0005,84,0,none,9.592,518,165,0.0,False,,2026-07-24T14:35:33,6293.4
+B4_s0005_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0005,84,0,none,4.752,1207,114,0.0,False,,2026-07-24T14:35:39,6293.4
+B5_s0005_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0005,84,0,none,8.559,1573,182,0.0,False,,2026-07-24T14:35:48,6293.4
+B6_s0005_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0005,84,0,none,8.313,797,134,0.0,False,,2026-07-24T14:35:56,6293.4
+B7_s0005_s42,ai4i_openai,B7,local,openai,42,s0005,84,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:36:09,6293.4
+B8_s0005_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0005,84,0,none,3.721,674,116,0.0,False,,2026-07-24T14:36:13,6293.4
+B1_s0006_s42,ai4i_openai,B1,local,openai,42,s0006,92,0,none,0.0,0,0,0.0,False,,2026-07-24T14:36:13,6293.4
+B2_s0006_s42,ai4i_openai,B2,local,openai,42,s0006,92,0,none,0.0,0,0,0.0,False,,2026-07-24T14:36:13,6293.4
+B3_s0006_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0006,92,0,none,5.121,517,160,0.0,False,,2026-07-24T14:36:19,6293.4
+B4_s0006_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0006,92,0,none,3.926,1206,78,0.0,False,,2026-07-24T14:36:23,6293.4
+B5_s0006_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0006,92,0,none,11.78,1582,263,0.0,False,,2026-07-24T14:36:35,6293.4
+B6_s0006_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0006,92,0,none,5.734,796,154,0.0,False,,2026-07-24T14:36:42,6293.4
+B7_s0006_s42,ai4i_openai,B7,local,openai,42,s0006,92,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:36:57,6293.4
+B8_s0006_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0006,92,0,none,8.132,673,119,0.0,False,,2026-07-24T14:37:06,6293.4
+B1_s0007_s42,ai4i_openai,B1,local,openai,42,s0007,96,0,none,0.0,0,0,0.0,False,,2026-07-24T14:37:06,6293.4
+B2_s0007_s42,ai4i_openai,B2,local,openai,42,s0007,96,0,none,0.0,0,0,0.0,False,,2026-07-24T14:37:06,6293.4
+B3_s0007_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0007,96,0,none,10.048,519,193,0.0,False,,2026-07-24T14:37:16,6293.4
+B4_s0007_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0007,96,0,none,4.354,1208,111,0.0,False,,2026-07-24T14:37:21,6293.4
+B5_s0007_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0007,96,0,none,7.021,1575,179,0.0,False,,2026-07-24T14:37:29,6293.4
+B6_s0007_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0007,96,0,none,8.507,798,133,0.0,False,,2026-07-24T14:37:38,6293.4
+B7_s0007_s42,ai4i_openai,B7,local,openai,42,s0007,96,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:37:53,6293.4
+B8_s0007_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0007,96,0,none,7.598,675,116,0.0,False,,2026-07-24T14:38:01,6293.4
+B1_s0008_s42,ai4i_openai,B1,local,openai,42,s0008,100,0,none,0.0,0,0,0.0,False,,2026-07-24T14:38:01,6293.4
+B2_s0008_s42,ai4i_openai,B2,local,openai,42,s0008,100,0,none,0.0,0,0,0.0,False,,2026-07-24T14:38:01,6293.4
+B3_s0008_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0008,100,0,none,7.641,518,171,0.0,False,,2026-07-24T14:38:09,6293.4
+B4_s0008_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0008,100,0,none,9.542,1207,118,0.0,False,,2026-07-24T14:38:19,6293.4
+B5_s0008_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0008,100,0,none,9.744,1573,182,0.0,False,,2026-07-24T14:38:29,6293.4
+B6_s0008_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0008,100,0,none,6.258,797,156,0.0,False,,2026-07-24T14:38:36,6293.4
+B7_s0008_s42,ai4i_openai,B7,local,openai,42,s0008,100,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:38:44,6293.4
+B8_s0008_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0008,100,0,none,5.636,674,131,0.0,False,,2026-07-24T14:38:51,6293.4
+B1_s0009_s42,ai4i_openai,B1,local,openai,42,s0009,110,0,none,0.0,0,0,0.0,False,,2026-07-24T14:38:51,6293.4
+B2_s0009_s42,ai4i_openai,B2,local,openai,42,s0009,110,0,none,0.0,0,0,0.0,False,,2026-07-24T14:38:51,6293.4
+B3_s0009_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0009,110,0,none,10.26,518,168,0.0,False,,2026-07-24T14:39:01,6293.4
+B4_s0009_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0009,110,0,none,5.174,1207,100,0.0,False,,2026-07-24T14:39:07,6293.4
+B5_s0009_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0009,110,0,none,9.689,1573,190,0.0,False,,2026-07-24T14:39:17,6293.4
+B6_s0009_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0009,110,0,none,4.076,797,130,0.0,False,,2026-07-24T14:39:22,6293.4
+B7_s0009_s42,ai4i_openai,B7,local,openai,42,s0009,110,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:39:36,6293.4
+B8_s0009_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0009,110,0,none,8.789,674,116,0.0,False,,2026-07-24T14:39:46,6293.4
+B1_s0010_s42,ai4i_openai,B1,local,openai,42,s0010,111,0,none,0.0,0,0,0.0,False,,2026-07-24T14:39:46,6293.4
+B2_s0010_s42,ai4i_openai,B2,local,openai,42,s0010,111,0,none,0.0,0,0,0.0,False,,2026-07-24T14:39:46,6293.4
+B3_s0010_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0010,111,0,none,17.858,517,211,0.0,False,,2026-07-24T14:40:04,6293.4
+B4_s0010_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0010,111,0,none,6.924,1206,135,0.0,False,,2026-07-24T14:40:11,6293.4
+B5_s0010_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0010,111,0,none,19.031,1582,229,0.0,False,,2026-07-24T14:40:31,6293.4
+B6_s0010_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0010,111,0,none,10.062,796,141,0.0,False,,2026-07-24T14:40:42,6293.4
+B7_s0010_s42,ai4i_openai,B7,local,openai,42,s0010,111,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:40:58,6293.4
+B8_s0010_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0010,111,0,none,9.156,673,116,0.0,False,,2026-07-24T14:41:08,6293.4
+B1_s0011_s42,ai4i_openai,B1,local,openai,42,s0011,123,0,none,0.0,0,0,0.0,False,,2026-07-24T14:41:08,6293.4
+B2_s0011_s42,ai4i_openai,B2,local,openai,42,s0011,123,0,none,0.0,0,0,0.0,False,,2026-07-24T14:41:08,6293.4
+B3_s0011_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0011,123,0,none,9.716,518,167,0.0,False,,2026-07-24T14:41:18,6293.4
+B4_s0011_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0011,123,0,none,8.382,1207,89,0.0,False,,2026-07-24T14:41:27,6293.4
+B5_s0011_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0011,123,0,none,15.01,1584,248,0.0,False,,2026-07-24T14:41:43,6293.4
+B6_s0011_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0011,123,0,none,12.409,797,219,0.0,False,,2026-07-24T14:41:56,6293.4
+B7_s0011_s42,ai4i_openai,B7,local,openai,42,s0011,123,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:42:14,6293.4
+B8_s0011_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0011,123,0,none,8.529,674,150,0.0,False,,2026-07-24T14:42:24,6293.4
+B1_s0012_s42,ai4i_openai,B1,local,openai,42,s0012,264,0,none,0.0,0,0,0.0,False,,2026-07-24T14:42:24,6293.4
+B2_s0012_s42,ai4i_openai,B2,local,openai,42,s0012,264,0,none,0.0,0,0,0.0,False,,2026-07-24T14:42:24,6293.4
+B3_s0012_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0012,264,0,none,9.668,517,158,0.0,False,,2026-07-24T14:42:34,6293.4
+B4_s0012_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0012,264,0,none,4.141,1206,91,0.0,False,,2026-07-24T14:42:38,6293.4
+B5_s0012_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0012,264,0,none,7.359,1582,157,0.0,False,,2026-07-24T14:42:46,6293.4
+B6_s0012_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0012,264,0,none,5.725,796,129,0.0,False,,2026-07-24T14:42:53,6293.4
+B7_s0012_s42,ai4i_openai,B7,local,openai,42,s0012,264,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:43:08,6293.4
+B8_s0012_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0012,264,0,none,7.273,673,116,0.0,False,,2026-07-24T14:43:15,6293.4
+B1_s0013_s42,ai4i_openai,B1,local,openai,42,s0013,272,0,none,0.0,0,0,0.0,False,,2026-07-24T14:43:16,6293.4
+B2_s0013_s42,ai4i_openai,B2,local,openai,42,s0013,272,0,none,0.0,0,0,0.0,False,,2026-07-24T14:43:16,6293.4
+B3_s0013_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0013,272,0,none,8.876,518,153,0.0,False,,2026-07-24T14:43:25,6293.4
+B4_s0013_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0013,272,0,none,4.251,1207,77,0.0,False,,2026-07-24T14:43:30,6293.4
+B5_s0013_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0013,272,0,none,14.248,1584,247,0.0,False,,2026-07-24T14:43:44,6293.4
+B6_s0013_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0013,272,0,none,11.441,797,211,0.0,False,,2026-07-24T14:43:56,6293.4
+B7_s0013_s42,ai4i_openai,B7,local,openai,42,s0013,272,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:44:15,6293.4
+B8_s0013_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0013,272,0,none,7.323,674,132,0.0,False,,2026-07-24T14:44:22,6293.4
+B1_s0014_s42,ai4i_openai,B1,local,openai,42,s0014,317,0,none,0.0,0,0,0.0,False,,2026-07-24T14:44:23,6293.4
+B2_s0014_s42,ai4i_openai,B2,local,openai,42,s0014,317,0,none,0.0,0,0,0.0,False,,2026-07-24T14:44:23,6293.4
+B3_s0014_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0014,317,0,none,11.997,519,173,0.0,False,,2026-07-24T14:44:35,6293.4
+B4_s0014_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0014,317,0,none,6.545,1208,107,0.0,False,,2026-07-24T14:44:42,6293.4
+B5_s0014_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0014,317,0,none,10.495,1586,179,0.0,False,,2026-07-24T14:44:53,6293.4
+B6_s0014_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0014,317,0,none,7.271,798,167,0.0,False,,2026-07-24T14:45:01,6293.4
+B7_s0014_s42,ai4i_openai,B7,local,openai,42,s0014,317,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:45:12,6293.4
+B8_s0014_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0014,317,0,none,8.763,675,117,0.0,False,,2026-07-24T14:45:21,6293.4
+B1_s0015_s42,ai4i_openai,B1,local,openai,42,s0015,324,0,none,0.0,0,0,0.0,False,,2026-07-24T14:45:21,6293.4
+B2_s0015_s42,ai4i_openai,B2,local,openai,42,s0015,324,0,none,0.0,0,0,0.0,False,,2026-07-24T14:45:21,6293.4
+B3_s0015_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0015,324,0,none,7.44,520,191,0.0,False,,2026-07-24T14:45:29,6293.4
+B4_s0015_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0015,324,0,none,4.546,1209,84,0.0,False,,2026-07-24T14:45:34,6293.4
+B5_s0015_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0015,324,0,none,10.668,1579,184,0.0,False,,2026-07-24T14:45:45,6293.4
+B6_s0015_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0015,324,0,none,5.477,799,128,0.0,False,,2026-07-24T14:45:51,6293.4
+B7_s0015_s42,ai4i_openai,B7,local,openai,42,s0015,324,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:46:07,6293.4
+B8_s0015_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0015,324,0,none,6.867,676,118,0.0,False,,2026-07-24T14:46:14,6293.4
+B1_s0016_s42,ai4i_openai,B1,local,openai,42,s0016,335,0,none,0.0,0,0,0.0,False,,2026-07-24T14:46:15,6293.4
+B2_s0016_s42,ai4i_openai,B2,local,openai,42,s0016,335,0,none,0.0,0,0,0.0,False,,2026-07-24T14:46:15,6293.4
+B3_s0016_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0016,335,0,none,10.629,518,208,0.0,False,,2026-07-24T14:46:26,6293.4
+B4_s0016_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0016,335,0,none,4.34,1207,93,0.0,False,,2026-07-24T14:46:30,6293.4
+B5_s0016_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0016,335,0,none,8.783,1573,178,0.0,False,,2026-07-24T14:46:40,6293.4
+B6_s0016_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0016,335,0,none,6.224,797,116,0.0,False,,2026-07-24T14:46:47,6293.4
+B7_s0016_s42,ai4i_openai,B7,local,openai,42,s0016,335,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:47:02,6293.4
+B8_s0016_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0016,335,0,none,6.735,674,117,0.0,False,,2026-07-24T14:47:09,6293.4
+B1_s0017_s42,ai4i_openai,B1,local,openai,42,s0017,374,0,none,0.0,0,0,0.0,False,,2026-07-24T14:47:09,6293.4
+B2_s0017_s42,ai4i_openai,B2,local,openai,42,s0017,374,0,none,0.0,0,0,0.0,False,,2026-07-24T14:47:09,6293.4
+B3_s0017_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0017,374,0,none,7.189,519,159,0.0,False,,2026-07-24T14:47:17,6293.4
+B4_s0017_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0017,374,0,none,4.761,1208,86,0.0,False,,2026-07-24T14:47:22,6293.4
+B5_s0017_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0017,374,0,none,8.206,1586,162,0.0,False,,2026-07-24T14:47:31,6293.4
+B6_s0017_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0017,374,0,none,12.274,798,181,0.0,False,,2026-07-24T14:47:44,6293.4
+B7_s0017_s42,ai4i_openai,B7,local,openai,42,s0017,374,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:48:00,6293.4
+B8_s0017_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0017,374,0,none,8.682,675,124,0.0,False,,2026-07-24T14:48:09,6293.4
+B1_s0018_s42,ai4i_openai,B1,local,openai,42,s0018,431,0,none,0.0,0,0,0.0,False,,2026-07-24T14:48:10,6293.4
+B2_s0018_s42,ai4i_openai,B2,local,openai,42,s0018,431,0,none,0.0,0,0,0.0,False,,2026-07-24T14:48:10,6293.4
+B3_s0018_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0018,431,0,none,6.19,518,135,0.0,False,,2026-07-24T14:48:16,6293.4
+B4_s0018_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0018,431,0,none,6.428,1207,109,0.0,False,,2026-07-24T14:48:23,6293.4
+B5_s0018_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0018,431,0,none,18.654,1584,245,0.0,False,,2026-07-24T14:48:42,6293.4
+B6_s0018_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0018,431,0,none,9.295,797,149,0.0,False,,2026-07-24T14:48:52,6293.4
+B7_s0018_s42,ai4i_openai,B7,local,openai,42,s0018,431,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:49:04,6293.4
+B8_s0018_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0018,431,0,none,9.877,674,126,0.0,False,,2026-07-24T14:49:14,6293.4
+B1_s0019_s42,ai4i_openai,B1,local,openai,42,s0019,455,0,none,0.0,0,0,0.0,False,,2026-07-24T14:49:15,6293.4
+B2_s0019_s42,ai4i_openai,B2,local,openai,42,s0019,455,0,none,0.0,0,0,0.0,False,,2026-07-24T14:49:15,6293.4
+B3_s0019_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0019,455,0,none,11.717,519,176,0.0,False,,2026-07-24T14:49:26,6293.4
+B4_s0019_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0019,455,0,none,6.743,1208,110,0.0,False,,2026-07-24T14:49:34,6293.4
+B5_s0019_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0019,455,0,none,8.968,1575,168,0.0,False,,2026-07-24T14:49:43,6293.4
+B6_s0019_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0019,455,0,none,12.868,798,194,0.0,False,,2026-07-24T14:49:56,6293.4
+B7_s0019_s42,ai4i_openai,B7,local,openai,42,s0019,455,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:50:10,6293.4
+B8_s0019_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0019,455,0,none,6.308,675,117,0.0,False,,2026-07-24T14:50:16,6293.4
+B1_s0020_s42,ai4i_openai,B1,local,openai,42,s0020,504,0,none,0.0,0,0,0.0,False,,2026-07-24T14:50:17,6293.4
+B2_s0020_s42,ai4i_openai,B2,local,openai,42,s0020,504,0,none,0.0,0,0,0.0,False,,2026-07-24T14:50:17,6293.4
+B3_s0020_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0020,504,0,none,8.329,518,143,0.0,False,,2026-07-24T14:50:25,6293.4
+B4_s0020_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0020,504,0,none,6.999,1207,101,0.0,False,,2026-07-24T14:50:33,6293.4
+B5_s0020_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0020,504,0,none,9.654,1573,187,0.0,False,,2026-07-24T14:50:43,6293.4
+B6_s0020_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0020,504,0,none,7.531,797,107,0.0,False,,2026-07-24T14:50:51,6293.4
+B7_s0020_s42,ai4i_openai,B7,local,openai,42,s0020,504,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:51:11,6293.4
+B8_s0020_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0020,504,0,none,12.138,674,161,0.0,False,,2026-07-24T14:51:24,6293.4
+B1_s0021_s42,ai4i_openai,B1,local,openai,42,s0021,527,0,none,0.0,0,0,0.0,False,,2026-07-24T14:51:24,6293.4
+B2_s0021_s42,ai4i_openai,B2,local,openai,42,s0021,527,0,none,0.0,0,0,0.0,False,,2026-07-24T14:51:24,6293.4
+B3_s0021_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0021,527,0,none,11.765,520,158,0.0,False,,2026-07-24T14:51:36,6293.4
+B4_s0021_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0021,527,0,none,6.327,1209,112,0.0,False,,2026-07-24T14:51:43,6293.4
+B5_s0021_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0021,527,0,none,14.397,1588,217,0.0,False,,2026-07-24T14:51:58,6293.4
+B6_s0021_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0021,527,0,none,8.375,799,124,0.0,False,,2026-07-24T14:52:07,6293.4
+B7_s0021_s42,ai4i_openai,B7,local,openai,42,s0021,527,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:52:29,6293.4
+B8_s0021_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0021,527,0,none,8.076,676,120,0.0,False,,2026-07-24T14:52:37,6293.4
+B1_s0022_s42,ai4i_openai,B1,local,openai,42,s0022,535,0,none,0.0,0,0,0.0,False,,2026-07-24T14:52:38,6293.4
+B2_s0022_s42,ai4i_openai,B2,local,openai,42,s0022,535,0,none,0.0,0,0,0.0,False,,2026-07-24T14:52:38,6293.4
+B3_s0022_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0022,535,0,none,10.977,520,181,0.0,False,,2026-07-24T14:52:49,6293.4
+B4_s0022_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0022,535,0,none,4.241,1209,77,0.0,False,,2026-07-24T14:52:53,6293.4
+B5_s0022_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0022,535,0,none,9.71,1577,177,0.0,False,,2026-07-24T14:53:04,6293.4
+B6_s0022_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0022,535,0,none,12.977,799,233,0.0,False,,2026-07-24T14:53:17,6293.4
+B7_s0022_s42,ai4i_openai,B7,local,openai,42,s0022,535,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:53:30,6293.4
+B8_s0022_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0022,535,0,none,6.303,676,122,0.0,False,,2026-07-24T14:53:37,6293.4
+B1_s0023_s42,ai4i_openai,B1,local,openai,42,s0023,594,0,none,0.0,0,0,0.0,False,,2026-07-24T14:53:38,6293.4
+B2_s0023_s42,ai4i_openai,B2,local,openai,42,s0023,594,0,none,0.0,0,0,0.0,False,,2026-07-24T14:53:38,6293.4
+B3_s0023_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0023,594,0,none,8.518,518,132,0.0,False,,2026-07-24T14:53:46,6293.4
+B4_s0023_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0023,594,0,none,3.328,1207,65,0.0,False,,2026-07-24T14:53:50,6293.4
+B5_s0023_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0023,594,0,none,9.629,1575,168,0.0,False,,2026-07-24T14:54:00,6293.4
+B6_s0023_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0023,594,0,none,10.41,797,133,0.0,False,,2026-07-24T14:54:11,6293.4
+B7_s0023_s42,ai4i_openai,B7,local,openai,42,s0023,594,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:54:26,6293.4
+B8_s0023_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0023,594,0,none,8.708,674,136,0.0,False,,2026-07-24T14:54:35,6293.4
+B1_s0024_s42,ai4i_openai,B1,local,openai,42,s0024,600,0,none,0.0,0,0,0.0,False,,2026-07-24T14:54:36,6293.4
+B2_s0024_s42,ai4i_openai,B2,local,openai,42,s0024,600,0,none,0.0,0,0,0.0,False,,2026-07-24T14:54:36,6293.4
+B3_s0024_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0024,600,0,none,10.603,518,235,0.0,False,,2026-07-24T14:54:46,6293.4
+B4_s0024_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0024,600,0,none,5.707,1207,74,0.0,False,,2026-07-24T14:54:53,6293.4
+B5_s0024_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0024,600,0,none,20.942,1584,265,0.0,False,,2026-07-24T14:55:14,6293.4
+B6_s0024_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0024,600,0,none,12.959,797,165,0.0,False,,2026-07-24T14:55:28,6293.4
+B7_s0024_s42,ai4i_openai,B7,local,openai,42,s0024,600,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:55:41,6293.4
+B8_s0024_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0024,600,0,none,6.087,674,117,0.0,False,,2026-07-24T14:55:47,6293.4
+B1_s0025_s42,ai4i_openai,B1,local,openai,42,s0025,640,0,none,0.0,0,0,0.0,False,,2026-07-24T14:55:48,6293.4
+B2_s0025_s42,ai4i_openai,B2,local,openai,42,s0025,640,0,none,0.0,0,0,0.0,False,,2026-07-24T14:55:48,6293.4
+B3_s0025_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0025,640,0,none,7.996,520,184,0.0,False,,2026-07-24T14:55:56,6293.4
+B4_s0025_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0025,640,0,none,6.015,1209,108,0.0,False,,2026-07-24T14:56:02,6293.4
+B5_s0025_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0025,640,0,none,15.463,1577,193,0.0,False,,2026-07-24T14:56:18,6293.4
+B6_s0025_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0025,640,0,none,5.196,799,132,0.0,False,,2026-07-24T14:56:24,6293.4
+B7_s0025_s42,ai4i_openai,B7,local,openai,42,s0025,640,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:56:36,6293.4
+B8_s0025_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0025,640,0,none,6.485,676,121,0.0,False,,2026-07-24T14:56:43,6293.4
+B1_s0026_s42,ai4i_openai,B1,local,openai,42,s0026,732,0,none,0.0,0,0,0.0,False,,2026-07-24T14:56:43,6293.4
+B2_s0026_s42,ai4i_openai,B2,local,openai,42,s0026,732,0,none,0.0,0,0,0.0,False,,2026-07-24T14:56:43,6293.4
+B3_s0026_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0026,732,0,none,7.057,519,179,0.0,False,,2026-07-24T14:56:50,6293.4
+B4_s0026_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0026,732,0,none,5.847,1208,93,0.0,False,,2026-07-24T14:56:57,6293.4
+B5_s0026_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0026,732,0,none,13.74,1575,208,0.0,False,,2026-07-24T14:57:11,6293.4
+B6_s0026_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0026,732,0,none,7.158,798,151,0.0,False,,2026-07-24T14:57:19,6293.4
+B7_s0026_s42,ai4i_openai,B7,local,openai,42,s0026,732,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:57:36,6293.4
+B8_s0026_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0026,732,0,none,11.243,675,131,0.0,False,,2026-07-24T14:57:48,6293.4
+B1_s0027_s42,ai4i_openai,B1,local,openai,42,s0027,755,0,none,0.0,0,0,0.0,False,,2026-07-24T14:57:48,6293.4
+B2_s0027_s42,ai4i_openai,B2,local,openai,42,s0027,755,0,none,0.0,0,0,0.0,False,,2026-07-24T14:57:48,6293.4
+B3_s0027_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0027,755,0,none,11.035,520,175,0.0,False,,2026-07-24T14:57:59,6293.4
+B4_s0027_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0027,755,0,none,5.665,1209,92,0.0,False,,2026-07-24T14:58:05,6293.4
+B5_s0027_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0027,755,0,none,11.426,1579,188,0.0,False,,2026-07-24T14:58:17,6293.4
+B6_s0027_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0027,755,0,none,6.173,799,123,0.0,False,,2026-07-24T14:58:24,6293.4
+B7_s0027_s42,ai4i_openai,B7,local,openai,42,s0027,755,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:58:39,6293.4
+B8_s0027_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0027,755,0,none,9.817,688,138,0.0,False,,2026-07-24T14:58:50,6293.4
+B1_s0028_s42,ai4i_openai,B1,local,openai,42,s0028,784,0,none,0.0,0,0,0.0,False,,2026-07-24T14:58:50,6293.4
+B2_s0028_s42,ai4i_openai,B2,local,openai,42,s0028,784,0,none,0.0,0,0,0.0,False,,2026-07-24T14:58:50,6293.4
+B3_s0028_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0028,784,0,none,10.246,519,187,0.0,False,,2026-07-24T14:59:00,6293.4
+B4_s0028_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0028,784,0,none,6.271,1208,99,0.0,False,,2026-07-24T14:59:07,6293.4
+B5_s0028_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0028,784,0,none,12.916,1575,177,0.0,False,,2026-07-24T14:59:21,6293.4
+B6_s0028_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0028,784,0,none,12.187,798,155,0.0,False,,2026-07-24T14:59:33,6293.4
+B7_s0028_s42,ai4i_openai,B7,local,openai,42,s0028,784,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T14:59:54,6293.4
+B8_s0028_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0028,784,0,none,7.921,675,118,0.0,False,,2026-07-24T15:00:02,6293.4
+B1_s0029_s42,ai4i_openai,B1,local,openai,42,s0029,785,0,none,0.0,0,0,0.0,False,,2026-07-24T15:00:03,6293.4
+B2_s0029_s42,ai4i_openai,B2,local,openai,42,s0029,785,0,none,0.0,0,0,0.0,False,,2026-07-24T15:00:03,6293.4
+B3_s0029_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0029,785,0,none,12.85,519,179,0.0,False,,2026-07-24T15:00:16,6293.4
+B4_s0029_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0029,785,0,none,4.639,1208,71,0.0,False,,2026-07-24T15:00:21,6293.4
+B5_s0029_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0029,785,0,none,11.947,1575,170,0.0,False,,2026-07-24T15:00:33,6293.4
+B6_s0029_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0029,785,0,none,13.916,798,181,0.0,False,,2026-07-24T15:00:48,6293.4
+B7_s0029_s42,ai4i_openai,B7,local,openai,42,s0029,785,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:01:06,6293.4
+B8_s0029_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0029,785,0,none,8.213,675,151,0.0,False,,2026-07-24T15:01:14,6293.4
+B1_s0030_s42,ai4i_openai,B1,local,openai,42,s0030,814,0,none,0.0,0,0,0.0,False,,2026-07-24T15:01:15,6293.4
+B2_s0030_s42,ai4i_openai,B2,local,openai,42,s0030,814,0,none,0.0,0,0,0.0,False,,2026-07-24T15:01:15,6293.4
+B3_s0030_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0030,814,0,none,8.798,520,152,0.0,False,,2026-07-24T15:01:24,6293.4
+B4_s0030_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0030,814,0,none,3.99,1209,84,0.0,False,,2026-07-24T15:01:28,6293.4
+B5_s0030_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0030,814,0,none,8.077,1577,176,0.0,False,,2026-07-24T15:01:37,6293.4
+B6_s0030_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0030,814,0,none,11.54,799,136,0.0,False,,2026-07-24T15:01:49,6293.4
+B7_s0030_s42,ai4i_openai,B7,local,openai,42,s0030,814,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:02:03,6293.4
+B8_s0030_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0030,814,0,none,7.313,676,117,0.0,False,,2026-07-24T15:02:11,6293.4
+B1_s0031_s42,ai4i_openai,B1,local,openai,42,s0031,819,0,none,0.0,0,0,0.0,False,,2026-07-24T15:02:12,6293.4
+B2_s0031_s42,ai4i_openai,B2,local,openai,42,s0031,819,0,none,0.0,0,0,0.0,False,,2026-07-24T15:02:12,6293.4
+B3_s0031_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0031,819,0,none,8.083,521,159,0.0,False,,2026-07-24T15:02:20,6293.4
+B4_s0031_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0031,819,0,none,5.955,1210,104,0.0,False,,2026-07-24T15:02:26,6293.4
+B5_s0031_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0031,819,0,none,8.809,1579,165,0.0,False,,2026-07-24T15:02:36,6293.4
+B6_s0031_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0031,819,0,none,11.858,800,140,0.0,False,,2026-07-24T15:02:48,6293.4
+B7_s0031_s42,ai4i_openai,B7,local,openai,42,s0031,819,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:03:04,6293.4
+B8_s0031_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0031,819,0,none,8.042,677,124,0.0,False,,2026-07-24T15:03:13,6293.4
+B1_s0032_s42,ai4i_openai,B1,local,openai,42,s0032,976,0,none,0.0,0,0,0.0,False,,2026-07-24T15:03:13,6293.4
+B2_s0032_s42,ai4i_openai,B2,local,openai,42,s0032,976,0,none,0.0,0,0,0.0,False,,2026-07-24T15:03:13,6293.4
+B3_s0032_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0032,976,0,none,11.334,520,165,0.0,False,,2026-07-24T15:03:24,6293.4
+B4_s0032_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0032,976,0,none,15.392,1209,142,0.0,False,,2026-07-24T15:03:40,6293.4
+B5_s0032_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0032,976,0,none,15.516,1587,216,0.0,False,,2026-07-24T15:03:56,6293.4
+B6_s0032_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0032,976,0,none,11.963,799,205,0.0,False,,2026-07-24T15:04:09,6293.4
+B7_s0032_s42,ai4i_openai,B7,local,openai,42,s0032,976,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:04:21,6293.4
+B8_s0032_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0032,976,0,none,7.311,676,121,0.0,False,,2026-07-24T15:04:28,6293.4
+B1_s0033_s42,ai4i_openai,B1,local,openai,42,s0033,982,0,none,0.0,0,0,0.0,False,,2026-07-24T15:04:29,6293.4
+B2_s0033_s42,ai4i_openai,B2,local,openai,42,s0033,982,0,none,0.0,0,0,0.0,False,,2026-07-24T15:04:29,6293.4
+B3_s0033_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0033,982,0,none,11.276,520,175,0.0,False,,2026-07-24T15:04:40,6293.4
+B4_s0033_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0033,982,0,none,7.338,1209,93,0.0,False,,2026-07-24T15:04:48,6293.4
+B5_s0033_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0033,982,0,none,16.913,1588,190,0.0,False,,2026-07-24T15:05:06,6293.4
+B6_s0033_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0033,982,0,none,12.142,799,165,0.0,False,,2026-07-24T15:05:18,6293.4
+B7_s0033_s42,ai4i_openai,B7,local,openai,42,s0033,982,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:05:35,6293.4
+B8_s0033_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0033,982,0,none,6.746,676,117,0.0,False,,2026-07-24T15:05:42,6293.4
+B1_s0034_s42,ai4i_openai,B1,local,openai,42,s0034,994,0,none,0.0,0,0,0.0,False,,2026-07-24T15:05:43,6293.4
+B2_s0034_s42,ai4i_openai,B2,local,openai,42,s0034,994,0,none,0.0,0,0,0.0,False,,2026-07-24T15:05:43,6293.4
+B3_s0034_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0034,994,0,none,7.564,521,153,0.0,False,,2026-07-24T15:05:50,6293.4
+B4_s0034_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0034,994,0,none,7.188,1210,115,0.0,False,,2026-07-24T15:05:58,6293.4
+B5_s0034_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0034,994,0,none,12.669,1590,163,0.0,False,,2026-07-24T15:06:11,6293.4
+B6_s0034_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0034,994,0,none,10.336,800,221,0.0,False,,2026-07-24T15:06:22,6293.4
+B7_s0034_s42,ai4i_openai,B7,local,openai,42,s0034,994,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:06:30,6293.4
+B8_s0034_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0034,994,0,none,7.702,677,119,0.0,False,,2026-07-24T15:06:38,6293.4
+B1_s0035_s42,ai4i_openai,B1,local,openai,42,s0035,995,0,none,0.0,0,0,0.0,False,,2026-07-24T15:06:39,6293.4
+B2_s0035_s42,ai4i_openai,B2,local,openai,42,s0035,995,0,none,0.0,0,0,0.0,False,,2026-07-24T15:06:39,6293.4
+B3_s0035_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0035,995,0,none,8.761,520,197,0.0,False,,2026-07-24T15:06:47,6293.4
+B4_s0035_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0035,995,0,none,7.591,1209,109,0.0,False,,2026-07-24T15:06:56,6293.4
+B5_s0035_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0035,995,0,none,13.162,1587,241,0.0,False,,2026-07-24T15:07:09,6293.4
+B6_s0035_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0035,995,0,none,7.506,799,155,0.0,False,,2026-07-24T15:07:17,6293.4
+B7_s0035_s42,ai4i_openai,B7,local,openai,42,s0035,995,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:07:32,6293.4
+B8_s0035_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0035,995,0,none,3.801,676,119,0.0,False,,2026-07-24T15:07:36,6293.4
+B1_s0036_s42,ai4i_openai,B1,local,openai,42,s0036,1018,0,none,0.0,0,0,0.0,False,,2026-07-24T15:07:37,6293.4
+B2_s0036_s42,ai4i_openai,B2,local,openai,42,s0036,1018,0,none,0.0,0,0,0.0,False,,2026-07-24T15:07:37,6293.4
+B3_s0036_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0036,1018,0,none,6.565,520,158,0.0,False,,2026-07-24T15:07:43,6293.4
+B4_s0036_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0036,1018,0,none,4.4,1209,86,0.0,False,,2026-07-24T15:07:48,6293.4
+B5_s0036_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0036,1018,0,none,9.068,1577,185,0.0,False,,2026-07-24T15:07:58,6293.4
+B6_s0036_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0036,1018,0,none,12.665,799,210,0.0,False,,2026-07-24T15:08:11,6293.4
+B7_s0036_s42,ai4i_openai,B7,local,openai,42,s0036,1018,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:08:22,6293.4
+B8_s0036_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0036,1018,0,none,7.442,676,120,0.0,False,,2026-07-24T15:08:30,6293.4
+B1_s0037_s42,ai4i_openai,B1,local,openai,42,s0037,1081,0,none,0.0,0,0,0.0,False,,2026-07-24T15:08:30,6293.4
+B2_s0037_s42,ai4i_openai,B2,local,openai,42,s0037,1081,0,none,0.0,0,0,0.0,False,,2026-07-24T15:08:30,6293.4
+B3_s0037_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0037,1081,0,none,11.9,520,178,0.0,False,,2026-07-24T15:08:42,6293.4
+B4_s0037_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0037,1081,0,none,3.701,1209,59,0.0,False,,2026-07-24T15:08:46,6293.4
+B5_s0037_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0037,1081,0,none,9.413,1588,198,0.0,False,,2026-07-24T15:08:56,6293.4
+B6_s0037_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0037,1081,0,none,6.188,799,126,0.0,False,,2026-07-24T15:09:03,6293.4
+B7_s0037_s42,ai4i_openai,B7,local,openai,42,s0037,1081,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:09:12,6293.4
+B8_s0037_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0037,1081,0,none,9.314,676,146,0.0,False,,2026-07-24T15:09:22,6293.4
+B1_s0038_s42,ai4i_openai,B1,local,openai,42,s0038,1088,1,TWF,0.0,0,0,0.0,False,,2026-07-24T15:09:22,6293.4
+B2_s0038_s42,ai4i_openai,B2,local,openai,42,s0038,1088,1,TWF,0.0,0,0,0.0,False,,2026-07-24T15:09:22,6293.4
+B3_s0038_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0038,1088,1,TWF,7.011,521,210,0.0,False,,2026-07-24T15:09:29,6293.4
+B4_s0038_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0038,1088,1,TWF,6.085,1210,114,0.0,False,,2026-07-24T15:09:36,6293.4
+B5_s0038_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0038,1088,1,TWF,7.817,1590,166,0.0,False,,2026-07-24T15:09:44,6293.4
+B6_s0038_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0038,1088,1,TWF,5.071,800,129,0.0,False,,2026-07-24T15:09:50,6293.4
+B7_s0038_s42,ai4i_openai,B7,local,openai,42,s0038,1088,1,TWF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:10:07,6293.4
+B8_s0038_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0038,1088,1,TWF,11.183,695,136,0.0,False,,2026-07-24T15:10:19,6293.4
+B1_s0039_s42,ai4i_openai,B1,local,openai,42,s0039,1106,0,none,0.0,0,0,0.0,False,,2026-07-24T15:10:19,6293.4
+B2_s0039_s42,ai4i_openai,B2,local,openai,42,s0039,1106,0,none,0.0,0,0,0.0,False,,2026-07-24T15:10:19,6293.4
+B3_s0039_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0039,1106,0,none,9.063,520,207,0.0,False,,2026-07-24T15:10:29,6293.4
+B4_s0039_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0039,1106,0,none,4.18,1209,100,0.0,False,,2026-07-24T15:10:33,6293.4
+B5_s0039_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0039,1106,0,none,6.787,1578,163,0.0,False,,2026-07-24T15:10:41,6293.4
+B6_s0039_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0039,1106,0,none,10.675,799,177,0.0,False,,2026-07-24T15:10:52,6293.4
+B7_s0039_s42,ai4i_openai,B7,local,openai,42,s0039,1106,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:11:03,6293.4
+B8_s0039_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0039,1106,0,none,7.26,676,133,0.0,False,,2026-07-24T15:11:11,6293.4
+B1_s0040_s42,ai4i_openai,B1,local,openai,42,s0040,1118,0,none,0.0,0,0,0.0,False,,2026-07-24T15:11:11,6293.4
+B2_s0040_s42,ai4i_openai,B2,local,openai,42,s0040,1118,0,none,0.0,0,0,0.0,False,,2026-07-24T15:11:11,6293.4
+B3_s0040_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0040,1118,0,none,8.943,521,153,0.0,False,,2026-07-24T15:11:20,6293.4
+B4_s0040_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0040,1118,0,none,5.626,1210,109,0.0,False,,2026-07-24T15:11:27,6293.4
+B5_s0040_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0040,1118,0,none,14.061,1590,252,0.0,False,,2026-07-24T15:11:41,6293.4
+B6_s0040_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0040,1118,0,none,6.625,800,133,0.0,False,,2026-07-24T15:11:48,6293.4
+B7_s0040_s42,ai4i_openai,B7,local,openai,42,s0040,1118,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:12:05,6293.4
+B8_s0040_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0040,1118,0,none,5.949,677,118,0.0,False,,2026-07-24T15:12:11,6293.4
+B1_s0041_s42,ai4i_openai,B1,local,openai,42,s0041,1141,0,none,0.0,0,0,0.0,False,,2026-07-24T15:12:11,6293.4
+B2_s0041_s42,ai4i_openai,B2,local,openai,42,s0041,1141,0,none,0.0,0,0,0.0,False,,2026-07-24T15:12:11,6293.4
+B3_s0041_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0041,1141,0,none,7.146,521,158,0.0,False,,2026-07-24T15:12:19,6293.4
+B4_s0041_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0041,1141,0,none,3.557,1210,50,0.0,False,,2026-07-24T15:12:23,6293.4
+B5_s0041_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0041,1141,0,none,11.115,1589,202,0.0,False,,2026-07-24T15:12:34,6293.4
+B6_s0041_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0041,1141,0,none,4.81,800,124,0.0,False,,2026-07-24T15:12:40,6293.4
+B7_s0041_s42,ai4i_openai,B7,local,openai,42,s0041,1141,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:12:49,6293.4
+B8_s0041_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0041,1141,0,none,7.341,677,118,0.0,False,,2026-07-24T15:12:57,6293.4
+B1_s0042_s42,ai4i_openai,B1,local,openai,42,s0042,1190,0,none,0.0,0,0,0.0,False,,2026-07-24T15:12:57,6293.4
+B2_s0042_s42,ai4i_openai,B2,local,openai,42,s0042,1190,0,none,0.0,0,0,0.0,False,,2026-07-24T15:12:57,6293.4
+B3_s0042_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0042,1190,0,none,10.563,519,180,0.0,False,,2026-07-24T15:13:08,6293.4
+B4_s0042_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0042,1190,0,none,3.792,1208,70,0.0,False,,2026-07-24T15:13:12,6293.4
+B5_s0042_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0042,1190,0,none,8.173,1575,154,0.0,False,,2026-07-24T15:13:21,6293.4
+B6_s0042_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0042,1190,0,none,7.85,798,132,0.0,False,,2026-07-24T15:13:29,6293.4
+B7_s0042_s42,ai4i_openai,B7,local,openai,42,s0042,1190,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:13:43,6293.4
+B8_s0042_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0042,1190,0,none,4.309,675,118,0.0,False,,2026-07-24T15:13:48,6293.4
+B1_s0043_s42,ai4i_openai,B1,local,openai,42,s0043,1214,0,none,0.0,0,0,0.0,False,,2026-07-24T15:13:48,6293.4
+B2_s0043_s42,ai4i_openai,B2,local,openai,42,s0043,1214,0,none,0.0,0,0,0.0,False,,2026-07-24T15:13:48,6293.4
+B3_s0043_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0043,1214,0,none,10.801,521,181,0.0,False,,2026-07-24T15:13:59,6293.4
+B4_s0043_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0043,1214,0,none,5.484,1210,106,0.0,False,,2026-07-24T15:14:05,6293.4
+B5_s0043_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0043,1214,0,none,10.103,1590,229,0.0,False,,2026-07-24T15:14:16,6293.4
+B6_s0043_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0043,1214,0,none,8.122,800,150,0.0,False,,2026-07-24T15:14:24,6293.4
+B7_s0043_s42,ai4i_openai,B7,local,openai,42,s0043,1214,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:14:33,6293.4
+B8_s0043_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0043,1214,0,none,9.114,677,145,0.0,False,,2026-07-24T15:14:43,6293.4
+B1_s0044_s42,ai4i_openai,B1,local,openai,42,s0044,1222,0,RNF,0.0,0,0,0.0,False,,2026-07-24T15:14:43,6293.4
+B2_s0044_s42,ai4i_openai,B2,local,openai,42,s0044,1222,0,RNF,0.0,0,0,0.0,False,,2026-07-24T15:14:43,6293.4
+B3_s0044_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0044,1222,0,RNF,13.042,520,256,0.0,False,,2026-07-24T15:14:56,6293.4
+B4_s0044_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0044,1222,0,RNF,2.976,1209,62,0.0,False,,2026-07-24T15:15:00,6293.4
+B5_s0044_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0044,1222,0,RNF,13.663,1577,180,0.0,False,,2026-07-24T15:15:14,6293.4
+B6_s0044_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0044,1222,0,RNF,5.606,799,129,0.0,False,,2026-07-24T15:15:20,6293.4
+B7_s0044_s42,ai4i_openai,B7,local,openai,42,s0044,1222,0,RNF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:15:39,6293.4
+B8_s0044_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0044,1222,0,RNF,9.483,685,166,0.0,False,,2026-07-24T15:15:49,6293.4
+B1_s0045_s42,ai4i_openai,B1,local,openai,42,s0045,1258,0,none,0.0,0,0,0.0,False,,2026-07-24T15:15:49,6293.4
+B2_s0045_s42,ai4i_openai,B2,local,openai,42,s0045,1258,0,none,0.0,0,0,0.0,False,,2026-07-24T15:15:49,6293.4
+B3_s0045_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0045,1258,0,none,9.333,519,255,0.0,False,,2026-07-24T15:15:59,6293.4
+B4_s0045_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0045,1258,0,none,5.775,1208,69,0.0,False,,2026-07-24T15:16:05,6293.4
+B5_s0045_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0045,1258,0,none,12.887,1575,183,0.0,False,,2026-07-24T15:16:18,6293.4
+B6_s0045_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0045,1258,0,none,4.718,798,117,0.0,False,,2026-07-24T15:16:24,6293.4
+B7_s0045_s42,ai4i_openai,B7,local,openai,42,s0045,1258,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:16:35,6293.4
+B8_s0045_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0045,1258,0,none,5.2,675,120,0.0,False,,2026-07-24T15:16:41,6293.4
+B1_s0046_s42,ai4i_openai,B1,local,openai,42,s0046,1312,0,none,0.0,0,0,0.0,False,,2026-07-24T15:16:41,6293.4
+B2_s0046_s42,ai4i_openai,B2,local,openai,42,s0046,1312,0,none,0.0,0,0,0.0,False,,2026-07-24T15:16:41,6293.4
+B3_s0046_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0046,1312,0,none,12.056,520,253,0.0,False,,2026-07-24T15:16:54,6293.4
+B4_s0046_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0046,1312,0,none,2.973,1209,72,0.0,False,,2026-07-24T15:16:57,6293.4
+B5_s0046_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0046,1312,0,none,11.348,1588,186,0.0,False,,2026-07-24T15:17:09,6293.4
+B6_s0046_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0046,1312,0,none,6.592,799,128,0.0,False,,2026-07-24T15:17:16,6293.4
+B7_s0046_s42,ai4i_openai,B7,local,openai,42,s0046,1312,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:17:29,6293.4
+B8_s0046_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0046,1312,0,none,8.694,676,122,0.0,False,,2026-07-24T15:17:38,6293.4
+B1_s0047_s42,ai4i_openai,B1,local,openai,42,s0047,1327,0,none,0.0,0,0,0.0,False,,2026-07-24T15:17:39,6293.4
+B2_s0047_s42,ai4i_openai,B2,local,openai,42,s0047,1327,0,none,0.0,0,0,0.0,False,,2026-07-24T15:17:39,6293.4
+B3_s0047_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0047,1327,0,none,8.292,520,150,0.0,False,,2026-07-24T15:17:47,6293.4
+B4_s0047_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0047,1327,0,none,4.97,1209,57,0.0,False,,2026-07-24T15:17:53,6293.4
+B5_s0047_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0047,1327,0,none,8.656,1579,199,0.0,False,,2026-07-24T15:18:02,6293.4
+B6_s0047_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0047,1327,0,none,13.596,799,170,0.0,False,,2026-07-24T15:18:16,6293.4
+B7_s0047_s42,ai4i_openai,B7,local,openai,42,s0047,1327,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:18:31,6293.4
+B8_s0047_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0047,1327,0,none,9.317,687,132,0.0,False,,2026-07-24T15:18:41,6293.4
+B1_s0048_s42,ai4i_openai,B1,local,openai,42,s0048,1394,0,none,0.0,0,0,0.0,False,,2026-07-24T15:18:42,6293.4
+B2_s0048_s42,ai4i_openai,B2,local,openai,42,s0048,1394,0,none,0.0,0,0,0.0,False,,2026-07-24T15:18:42,6293.4
+B3_s0048_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0048,1394,0,none,12.647,520,167,0.0,False,,2026-07-24T15:18:54,6293.4
+B4_s0048_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0048,1394,0,none,4.48,1209,91,0.0,False,,2026-07-24T15:18:59,6293.4
+B5_s0048_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0048,1394,0,none,13.76,1577,214,0.0,False,,2026-07-24T15:19:13,6293.4
+B6_s0048_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0048,1394,0,none,9.696,799,130,0.0,False,,2026-07-24T15:19:24,6293.4
+B7_s0048_s42,ai4i_openai,B7,local,openai,42,s0048,1394,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:19:42,6293.4
+B8_s0048_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0048,1394,0,none,7.99,676,143,0.0,False,,2026-07-24T15:19:50,6293.4
+B1_s0049_s42,ai4i_openai,B1,local,openai,42,s0049,1411,0,none,0.0,0,0,0.0,False,,2026-07-24T15:19:51,6293.4
+B2_s0049_s42,ai4i_openai,B2,local,openai,42,s0049,1411,0,none,0.0,0,0,0.0,False,,2026-07-24T15:19:51,6293.4
+B3_s0049_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0049,1411,0,none,7.301,519,154,0.0,False,,2026-07-24T15:19:58,6293.4
+B4_s0049_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0049,1411,0,none,4.829,1208,89,0.0,False,,2026-07-24T15:20:04,6293.4
+B5_s0049_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0049,1411,0,none,13.338,1577,192,0.0,False,,2026-07-24T15:20:18,6293.4
+B6_s0049_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0049,1411,0,none,9.873,798,127,0.0,False,,2026-07-24T15:20:28,6293.4
+B7_s0049_s42,ai4i_openai,B7,local,openai,42,s0049,1411,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:20:46,6293.4
+B8_s0049_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0049,1411,0,none,7.01,675,118,0.0,False,,2026-07-24T15:20:54,6293.4
+B1_s0050_s42,ai4i_openai,B1,local,openai,42,s0050,1473,0,none,0.0,0,0,0.0,False,,2026-07-24T15:20:54,6293.4
+B2_s0050_s42,ai4i_openai,B2,local,openai,42,s0050,1473,0,none,0.0,0,0,0.0,False,,2026-07-24T15:20:54,6293.4
+B3_s0050_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0050,1473,0,none,9.898,521,128,0.0,False,,2026-07-24T15:21:04,6293.4
+B4_s0050_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0050,1473,0,none,5.858,1210,85,0.0,False,,2026-07-24T15:21:10,6293.4
+B5_s0050_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0050,1473,0,none,9.666,1580,161,0.0,False,,2026-07-24T15:21:21,6293.4
+B6_s0050_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0050,1473,0,none,10.411,800,140,0.0,False,,2026-07-24T15:21:32,6293.4
+B7_s0050_s42,ai4i_openai,B7,local,openai,42,s0050,1473,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:21:56,6293.4
+B8_s0050_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0050,1473,0,none,12.13,677,153,0.0,False,,2026-07-24T15:22:09,6293.4
+B1_s0051_s42,ai4i_openai,B1,local,openai,42,s0051,1487,0,none,0.0,0,0,0.0,False,,2026-07-24T15:22:09,6293.4
+B2_s0051_s42,ai4i_openai,B2,local,openai,42,s0051,1487,0,none,0.0,0,0,0.0,False,,2026-07-24T15:22:09,6293.4
+B3_s0051_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0051,1487,0,none,8.266,521,154,0.0,False,,2026-07-24T15:22:17,6293.4
+B4_s0051_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0051,1487,0,none,5.376,1210,97,0.0,False,,2026-07-24T15:22:23,6293.4
+B5_s0051_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0051,1487,0,none,11.239,1579,186,0.0,False,,2026-07-24T15:22:35,6293.4
+B6_s0051_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0051,1487,0,none,4.531,800,97,0.0,False,,2026-07-24T15:22:40,6293.4
+B7_s0051_s42,ai4i_openai,B7,local,openai,42,s0051,1487,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:22:55,6293.4
+B8_s0051_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0051,1487,0,none,6.838,677,140,0.0,False,,2026-07-24T15:23:02,6293.4
+B1_s0052_s42,ai4i_openai,B1,local,openai,42,s0052,1495,0,none,0.0,0,0,0.0,False,,2026-07-24T15:23:03,6293.4
+B2_s0052_s42,ai4i_openai,B2,local,openai,42,s0052,1495,0,none,0.0,0,0,0.0,False,,2026-07-24T15:23:03,6293.4
+B3_s0052_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0052,1495,0,none,9.27,520,134,0.0,False,,2026-07-24T15:23:12,6293.4
+B4_s0052_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0052,1495,0,none,2.508,1209,46,0.0,False,,2026-07-24T15:23:15,6293.4
+B5_s0052_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0052,1495,0,none,7.267,1577,164,0.0,False,,2026-07-24T15:23:23,6293.4
+B6_s0052_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0052,1495,0,none,10.976,799,132,0.0,False,,2026-07-24T15:23:34,6293.4
+B7_s0052_s42,ai4i_openai,B7,local,openai,42,s0052,1495,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:23:47,6293.4
+B8_s0052_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0052,1495,0,none,11.136,676,147,0.0,False,,2026-07-24T15:23:59,6293.4
+B1_s0053_s42,ai4i_openai,B1,local,openai,42,s0053,1510,1,TWF,0.0,0,0,0.0,False,,2026-07-24T15:24:00,6293.4
+B2_s0053_s42,ai4i_openai,B2,local,openai,42,s0053,1510,1,TWF,0.0,0,0,0.0,False,,2026-07-24T15:24:00,6293.4
+B3_s0053_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0053,1510,1,TWF,10.446,520,207,0.0,False,,2026-07-24T15:24:10,6293.4
+B4_s0053_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0053,1510,1,TWF,3.427,1209,89,0.0,False,,2026-07-24T15:24:14,6293.4
+B5_s0053_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0053,1510,1,TWF,9.402,1578,199,0.0,False,,2026-07-24T15:24:24,6293.4
+B6_s0053_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0053,1510,1,TWF,9.411,799,206,0.0,False,,2026-07-24T15:24:34,6293.4
+B7_s0053_s42,ai4i_openai,B7,local,openai,42,s0053,1510,1,TWF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:24:50,6293.4
+B8_s0053_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0053,1510,1,TWF,7.1,694,146,0.0,False,,2026-07-24T15:24:58,6293.4
+B1_s0054_s42,ai4i_openai,B1,local,openai,42,s0054,1545,0,none,0.0,0,0,0.0,False,,2026-07-24T15:24:58,6293.4
+B2_s0054_s42,ai4i_openai,B2,local,openai,42,s0054,1545,0,none,0.0,0,0,0.0,False,,2026-07-24T15:24:58,6293.4
+B3_s0054_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0054,1545,0,none,8.279,520,153,0.0,False,,2026-07-24T15:25:07,6293.4
+B4_s0054_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0054,1545,0,none,5.629,1209,69,0.0,False,,2026-07-24T15:25:13,6293.4
+B5_s0054_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0054,1545,0,none,9.359,1577,183,0.0,False,,2026-07-24T15:25:23,6293.4
+B6_s0054_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0054,1545,0,none,6.685,799,129,0.0,False,,2026-07-24T15:25:30,6293.4
+B7_s0054_s42,ai4i_openai,B7,local,openai,42,s0054,1545,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:25:39,6293.4
+B8_s0054_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0054,1545,0,none,5.852,676,118,0.0,False,,2026-07-24T15:25:45,6293.4
+B1_s0055_s42,ai4i_openai,B1,local,openai,42,s0055,1556,0,none,0.0,0,0,0.0,False,,2026-07-24T15:25:46,6293.4
+B2_s0055_s42,ai4i_openai,B2,local,openai,42,s0055,1556,0,none,0.0,0,0,0.0,False,,2026-07-24T15:25:46,6293.4
+B3_s0055_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0055,1556,0,none,7.915,520,155,0.0,False,,2026-07-24T15:25:54,6293.4
+B4_s0055_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0055,1556,0,none,4.945,1209,104,0.0,False,,2026-07-24T15:25:59,6293.4
+B5_s0055_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0055,1556,0,none,12.615,1577,177,0.0,False,,2026-07-24T15:26:12,6293.4
+B6_s0055_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0055,1556,0,none,11.92,799,125,0.0,False,,2026-07-24T15:26:25,6293.4
+B7_s0055_s42,ai4i_openai,B7,local,openai,42,s0055,1556,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:26:42,6293.4
+B8_s0055_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0055,1556,0,none,6.976,676,119,0.0,False,,2026-07-24T15:26:50,6293.4
+B1_s0056_s42,ai4i_openai,B1,local,openai,42,s0056,1557,0,none,0.0,0,0,0.0,False,,2026-07-24T15:26:50,6293.4
+B2_s0056_s42,ai4i_openai,B2,local,openai,42,s0056,1557,0,none,0.0,0,0,0.0,False,,2026-07-24T15:26:50,6293.4
+B3_s0056_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0056,1557,0,none,6.783,520,158,0.0,False,,2026-07-24T15:26:57,6293.4
+B4_s0056_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0056,1557,0,none,3.608,1209,51,0.0,False,,2026-07-24T15:27:01,6293.4
+B5_s0056_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0056,1557,0,none,12.413,1577,197,0.0,False,,2026-07-24T15:27:14,6293.4
+B6_s0056_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0056,1557,0,none,6.694,799,144,0.0,False,,2026-07-24T15:27:21,6293.4
+B7_s0056_s42,ai4i_openai,B7,local,openai,42,s0056,1557,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:27:34,6293.4
+B8_s0056_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0056,1557,0,none,5.407,676,119,0.0,False,,2026-07-24T15:27:40,6293.4
+B1_s0057_s42,ai4i_openai,B1,local,openai,42,s0057,1614,0,none,0.0,0,0,0.0,False,,2026-07-24T15:27:40,6293.4
+B2_s0057_s42,ai4i_openai,B2,local,openai,42,s0057,1614,0,none,0.0,0,0,0.0,False,,2026-07-24T15:27:40,6293.4
+B3_s0057_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0057,1614,0,none,11.196,520,175,0.0,False,,2026-07-24T15:27:51,6293.4
+B4_s0057_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0057,1614,0,none,6.706,1209,106,0.0,False,,2026-07-24T15:27:59,6293.4
+B5_s0057_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0057,1614,0,none,14.553,1579,188,0.0,False,,2026-07-24T15:28:14,6293.4
+B6_s0057_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0057,1614,0,none,12.345,799,171,0.0,False,,2026-07-24T15:28:27,6293.4
+B7_s0057_s42,ai4i_openai,B7,local,openai,42,s0057,1614,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:28:45,6293.4
+B8_s0057_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0057,1614,0,none,9.766,676,119,0.0,False,,2026-07-24T15:28:56,6293.4
+B1_s0058_s42,ai4i_openai,B1,local,openai,42,s0058,1652,0,none,0.0,0,0,0.0,False,,2026-07-24T15:28:56,6293.4
+B2_s0058_s42,ai4i_openai,B2,local,openai,42,s0058,1652,0,none,0.0,0,0,0.0,False,,2026-07-24T15:28:56,6293.4
+B3_s0058_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0058,1652,0,none,13.575,521,215,0.0,False,,2026-07-24T15:29:10,6293.4
+B4_s0058_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0058,1652,0,none,6.544,1210,107,0.0,False,,2026-07-24T15:29:17,6293.4
+B5_s0058_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0058,1652,0,none,10.539,1589,123,0.0,False,,2026-07-24T15:29:28,6293.4
+B6_s0058_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0058,1652,0,none,7.808,800,142,0.0,False,,2026-07-24T15:29:36,6293.4
+B7_s0058_s42,ai4i_openai,B7,local,openai,42,s0058,1652,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:29:50,6293.4
+B8_s0058_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0058,1652,0,none,9.959,677,143,0.0,False,,2026-07-24T15:30:01,6293.4
+B1_s0059_s42,ai4i_openai,B1,local,openai,42,s0059,1697,0,none,0.0,0,0,0.0,False,,2026-07-24T15:30:01,6293.4
+B2_s0059_s42,ai4i_openai,B2,local,openai,42,s0059,1697,0,none,0.0,0,0,0.0,False,,2026-07-24T15:30:01,6293.4
+B3_s0059_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0059,1697,0,none,13.029,520,147,0.0,False,,2026-07-24T15:30:14,6293.4
+B4_s0059_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0059,1697,0,none,10.1,1209,140,0.0,False,,2026-07-24T15:30:25,6293.4
+B5_s0059_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0059,1697,0,none,12.772,1588,227,0.0,False,,2026-07-24T15:30:38,6293.4
+B6_s0059_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0059,1697,0,none,6.892,799,116,0.0,False,,2026-07-24T15:30:46,6293.4
+B7_s0059_s42,ai4i_openai,B7,local,openai,42,s0059,1697,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:31:01,6293.4
+B8_s0059_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0059,1697,0,none,6.584,676,118,0.0,False,,2026-07-24T15:31:08,6293.4
+B1_s0060_s42,ai4i_openai,B1,local,openai,42,s0060,1707,0,none,0.0,0,0,0.0,False,,2026-07-24T15:31:09,6293.4
+B2_s0060_s42,ai4i_openai,B2,local,openai,42,s0060,1707,0,none,0.0,0,0,0.0,False,,2026-07-24T15:31:09,6293.4
+B3_s0060_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0060,1707,0,none,11.372,521,208,0.0,False,,2026-07-24T15:31:20,6293.4
+B4_s0060_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0060,1707,0,none,5.817,1210,130,0.0,False,,2026-07-24T15:31:27,6293.4
+B5_s0060_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0060,1707,0,none,8.751,1579,163,0.0,False,,2026-07-24T15:31:36,6293.4
+B6_s0060_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0060,1707,0,none,9.432,800,203,0.0,False,,2026-07-24T15:31:46,6293.4
+B7_s0060_s42,ai4i_openai,B7,local,openai,42,s0060,1707,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:31:59,6293.4
+B8_s0060_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0060,1707,0,none,4.798,677,118,0.0,False,,2026-07-24T15:32:04,6293.4
+B1_s0061_s42,ai4i_openai,B1,local,openai,42,s0061,1796,0,none,0.0,0,0,0.0,False,,2026-07-24T15:32:05,6293.4
+B2_s0061_s42,ai4i_openai,B2,local,openai,42,s0061,1796,0,none,0.0,0,0,0.0,False,,2026-07-24T15:32:05,6293.4
+B3_s0061_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0061,1796,0,none,10.599,519,209,0.0,False,,2026-07-24T15:32:16,6293.4
+B4_s0061_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0061,1796,0,none,4.474,1208,130,0.0,False,,2026-07-24T15:32:21,6293.4
+B5_s0061_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0061,1796,0,none,9.788,1575,176,0.0,False,,2026-07-24T15:32:31,6293.4
+B6_s0061_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0061,1796,0,none,12.041,798,226,0.0,False,,2026-07-24T15:32:43,6293.4
+B7_s0061_s42,ai4i_openai,B7,local,openai,42,s0061,1796,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:32:56,6293.4
+B8_s0061_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0061,1796,0,none,8.175,675,117,0.0,False,,2026-07-24T15:33:04,6293.4
+B1_s0062_s42,ai4i_openai,B1,local,openai,42,s0062,1846,0,none,0.0,0,0,0.0,False,,2026-07-24T15:33:05,6293.4
+B2_s0062_s42,ai4i_openai,B2,local,openai,42,s0062,1846,0,none,0.0,0,0,0.0,False,,2026-07-24T15:33:05,6293.4
+B3_s0062_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0062,1846,0,none,8.33,520,162,0.0,False,,2026-07-24T15:33:13,6293.4
+B4_s0062_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0062,1846,0,none,6.937,1209,113,0.0,False,,2026-07-24T15:33:21,6293.4
+B5_s0062_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0062,1846,0,none,9.447,1577,185,0.0,False,,2026-07-24T15:33:31,6293.4
+B6_s0062_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0062,1846,0,none,10.297,799,138,0.0,False,,2026-07-24T15:33:42,6293.4
+B7_s0062_s42,ai4i_openai,B7,local,openai,42,s0062,1846,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:33:54,6293.4
+B8_s0062_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0062,1846,0,none,4.193,676,118,0.0,False,,2026-07-24T15:33:58,6293.4
+B1_s0063_s42,ai4i_openai,B1,local,openai,42,s0063,1929,0,none,0.0,0,0,0.0,False,,2026-07-24T15:33:59,6293.4
+B2_s0063_s42,ai4i_openai,B2,local,openai,42,s0063,1929,0,none,0.0,0,0,0.0,False,,2026-07-24T15:33:59,6293.4
+B3_s0063_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0063,1929,0,none,13.643,520,185,0.0,False,,2026-07-24T15:34:12,6293.4
+B4_s0063_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0063,1929,0,none,8.19,1209,108,0.0,False,,2026-07-24T15:34:21,6293.4
+B5_s0063_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0063,1929,0,none,17.75,1588,246,0.0,False,,2026-07-24T15:34:39,6293.4
+B6_s0063_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0063,1929,0,none,8.381,799,115,0.0,False,,2026-07-24T15:34:48,6293.4
+B7_s0063_s42,ai4i_openai,B7,local,openai,42,s0063,1929,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:35:03,6293.4
+B8_s0063_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0063,1929,0,none,7.883,676,118,0.0,False,,2026-07-24T15:35:11,6293.4
+B1_s0064_s42,ai4i_openai,B1,local,openai,42,s0064,1949,0,none,0.0,0,0,0.0,False,,2026-07-24T15:35:11,6293.4
+B2_s0064_s42,ai4i_openai,B2,local,openai,42,s0064,1949,0,none,0.0,0,0,0.0,False,,2026-07-24T15:35:11,6293.4
+B3_s0064_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0064,1949,0,none,11.145,521,194,0.0,False,,2026-07-24T15:35:23,6293.4
+B4_s0064_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0064,1949,0,none,4.903,1210,75,0.0,False,,2026-07-24T15:35:28,6293.4
+B5_s0064_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0064,1949,0,none,11.382,1579,172,0.0,False,,2026-07-24T15:35:40,6293.4
+B6_s0064_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0064,1949,0,none,4.512,800,121,0.0,False,,2026-07-24T15:35:45,6293.4
+B7_s0064_s42,ai4i_openai,B7,local,openai,42,s0064,1949,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:36:01,6293.4
+B8_s0064_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0064,1949,0,none,8.997,677,155,0.0,False,,2026-07-24T15:36:11,6293.4
+B1_s0065_s42,ai4i_openai,B1,local,openai,42,s0065,1989,0,none,0.0,0,0,0.0,False,,2026-07-24T15:36:11,6293.4
+B2_s0065_s42,ai4i_openai,B2,local,openai,42,s0065,1989,0,none,0.0,0,0,0.0,False,,2026-07-24T15:36:11,6293.4
+B3_s0065_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0065,1989,0,none,9.249,521,150,0.0,False,,2026-07-24T15:36:21,6293.4
+B4_s0065_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0065,1989,0,none,4.945,1210,78,0.0,False,,2026-07-24T15:36:26,6293.4
+B5_s0065_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0065,1989,0,none,9.95,1579,184,0.0,False,,2026-07-24T15:36:37,6293.4
+B6_s0065_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0065,1989,0,none,11.366,800,170,0.0,False,,2026-07-24T15:36:49,6293.4
+B7_s0065_s42,ai4i_openai,B7,local,openai,42,s0065,1989,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:37:00,6293.4
+B8_s0065_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0065,1989,0,none,5.101,677,121,0.0,False,,2026-07-24T15:37:06,6293.4
+B1_s0066_s42,ai4i_openai,B1,local,openai,42,s0066,1993,0,none,0.0,0,0,0.0,False,,2026-07-24T15:37:07,6293.4
+B2_s0066_s42,ai4i_openai,B2,local,openai,42,s0066,1993,0,none,0.0,0,0,0.0,False,,2026-07-24T15:37:07,6293.4
+B3_s0066_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0066,1993,0,none,10.692,521,221,0.0,False,,2026-07-24T15:37:17,6293.4
+B4_s0066_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0066,1993,0,none,5.091,1210,127,0.0,False,,2026-07-24T15:37:23,6293.4
+B5_s0066_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0066,1993,0,none,9.375,1581,175,0.0,False,,2026-07-24T15:37:33,6293.4
+B6_s0066_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0066,1993,0,none,4.514,800,119,0.0,False,,2026-07-24T15:37:38,6293.4
+B7_s0066_s42,ai4i_openai,B7,local,openai,42,s0066,1993,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:37:49,6293.4
+B8_s0066_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0066,1993,0,none,5.519,677,116,0.0,False,,2026-07-24T15:37:55,6293.4
+B1_s0067_s42,ai4i_openai,B1,local,openai,42,s0067,2179,0,none,0.0,0,0,0.0,False,,2026-07-24T15:37:55,6293.4
+B2_s0067_s42,ai4i_openai,B2,local,openai,42,s0067,2179,0,none,0.0,0,0,0.0,False,,2026-07-24T15:37:55,6293.4
+B3_s0067_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0067,2179,0,none,11.861,520,153,0.0,False,,2026-07-24T15:38:07,6293.4
+B4_s0067_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0067,2179,0,none,4.234,1209,87,0.0,False,,2026-07-24T15:38:12,6293.4
+B5_s0067_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0067,2179,0,none,10.238,1577,192,0.0,False,,2026-07-24T15:38:23,6293.4
+B6_s0067_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0067,2179,0,none,6.742,799,111,0.0,False,,2026-07-24T15:38:30,6293.4
+B7_s0067_s42,ai4i_openai,B7,local,openai,42,s0067,2179,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:38:43,6293.4
+B8_s0067_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0067,2179,0,none,9.0,676,118,0.0,False,,2026-07-24T15:38:53,6293.4
+B1_s0068_s42,ai4i_openai,B1,local,openai,42,s0068,2204,0,none,0.0,0,0,0.0,False,,2026-07-24T15:38:53,6293.4
+B2_s0068_s42,ai4i_openai,B2,local,openai,42,s0068,2204,0,none,0.0,0,0,0.0,False,,2026-07-24T15:38:53,6293.4
+B3_s0068_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0068,2204,0,none,7.387,519,166,0.0,False,,2026-07-24T15:39:01,6293.4
+B4_s0068_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0068,2204,0,none,3.557,1208,68,0.0,False,,2026-07-24T15:39:05,6293.4
+B5_s0068_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0068,2204,0,none,10.556,1575,151,0.0,False,,2026-07-24T15:39:16,6293.4
+B6_s0068_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0068,2204,0,none,4.623,798,103,0.0,False,,2026-07-24T15:39:21,6293.4
+B7_s0068_s42,ai4i_openai,B7,local,openai,42,s0068,2204,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:39:36,6293.4
+B8_s0068_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0068,2204,0,none,8.285,675,119,0.0,False,,2026-07-24T15:39:45,6293.4
+B1_s0069_s42,ai4i_openai,B1,local,openai,42,s0069,2207,0,none,0.0,0,0,0.0,False,,2026-07-24T15:39:45,6293.4
+B2_s0069_s42,ai4i_openai,B2,local,openai,42,s0069,2207,0,none,0.0,0,0,0.0,False,,2026-07-24T15:39:45,6293.4
+B3_s0069_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0069,2207,0,none,13.94,521,207,0.0,False,,2026-07-24T15:39:59,6293.4
+B4_s0069_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0069,2207,0,none,5.934,1210,92,0.0,False,,2026-07-24T15:40:06,6293.4
+B5_s0069_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0069,2207,0,none,14.732,1579,188,0.0,False,,2026-07-24T15:40:21,6293.4
+B6_s0069_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0069,2207,0,none,7.439,800,112,0.0,False,,2026-07-24T15:40:29,6293.4
+B7_s0069_s42,ai4i_openai,B7,local,openai,42,s0069,2207,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:40:52,6293.4
+B8_s0069_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0069,2207,0,none,8.416,677,118,0.0,False,,2026-07-24T15:41:00,6293.4
+B1_s0070_s42,ai4i_openai,B1,local,openai,42,s0070,2209,0,none,0.0,0,0,0.0,False,,2026-07-24T15:41:01,6293.4
+B2_s0070_s42,ai4i_openai,B2,local,openai,42,s0070,2209,0,none,0.0,0,0,0.0,False,,2026-07-24T15:41:01,6293.4
+B3_s0070_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0070,2209,0,none,10.899,520,243,0.0,False,,2026-07-24T15:41:12,6293.4
+B4_s0070_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0070,2209,0,none,4.304,1209,78,0.0,False,,2026-07-24T15:41:17,6293.4
+B5_s0070_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0070,2209,0,none,13.802,1577,167,0.0,False,,2026-07-24T15:41:31,6293.4
+B6_s0070_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0070,2209,0,none,15.371,799,234,0.0,False,,2026-07-24T15:41:47,6293.4
+B7_s0070_s42,ai4i_openai,B7,local,openai,42,s0070,2209,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:42:04,6293.4
+B8_s0070_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0070,2209,0,none,7.69,676,121,0.0,False,,2026-07-24T15:42:12,6293.4
+B1_s0071_s42,ai4i_openai,B1,local,openai,42,s0071,2248,0,none,0.0,0,0,0.0,False,,2026-07-24T15:42:12,6293.4
+B2_s0071_s42,ai4i_openai,B2,local,openai,42,s0071,2248,0,none,0.0,0,0,0.0,False,,2026-07-24T15:42:12,6293.4
+B3_s0071_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0071,2248,0,none,8.575,519,179,0.0,False,,2026-07-24T15:42:21,6293.4
+B4_s0071_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0071,2248,0,none,3.977,1208,109,0.0,False,,2026-07-24T15:42:25,6293.4
+B5_s0071_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0071,2248,0,none,13.378,1577,182,0.0,False,,2026-07-24T15:42:39,6293.4
+B6_s0071_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0071,2248,0,none,6.584,798,169,0.0,False,,2026-07-24T15:42:47,6293.4
+B7_s0071_s42,ai4i_openai,B7,local,openai,42,s0071,2248,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:43:05,6293.4
+B8_s0071_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0071,2248,0,none,5.111,675,128,0.0,False,,2026-07-24T15:43:11,6293.4
+B1_s0072_s42,ai4i_openai,B1,local,openai,42,s0072,2274,0,none,0.0,0,0,0.0,False,,2026-07-24T15:43:12,6293.4
+B2_s0072_s42,ai4i_openai,B2,local,openai,42,s0072,2274,0,none,0.0,0,0,0.0,False,,2026-07-24T15:43:12,6293.4
+B3_s0072_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0072,2274,0,none,7.808,520,160,0.0,False,,2026-07-24T15:43:20,6293.4
+B4_s0072_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0072,2274,0,none,8.085,1209,108,0.0,False,,2026-07-24T15:43:28,6293.4
+B5_s0072_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0072,2274,0,none,11.454,1577,188,0.0,False,,2026-07-24T15:43:40,6293.4
+B6_s0072_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0072,2274,0,none,12.673,799,221,0.0,False,,2026-07-24T15:43:53,6293.4
+B7_s0072_s42,ai4i_openai,B7,local,openai,42,s0072,2274,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:44:11,6293.4
+B8_s0072_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0072,2274,0,none,5.085,676,119,0.0,False,,2026-07-24T15:44:17,6293.4
+B1_s0073_s42,ai4i_openai,B1,local,openai,42,s0073,2291,0,none,0.0,0,0,0.0,False,,2026-07-24T15:44:17,6293.4
+B2_s0073_s42,ai4i_openai,B2,local,openai,42,s0073,2291,0,none,0.0,0,0,0.0,False,,2026-07-24T15:44:17,6293.4
+B3_s0073_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0073,2291,0,none,13.26,520,261,0.0,False,,2026-07-24T15:44:30,6293.4
+B4_s0073_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0073,2291,0,none,9.021,1209,130,0.0,False,,2026-07-24T15:44:40,6293.4
+B5_s0073_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0073,2291,0,none,9.568,1577,184,0.0,False,,2026-07-24T15:44:50,6293.4
+B6_s0073_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0073,2291,0,none,9.329,799,161,0.0,False,,2026-07-24T15:45:00,6293.4
+B7_s0073_s42,ai4i_openai,B7,local,openai,42,s0073,2291,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:45:19,6293.4
+B8_s0073_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0073,2291,0,none,7.037,676,118,0.0,False,,2026-07-24T15:45:26,6293.4
+B1_s0074_s42,ai4i_openai,B1,local,openai,42,s0074,2365,0,none,0.0,0,0,0.0,False,,2026-07-24T15:45:27,6293.4
+B2_s0074_s42,ai4i_openai,B2,local,openai,42,s0074,2365,0,none,0.0,0,0,0.0,False,,2026-07-24T15:45:27,6293.4
+B3_s0074_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0074,2365,0,none,12.289,520,193,0.0,False,,2026-07-24T15:45:39,6293.4
+B4_s0074_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0074,2365,0,none,5.365,1209,71,0.0,False,,2026-07-24T15:45:45,6293.4
+B5_s0074_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0074,2365,0,none,15.423,1578,177,0.0,False,,2026-07-24T15:46:01,6293.4
+B6_s0074_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0074,2365,0,none,10.136,799,155,0.0,False,,2026-07-24T15:46:12,6293.4
+B7_s0074_s42,ai4i_openai,B7,local,openai,42,s0074,2365,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:46:23,6293.4
+B8_s0074_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0074,2365,0,none,6.822,676,121,0.0,False,,2026-07-24T15:46:30,6293.4
+B1_s0075_s42,ai4i_openai,B1,local,openai,42,s0075,2420,0,none,0.0,0,0,0.0,False,,2026-07-24T15:46:31,6293.4
+B2_s0075_s42,ai4i_openai,B2,local,openai,42,s0075,2420,0,none,0.0,0,0,0.0,False,,2026-07-24T15:46:31,6293.4
+B3_s0075_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0075,2420,0,none,14.376,519,207,0.0,False,,2026-07-24T15:46:45,6293.4
+B4_s0075_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0075,2420,0,none,4.386,1208,62,0.0,False,,2026-07-24T15:46:50,6293.4
+B5_s0075_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0075,2420,0,none,12.472,1586,225,0.0,False,,2026-07-24T15:47:03,6293.4
+B6_s0075_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0075,2420,0,none,11.485,798,140,0.0,False,,2026-07-24T15:47:15,6293.4
+B7_s0075_s42,ai4i_openai,B7,local,openai,42,s0075,2420,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:47:40,6293.4
+B8_s0075_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0075,2420,0,none,12.487,675,129,0.0,False,,2026-07-24T15:47:53,6293.4
+B1_s0076_s42,ai4i_openai,B1,local,openai,42,s0076,2453,0,none,0.0,0,0,0.0,False,,2026-07-24T15:47:54,6293.4
+B2_s0076_s42,ai4i_openai,B2,local,openai,42,s0076,2453,0,none,0.0,0,0,0.0,False,,2026-07-24T15:47:54,6293.4
+B3_s0076_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0076,2453,0,none,8.094,518,159,0.0,False,,2026-07-24T15:48:02,6293.4
+B4_s0076_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0076,2453,0,none,3.862,1207,68,0.0,False,,2026-07-24T15:48:06,6293.4
+B5_s0076_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0076,2453,0,none,13.621,1575,178,0.0,False,,2026-07-24T15:48:21,6293.4
+B6_s0076_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0076,2453,0,none,17.312,797,188,0.0,False,,2026-07-24T15:48:38,6293.4
+B7_s0076_s42,ai4i_openai,B7,local,openai,42,s0076,2453,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:49:08,6293.4
+B8_s0076_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0076,2453,0,none,7.991,674,120,0.0,False,,2026-07-24T15:49:16,6293.4
+B1_s0077_s42,ai4i_openai,B1,local,openai,42,s0077,2471,0,none,0.0,0,0,0.0,False,,2026-07-24T15:49:17,6293.4
+B2_s0077_s42,ai4i_openai,B2,local,openai,42,s0077,2471,0,none,0.0,0,0,0.0,False,,2026-07-24T15:49:17,6293.4
+B3_s0077_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0077,2471,0,none,13.46,520,204,0.0,False,,2026-07-24T15:49:30,6293.4
+B4_s0077_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0077,2471,0,none,9.015,1209,118,0.0,False,,2026-07-24T15:49:40,6293.4
+B5_s0077_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0077,2471,0,none,16.248,1588,228,0.0,False,,2026-07-24T15:49:56,6293.4
+B6_s0077_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0077,2471,0,none,9.806,799,192,0.0,False,,2026-07-24T15:50:07,6293.4
+B7_s0077_s42,ai4i_openai,B7,local,openai,42,s0077,2471,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:50:25,6293.4
+B8_s0077_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0077,2471,0,none,6.994,676,121,0.0,False,,2026-07-24T15:50:33,6293.4
+B1_s0078_s42,ai4i_openai,B1,local,openai,42,s0078,2521,0,none,0.0,0,0,0.0,False,,2026-07-24T15:50:33,6293.4
+B2_s0078_s42,ai4i_openai,B2,local,openai,42,s0078,2521,0,none,0.0,0,0,0.0,False,,2026-07-24T15:50:33,6293.4
+B3_s0078_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0078,2521,0,none,10.929,519,221,0.0,False,,2026-07-24T15:50:44,6293.4
+B4_s0078_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0078,2521,0,none,8.218,1208,77,0.0,False,,2026-07-24T15:50:53,6293.4
+B5_s0078_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0078,2521,0,none,9.849,1586,149,0.0,False,,2026-07-24T15:51:03,6293.4
+B6_s0078_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0078,2521,0,none,10.666,798,171,0.0,False,,2026-07-24T15:51:15,6293.4
+B7_s0078_s42,ai4i_openai,B7,local,openai,42,s0078,2521,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:51:28,6293.4
+B8_s0078_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0078,2521,0,none,7.303,675,143,0.0,False,,2026-07-24T15:51:36,6293.4
+B1_s0079_s42,ai4i_openai,B1,local,openai,42,s0079,2558,0,none,0.0,0,0,0.0,False,,2026-07-24T15:51:37,6293.4
+B2_s0079_s42,ai4i_openai,B2,local,openai,42,s0079,2558,0,none,0.0,0,0,0.0,False,,2026-07-24T15:51:37,6293.4
+B3_s0079_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0079,2558,0,none,8.27,520,151,0.0,False,,2026-07-24T15:51:45,6293.4
+B4_s0079_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0079,2558,0,none,5.667,1209,119,0.0,False,,2026-07-24T15:51:51,6293.4
+B5_s0079_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0079,2558,0,none,9.211,1577,150,0.0,False,,2026-07-24T15:52:01,6293.4
+B6_s0079_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0079,2558,0,none,14.713,799,235,0.0,False,,2026-07-24T15:52:16,6293.4
+B7_s0079_s42,ai4i_openai,B7,local,openai,42,s0079,2558,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:52:29,6293.4
+B8_s0079_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0079,2558,0,none,7.791,676,122,0.0,False,,2026-07-24T15:52:38,6293.4
+B1_s0080_s42,ai4i_openai,B1,local,openai,42,s0080,2564,0,none,0.0,0,0,0.0,False,,2026-07-24T15:52:38,6293.4
+B2_s0080_s42,ai4i_openai,B2,local,openai,42,s0080,2564,0,none,0.0,0,0,0.0,False,,2026-07-24T15:52:38,6293.4
+B3_s0080_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0080,2564,0,none,7.727,521,135,0.0,False,,2026-07-24T15:52:46,6293.4
+B4_s0080_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0080,2564,0,none,4.096,1210,55,0.0,False,,2026-07-24T15:52:51,6293.4
+B5_s0080_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0080,2564,0,none,8.548,1579,169,0.0,False,,2026-07-24T15:53:00,6293.4
+B6_s0080_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0080,2564,0,none,11.626,800,151,0.0,False,,2026-07-24T15:53:12,6293.4
+B7_s0080_s42,ai4i_openai,B7,local,openai,42,s0080,2564,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:53:25,6293.4
+B8_s0080_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0080,2564,0,none,5.569,677,127,0.0,False,,2026-07-24T15:53:31,6293.4
+B1_s0081_s42,ai4i_openai,B1,local,openai,42,s0081,2583,0,none,0.0,0,0,0.0,False,,2026-07-24T15:53:32,6293.4
+B2_s0081_s42,ai4i_openai,B2,local,openai,42,s0081,2583,0,none,0.0,0,0,0.0,False,,2026-07-24T15:53:32,6293.4
+B3_s0081_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0081,2583,0,none,8.767,522,153,0.0,False,,2026-07-24T15:53:40,6293.4
+B4_s0081_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0081,2583,0,none,7.093,1211,111,0.0,False,,2026-07-24T15:53:48,6293.4
+B5_s0081_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0081,2583,0,none,15.306,1592,227,0.0,False,,2026-07-24T15:54:04,6293.4
+B6_s0081_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0081,2583,0,none,11.547,801,177,0.0,False,,2026-07-24T15:54:16,6293.4
+B7_s0081_s42,ai4i_openai,B7,local,openai,42,s0081,2583,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:54:35,6293.4
+B8_s0081_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0081,2583,0,none,8.963,678,134,0.0,False,,2026-07-24T15:54:45,6293.4
+B1_s0082_s42,ai4i_openai,B1,local,openai,42,s0082,2584,0,none,0.0,0,0,0.0,False,,2026-07-24T15:54:46,6293.4
+B2_s0082_s42,ai4i_openai,B2,local,openai,42,s0082,2584,0,none,0.0,0,0,0.0,False,,2026-07-24T15:54:46,6293.4
+B3_s0082_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0082,2584,0,none,12.871,521,183,0.0,False,,2026-07-24T15:54:58,6293.4
+B4_s0082_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0082,2584,0,none,5.189,1210,75,0.0,False,,2026-07-24T15:55:04,6293.4
+B5_s0082_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0082,2584,0,none,17.554,1581,180,0.0,False,,2026-07-24T15:55:22,6293.4
+B6_s0082_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0082,2584,0,none,7.64,800,122,0.0,False,,2026-07-24T15:55:31,6293.4
+B7_s0082_s42,ai4i_openai,B7,local,openai,42,s0082,2584,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:55:44,6293.4
+B8_s0082_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0082,2584,0,none,7.448,677,126,0.0,False,,2026-07-24T15:55:52,6293.4
+B1_s0083_s42,ai4i_openai,B1,local,openai,42,s0083,2642,0,none,0.0,0,0,0.0,False,,2026-07-24T15:55:52,6293.4
+B2_s0083_s42,ai4i_openai,B2,local,openai,42,s0083,2642,0,none,0.0,0,0,0.0,False,,2026-07-24T15:55:52,6293.4
+B3_s0083_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0083,2642,0,none,17.562,521,216,0.0,False,,2026-07-24T15:56:10,6293.4
+B4_s0083_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0083,2642,0,none,7.487,1210,111,0.0,False,,2026-07-24T15:56:18,6293.4
+B5_s0083_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0083,2642,0,none,12.106,1579,177,0.0,False,,2026-07-24T15:56:31,6293.4
+B6_s0083_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0083,2642,0,none,8.053,800,131,0.0,False,,2026-07-24T15:56:39,6293.4
+B7_s0083_s42,ai4i_openai,B7,local,openai,42,s0083,2642,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:57:02,6293.4
+B8_s0083_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0083,2642,0,none,11.251,677,146,0.0,False,,2026-07-24T15:57:14,6293.4
+B1_s0084_s42,ai4i_openai,B1,local,openai,42,s0084,2670,0,none,0.0,0,0,0.0,False,,2026-07-24T15:57:14,6293.4
+B2_s0084_s42,ai4i_openai,B2,local,openai,42,s0084,2670,0,none,0.0,0,0,0.0,False,,2026-07-24T15:57:14,6293.4
+B3_s0084_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0084,2670,0,none,12.989,522,178,0.0,False,,2026-07-24T15:57:28,6293.4
+B4_s0084_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0084,2670,0,none,5.744,1211,97,0.0,False,,2026-07-24T15:57:34,6293.4
+B5_s0084_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0084,2670,0,none,11.823,1583,173,0.0,False,,2026-07-24T15:57:46,6293.4
+B6_s0084_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0084,2670,0,none,7.539,801,126,0.0,False,,2026-07-24T15:57:54,6293.4
+B7_s0084_s42,ai4i_openai,B7,local,openai,42,s0084,2670,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:58:13,6293.4
+B8_s0084_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0084,2670,0,none,5.89,689,138,0.0,False,,2026-07-24T15:58:20,6293.4
+B1_s0085_s42,ai4i_openai,B1,local,openai,42,s0085,2694,0,none,0.0,0,0,0.0,False,,2026-07-24T15:58:20,6293.4
+B2_s0085_s42,ai4i_openai,B2,local,openai,42,s0085,2694,0,none,0.0,0,0,0.0,False,,2026-07-24T15:58:20,6293.4
+B3_s0085_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0085,2694,0,none,15.586,520,216,0.0,False,,2026-07-24T15:58:36,6293.4
+B4_s0085_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0085,2694,0,none,5.256,1209,106,0.0,False,,2026-07-24T15:58:42,6293.4
+B5_s0085_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0085,2694,0,none,9.726,1587,181,0.0,False,,2026-07-24T15:58:52,6293.4
+B6_s0085_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0085,2694,0,none,10.547,799,177,0.0,False,,2026-07-24T15:59:03,6293.4
+B7_s0085_s42,ai4i_openai,B7,local,openai,42,s0085,2694,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T15:59:20,6293.4
+B8_s0085_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0085,2694,0,none,7.913,676,122,0.0,False,,2026-07-24T15:59:28,6293.4
+B1_s0086_s42,ai4i_openai,B1,local,openai,42,s0086,2759,0,none,0.0,0,0,0.0,False,,2026-07-24T15:59:29,6293.4
+B2_s0086_s42,ai4i_openai,B2,local,openai,42,s0086,2759,0,none,0.0,0,0,0.0,False,,2026-07-24T15:59:29,6293.4
+B3_s0086_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0086,2759,0,none,10.306,522,181,0.0,False,,2026-07-24T15:59:39,6293.4
+B4_s0086_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0086,2759,0,none,5.289,1211,92,0.0,False,,2026-07-24T15:59:45,6293.4
+B5_s0086_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0086,2759,0,none,19.84,1591,250,0.0,False,,2026-07-24T16:00:05,6293.4
+B6_s0086_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0086,2759,0,none,9.485,801,139,0.0,False,,2026-07-24T16:00:15,6293.4
+B7_s0086_s42,ai4i_openai,B7,local,openai,42,s0086,2759,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:00:33,6293.4
+B8_s0086_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0086,2759,0,none,11.156,689,141,0.0,False,,2026-07-24T16:00:45,6293.4
+B1_s0087_s42,ai4i_openai,B1,local,openai,42,s0087,2795,0,none,0.0,0,0,0.0,False,,2026-07-24T16:00:45,6293.4
+B2_s0087_s42,ai4i_openai,B2,local,openai,42,s0087,2795,0,none,0.0,0,0,0.0,False,,2026-07-24T16:00:45,6293.4
+B3_s0087_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0087,2795,0,none,12.63,521,182,0.0,False,,2026-07-24T16:00:58,6293.4
+B4_s0087_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0087,2795,0,none,5.481,1210,66,0.0,False,,2026-07-24T16:01:04,6293.4
+B5_s0087_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0087,2795,0,none,10.825,1579,165,0.0,False,,2026-07-24T16:01:15,6293.4
+B6_s0087_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0087,2795,0,none,8.476,800,149,0.0,False,,2026-07-24T16:01:24,6293.4
+B7_s0087_s42,ai4i_openai,B7,local,openai,42,s0087,2795,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:01:43,6293.4
+B8_s0087_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0087,2795,0,none,13.731,677,119,0.0,False,,2026-07-24T16:01:57,6293.4
+B1_s0088_s42,ai4i_openai,B1,local,openai,42,s0088,2867,0,none,0.0,0,0,0.0,False,,2026-07-24T16:01:57,6293.4
+B2_s0088_s42,ai4i_openai,B2,local,openai,42,s0088,2867,0,none,0.0,0,0,0.0,False,,2026-07-24T16:01:57,6293.4
+B3_s0088_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0088,2867,0,none,14.819,519,195,0.0,False,,2026-07-24T16:02:12,6293.4
+B4_s0088_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0088,2867,0,none,3.871,1208,83,0.0,False,,2026-07-24T16:02:17,6293.4
+B5_s0088_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0088,2867,0,none,16.146,1575,180,0.0,False,,2026-07-24T16:02:33,6293.4
+B6_s0088_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0088,2867,0,none,8.562,798,161,0.0,False,,2026-07-24T16:02:43,6293.4
+B7_s0088_s42,ai4i_openai,B7,local,openai,42,s0088,2867,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:02:56,6293.4
+B8_s0088_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0088,2867,0,none,8.154,675,119,0.0,False,,2026-07-24T16:03:05,6293.4
+B1_s0089_s42,ai4i_openai,B1,local,openai,42,s0089,2890,0,none,0.0,0,0,0.0,False,,2026-07-24T16:03:06,6293.4
+B2_s0089_s42,ai4i_openai,B2,local,openai,42,s0089,2890,0,none,0.0,0,0,0.0,False,,2026-07-24T16:03:06,6293.4
+B3_s0089_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0089,2890,0,none,16.584,521,237,0.0,False,,2026-07-24T16:03:22,6293.4
+B4_s0089_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0089,2890,0,none,4.155,1210,65,0.0,False,,2026-07-24T16:03:27,6293.4
+B5_s0089_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0089,2890,0,none,9.024,1579,162,0.0,False,,2026-07-24T16:03:37,6293.4
+B6_s0089_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0089,2890,0,none,7.593,800,124,0.0,False,,2026-07-24T16:03:45,6293.4
+B7_s0089_s42,ai4i_openai,B7,local,openai,42,s0089,2890,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:03:54,6293.4
+B8_s0089_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0089,2890,0,none,7.194,677,122,0.0,False,,2026-07-24T16:04:02,6293.4
+B1_s0090_s42,ai4i_openai,B1,local,openai,42,s0090,2969,0,none,0.0,0,0,0.0,False,,2026-07-24T16:04:02,6293.4
+B2_s0090_s42,ai4i_openai,B2,local,openai,42,s0090,2969,0,none,0.0,0,0,0.0,False,,2026-07-24T16:04:02,6293.4
+B3_s0090_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0090,2969,0,none,9.618,520,162,0.0,False,,2026-07-24T16:04:12,6293.4
+B4_s0090_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0090,2969,0,none,8.193,1209,85,0.0,False,,2026-07-24T16:04:21,6293.4
+B5_s0090_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0090,2969,0,none,14.196,1579,184,0.0,False,,2026-07-24T16:04:36,6293.4
+B6_s0090_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0090,2969,0,none,11.671,799,141,0.0,False,,2026-07-24T16:04:48,6293.4
+B7_s0090_s42,ai4i_openai,B7,local,openai,42,s0090,2969,0,none,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:05:01,6293.4
+B8_s0090_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0090,2969,0,none,6.045,676,117,0.0,False,,2026-07-24T16:05:07,6293.4
+B1_s0129_s42,ai4i_openai,B1,local,openai,42,s0129,4118,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:05:08,6293.4
+B2_s0129_s42,ai4i_openai,B2,local,openai,42,s0129,4118,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:05:08,6293.4
+B3_s0129_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0129,4118,1,OSF,6.585,519,149,0.0,False,,2026-07-24T16:05:14,6293.4
+B4_s0129_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0129,4118,1,OSF,6.903,1208,80,0.0,False,,2026-07-24T16:05:22,6293.4
+B5_s0129_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0129,4118,1,OSF,13.979,1585,211,0.0,False,,2026-07-24T16:05:36,6293.4
+B6_s0129_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0129,4118,1,OSF,14.861,798,170,0.0,False,,2026-07-24T16:05:52,6293.4
+B7_s0129_s42,ai4i_openai,B7,local,openai,42,s0129,4118,1,OSF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:06:11,6293.4
+B8_s0129_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0129,4118,1,OSF,12.117,708,173,0.0,False,,2026-07-24T16:06:24,6293.4
+B1_s0130_s42,ai4i_openai,B1,local,openai,42,s0130,4122,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:06:24,6293.4
+B2_s0130_s42,ai4i_openai,B2,local,openai,42,s0130,4122,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:06:24,6293.4
+B3_s0130_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0130,4122,1,HDF,11.775,520,211,0.0,False,,2026-07-24T16:06:36,6293.4
+B4_s0130_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0130,4122,1,HDF,5.309,1209,90,0.0,False,,2026-07-24T16:06:42,6293.4
+B5_s0130_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0130,4122,1,HDF,9.617,1588,200,0.0,False,,2026-07-24T16:06:52,6293.4
+B6_s0130_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0130,4122,1,HDF,6.27,799,144,0.0,False,,2026-07-24T16:06:59,6293.4
+B7_s0130_s42,ai4i_openai,B7,local,openai,42,s0130,4122,1,HDF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:07:11,6293.4
+B8_s0130_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0130,4122,1,HDF,12.233,712,172,0.0,False,,2026-07-24T16:07:24,6293.4
+B1_s0132_s42,ai4i_openai,B1,local,openai,42,s0132,4165,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:07:24,6293.4
+B2_s0132_s42,ai4i_openai,B2,local,openai,42,s0132,4165,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:07:24,6293.4
+B3_s0132_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0132,4165,1,HDF,12.184,521,153,0.0,False,,2026-07-24T16:07:37,6293.4
+B4_s0132_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0132,4165,1,HDF,5.612,1210,96,0.0,False,,2026-07-24T16:07:43,6293.4
+B5_s0132_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0132,4165,1,HDF,9.957,1579,200,0.0,False,,2026-07-24T16:07:53,6293.4
+B6_s0132_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0132,4165,1,HDF,11.897,800,167,0.0,False,,2026-07-24T16:08:06,6293.4
+B7_s0132_s42,ai4i_openai,B7,local,openai,42,s0132,4165,1,HDF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:08:22,6293.4
+B8_s0132_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0132,4165,1,HDF,11.074,713,208,0.0,False,,2026-07-24T16:08:34,6293.4
+B1_s0134_s42,ai4i_openai,B1,local,openai,42,s0134,4174,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:08:34,6293.4
+B2_s0134_s42,ai4i_openai,B2,local,openai,42,s0134,4174,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:08:34,6293.4
+B3_s0134_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0134,4174,1,HDF,14.623,521,218,0.0,False,,2026-07-24T16:08:49,6293.4
+B4_s0134_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0134,4174,1,HDF,5.92,1210,110,0.0,False,,2026-07-24T16:08:55,6293.4
+B5_s0134_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0134,4174,1,HDF,12.656,1590,161,0.0,False,,2026-07-24T16:09:08,6293.4
+B6_s0134_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0134,4174,1,HDF,7.535,800,124,0.0,False,,2026-07-24T16:09:16,6293.4
+B7_s0134_s42,ai4i_openai,B7,local,openai,42,s0134,4174,1,HDF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:09:28,6293.4
+B8_s0134_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0134,4174,1,HDF,5.012,713,147,0.0,False,,2026-07-24T16:09:33,6293.4
+B1_s0146_s42,ai4i_openai,B1,local,openai,42,s0146,4537,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:09:34,6293.4
+B2_s0146_s42,ai4i_openai,B2,local,openai,42,s0146,4537,1,HDF,0.0,0,0,0.0,False,,2026-07-24T16:09:34,6293.4
+B3_s0146_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0146,4537,1,HDF,9.66,521,150,0.0,False,,2026-07-24T16:09:43,6293.4
+B4_s0146_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0146,4537,1,HDF,3.337,1210,77,0.0,False,,2026-07-24T16:09:47,6293.4
+B5_s0146_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0146,4537,1,HDF,8.557,1590,183,0.0,False,,2026-07-24T16:09:56,6293.4
+B6_s0146_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0146,4537,1,HDF,11.083,800,178,0.0,False,,2026-07-24T16:10:08,6293.4
+B7_s0146_s42,ai4i_openai,B7,local,openai,42,s0146,4537,1,HDF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:10:20,6293.4
+B8_s0146_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0146,4537,1,HDF,6.543,713,151,0.0,False,,2026-07-24T16:10:27,6293.4
+B1_s0161_s42,ai4i_openai,B1,local,openai,42,s0161,4977,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:10:27,6293.4
+B2_s0161_s42,ai4i_openai,B2,local,openai,42,s0161,4977,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:10:27,6293.4
+B3_s0161_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0161,4977,1,OSF,7.801,521,166,0.0,False,,2026-07-24T16:10:35,6293.4
+B4_s0161_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0161,4977,1,OSF,4.203,1210,82,0.0,False,,2026-07-24T16:10:40,6293.4
+B5_s0161_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0161,4977,1,OSF,13.839,1579,212,0.0,False,,2026-07-24T16:10:54,6293.4
+B6_s0161_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0161,4977,1,OSF,10.166,800,210,0.0,False,,2026-07-24T16:11:05,6293.4
+B7_s0161_s42,ai4i_openai,B7,local,openai,42,s0161,4977,1,OSF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:11:16,6293.4
+B8_s0161_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0161,4977,1,OSF,7.464,699,171,0.0,False,,2026-07-24T16:11:24,6293.4
+B1_s0229_s42,ai4i_openai,B1,local,openai,42,s0229,7012,1,PWF,0.0,0,0,0.0,False,,2026-07-24T16:11:24,6293.4
+B2_s0229_s42,ai4i_openai,B2,local,openai,42,s0229,7012,1,PWF,0.0,0,0,0.0,False,,2026-07-24T16:11:24,6293.4
+B3_s0229_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0229,7012,1,PWF,10.115,519,191,0.0,False,,2026-07-24T16:11:34,6293.4
+B4_s0229_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0229,7012,1,PWF,6.068,1208,87,0.0,False,,2026-07-24T16:11:41,6293.4
+B5_s0229_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0229,7012,1,PWF,10.161,1576,205,0.0,False,,2026-07-24T16:11:52,6293.4
+B6_s0229_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0229,7012,1,PWF,6.72,798,160,0.0,False,,2026-07-24T16:11:59,6293.4
+B7_s0229_s42,ai4i_openai,B7,local,openai,42,s0229,7012,1,PWF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:12:12,6293.4
+B8_s0229_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0229,7012,1,PWF,6.893,714,157,0.0,False,,2026-07-24T16:12:19,6293.4
+B1_s0241_s42,ai4i_openai,B1,local,openai,42,s0241,7510,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:12:20,6293.4
+B2_s0241_s42,ai4i_openai,B2,local,openai,42,s0241,7510,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:12:20,6293.4
+B3_s0241_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0241,7510,1,OSF,9.323,520,149,0.0,False,,2026-07-24T16:12:29,6293.4
+B4_s0241_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0241,7510,1,OSF,5.697,1209,96,0.0,False,,2026-07-24T16:12:35,6293.4
+B5_s0241_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0241,7510,1,OSF,8.765,1587,188,0.0,False,,2026-07-24T16:12:44,6293.4
+B6_s0241_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0241,7510,1,OSF,6.103,799,112,0.0,False,,2026-07-24T16:12:51,6293.4
+B7_s0241_s42,ai4i_openai,B7,local,openai,42,s0241,7510,1,OSF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:13:10,6293.4
+B8_s0241_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0241,7510,1,OSF,10.455,709,177,0.0,False,,2026-07-24T16:13:21,6293.4
+B1_s0311_s42,ai4i_openai,B1,local,openai,42,s0311,9823,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:13:22,6293.4
+B2_s0311_s42,ai4i_openai,B2,local,openai,42,s0311,9823,1,OSF,0.0,0,0,0.0,False,,2026-07-24T16:13:22,6293.4
+B3_s0311_s42,ai4i_openai,B3,glm-4-flash,openai,42,s0311,9823,1,OSF,11.22,521,207,0.0,False,,2026-07-24T16:13:33,6293.4
+B4_s0311_s42,ai4i_openai,B4,glm-4-flash,openai,42,s0311,9823,1,OSF,5.386,1210,95,0.0,False,,2026-07-24T16:13:39,6293.4
+B5_s0311_s42,ai4i_openai,B5,glm-4-flash,openai,42,s0311,9823,1,OSF,16.177,1580,200,0.0,False,,2026-07-24T16:13:56,6293.4
+B6_s0311_s42,ai4i_openai,B6,glm-4-flash,openai,42,s0311,9823,1,OSF,8.142,800,122,0.0,False,,2026-07-24T16:14:04,6293.4
+B7_s0311_s42,ai4i_openai,B7,local,openai,42,s0311,9823,1,OSF,0.0,0,0,0.0,True,NameError: name '_tool_analyze' is not defined,2026-07-24T16:14:19,6293.4
+B8_s0311_s42,ai4i_openai,B8,glm-4-flash,openai,42,s0311,9823,1,OSF,13.503,699,188,0.0,False,,2026-07-24T16:14:33,6293.4
