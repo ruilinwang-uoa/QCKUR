@@ -1,0 +1,6 @@
+When keeping other variables fixed,
+{%- if (coeff) | round(3)>0%} a one-unit increase in the {{xcol}} results in an increase of {{coeff | round(3)}} in the mean value of the {{ycol}}.
+{%- elif (coeff) | round(3)<0 %} a one-unit increase in the {{xcol}} results in a decrease of {{(-coeff) | round(3)}} in the mean value of the {{ycol}}.
+{%- elif (coeff) | round(3)==0 %} a one-unit increase in the {{xcol}} will almost not affect the {{ycol}}. {%- endif-%}
+{%- if p <0.05 %} The P-value is {{ p | round(3)}} which is below the normal significance level of 0.05, indicating that the observed results are statistically significant.
+{%- else %} The P-value is {{ p | round(3)}} which is above the normal significance level of 0.05, indicating that the observed results are not statistically significant. {%- endif-%}

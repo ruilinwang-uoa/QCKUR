@@ -1,0 +1,16 @@
+{%- if section==1 -%}
+Questions about the model situation:
+Is the relationship between{% for i in range(0,indeNum) %} {% if i !=(indeNum-1)  -%}the {{xcol[i]}}, {%- else  -%} and the {{xcol[i]}} {%endif-%}{%endfor-%} with the {{ycol}} strong? Is the model credible?
+{%- endif -%}
+{%- if section==2 -%}
+Question about how the independent variable affects the dependent variable:
+How does the {{ycol}} change with an increase in the {{xcol}}?
+{%- endif -%}
+{%- if section==3 -%}
+Question about which independent variable has the greatest impact:
+Which independent variable has the greatest impact on the {{ycol}}?
+{%- endif -%}
+{%- if section==4 -%}
+Question about if the independent variable has a significant effect on the dependent variable:
+Does the {{xcol}} have a significant effect on the {{ycol}}?
+{%- endif -%}

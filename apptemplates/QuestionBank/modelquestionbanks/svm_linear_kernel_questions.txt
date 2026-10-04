@@ -1,0 +1,12 @@
+Section 1: Question about the model accuracy:
+How accurate is the model?
+OR Is the model credible?
+
+Section 2: Question about how different independent variables affect the dependent variable (usually, classification results):
+Which independent variable(s) positively influence one of the classes of the dependent variable?
+OR Which independent variable(s) exert a negative impact on  one of the classes of the dependent variable?
+
+Section 3: Question about the impact of independent variables:
+What is the most influential factor?
+OR For each classification result, which independent variable has the greatest impact?
+OR On average, which independent variable has the greatest impact on classification results?
